@@ -278,8 +278,14 @@ def run_training_entry():
 
 
 if __name__ == '__main__':
-    os.environ['OMP_NUM_THREADS'] = '1'
-    os.environ['MKL_NUM_THREADS'] = '1'
-    os.environ['OPENBLAS_NUM_THREADS'] = '1'
-    # multiprocessing.set_start_method("spawn")
-    run_training_entry()
+    # os.environ['OMP_NUM_THREADS'] = '1'
+    # os.environ['MKL_NUM_THREADS'] = '1'
+    # os.environ['OPENBLAS_NUM_THREADS'] = '1'
+    # # multiprocessing.set_start_method("spawn")
+    # run_training_entry()
+    nnunet_trainer = recursive_find_python_class(join(nnunetv2.__path__[0], "training", "nnUNetTrainer"),
+                                            'nnUNetTrainer_median_spacing', 'nnunetv2.training.nnUNetTrainer')
+    print(nnunet_trainer)
+    nnunet_trainer = recursive_find_python_class(join(nnunetv2.__path__[0], "training", "nnUNetTrainer"),
+                                        'nnUNetTrainer_avg_spacing', 'nnunetv2.training.nnUNetTrainer')
+    print(nnunet_trainer)

@@ -146,10 +146,10 @@ class nnUNetTrainer(object):
         ### Some hyperparameters for you to fiddle with
         self.initial_lr = 1e-2
         self.weight_decay = 3e-5
-        self.oversample_foreground_percent = 0.25
+        self.oversample_foreground_percent = 0.33
         self.num_iterations_per_epoch = 250
         self.num_val_iterations_per_epoch = 50
-        self.num_epochs = 1000
+        self.num_epochs = 100
         self.current_epoch = 0
         self.enable_deep_supervision = True
 
@@ -730,64 +730,64 @@ class nnUNetTrainer(object):
         if do_dummy_2d_data_aug:
             transforms.append(Convert2DTo3DTransform())
 
-        transforms.append(RandomTransform(
-            GaussianNoiseTransform(
-                noise_variance=(0, 0.1),
-                p_per_channel=1,
-                synchronize_channels=True
-            ), apply_probability=0.1
-        ))
-        transforms.append(RandomTransform(
-            GaussianBlurTransform(
-                blur_sigma=(0.5, 1.),
-                synchronize_channels=False,
-                synchronize_axes=False,
-                p_per_channel=0.5, benchmark=True
-            ), apply_probability=0.2
-        ))
-        transforms.append(RandomTransform(
-            MultiplicativeBrightnessTransform(
-                multiplier_range=BGContrast((0.75, 1.25)),
-                synchronize_channels=False,
-                p_per_channel=1
-            ), apply_probability=0.15
-        ))
-        transforms.append(RandomTransform(
-            ContrastTransform(
-                contrast_range=BGContrast((0.75, 1.25)),
-                preserve_range=True,
-                synchronize_channels=False,
-                p_per_channel=1
-            ), apply_probability=0.15
-        ))
-        transforms.append(RandomTransform(
-            SimulateLowResolutionTransform(
-                scale=(0.5, 1),
-                synchronize_channels=False,
-                synchronize_axes=True,
-                ignore_axes=ignore_axes,
-                allowed_channels=None,
-                p_per_channel=0.5
-            ), apply_probability=0.25
-        ))
-        transforms.append(RandomTransform(
-            GammaTransform(
-                gamma=BGContrast((0.7, 1.5)),
-                p_invert_image=1,
-                synchronize_channels=False,
-                p_per_channel=1,
-                p_retain_stats=1
-            ), apply_probability=0.1
-        ))
-        transforms.append(RandomTransform(
-            GammaTransform(
-                gamma=BGContrast((0.7, 1.5)),
-                p_invert_image=0,
-                synchronize_channels=False,
-                p_per_channel=1,
-                p_retain_stats=1
-            ), apply_probability=0.3
-        ))
+        # transforms.append(RandomTransform(
+        #     GaussianNoiseTransform(
+        #         noise_variance=(0, 0.1),
+        #         p_per_channel=1,
+        #         synchronize_channels=True
+        #     ), apply_probability=0.1
+        # ))
+        # transforms.append(RandomTransform(
+        #     GaussianBlurTransform(
+        #         blur_sigma=(0.5, 1.),
+        #         synchronize_channels=False,
+        #         synchronize_axes=False,
+        #         p_per_channel=0.5, benchmark=True
+        #     ), apply_probability=0.2
+        # ))
+        # transforms.append(RandomTransform(
+        #     MultiplicativeBrightnessTransform(
+        #         multiplier_range=BGContrast((0.75, 1.25)),
+        #         synchronize_channels=False,
+        #         p_per_channel=1
+        #     ), apply_probability=0.15
+        # ))
+        # transforms.append(RandomTransform(
+        #     ContrastTransform(
+        #         contrast_range=BGContrast((0.75, 1.25)),
+        #         preserve_range=True,
+        #         synchronize_channels=False,
+        #         p_per_channel=1
+        #     ), apply_probability=0.15
+        # ))
+        # transforms.append(RandomTransform(
+        #     SimulateLowResolutionTransform(
+        #         scale=(0.5, 1),
+        #         synchronize_channels=False,
+        #         synchronize_axes=True,
+        #         ignore_axes=ignore_axes,
+        #         allowed_channels=None,
+        #         p_per_channel=0.5
+        #     ), apply_probability=0.25
+        # ))
+        # transforms.append(RandomTransform(
+        #     GammaTransform(
+        #         gamma=BGContrast((0.7, 1.5)),
+        #         p_invert_image=1,
+        #         synchronize_channels=False,
+        #         p_per_channel=1,
+        #         p_retain_stats=1
+        #     ), apply_probability=0.1
+        # ))
+        # transforms.append(RandomTransform(
+        #     GammaTransform(
+        #         gamma=BGContrast((0.7, 1.5)),
+        #         p_invert_image=0,
+        #         synchronize_channels=False,
+        #         p_per_channel=1,
+        #         p_retain_stats=1
+        #     ), apply_probability=0.3
+        # ))
         if mirror_axes is not None and len(mirror_axes) > 0:
             transforms.append(
                 MirrorTransform(

@@ -81,4 +81,48 @@ class nnUNetTrainer_probabilisticOversampling_010(nnUNetTrainer_probabilisticOve
         super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
         self.oversample_foreground_percent = 0.1
 
+class nnUNetTrainer_probabilisticOversampling_050(nnUNetTrainer_probabilisticOversampling):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.oversample_foreground_percent = 0.5
 
+
+class nnUNetTrainer_probabilisticOversampling_000(nnUNetTrainer_probabilisticOversampling):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.oversample_foreground_percent = 0
+
+class nnUNetTrainer_probabilisticOversampling_100(nnUNetTrainer_probabilisticOversampling):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.oversample_foreground_percent = 1
+
+
+class nnUNetTrainer_probabilisticOversampling_080(nnUNetTrainer_probabilisticOversampling):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.oversample_foreground_percent = 0.8
+
+
+class nnUNetTrainer_probabilisticOversampling_test(nnUNetTrainer_probabilisticOversampling):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.oversample_foreground_percent = 0.8
+
+
+class nnUNetTrainer_probabilisticOversampling_025(nnUNetTrainer_probabilisticOversampling):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.oversample_foreground_percent = 0.25
+
+class nnUNetTrainer_probabilisticOversampling_075(nnUNetTrainer_probabilisticOversampling):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.oversample_foreground_percent = 0.75

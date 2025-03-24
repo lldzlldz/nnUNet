@@ -14,6 +14,7 @@ from nnunetv2.imageio.reader_writer_registry import determine_reader_writer_from
 from nnunetv2.paths import nnUNet_raw, nnUNet_preprocessed
 from nnunetv2.preprocessing.normalization.map_channel_name_to_normalization import get_normalization_scheme
 from nnunetv2.preprocessing.resampling.default_resampling import resample_data_or_seg_to_shape, compute_new_shape
+
 from nnunetv2.utilities.dataset_name_id_conversion import maybe_convert_to_dataset_name
 from nnunetv2.utilities.default_n_proc_DA import get_allowed_n_proc_DA
 from nnunetv2.utilities.get_network_from_plans import get_network_from_plans
@@ -162,7 +163,6 @@ class ExperimentPlanner(object):
         resolution axis. Choosing the median here will result in bad interpolation artifacts that can substantially
         impact performance (due to the low number of slices).
         """
-        # return np.array([1.0, 1.0, 1.0])
         if self.overwrite_target_spacing is not None:
             return np.array(self.overwrite_target_spacing)
 
@@ -312,7 +312,7 @@ class ExperimentPlanner(object):
                                                        )
             _cache[_keygen(patch_size, pool_op_kernel_sizes)] = estimate
 
-        # estimate = estimate *1.5
+        estimate = estimate *1.5
         # how large is the reference for us here (batch size etc)?
         # adapt for our vram target
         reference = (self.UNet_reference_val_2d if len(spacing) == 2 else self.UNet_reference_val_3d) * \
@@ -321,7 +321,7 @@ class ExperimentPlanner(object):
         ref_bs = self.UNet_reference_val_corresp_bs_2d if len(spacing) == 2 else self.UNet_reference_val_corresp_bs_3d
         # we enforce a batch size of at least two, reference values may have been computed for different batch sizes.
         # Correct for that in the while loop if statement
-        while (estimate / ref_bs * 2) > reference:
+        while (estimate / ref_bs * 3) > reference:
             # print(patch_size, estimate, reference)
             # patch size seems to be too large, so we need to reduce it. Reduce the axis that currently violates the
             # aspect ratio the most (that is the largest relative to median shape)

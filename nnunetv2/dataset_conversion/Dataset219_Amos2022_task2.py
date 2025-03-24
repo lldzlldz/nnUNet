@@ -63,3 +63,7 @@ if __name__ == '__main__':
 
     # /home/isensee/Downloads/amos22/amos22/
 
+    # C:/Users/linch/fyp/datasets/amos22/amos22
+    # C:\Users\linch\fyp\datasets\amos22\amos22
+
+

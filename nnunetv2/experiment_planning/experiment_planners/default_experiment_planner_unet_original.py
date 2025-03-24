@@ -60,7 +60,7 @@ class ExperimentPlanner(object):
         self.UNet_featuremap_min_edge_length = 4
         self.UNet_blocks_per_stage_encoder = (2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2)
         self.UNet_blocks_per_stage_decoder = (2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2)
-        self.UNet_min_batch_size = 4
+        self.UNet_min_batch_size = 2
         self.UNet_max_features_2d = 512
         self.UNet_max_features_3d = 320
         self.max_dataset_covered = 0.05 # we limit the batch size so that no more than 5% of the dataset can be seen
@@ -162,7 +162,6 @@ class ExperimentPlanner(object):
         resolution axis. Choosing the median here will result in bad interpolation artifacts that can substantially
         impact performance (due to the low number of slices).
         """
-        # return np.array([1.0, 1.0, 1.0])
         if self.overwrite_target_spacing is not None:
             return np.array(self.overwrite_target_spacing)
 
@@ -171,31 +170,33 @@ class ExperimentPlanner(object):
 
         target = np.percentile(spacings, 50, 0)
 
-        # todo sizes_after_resampling = [compute_new_shape(j, i, target) for i, j in zip(spacings, sizes)]
+        # # todo sizes_after_resampling = [compute_new_shape(j, i, target) for i, j in zip(spacings, sizes)]
 
-        target_size = np.percentile(np.vstack(sizes), 50, 0)
-        # we need to identify datasets for which a different target spacing could be beneficial. These datasets have
-        # the following properties:
-        # - one axis which much lower resolution than the others
-        # - the lowres axis has much less voxels than the others
-        # - (the size in mm of the lowres axis is also reduced)
-        worst_spacing_axis = np.argmax(target)
-        other_axes = [i for i in range(len(target)) if i != worst_spacing_axis]
-        other_spacings = [target[i] for i in other_axes]
-        other_sizes = [target_size[i] for i in other_axes]
+        # target_size = np.percentile(np.vstack(sizes), 50, 0)
+        # # we need to identify datasets for which a different target spacing could be beneficial. These datasets have
+        # # the following properties:
+        # # - one axis which much lower resolution than the others
+        # # - the lowres axis has much less voxels than the others
+        # # - (the size in mm of the lowres axis is also reduced)
+        # worst_spacing_axis = np.argmax(target)
+        # other_axes = [i for i in range(len(target)) if i != worst_spacing_axis]
+        # other_spacings = [target[i] for i in other_axes]
+        # other_sizes = [target_size[i] for i in other_axes]
 
-        has_aniso_spacing = target[worst_spacing_axis] > (self.anisotropy_threshold * max(other_spacings))
-        has_aniso_voxels = target_size[worst_spacing_axis] * self.anisotropy_threshold < min(other_sizes)
+        # has_aniso_spacing = target[worst_spacing_axis] > (self.anisotropy_threshold * max(other_spacings))
+        # has_aniso_voxels = target_size[worst_spacing_axis] * self.anisotropy_threshold < min(other_sizes)
 
-        if has_aniso_spacing and has_aniso_voxels:
-            spacings_of_that_axis = spacings[:, worst_spacing_axis]
-            target_spacing_of_that_axis = np.percentile(spacings_of_that_axis, 10)
-            # don't let the spacing of that axis get higher than the other axes
-            if target_spacing_of_that_axis < max(other_spacings):
-                target_spacing_of_that_axis = max(max(other_spacings), target_spacing_of_that_axis) + 1e-5
-            target[worst_spacing_axis] = target_spacing_of_that_axis
+        # if has_aniso_spacing and has_aniso_voxels:
+        #     spacings_of_that_axis = spacings[:, worst_spacing_axis]
+        #     target_spacing_of_that_axis = np.percentile(spacings_of_that_axis, 10)
+        #     # don't let the spacing of that axis get higher than the other axes
+        #     if target_spacing_of_that_axis < max(other_spacings):
+        #         target_spacing_of_that_axis = max(max(other_spacings), target_spacing_of_that_axis) + 1e-5
+        #     target[worst_spacing_axis] = target_spacing_of_that_axis
+
+        # average = np.mean(spacings)
+        # average_array = np.array([average, average, average])
         return target
-        # return np.array([1., 1., 1.])
 
     def determine_normalization_scheme_and_whether_mask_is_used_for_norm(self) -> Tuple[List[str], List[bool]]:
         if 'channel_names' not in self.dataset_json.keys():
@@ -312,12 +313,11 @@ class ExperimentPlanner(object):
                                                        )
             _cache[_keygen(patch_size, pool_op_kernel_sizes)] = estimate
 
-        # estimate = estimate *1.5
         # how large is the reference for us here (batch size etc)?
         # adapt for our vram target
         reference = (self.UNet_reference_val_2d if len(spacing) == 2 else self.UNet_reference_val_3d) * \
                     (self.UNet_vram_target_GB / self.UNet_reference_val_corresp_GB)
-        # reference = reference * 2
+
         ref_bs = self.UNet_reference_val_corresp_bs_2d if len(spacing) == 2 else self.UNet_reference_val_corresp_bs_3d
         # we enforce a batch size of at least two, reference values may have been computed for different batch sizes.
         # Correct for that in the while loop if statement
@@ -453,7 +453,6 @@ class ExperimentPlanner(object):
                 # we incrementally increase the target spacing. We start with the anisotropic axis/axes until it/they
                 # is/are similar (factor 2) to the other ax(i/e)s.
                 max_spacing = max(lowres_spacing)
-                #change this to 4 if changing batch size to 4
                 if np.any((max_spacing / lowres_spacing) > 2):
                     lowres_spacing[(max_spacing / lowres_spacing) > 2] *= spacing_increase_factor
                 else:

@@ -55,7 +55,7 @@ def convert_msd_dataset(source_folder: str, overwrite_target_id: Optional[int] =
     # infer source dataset id and name
     task, dataset_name = os.path.basename(source_folder).split('_')
     task_id = int(task[4:])
-
+    print('the task id is',task_id )
     # check if target dataset id is taken
     target_id = task_id if overwrite_target_id is None else overwrite_target_id
     existing_datasets = find_candidate_datasets(target_id)
@@ -129,4 +129,36 @@ def entry_point():
 
 
 if __name__ == '__main__':
-    convert_msd_dataset('/home/fabian/Downloads/Task05_Prostate', overwrite_target_id=201)
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task02_Heart')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task05_Postate')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task01_BrainTumour')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task03_Liver')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task06_Lung')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task04_Hippocampus')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task07_Pancreas')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task08_HepaticVessel')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task09_Spleen')
+    # convert_msd_dataset(r'C:\Users\linch\fyp\nnUNet_raw\Task10_Colon')
+
+
+    
+
+
+
+    # Task01_BrainTumour
+    # Task03_Liver
+    # Task04_Hippocampus
+    # Task06_Lung
+    # Task07_Pancreas
+    # Task08_HepaticVessel
+    # Task09_Spleen
+    # Task10_Colon
+    x = [
+     'Task06_Lung',
+     'Task07_Pancreas',
+     'Task08_HepaticVessel',
+     'Task09_Spleen',
+     'Task10_Colon',]
+    
+    for i in x:
+        convert_msd_dataset(rf'C:\Users\linch\fyp\nnUNet_raw\{i}')

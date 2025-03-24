@@ -89,7 +89,7 @@ def convert_acdc(src_data_folder: str, dataset_id=27):
 
 if __name__ == "__main__":
     import argparse
-
+# C:\Users\linch\fyp\datasets\ACDC\ACDC\database
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-i",

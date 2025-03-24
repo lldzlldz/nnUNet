@@ -100,3 +100,12 @@ if __name__ == '__main__':
 
     ret = predictor.predict_from_data_iterator(my_iterator([img, img2, img3, img4], [props, props2, props3, props4]),
                                                save_probabilities=False, num_processes_segmentation_export=3)
+
+
+
+if __name__ == "__main__":
+    predictor.predict_from_files(join(nnUNet_raw, r'C:\Users\linch\fyp\nnUNet_raw\Dataset005_Prostate\imagesTs'),
+                                join(nnUNet_raw, r'C:\Users\linch\fyp\nnUNet_inference\5'),
+                                save_probabilities=False, overwrite=False,
+                                num_processes_preprocessing=2, num_processes_segmentation_export=2,
+                                folder_with_segs_from_prev_stage=None, num_parts=1, part_id=0)

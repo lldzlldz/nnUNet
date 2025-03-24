@@ -5,7 +5,7 @@ from batchgeneratorsv2.helpers.scalar_type import RandomScalar
 from batchgeneratorsv2.transforms.base.basic_transform import BasicTransform
 
 from nnunetv2.training.nnUNetTrainer.nnUNetTrainer import nnUNetTrainer
-
+import torch
 
 class nnUNetTrainerNoDA(nnUNetTrainer):
     @staticmethod
@@ -33,3 +33,15 @@ class nnUNetTrainerNoDA(nnUNetTrainer):
         initial_patch_size = self.configuration_manager.patch_size
         return rotation_for_DA, do_dummy_2d_data_aug, initial_patch_size, mirror_axes
 
+
+class nnUNetTrainerNoDA500(nnUNetTrainerNoDA):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.num_epochs = 500
+
+class nnUNetTrainerNoDA250(nnUNetTrainerNoDA):
+    def __init__(self, plans: dict, configuration: str, fold: int, dataset_json: dict, unpack_dataset: bool = True,
+                 device: torch.device = torch.device('cuda')):
+        super().__init__(plans, configuration, fold, dataset_json, unpack_dataset, device)
+        self.num_epochs = 250
