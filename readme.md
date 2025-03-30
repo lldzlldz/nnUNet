@@ -91,7 +91,7 @@ set nnUNet_raw=C:\Users\linch\fyp\nnUNet_raw
 
 nnUNetv2_plan_and_preprocess -d 10 -overwrite_plans_name nnUNetPlans_batch_size_4 --verify_dataset_integrity
 nnUNetv2_train 10 3d_fullres 0 -tr nnUNetTrainer_probabilisticOversampling_050 -p nnUNetPlans_batch_size_4
-
+```
 
 
 
