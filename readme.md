@@ -28,9 +28,9 @@ pip install -e .
 To install hiddenlayer,
    run the following command:
 
-    ```bash
-    pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git
-    ```
+  ```bash
+  pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git
+  ```
 
 Installing nnU-Net will add several new commands to your terminal. These commands are used to run the entire nnU-Net
 pipeline. You can execute them from any location on your system. All nnU-Net commands have the prefix `nnUNetv2_` for
