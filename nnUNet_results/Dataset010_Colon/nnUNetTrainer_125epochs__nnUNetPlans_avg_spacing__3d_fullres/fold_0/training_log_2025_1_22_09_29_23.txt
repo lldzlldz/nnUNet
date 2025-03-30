@@ -1,0 +1,80 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-01-22 09:29:23.700760: do_dummy_2d_data_aug: False 
+2025-01-22 09:29:23.702762: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset010_Colon\splits_final.json 
+2025-01-22 09:29:23.709761: The split file contains 5 splits. 
+2025-01-22 09:29:23.712765: Desired fold for training: 0 
+2025-01-22 09:29:23.714764: This split has 100 training and 26 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_avg_spacing_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 2, 'patch_size': [128, 128, 128], 'median_image_size_in_voxels': [219.0, 195.0, 195.0], 'spacing': [2.052082783330685, 2.052082783330685, 2.052082783330685], 'normalization_schemes': ['CTNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 320, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': False} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset010_Colon', 'plans_name': 'nnUNetPlans_avg_spacing', 'original_median_spacing_after_transp': [5.0, 0.78125, 0.78125], 'original_median_shape_after_transp': [95, 512, 512], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 445.0, 'mean': 67.2009506225586, 'median': 67.0, 'min': -848.0, 'percentile_00_5': -40.0, 'percentile_99_5': 188.0, 'std': 37.13160705566406}}} 
+ 
+2025-01-22 09:29:30.929230: unpacking dataset... 
+2025-01-22 09:29:31.239663: unpacking done... 
+2025-01-22 09:29:36.134150: Training done. 
+2025-01-22 09:29:36.163668: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset010_Colon\splits_final.json 
+2025-01-22 09:29:36.171667: The split file contains 5 splits. 
+2025-01-22 09:29:36.178668: Desired fold for training: 0 
+2025-01-22 09:29:36.184668: This split has 100 training and 26 validation cases. 
+2025-01-22 09:29:36.192667: predicting colon_008 
+2025-01-22 09:29:36.199667: colon_008, shape torch.Size([1, 89, 465, 465]), rank 0 
+2025-01-22 09:29:45.077752: predicting colon_027 
+2025-01-22 09:29:45.092755: colon_027, shape torch.Size([1, 38, 440, 440]), rank 0 
+2025-01-22 09:29:50.887894: predicting colon_030 
+2025-01-22 09:29:50.898897: colon_030, shape torch.Size([1, 90, 384, 384]), rank 0 
+2025-01-22 09:29:54.957185: predicting colon_033 
+2025-01-22 09:29:54.964184: colon_033, shape torch.Size([1, 98, 480, 480]), rank 0 
+2025-01-22 09:30:02.892141: predicting colon_041 
+2025-01-22 09:30:02.903141: colon_041, shape torch.Size([1, 104, 591, 591]), rank 0 
+2025-01-22 09:30:16.041971: predicting colon_042 
+2025-01-22 09:30:16.058481: colon_042, shape torch.Size([1, 55, 640, 640]), rank 0 
+2025-01-22 09:30:29.272407: predicting colon_061 
+2025-01-22 09:30:29.282407: colon_061, shape torch.Size([1, 85, 529, 529]), rank 0 
+2025-01-22 09:30:39.617102: predicting colon_074 
+2025-01-22 09:30:39.635102: colon_074, shape torch.Size([1, 80, 607, 607]), rank 0 
+2025-01-22 09:30:52.687908: predicting colon_075 
+2025-01-22 09:30:52.700908: colon_075, shape torch.Size([1, 86, 474, 474]), rank 0 
+2025-01-22 09:31:00.613982: predicting colon_088 
+2025-01-22 09:31:00.628982: colon_088, shape torch.Size([1, 95, 563, 563]), rank 0 
+2025-01-22 09:31:11.043294: predicting colon_091 
+2025-01-22 09:31:11.064294: colon_091, shape torch.Size([1, 103, 543, 543]), rank 0 
+2025-01-22 09:31:21.407710: predicting colon_092 
+2025-01-22 09:31:21.420710: colon_092, shape torch.Size([1, 90, 492, 492]), rank 0 
+2025-01-22 09:31:29.360816: predicting colon_095 
+2025-01-22 09:31:29.370816: colon_095, shape torch.Size([1, 96, 452, 452]), rank 0 
+2025-01-22 09:31:37.288669: predicting colon_102 
+2025-01-22 09:31:37.297673: colon_102, shape torch.Size([1, 96, 590, 590]), rank 0 
+2025-01-22 09:31:50.374156: predicting colon_111 
+2025-01-22 09:31:50.389157: colon_111, shape torch.Size([1, 48, 521, 521]), rank 0 
+2025-01-22 09:32:00.706939: predicting colon_115 
+2025-01-22 09:32:00.719943: colon_115, shape torch.Size([1, 97, 470, 470]), rank 0 
+2025-01-22 09:32:08.731899: predicting colon_118 
+2025-01-22 09:32:08.746406: colon_118, shape torch.Size([1, 100, 486, 486]), rank 0 
+2025-01-22 09:32:16.690742: predicting colon_124 
+2025-01-22 09:32:16.703742: colon_124, shape torch.Size([1, 92, 535, 535]), rank 0 
+2025-01-22 09:32:27.086228: predicting colon_127 
+2025-01-22 09:32:27.101228: colon_127, shape torch.Size([1, 130, 598, 598]), rank 0 
+2025-01-22 09:32:53.078784: predicting colon_154 
+2025-01-22 09:32:53.108786: colon_154, shape torch.Size([1, 94, 461, 461]), rank 0 
+2025-01-22 09:33:01.054016: predicting colon_161 
+2025-01-22 09:33:01.064018: colon_161, shape torch.Size([1, 95, 474, 474]), rank 0 
+2025-01-22 09:33:08.969363: predicting colon_162 
+2025-01-22 09:33:08.979870: colon_162, shape torch.Size([1, 104, 598, 598]), rank 0 
+2025-01-22 09:33:22.053642: predicting colon_165 
+2025-01-22 09:33:22.072645: colon_165, shape torch.Size([1, 85, 577, 577]), rank 0 
+2025-01-22 09:33:35.141805: predicting colon_166 
+2025-01-22 09:33:35.155806: colon_166, shape torch.Size([1, 87, 474, 474]), rank 0 
+2025-01-22 09:33:43.070394: predicting colon_169 
+2025-01-22 09:33:43.080395: colon_169, shape torch.Size([1, 129, 621, 621]), rank 0 
+2025-01-22 09:34:09.082995: predicting colon_187 
+2025-01-22 09:34:09.106996: colon_187, shape torch.Size([1, 94, 513, 513]), rank 0 
+2025-01-22 09:34:26.878088: Validation complete 
+2025-01-22 09:34:26.878088: Mean Validation Dice:  0.30911157341084117 

@@ -1,0 +1,74 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-03-23 12:48:01.622709: do_dummy_2d_data_aug: False 
+2025-03-23 12:48:01.635805: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset219_AMOS2022_postChallenge_task2\splits_final.json 
+2025-03-23 12:48:01.641075: The split file contains 5 splits. 
+2025-03-23 12:48:01.644080: Desired fold for training: 0 
+2025-03-23 12:48:01.647081: This split has 288 training and 72 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_1_spacing_batchsize_3_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 3, 'patch_size': [128, 112, 112], 'median_image_size_in_voxels': [450.0, 398.5, 400.0], 'spacing': [1.0, 1.0, 1.0], 'normalization_schemes': ['ZScoreNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 5, 'features_per_stage': [32, 64, 128, 256, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset219_AMOS2022_postChallenge_task2', 'plans_name': 'nnUNetPlans_1_spacing_batchsize_3', 'original_median_spacing_after_transp': [5.0, 0.712890625, 0.712890625], 'original_median_shape_after_transp': [103, 512, 512], 'image_reader_writer': 'NibabelIOWithReorient', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 3284530.75, 'mean': 4168.03125, 'median': 66.0, 'min': -3024.0, 'percentile_00_5': -982.0, 'percentile_99_5': 55963.9765625, 'std': 73746.4765625}}} 
+ 
+2025-03-23 12:48:32.765742: unpacking dataset... 
+2025-03-23 12:48:33.011111: unpacking done... 
+2025-03-23 12:48:36.444811: Training done. 
+2025-03-23 12:48:36.478319: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset219_AMOS2022_postChallenge_task2\splits_final.json 
+2025-03-23 12:48:36.486318: The split file contains 5 splits. 
+2025-03-23 12:48:36.493318: Desired fold for training: 0 
+2025-03-23 12:48:36.498317: This split has 288 training and 72 validation cases. 
+2025-03-23 12:48:36.503317: predicting amos_0014 
+2025-03-23 12:48:36.510319: amos_0014, shape torch.Size([1, 465, 400, 400]), rank 0 
+2025-03-23 12:49:19.499361: predicting amos_0015 
+2025-03-23 12:49:19.539361: amos_0015, shape torch.Size([1, 515, 499, 499]), rank 0 
+2025-03-23 12:50:23.296476: predicting amos_0023 
+2025-03-23 12:50:23.349787: amos_0023, shape torch.Size([1, 430, 400, 400]), rank 0 
+2025-03-23 12:51:00.087384: predicting amos_0024 
+2025-03-23 12:51:00.122890: amos_0024, shape torch.Size([1, 425, 400, 400]), rank 0 
+2025-03-23 12:51:36.794171: predicting amos_0025 
+2025-03-23 12:51:36.837684: amos_0025, shape torch.Size([1, 405, 400, 400]), rank 0 
+2025-03-23 12:52:13.481005: predicting amos_0029 
+2025-03-23 12:52:13.543522: amos_0029, shape torch.Size([1, 640, 400, 400]), rank 0 
+2025-03-23 12:53:08.721609: predicting amos_0035 
+2025-03-23 12:53:08.777120: amos_0035, shape torch.Size([1, 465, 492, 492]), rank 0 
+2025-03-23 12:54:04.665670: predicting amos_0041 
+2025-03-23 12:54:04.719670: amos_0041, shape torch.Size([1, 410, 400, 400]), rank 0 
+2025-03-23 12:54:41.328381: predicting amos_0045 
+2025-03-23 12:54:41.364384: amos_0045, shape torch.Size([1, 455, 500, 500]), rank 0 
+2025-03-23 12:55:37.127920: predicting amos_0049 
+2025-03-23 12:55:37.179920: amos_0049, shape torch.Size([1, 480, 390, 390]), rank 0 
+2025-03-23 12:56:08.745666: predicting amos_0051 
+2025-03-23 12:56:08.788173: amos_0051, shape torch.Size([1, 450, 396, 396]), rank 0 
+2025-03-23 12:56:51.433090: predicting amos_0052 
+2025-03-23 12:56:51.476088: amos_0052, shape torch.Size([1, 510, 469, 469]), rank 0 
+2025-03-23 12:57:47.302099: predicting amos_0061 
+2025-03-23 12:57:47.320101: amos_0061, shape torch.Size([1, 390, 400, 400]), rank 0 
+2025-03-23 12:58:24.019344: predicting amos_0064 
+2025-03-23 12:58:24.064855: amos_0064, shape torch.Size([1, 445, 400, 400]), rank 0 
+2025-03-23 12:59:00.612348: predicting amos_0067 
+2025-03-23 12:59:00.658348: amos_0067, shape torch.Size([1, 610, 437, 437]), rank 0 
+2025-03-23 12:59:55.547737: predicting amos_0071 
+2025-03-23 12:59:55.623245: amos_0071, shape torch.Size([1, 675, 428, 428]), rank 0 
+2025-03-23 13:00:56.604868: predicting amos_0087 
+2025-03-23 13:00:56.663378: amos_0087, shape torch.Size([1, 435, 400, 400]), rank 0 
+2025-03-23 13:01:33.399852: predicting amos_0094 
+2025-03-23 13:01:33.443428: amos_0094, shape torch.Size([1, 455, 422, 422]), rank 0 
+2025-03-23 13:02:16.150162: predicting amos_0111 
+2025-03-23 13:02:16.194161: amos_0111, shape torch.Size([1, 535, 400, 400]), rank 0 
+2025-03-23 13:03:04.937919: predicting amos_0113 
+2025-03-23 13:03:04.988429: amos_0113, shape torch.Size([1, 455, 497, 497]), rank 0 
+2025-03-23 13:04:00.712497: predicting amos_0115 
+2025-03-23 13:04:00.766500: amos_0115, shape torch.Size([1, 440, 363, 363]), rank 0 
+2025-03-23 13:04:27.847868: predicting amos_0125 
+2025-03-23 13:04:27.882376: amos_0125, shape torch.Size([1, 525, 426, 426]), rank 0 
+2025-03-23 13:05:16.432948: predicting amos_0127 
+2025-03-23 13:05:16.481457: amos_0127, shape torch.Size([1, 385, 400, 400]), rank 0 
+2025-03-23 13:05:53.090875: predicting amos_0128 
+2025-03-23 13:05:53.106384: amos_0128, shape torch.Size([1, 495, 405, 405]), rank 0 

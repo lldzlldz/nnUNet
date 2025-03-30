@@ -1,0 +1,30 @@
+{
+    "all_results": {
+        "nnUNetTrainer_100epochs__nnUNetPlans__2d": 0.71736742017521
+    },
+    "best_model_or_ensemble": {
+        "postprocessing_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_1\\postprocessing.pkl",
+        "result_on_crossval_post_pp": 0.7197663570058979,
+        "result_on_crossval_pre_pp": 0.71736742017521,
+        "selected_model_or_models": [
+            {
+                "configuration": "2d",
+                "plans_identifier": "nnUNetPlans",
+                "trainer": "nnUNetTrainer_100epochs"
+            }
+        ],
+        "some_plans_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_1\\plans.json"
+    },
+    "considered_models": [
+        {
+            "configuration": "2d",
+            "plans": "nnUNetPlans",
+            "trainer": "nnUNetTrainer_100epochs"
+        }
+    ],
+    "dataset_name_or_id": "Dataset005_Prostate",
+    "ensembling_allowed": true,
+    "folds": [
+        1
+    ]
+}

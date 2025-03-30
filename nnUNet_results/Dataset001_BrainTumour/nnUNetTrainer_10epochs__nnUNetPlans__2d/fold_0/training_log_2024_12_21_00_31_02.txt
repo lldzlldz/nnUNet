@@ -1,0 +1,304 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2024-12-21 00:31:02.771173: do_dummy_2d_data_aug: False 
+2024-12-21 00:31:02.779626: Using splits from existing split file: /mnt/c/Users/linch/fyp/nnUNet_preprocessed/Dataset001_BrainTumour/splits_final.json 
+2024-12-21 00:31:02.784416: The split file contains 5 splits. 
+2024-12-21 00:31:02.786590: Desired fold for training: 0 
+2024-12-21 00:31:02.789351: This split has 387 training and 97 validation cases. 
+2024-12-21 00:31:52.025199: Using torch.compile... 
+
+This is the configuration used by this training:
+Configuration name: 2d
+ {'data_identifier': 'nnUNetPlans_2d', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 105, 'patch_size': [192, 160], 'median_image_size_in_voxels': [169.0, 138.0], 'spacing': [1.0, 1.0], 'normalization_schemes': ['ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization'], 'use_mask_for_norm': [True, True, True, True], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 512, 512], 'conv_op': 'torch.nn.modules.conv.Conv2d', 'kernel_sizes': [[3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3]], 'strides': [[1, 1], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm2d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset001_BrainTumour', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [1.0, 1.0, 1.0], 'original_median_shape_after_transp': [138, 169, 138], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 5721.0, 'mean': 728.8666381835938, 'median': 779.0, 'min': 0.0, 'percentile_00_5': 104.0, 'percentile_99_5': 1733.0, 'std': 354.5618896484375}, '1': {'max': 8761.0, 'mean': 621.560791015625, 'median': 644.0, 'min': 0.0, 'percentile_00_5': 56.0, 'percentile_99_5': 2421.0, 'std': 335.946044921875}, '2': {'max': 9012.0, 'mean': 662.5552368164062, 'median': 639.0, 'min': 0.0, 'percentile_00_5': 44.0, 'percentile_99_5': 2963.0, 'std': 420.2735595703125}, '3': {'max': 3346.0, 'mean': 664.2885131835938, 'median': 647.0, 'min': 0.0, 'percentile_00_5': 103.0, 'percentile_99_5': 1997.0, 'std': 318.48980712890625}}} 
+ 
+2024-12-21 00:31:52.611654: unpacking dataset... 
+2024-12-21 00:31:58.740904: unpacking done... 
+2024-12-21 00:31:58.783415: Unable to plot network architecture: nnUNet_compile is enabled! 
+2024-12-21 00:31:58.799249:  
+2024-12-21 00:31:58.803370: Epoch 0 
+2024-12-21 00:31:58.808172: Current learning rate: 0.01 
+2024-12-21 00:39:59.439154: train_loss -0.3473 
+2024-12-21 00:39:59.444124: val_loss -0.6117 
+2024-12-21 00:39:59.451612: Pseudo dice [0.7406, 0.5803, 0.8113] 
+2024-12-21 00:39:59.457421: Epoch time: 480.64 s 
+2024-12-21 00:39:59.461983: Yayy! New best EMA pseudo Dice: 0.7108 
+2024-12-21 00:40:00.874283:  
+2024-12-21 00:40:00.879188: Epoch 1 
+2024-12-21 00:40:00.886438: Current learning rate: 0.0091 
+2024-12-21 00:48:23.839909: train_loss -0.6814 
+2024-12-21 00:48:23.844528: val_loss -0.6836 
+2024-12-21 00:48:23.851721: Pseudo dice [0.7925, 0.6557, 0.8396] 
+2024-12-21 00:48:23.857662: Epoch time: 502.97 s 
+2024-12-21 00:48:23.862752: Yayy! New best EMA pseudo Dice: 0.7159 
+2024-12-21 00:48:25.441780:  
+2024-12-21 00:48:25.446300: Epoch 2 
+2024-12-21 00:48:25.452149: Current learning rate: 0.00818 
+2024-12-21 00:57:33.629066: train_loss -0.7231 
+2024-12-21 00:57:33.636177: val_loss -0.7169 
+2024-12-21 00:57:33.643542: Pseudo dice [0.8047, 0.7054, 0.8488] 
+2024-12-21 00:57:33.650552: Epoch time: 548.19 s 
+2024-12-21 00:57:33.656454: Yayy! New best EMA pseudo Dice: 0.723 
+2024-12-21 00:57:35.410944:  
+2024-12-21 00:57:35.416669: Epoch 3 
+2024-12-21 00:57:35.423599: Current learning rate: 0.00725 
+2024-12-21 01:07:08.792681: train_loss -0.7364 
+2024-12-21 01:07:08.797528: val_loss -0.7215 
+2024-12-21 01:07:08.807352: Pseudo dice [0.8103, 0.7018, 0.8504] 
+2024-12-21 01:07:08.818135: Epoch time: 573.38 s 
+2024-12-21 01:07:08.825563: Yayy! New best EMA pseudo Dice: 0.7294 
+2024-12-21 01:07:10.509359:  
+2024-12-21 01:07:10.514169: Epoch 4 
+2024-12-21 01:07:10.520329: Current learning rate: 0.00631 
+2024-12-21 01:16:43.607813: train_loss -0.7459 
+2024-12-21 01:16:43.613052: val_loss -0.7319 
+2024-12-21 01:16:43.623096: Pseudo dice [0.8154, 0.7153, 0.8533] 
+2024-12-21 01:16:43.630860: Epoch time: 573.1 s 
+2024-12-21 01:16:43.637277: Yayy! New best EMA pseudo Dice: 0.7359 
+2024-12-21 01:16:46.198840:  
+2024-12-21 01:16:46.205300: Epoch 5 
+2024-12-21 01:16:46.214112: Current learning rate: 0.00536 
+2024-12-21 01:26:16.322035: train_loss -0.7529 
+2024-12-21 01:26:16.327118: val_loss -0.7362 
+2024-12-21 01:26:16.334374: Pseudo dice [0.8166, 0.7187, 0.8577] 
+2024-12-21 01:26:16.341014: Epoch time: 570.12 s 
+2024-12-21 01:26:16.346757: Yayy! New best EMA pseudo Dice: 0.7421 
+2024-12-21 01:26:17.996678:  
+2024-12-21 01:26:18.001600: Epoch 6 
+2024-12-21 01:26:18.008402: Current learning rate: 0.00438 
+2024-12-21 01:35:28.576352: train_loss -0.7561 
+2024-12-21 01:35:28.581540: val_loss -0.7332 
+2024-12-21 01:35:28.587840: Pseudo dice [0.8138, 0.7112, 0.8584] 
+2024-12-21 01:35:28.593482: Epoch time: 550.58 s 
+2024-12-21 01:35:28.597712: Yayy! New best EMA pseudo Dice: 0.7474 
+2024-12-21 01:35:30.105780:  
+2024-12-21 01:35:30.110697: Epoch 7 
+2024-12-21 01:35:30.116013: Current learning rate: 0.00338 
+2024-12-21 01:44:58.673892: train_loss -0.7608 
+2024-12-21 01:44:58.679400: val_loss -0.7357 
+2024-12-21 01:44:58.686627: Pseudo dice [0.8115, 0.7196, 0.8597] 
+2024-12-21 01:44:58.695902: Epoch time: 568.57 s 
+2024-12-21 01:44:58.704314: Yayy! New best EMA pseudo Dice: 0.7523 
+2024-12-21 01:45:01.993987:  
+2024-12-21 01:45:02.000290: Epoch 8 
+2024-12-21 01:45:02.006688: Current learning rate: 0.00235 
+2024-12-21 01:54:56.515777: train_loss -0.7641 
+2024-12-21 01:54:56.520251: val_loss -0.741 
+2024-12-21 01:54:56.528705: Pseudo dice [0.818, 0.7203, 0.863] 
+2024-12-21 01:54:56.538070: Epoch time: 594.52 s 
+2024-12-21 01:54:56.545546: Yayy! New best EMA pseudo Dice: 0.7571 
+2024-12-21 01:54:58.419430:  
+2024-12-21 01:54:58.425470: Epoch 9 
+2024-12-21 01:54:58.431749: Current learning rate: 0.00126 
+2024-12-21 02:05:09.816416: train_loss -0.7673 
+2024-12-21 02:05:09.822451: val_loss -0.739 
+2024-12-21 02:05:09.830266: Pseudo dice [0.8192, 0.7132, 0.8617] 
+2024-12-21 02:05:09.837697: Epoch time: 611.4 s 
+2024-12-21 02:05:09.844197: Yayy! New best EMA pseudo Dice: 0.7612 
+2024-12-21 02:05:13.456441: Training done. 
+2024-12-21 02:05:13.497990: Using splits from existing split file: /mnt/c/Users/linch/fyp/nnUNet_preprocessed/Dataset001_BrainTumour/splits_final.json 
+2024-12-21 02:05:13.507281: The split file contains 5 splits. 
+2024-12-21 02:05:13.512318: Desired fold for training: 0 
+2024-12-21 02:05:13.521637: This split has 387 training and 97 validation cases. 
+2024-12-21 02:05:13.531736: predicting BRATS_010 
+2024-12-21 02:05:13.564898: BRATS_010, shape torch.Size([4, 140, 170, 147]), rank 0 
+2024-12-21 02:05:29.157013: predicting BRATS_011 
+2024-12-21 02:05:29.174540: BRATS_011, shape torch.Size([4, 132, 159, 137]), rank 0 
+2024-12-21 02:05:31.319837: predicting BRATS_012 
+2024-12-21 02:05:31.333857: BRATS_012, shape torch.Size([4, 136, 171, 144]), rank 0 
+2024-12-21 02:05:34.150978: predicting BRATS_018 
+2024-12-21 02:05:34.167428: BRATS_018, shape torch.Size([4, 143, 165, 143]), rank 0 
+2024-12-21 02:05:36.687947: predicting BRATS_020 
+2024-12-21 02:05:36.704024: BRATS_020, shape torch.Size([4, 139, 164, 157]), rank 0 
+2024-12-21 02:05:39.290738: predicting BRATS_028 
+2024-12-21 02:05:39.307133: BRATS_028, shape torch.Size([4, 133, 161, 149]), rank 0 
+2024-12-21 02:05:41.782536: predicting BRATS_029 
+2024-12-21 02:05:41.797985: BRATS_029, shape torch.Size([4, 132, 175, 146]), rank 0 
+2024-12-21 02:05:45.127444: predicting BRATS_032 
+2024-12-21 02:05:45.144476: BRATS_032, shape torch.Size([4, 137, 163, 145]), rank 0 
+2024-12-21 02:05:47.459277: predicting BRATS_034 
+2024-12-21 02:05:47.474243: BRATS_034, shape torch.Size([4, 136, 169, 147]), rank 0 
+2024-12-21 02:05:50.260139: predicting BRATS_041 
+2024-12-21 02:05:50.277188: BRATS_041, shape torch.Size([4, 138, 166, 146]), rank 0 
+2024-12-21 02:05:53.018041: predicting BRATS_042 
+2024-12-21 02:05:53.034178: BRATS_042, shape torch.Size([4, 136, 163, 135]), rank 0 
+2024-12-21 02:05:55.540878: predicting BRATS_047 
+2024-12-21 02:05:55.558433: BRATS_047, shape torch.Size([4, 139, 161, 136]), rank 0 
+2024-12-21 02:05:57.938752: predicting BRATS_049 
+2024-12-21 02:05:57.954719: BRATS_049, shape torch.Size([4, 143, 168, 133]), rank 0 
+2024-12-21 02:06:00.344809: predicting BRATS_053 
+2024-12-21 02:06:00.362103: BRATS_053, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-21 02:06:02.442026: predicting BRATS_056 
+2024-12-21 02:06:02.456785: BRATS_056, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-21 02:06:04.589791: predicting BRATS_057 
+2024-12-21 02:06:04.604814: BRATS_057, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-21 02:06:06.786539: predicting BRATS_067 
+2024-12-21 02:06:06.801049: BRATS_067, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-21 02:06:09.208432: predicting BRATS_069 
+2024-12-21 02:06:09.223821: BRATS_069, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-21 02:06:11.792751: predicting BRATS_085 
+2024-12-21 02:06:11.808309: BRATS_085, shape torch.Size([4, 127, 169, 133]), rank 0 
+2024-12-21 02:06:14.227640: predicting BRATS_086 
+2024-12-21 02:06:14.244190: BRATS_086, shape torch.Size([4, 133, 170, 160]), rank 0 
+2024-12-21 02:06:17.849992: predicting BRATS_088 
+2024-12-21 02:06:17.867719: BRATS_088, shape torch.Size([4, 136, 173, 140]), rank 0 
+2024-12-21 02:06:20.563516: predicting BRATS_091 
+2024-12-21 02:06:20.580489: BRATS_091, shape torch.Size([4, 133, 171, 144]), rank 0 
+2024-12-21 02:06:23.273425: predicting BRATS_098 
+2024-12-21 02:06:23.290706: BRATS_098, shape torch.Size([4, 139, 164, 136]), rank 0 
+2024-12-21 02:06:25.898571: predicting BRATS_100 
+2024-12-21 02:06:25.915627: BRATS_100, shape torch.Size([4, 128, 166, 153]), rank 0 
+2024-12-21 02:06:28.521115: predicting BRATS_101 
+2024-12-21 02:06:28.537563: BRATS_101, shape torch.Size([4, 128, 166, 153]), rank 0 
+2024-12-21 02:06:31.185312: predicting BRATS_102 
+2024-12-21 02:06:31.202132: BRATS_102, shape torch.Size([4, 145, 149, 141]), rank 0 
+2024-12-21 02:06:33.682761: predicting BRATS_104 
+2024-12-21 02:06:33.698325: BRATS_104, shape torch.Size([4, 139, 175, 136]), rank 0 
+2024-12-21 02:06:36.225884: predicting BRATS_111 
+2024-12-21 02:06:36.241537: BRATS_111, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-21 02:06:38.603180: predicting BRATS_116 
+2024-12-21 02:06:38.618755: BRATS_116, shape torch.Size([4, 139, 165, 141]), rank 0 
+2024-12-21 02:06:41.308968: predicting BRATS_135 
+2024-12-21 02:06:41.325552: BRATS_135, shape torch.Size([4, 136, 174, 135]), rank 0 
+2024-12-21 02:06:43.946110: predicting BRATS_136 
+2024-12-21 02:06:43.960159: BRATS_136, shape torch.Size([4, 133, 162, 140]), rank 0 
+2024-12-21 02:06:46.275677: predicting BRATS_138 
+2024-12-21 02:06:46.288841: BRATS_138, shape torch.Size([4, 136, 168, 138]), rank 0 
+2024-12-21 02:06:49.269589: predicting BRATS_145 
+2024-12-21 02:06:49.284576: BRATS_145, shape torch.Size([4, 136, 167, 138]), rank 0 
+2024-12-21 02:06:51.730311: predicting BRATS_149 
+2024-12-21 02:06:51.744815: BRATS_149, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-21 02:06:54.248636: predicting BRATS_155 
+2024-12-21 02:06:54.264261: BRATS_155, shape torch.Size([4, 139, 173, 141]), rank 0 
+2024-12-21 02:06:56.813198: predicting BRATS_157 
+2024-12-21 02:06:56.828986: BRATS_157, shape torch.Size([4, 139, 173, 141]), rank 0 
+2024-12-21 02:06:59.329087: predicting BRATS_158 
+2024-12-21 02:06:59.343836: BRATS_158, shape torch.Size([4, 139, 161, 136]), rank 0 
+2024-12-21 02:07:01.706197: predicting BRATS_159 
+2024-12-21 02:07:01.721531: BRATS_159, shape torch.Size([4, 131, 169, 139]), rank 0 
+2024-12-21 02:07:04.043415: predicting BRATS_163 
+2024-12-21 02:07:04.058843: BRATS_163, shape torch.Size([4, 139, 161, 137]), rank 0 
+2024-12-21 02:07:06.416641: predicting BRATS_164 
+2024-12-21 02:07:06.431145: BRATS_164, shape torch.Size([4, 130, 162, 137]), rank 0 
+2024-12-21 02:07:08.615171: predicting BRATS_169 
+2024-12-21 02:07:08.629419: BRATS_169, shape torch.Size([4, 141, 170, 137]), rank 0 
+2024-12-21 02:07:11.155808: predicting BRATS_176 
+2024-12-21 02:07:11.169233: BRATS_176, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-21 02:07:13.602414: predicting BRATS_181 
+2024-12-21 02:07:13.617647: BRATS_181, shape torch.Size([4, 140, 160, 150]), rank 0 
+2024-12-21 02:07:16.199218: predicting BRATS_183 
+2024-12-21 02:07:16.214310: BRATS_183, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-21 02:07:18.763789: predicting BRATS_184 
+2024-12-21 02:07:18.778679: BRATS_184, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-21 02:07:21.324686: predicting BRATS_187 
+2024-12-21 02:07:21.338867: BRATS_187, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-21 02:07:24.470198: predicting BRATS_192 
+2024-12-21 02:07:24.486160: BRATS_192, shape torch.Size([4, 131, 157, 142]), rank 0 
+2024-12-21 02:07:26.882707: predicting BRATS_198 
+2024-12-21 02:07:26.897595: BRATS_198, shape torch.Size([4, 142, 173, 139]), rank 0 
+2024-12-21 02:07:29.567258: predicting BRATS_207 
+2024-12-21 02:07:29.583367: BRATS_207, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-21 02:07:32.037684: predicting BRATS_208 
+2024-12-21 02:07:32.053115: BRATS_208, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-21 02:07:34.453812: predicting BRATS_218 
+2024-12-21 02:07:34.469424: BRATS_218, shape torch.Size([4, 145, 181, 138]), rank 0 
+2024-12-21 02:07:37.163573: predicting BRATS_220 
+2024-12-21 02:07:37.178053: BRATS_220, shape torch.Size([4, 141, 169, 140]), rank 0 
+2024-12-21 02:07:39.664881: predicting BRATS_224 
+2024-12-21 02:07:39.678085: BRATS_224, shape torch.Size([4, 140, 172, 138]), rank 0 
+2024-12-21 02:07:41.970566: predicting BRATS_230 
+2024-12-21 02:07:41.989477: BRATS_230, shape torch.Size([4, 137, 172, 133]), rank 0 
+2024-12-21 02:07:44.344538: predicting BRATS_271 
+2024-12-21 02:07:44.361623: BRATS_271, shape torch.Size([4, 142, 169, 141]), rank 0 
+2024-12-21 02:07:46.872248: predicting BRATS_282 
+2024-12-21 02:07:46.888029: BRATS_282, shape torch.Size([4, 138, 169, 141]), rank 0 
+2024-12-21 02:07:49.402308: predicting BRATS_284 
+2024-12-21 02:07:49.418761: BRATS_284, shape torch.Size([4, 130, 156, 129]), rank 0 
+2024-12-21 02:07:51.518238: predicting BRATS_287 
+2024-12-21 02:07:51.533519: BRATS_287, shape torch.Size([4, 136, 171, 144]), rank 0 
+2024-12-21 02:07:53.989396: predicting BRATS_290 
+2024-12-21 02:07:54.005725: BRATS_290, shape torch.Size([4, 129, 179, 142]), rank 0 
+2024-12-21 02:07:57.144364: predicting BRATS_291 
+2024-12-21 02:07:57.161259: BRATS_291, shape torch.Size([4, 137, 155, 144]), rank 0 
+2024-12-21 02:07:59.532003: predicting BRATS_292 
+2024-12-21 02:07:59.548769: BRATS_292, shape torch.Size([4, 135, 169, 144]), rank 0 
+2024-12-21 02:08:02.063572: predicting BRATS_293 
+2024-12-21 02:08:02.079920: BRATS_293, shape torch.Size([4, 146, 176, 142]), rank 0 
+2024-12-21 02:08:04.749058: predicting BRATS_300 
+2024-12-21 02:08:04.765216: BRATS_300, shape torch.Size([4, 141, 177, 133]), rank 0 
+2024-12-21 02:08:07.178251: predicting BRATS_305 
+2024-12-21 02:08:07.193545: BRATS_305, shape torch.Size([4, 142, 160, 152]), rank 0 
+2024-12-21 02:08:09.724203: predicting BRATS_311 
+2024-12-21 02:08:09.739744: BRATS_311, shape torch.Size([4, 141, 177, 140]), rank 0 
+2024-12-21 02:08:12.214326: predicting BRATS_314 
+2024-12-21 02:08:12.230961: BRATS_314, shape torch.Size([4, 139, 180, 140]), rank 0 
+2024-12-21 02:08:14.837826: predicting BRATS_321 
+2024-12-21 02:08:14.854586: BRATS_321, shape torch.Size([4, 142, 172, 134]), rank 0 
+2024-12-21 02:08:17.347345: predicting BRATS_328 
+2024-12-21 02:08:17.364082: BRATS_328, shape torch.Size([4, 144, 162, 128]), rank 0 
+2024-12-21 02:08:19.770525: predicting BRATS_329 
+2024-12-21 02:08:19.786413: BRATS_329, shape torch.Size([4, 130, 167, 148]), rank 0 
+2024-12-21 02:08:22.281771: predicting BRATS_335 
+2024-12-21 02:08:22.298153: BRATS_335, shape torch.Size([4, 141, 165, 143]), rank 0 
+2024-12-21 02:08:24.860477: predicting BRATS_343 
+2024-12-21 02:08:24.874884: BRATS_343, shape torch.Size([4, 141, 178, 140]), rank 0 
+2024-12-21 02:08:28.210228: predicting BRATS_350 
+2024-12-21 02:08:28.227043: BRATS_350, shape torch.Size([4, 136, 162, 122]), rank 0 
+2024-12-21 02:08:30.560818: predicting BRATS_351 
+2024-12-21 02:08:30.575825: BRATS_351, shape torch.Size([4, 134, 157, 126]), rank 0 
+2024-12-21 02:08:32.834671: predicting BRATS_356 
+2024-12-21 02:08:32.851585: BRATS_356, shape torch.Size([4, 146, 160, 127]), rank 0 
+2024-12-21 02:08:35.258900: predicting BRATS_366 
+2024-12-21 02:08:35.275210: BRATS_366, shape torch.Size([4, 136, 168, 134]), rank 0 
+2024-12-21 02:08:37.620364: predicting BRATS_367 
+2024-12-21 02:08:37.634474: BRATS_367, shape torch.Size([4, 141, 179, 135]), rank 0 
+2024-12-21 02:08:40.194079: predicting BRATS_374 
+2024-12-21 02:08:40.209236: BRATS_374, shape torch.Size([4, 141, 173, 131]), rank 0 
+2024-12-21 02:08:42.779417: predicting BRATS_376 
+2024-12-21 02:08:42.794350: BRATS_376, shape torch.Size([4, 140, 170, 136]), rank 0 
+2024-12-21 02:08:45.473922: predicting BRATS_377 
+2024-12-21 02:08:45.488813: BRATS_377, shape torch.Size([4, 141, 176, 141]), rank 0 
+2024-12-21 02:08:48.289523: predicting BRATS_378 
+2024-12-21 02:08:48.313972: BRATS_378, shape torch.Size([4, 144, 167, 139]), rank 0 
+2024-12-21 02:08:50.679226: predicting BRATS_379 
+2024-12-21 02:08:50.694410: BRATS_379, shape torch.Size([4, 144, 173, 141]), rank 0 
+2024-12-21 02:08:53.402248: predicting BRATS_384 
+2024-12-21 02:08:53.418156: BRATS_384, shape torch.Size([4, 130, 171, 138]), rank 0 
+2024-12-21 02:08:55.844016: predicting BRATS_386 
+2024-12-21 02:08:55.860631: BRATS_386, shape torch.Size([4, 139, 160, 147]), rank 0 
+2024-12-21 02:08:58.605483: predicting BRATS_394 
+2024-12-21 02:08:58.623258: BRATS_394, shape torch.Size([4, 143, 168, 133]), rank 0 
+2024-12-21 02:09:02.008749: predicting BRATS_398 
+2024-12-21 02:09:02.025885: BRATS_398, shape torch.Size([4, 143, 175, 134]), rank 0 
+2024-12-21 02:09:04.780808: predicting BRATS_400 
+2024-12-21 02:09:04.799188: BRATS_400, shape torch.Size([4, 146, 176, 148]), rank 0 
+2024-12-21 02:09:07.782075: predicting BRATS_432 
+2024-12-21 02:09:07.798448: BRATS_432, shape torch.Size([4, 140, 168, 140]), rank 0 
+2024-12-21 02:09:10.373282: predicting BRATS_437 
+2024-12-21 02:09:10.389607: BRATS_437, shape torch.Size([4, 131, 169, 139]), rank 0 
+2024-12-21 02:09:12.854841: predicting BRATS_445 
+2024-12-21 02:09:12.870032: BRATS_445, shape torch.Size([4, 141, 158, 137]), rank 0 
+2024-12-21 02:09:15.385508: predicting BRATS_446 
+2024-12-21 02:09:15.401299: BRATS_446, shape torch.Size([4, 137, 168, 145]), rank 0 
+2024-12-21 02:09:17.954425: predicting BRATS_450 
+2024-12-21 02:09:17.970527: BRATS_450, shape torch.Size([4, 132, 162, 135]), rank 0 
+2024-12-21 02:09:20.381974: predicting BRATS_452 
+2024-12-21 02:09:20.396894: BRATS_452, shape torch.Size([4, 136, 165, 146]), rank 0 
+2024-12-21 02:09:22.913993: predicting BRATS_460 
+2024-12-21 02:09:22.930164: BRATS_460, shape torch.Size([4, 142, 165, 139]), rank 0 
+2024-12-21 02:09:25.482125: predicting BRATS_470 
+2024-12-21 02:09:25.498880: BRATS_470, shape torch.Size([4, 144, 163, 133]), rank 0 
+2024-12-21 02:09:28.045438: predicting BRATS_472 
+2024-12-21 02:09:28.062069: BRATS_472, shape torch.Size([4, 138, 161, 139]), rank 0 
+2024-12-21 02:09:30.539354: predicting BRATS_473 
+2024-12-21 02:09:30.554045: BRATS_473, shape torch.Size([4, 119, 163, 143]), rank 0 
+2024-12-21 02:09:32.847097: predicting BRATS_482 
+2024-12-21 02:09:32.864075: BRATS_482, shape torch.Size([4, 143, 169, 134]), rank 0 
+2024-12-21 02:09:44.808918: Validation complete 
+2024-12-21 02:09:44.811900: Mean Validation Dice:  0.7063972321778381 

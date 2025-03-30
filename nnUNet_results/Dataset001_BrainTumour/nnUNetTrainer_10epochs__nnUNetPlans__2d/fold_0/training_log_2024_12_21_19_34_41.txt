@@ -1,0 +1,26 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2024-12-21 19:34:41.524093: do_dummy_2d_data_aug: False 
+2024-12-21 19:34:41.532450: Using splits from existing split file: /mnt/c/Users/linch/fyp/nnUNet_preprocessed/Dataset001_BrainTumour/splits_final.json 
+2024-12-21 19:34:41.538197: The split file contains 5 splits. 
+2024-12-21 19:34:41.540401: Desired fold for training: 0 
+2024-12-21 19:34:41.543386: This split has 387 training and 97 validation cases. 
+2024-12-21 19:35:27.646858: Using torch.compile... 
+
+This is the configuration used by this training:
+Configuration name: 2d
+ {'data_identifier': 'nnUNetPlans_2d', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 105, 'patch_size': [192, 160], 'median_image_size_in_voxels': [169.0, 138.0], 'spacing': [1.0, 1.0], 'normalization_schemes': ['ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization'], 'use_mask_for_norm': [True, True, True, True], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 512, 512], 'conv_op': 'torch.nn.modules.conv.Conv2d', 'kernel_sizes': [[3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3]], 'strides': [[1, 1], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm2d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset001_BrainTumour', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [1.0, 1.0, 1.0], 'original_median_shape_after_transp': [138, 169, 138], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 5721.0, 'mean': 728.8666381835938, 'median': 779.0, 'min': 0.0, 'percentile_00_5': 104.0, 'percentile_99_5': 1733.0, 'std': 354.5618896484375}, '1': {'max': 8761.0, 'mean': 621.560791015625, 'median': 644.0, 'min': 0.0, 'percentile_00_5': 56.0, 'percentile_99_5': 2421.0, 'std': 335.946044921875}, '2': {'max': 9012.0, 'mean': 662.5552368164062, 'median': 639.0, 'min': 0.0, 'percentile_00_5': 44.0, 'percentile_99_5': 2963.0, 'std': 420.2735595703125}, '3': {'max': 3346.0, 'mean': 664.2885131835938, 'median': 647.0, 'min': 0.0, 'percentile_00_5': 103.0, 'percentile_99_5': 1997.0, 'std': 318.48980712890625}}} 
+ 
+2024-12-21 19:35:28.192063: unpacking dataset... 
+2024-12-21 19:35:34.107383: unpacking done... 
+2024-12-21 19:35:34.150363: Unable to plot network architecture: nnUNet_compile is enabled! 
+2024-12-21 19:35:34.164560:  
+2024-12-21 19:35:34.169627: Epoch 0 
+2024-12-21 19:35:34.175196: Current learning rate: 0.01 

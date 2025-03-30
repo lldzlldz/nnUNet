@@ -1,0 +1,3574 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8694060939816985,
+        "FN": 5197.074829931973,
+        "FP": 9880.632653061224,
+        "IoU": 0.8009391108445786,
+        "TN": 59680071.86394558,
+        "TP": 177419.89795918367,
+        "n_pred": 187300.53061224488,
+        "n_ref": 182616.97278911562
+    },
+    "mean": {
+        "(1, 2, 3)": {
+            "Dice": 0.9739930049584811,
+            "FN": 8313.061224489797,
+            "FP": 14340.469387755102,
+            "IoU": 0.9497277479387581,
+            "TN": 59423637.77551021,
+            "TP": 426278.1632653061,
+            "n_pred": 440618.63265306124,
+            "n_ref": 434591.2244897959
+        },
+        "(2, 3)": {
+            "Dice": 0.8437698072399884,
+            "FN": 3841.7755102040815,
+            "FP": 7219.734693877551,
+            "IoU": 0.7553216665181423,
+            "TN": 59804422.469387755,
+            "TP": 57085.489795918365,
+            "n_pred": 64305.22448979592,
+            "n_ref": 60927.26530612245
+        },
+        "2": {
+            "Dice": 0.7904554697466264,
+            "FN": 3436.387755102041,
+            "FP": 8081.693877551021,
+            "IoU": 0.6977679180768354,
+            "TN": 59812155.346938774,
+            "TP": 48896.04081632653,
+            "n_pred": 56977.73469387755,
+            "n_ref": 52332.42857142857
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9760486622317026,
+                    "FN": 1583,
+                    "FP": 5985,
+                    "IoU": 0.9532178202520848,
+                    "TN": 20023317,
+                    "TP": 154203,
+                    "n_pred": 160188,
+                    "n_ref": 155786
+                },
+                "(2, 3)": {
+                    "Dice": 0.9096129306678009,
+                    "FN": 488,
+                    "FP": 362,
+                    "IoU": 0.8342110395943046,
+                    "TN": 20179961,
+                    "TP": 4277,
+                    "n_pred": 4639,
+                    "n_ref": 4765
+                },
+                "2": {
+                    "Dice": 0.9107180907734924,
+                    "FN": 491,
+                    "FP": 347,
+                    "IoU": 0.8360719874804382,
+                    "TN": 20179976,
+                    "TP": 4274,
+                    "n_pred": 4621,
+                    "n_ref": 4765
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00009.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00009.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9724549015123359,
+                    "FN": 3945,
+                    "FP": 7617,
+                    "IoU": 0.946386589691869,
+                    "TN": 12891545,
+                    "TP": 204093,
+                    "n_pred": 211710,
+                    "n_ref": 208038
+                },
+                "(2, 3)": {
+                    "Dice": 0.9459758727198555,
+                    "FN": 536,
+                    "FP": 391,
+                    "IoU": 0.8974897710936636,
+                    "TN": 13098157,
+                    "TP": 8116,
+                    "n_pred": 8507,
+                    "n_ref": 8652
+                },
+                "2": {
+                    "Dice": 0.9457725947521866,
+                    "FN": 542,
+                    "FP": 388,
+                    "IoU": 0.8971238938053098,
+                    "TN": 13098160,
+                    "TP": 8110,
+                    "n_pred": 8498,
+                    "n_ref": 8652
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00010.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00010.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9511040422908699,
+                    "FN": 2863,
+                    "FP": 14230,
+                    "IoU": 0.9067668106645721,
+                    "TN": 20788184,
+                    "TP": 166243,
+                    "n_pred": 180473,
+                    "n_ref": 169106
+                },
+                "(2, 3)": {
+                    "Dice": 0.9509646817511698,
+                    "FN": 571,
+                    "FP": 1724,
+                    "IoU": 0.9065135036050348,
+                    "TN": 20946971,
+                    "TP": 22254,
+                    "n_pred": 23978,
+                    "n_ref": 22825
+                },
+                "2": {
+                    "Dice": 0.950953736807176,
+                    "FN": 615,
+                    "FP": 1676,
+                    "IoU": 0.906493612505612,
+                    "TN": 20947019,
+                    "TP": 22210,
+                    "n_pred": 23886,
+                    "n_ref": 22825
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00011.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00011.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9775642165809716,
+                    "FN": 3569,
+                    "FP": 4630,
+                    "IoU": 0.9561130708003919,
+                    "TN": 25241147,
+                    "TP": 178622,
+                    "n_pred": 183252,
+                    "n_ref": 182191
+                },
+                "(2, 3)": {
+                    "Dice": 0.7699667221297837,
+                    "FN": 1048,
+                    "FP": 58,
+                    "IoU": 0.6259722691917484,
+                    "TN": 25425011,
+                    "TP": 1851,
+                    "n_pred": 1909,
+                    "n_ref": 2899
+                },
+                "2": {
+                    "Dice": 0.769710838360724,
+                    "FN": 1049,
+                    "FP": 58,
+                    "IoU": 0.6256340886033142,
+                    "TN": 25425011,
+                    "TP": 1850,
+                    "n_pred": 1908,
+                    "n_ref": 2899
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00017.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00017.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9821244960249628,
+                    "FN": 2614,
+                    "FP": 2897,
+                    "IoU": 0.9648768363022211,
+                    "TN": 33659671,
+                    "TP": 151394,
+                    "n_pred": 154291,
+                    "n_ref": 154008
+                },
+                "(2, 3)": {
+                    "Dice": 0.9047195013357079,
+                    "FN": 39,
+                    "FP": 68,
+                    "IoU": 0.8260162601626017,
+                    "TN": 33815961,
+                    "TP": 508,
+                    "n_pred": 576,
+                    "n_ref": 547
+                },
+                "2": {
+                    "Dice": 0.9047195013357079,
+                    "FN": 39,
+                    "FP": 68,
+                    "IoU": 0.8260162601626017,
+                    "TN": 33815961,
+                    "TP": 508,
+                    "n_pred": 576,
+                    "n_ref": 547
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00019.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00019.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9835537624978073,
+                    "FN": 14847,
+                    "FP": 22657,
+                    "IoU": 0.9676397296868205,
+                    "TN": 188371160,
+                    "TP": 1121448,
+                    "n_pred": 1144105,
+                    "n_ref": 1136295
+                },
+                "(2, 3)": {
+                    "Dice": 0.9103879389593675,
+                    "FN": 1606,
+                    "FP": 831,
+                    "IoU": 0.8355156587473002,
+                    "TN": 189515296,
+                    "TP": 12379,
+                    "n_pred": 13210,
+                    "n_ref": 13985
+                },
+                "2": {
+                    "Dice": 0.9045531533326692,
+                    "FN": 1545,
+                    "FP": 371,
+                    "IoU": 0.8257389722601183,
+                    "TN": 189519117,
+                    "TP": 9079,
+                    "n_pred": 9450,
+                    "n_ref": 10624
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00027.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00027.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9856484789189909,
+                    "FN": 3266,
+                    "FP": 3423,
+                    "IoU": 0.9717030619410625,
+                    "TN": 25453726,
+                    "TP": 229697,
+                    "n_pred": 233120,
+                    "n_ref": 232963
+                },
+                "(2, 3)": {
+                    "Dice": 0.9609166803876011,
+                    "FN": 2528,
+                    "FP": 3881,
+                    "IoU": 0.9247734635428894,
+                    "TN": 25604916,
+                    "TP": 78787,
+                    "n_pred": 82668,
+                    "n_ref": 81315
+                },
+                "2": {
+                    "Dice": 0.9533316664583072,
+                    "FN": 4803,
+                    "FP": 2663,
+                    "IoU": 0.91082498238238,
+                    "TN": 25606389,
+                    "TP": 76257,
+                    "n_pred": 78920,
+                    "n_ref": 81060
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00028.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00028.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9751829178542762,
+                    "FN": 9073,
+                    "FP": 25154,
+                    "IoU": 0.9515677820401613,
+                    "TN": 110180213,
+                    "TP": 672472,
+                    "n_pred": 697626,
+                    "n_ref": 681545
+                },
+                "(2, 3)": {
+                    "Dice": 0.8224826388888888,
+                    "FN": 1934,
+                    "FP": 520,
+                    "IoU": 0.6984887578326576,
+                    "TN": 110878773,
+                    "TP": 5685,
+                    "n_pred": 6205,
+                    "n_ref": 7619
+                },
+                "2": {
+                    "Dice": 0.7971003661908677,
+                    "FN": 2286,
+                    "FP": 429,
+                    "IoU": 0.6626491053677932,
+                    "TN": 110878864,
+                    "TP": 5333,
+                    "n_pred": 5762,
+                    "n_ref": 7619
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00033.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00033.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.969994939591372,
+                    "FN": 6200,
+                    "FP": 12774,
+                    "IoU": 0.9417380330214605,
+                    "TN": 53938141,
+                    "TP": 306693,
+                    "n_pred": 319467,
+                    "n_ref": 312893
+                },
+                "(2, 3)": {
+                    "Dice": 0.9053939998465433,
+                    "FN": 527,
+                    "FP": 706,
+                    "IoU": 0.8271414552081873,
+                    "TN": 54256675,
+                    "TP": 5900,
+                    "n_pred": 6606,
+                    "n_ref": 6427
+                },
+                "2": {
+                    "Dice": 0.9116871022815458,
+                    "FN": 553,
+                    "FP": 585,
+                    "IoU": 0.8377067883628067,
+                    "TN": 54256796,
+                    "TP": 5874,
+                    "n_pred": 6459,
+                    "n_ref": 6427
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00040.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00040.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9747289321652866,
+                    "FN": 2471,
+                    "FP": 10490,
+                    "IoU": 0.9507036360870227,
+                    "TN": 13368568,
+                    "TP": 249959,
+                    "n_pred": 260449,
+                    "n_ref": 252430
+                },
+                "(2, 3)": {
+                    "Dice": 0.89252979819834,
+                    "FN": 3412,
+                    "FP": 2052,
+                    "IoU": 0.8059176641920932,
+                    "TN": 13603335,
+                    "TP": 22689,
+                    "n_pred": 24741,
+                    "n_ref": 26101
+                },
+                "2": {
+                    "Dice": 0.8921081677704195,
+                    "FN": 3470,
+                    "FP": 2004,
+                    "IoU": 0.8052303860523039,
+                    "TN": 13603383,
+                    "TP": 22631,
+                    "n_pred": 24635,
+                    "n_ref": 26101
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00041.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00041.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.8935515826218218,
+                    "FN": 1301,
+                    "FP": 21265,
+                    "IoU": 0.8075853953853238,
+                    "TN": 22164962,
+                    "TP": 94712,
+                    "n_pred": 115977,
+                    "n_ref": 96013
+                },
+                "(2, 3)": {
+                    "Dice": 0.4624036097922349,
+                    "FN": 430,
+                    "FP": 15535,
+                    "IoU": 0.30073146160921554,
+                    "TN": 22259409,
+                    "TP": 6866,
+                    "n_pred": 22401,
+                    "n_ref": 7296
+                },
+                "2": {
+                    "Dice": 0.5412520318756691,
+                    "FN": 470,
+                    "FP": 11101,
+                    "IoU": 0.37103875631896505,
+                    "TN": 22263843,
+                    "TP": 6826,
+                    "n_pred": 17927,
+                    "n_ref": 7296
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00048.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00048.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.974676456327882,
+                    "FN": 6940,
+                    "FP": 47013,
+                    "IoU": 0.9506037994964522,
+                    "TN": 175330662,
+                    "TP": 1038297,
+                    "n_pred": 1085310,
+                    "n_ref": 1045237
+                },
+                "(2, 3)": {
+                    "Dice": 0.8808246366604776,
+                    "FN": 394,
+                    "FP": 8913,
+                    "IoU": 0.7870300450790599,
+                    "TN": 176379211,
+                    "TP": 34394,
+                    "n_pred": 43307,
+                    "n_ref": 34788
+                },
+                "2": {
+                    "Dice": 0.8824904322810982,
+                    "FN": 430,
+                    "FP": 8720,
+                    "IoU": 0.7896938494070056,
+                    "TN": 176379404,
+                    "TP": 34358,
+                    "n_pred": 43078,
+                    "n_ref": 34788
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00052.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00052.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9589428543369379,
+                    "FN": 4945,
+                    "FP": 13868,
+                    "IoU": 0.9211241268856335,
+                    "TN": 26238030,
+                    "TP": 219701,
+                    "n_pred": 233569,
+                    "n_ref": 224646
+                },
+                "(2, 3)": {
+                    "Dice": 0.9346268155420948,
+                    "FN": 8852,
+                    "FP": 7887,
+                    "IoU": 0.8772764597202264,
+                    "TN": 26340148,
+                    "TP": 119657,
+                    "n_pred": 127544,
+                    "n_ref": 128509
+                },
+                "2": {
+                    "Dice": 0.9535128894803722,
+                    "FN": 9574,
+                    "FP": 2023,
+                    "IoU": 0.9111558851469371,
+                    "TN": 26346012,
+                    "TP": 118935,
+                    "n_pred": 120958,
+                    "n_ref": 128509
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00055.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00055.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9789967153814796,
+                    "FN": 6402,
+                    "FP": 11528,
+                    "IoU": 0.9588575571990097,
+                    "TN": 23157157,
+                    "TP": 417873,
+                    "n_pred": 429401,
+                    "n_ref": 424275
+                },
+                "(2, 3)": {
+                    "Dice": 0.9427176674330057,
+                    "FN": 3054,
+                    "FP": 25425,
+                    "IoU": 0.8916423157702493,
+                    "TN": 23330136,
+                    "TP": 234345,
+                    "n_pred": 259770,
+                    "n_ref": 237399
+                },
+                "2": {
+                    "Dice": 0.9438564660820482,
+                    "FN": 3299,
+                    "FP": 24551,
+                    "IoU": 0.8936820003817523,
+                    "TN": 23331010,
+                    "TP": 234100,
+                    "n_pred": 258651,
+                    "n_ref": 237399
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00056.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00056.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9689682025508635,
+                    "FN": 6065,
+                    "FP": 22387,
+                    "IoU": 0.939804383286894,
+                    "TN": 116181421,
+                    "TP": 444207,
+                    "n_pred": 466594,
+                    "n_ref": 450272
+                },
+                "(2, 3)": {
+                    "Dice": 0.8449397043318994,
+                    "FN": 291,
+                    "FP": 19858,
+                    "IoU": 0.7315113397116435,
+                    "TN": 116579034,
+                    "TP": 54897,
+                    "n_pred": 74755,
+                    "n_ref": 55188
+                },
+                "2": {
+                    "Dice": 0.8573559042375973,
+                    "FN": 213,
+                    "FP": 17769,
+                    "IoU": 0.7503262891894144,
+                    "TN": 116582058,
+                    "TP": 54040,
+                    "n_pred": 71809,
+                    "n_ref": 54253
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00066.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00066.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9684345003669975,
+                    "FN": 10636,
+                    "FP": 91458,
+                    "IoU": 0.9388007845469194,
+                    "TN": 162433920,
+                    "TP": 1566130,
+                    "n_pred": 1657588,
+                    "n_ref": 1576766
+                },
+                "(2, 3)": {
+                    "Dice": 0.9165193697737483,
+                    "FN": 17866,
+                    "FP": 27049,
+                    "IoU": 0.8459028654553439,
+                    "TN": 163810672,
+                    "TP": 246557,
+                    "n_pred": 273606,
+                    "n_ref": 264423
+                },
+                "2": {
+                    "Dice": 0.6524547358049021,
+                    "FN": 857,
+                    "FP": 69686,
+                    "IoU": 0.48418020020620217,
+                    "TN": 163965385,
+                    "TP": 66216,
+                    "n_pred": 135902,
+                    "n_ref": 67073
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00068.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00068.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9855483026637087,
+                    "FN": 1858,
+                    "FP": 1764,
+                    "IoU": 0.9715083579154375,
+                    "TN": 22679403,
+                    "TP": 123503,
+                    "n_pred": 125267,
+                    "n_ref": 125361
+                },
+                "(2, 3)": {
+                    "Dice": 0.813420226888728,
+                    "FN": 225,
+                    "FP": 548,
+                    "IoU": 0.6855166802278275,
+                    "TN": 22804070,
+                    "TP": 1685,
+                    "n_pred": 2233,
+                    "n_ref": 1910
+                },
+                "2": {
+                    "Dice": 0.8156938726083798,
+                    "FN": 226,
+                    "FP": 535,
+                    "IoU": 0.6887525562372188,
+                    "TN": 22804083,
+                    "TP": 1684,
+                    "n_pred": 2219,
+                    "n_ref": 1910
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00085.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00085.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9832818886179278,
+                    "FN": 2431,
+                    "FP": 3451,
+                    "IoU": 0.9671135761330217,
+                    "TN": 19744086,
+                    "TP": 172976,
+                    "n_pred": 176427,
+                    "n_ref": 175407
+                },
+                "(2, 3)": {
+                    "Dice": 0.9183638073155814,
+                    "FN": 1972,
+                    "FP": 6971,
+                    "IoU": 0.8490505527892649,
+                    "TN": 19863699,
+                    "TP": 50302,
+                    "n_pred": 57273,
+                    "n_ref": 52274
+                },
+                "2": {
+                    "Dice": 0.9209385056891636,
+                    "FN": 2052,
+                    "FP": 6571,
+                    "IoU": 0.8534624861925397,
+                    "TN": 19864099,
+                    "TP": 50222,
+                    "n_pred": 56793,
+                    "n_ref": 52274
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00090.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00090.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9749726654729269,
+                    "FN": 5455,
+                    "FP": 2442,
+                    "IoU": 0.9511674787899775,
+                    "TN": 22120524,
+                    "TP": 153819,
+                    "n_pred": 156261,
+                    "n_ref": 159274
+                },
+                "(2, 3)": {
+                    "Dice": 0.841353324436769,
+                    "FN": 1111,
+                    "FP": 910,
+                    "IoU": 0.7261517615176152,
+                    "TN": 22274860,
+                    "TP": 5359,
+                    "n_pred": 6269,
+                    "n_ref": 6470
+                },
+                "2": {
+                    "Dice": 0.9140858288541933,
+                    "FN": 166,
+                    "FP": 841,
+                    "IoU": 0.8417661847894407,
+                    "TN": 22275876,
+                    "TP": 5357,
+                    "n_pred": 6198,
+                    "n_ref": 5523
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00097.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00097.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9695997125543816,
+                    "FN": 9561,
+                    "FP": 2961,
+                    "IoU": 0.9409932473505394,
+                    "TN": 27312907,
+                    "TP": 199691,
+                    "n_pred": 202652,
+                    "n_ref": 209252
+                },
+                "(2, 3)": {
+                    "Dice": 0.9474320663232678,
+                    "FN": 3007,
+                    "FP": 1514,
+                    "IoU": 0.9001148866598913,
+                    "TN": 27479858,
+                    "TP": 40741,
+                    "n_pred": 42255,
+                    "n_ref": 43748
+                },
+                "2": {
+                    "Dice": 0.946647753250255,
+                    "FN": 3270,
+                    "FP": 1281,
+                    "IoU": 0.8987000845835373,
+                    "TN": 27480194,
+                    "TP": 40375,
+                    "n_pred": 41656,
+                    "n_ref": 43645
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00099.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00099.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9780493396190013,
+                    "FN": 9010,
+                    "FP": 10332,
+                    "IoU": 0.9570416435313714,
+                    "TN": 122757430,
+                    "TP": 430908,
+                    "n_pred": 441240,
+                    "n_ref": 439918
+                },
+                "(2, 3)": {
+                    "Dice": 0.7007546588633914,
+                    "FN": 248,
+                    "FP": 1695,
+                    "IoU": 0.5393551446183025,
+                    "TN": 123203462,
+                    "TP": 2275,
+                    "n_pred": 3970,
+                    "n_ref": 2523
+                },
+                "2": {
+                    "Dice": 0.7150715071507151,
+                    "FN": 196,
+                    "FP": 1617,
+                    "IoU": 0.5565068493150684,
+                    "TN": 123203592,
+                    "TP": 2275,
+                    "n_pred": 3892,
+                    "n_ref": 2471
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00100.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00100.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9854207217906638,
+                    "FN": 18304,
+                    "FP": 18585,
+                    "IoU": 0.9712604455413918,
+                    "TN": 132934166,
+                    "TP": 1246673,
+                    "n_pred": 1265258,
+                    "n_ref": 1264977
+                },
+                "(2, 3)": {
+                    "Dice": 0.8944498136131437,
+                    "FN": 1117,
+                    "FP": 1941,
+                    "IoU": 0.8090540118638776,
+                    "TN": 134201713,
+                    "TP": 12957,
+                    "n_pred": 14898,
+                    "n_ref": 14074
+                },
+                "2": {
+                    "Dice": 0.8938748658287455,
+                    "FN": 1166,
+                    "FP": 1899,
+                    "IoU": 0.8081136918550054,
+                    "TN": 134201755,
+                    "TP": 12908,
+                    "n_pred": 14807,
+                    "n_ref": 14074
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00101.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00101.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9718860577844465,
+                    "FN": 12693,
+                    "FP": 35423,
+                    "IoU": 0.945309676172723,
+                    "TN": 173445970,
+                    "TP": 831674,
+                    "n_pred": 867097,
+                    "n_ref": 844367
+                },
+                "(2, 3)": {
+                    "Dice": 0.9015047421160226,
+                    "FN": 127,
+                    "FP": 2812,
+                    "IoU": 0.8206724022210019,
+                    "TN": 174309371,
+                    "TP": 13450,
+                    "n_pred": 16262,
+                    "n_ref": 13577
+                },
+                "2": {
+                    "Dice": 0.8863628002795865,
+                    "FN": 1530,
+                    "FP": 1559,
+                    "IoU": 0.7959170190274841,
+                    "TN": 174310624,
+                    "TP": 12047,
+                    "n_pred": 13606,
+                    "n_ref": 13577
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00103.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00103.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9603956295197938,
+                    "FN": 1168,
+                    "FP": 8394,
+                    "IoU": 0.923808764940239,
+                    "TN": 8787396,
+                    "TP": 115938,
+                    "n_pred": 124332,
+                    "n_ref": 117106
+                },
+                "(2, 3)": {
+                    "Dice": 0.9115516929205142,
+                    "FN": 985,
+                    "FP": 969,
+                    "IoU": 0.8374781668468768,
+                    "TN": 8900873,
+                    "TP": 10069,
+                    "n_pred": 11038,
+                    "n_ref": 11054
+                },
+                "2": {
+                    "Dice": 0.9183225508317929,
+                    "FN": 450,
+                    "FP": 964,
+                    "IoU": 0.8489800277688775,
+                    "TN": 8903533,
+                    "TP": 7949,
+                    "n_pred": 8913,
+                    "n_ref": 8399
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00110.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00110.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9840108693421052,
+                    "FN": 13419,
+                    "FP": 23192,
+                    "IoU": 0.9685249966256211,
+                    "TN": 84033623,
+                    "TP": 1126566,
+                    "n_pred": 1149758,
+                    "n_ref": 1139985
+                },
+                "(2, 3)": {
+                    "Dice": 0.8283308140790326,
+                    "FN": 3071,
+                    "FP": 8059,
+                    "IoU": 0.706966457795798,
+                    "TN": 85158818,
+                    "TP": 26852,
+                    "n_pred": 34911,
+                    "n_ref": 29923
+                },
+                "2": {
+                    "Dice": 0.8488291139240506,
+                    "FN": 1719,
+                    "FP": 7835,
+                    "IoU": 0.7373615196415317,
+                    "TN": 85160423,
+                    "TP": 26823,
+                    "n_pred": 34658,
+                    "n_ref": 28542
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00115.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00115.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9780748298769849,
+                    "FN": 12534,
+                    "FP": 101388,
+                    "IoU": 0.9570904587458672,
+                    "TN": 163544362,
+                    "TP": 2541012,
+                    "n_pred": 2642400,
+                    "n_ref": 2553546
+                },
+                "(2, 3)": {
+                    "Dice": 0.9676824299633997,
+                    "FN": 3795,
+                    "FP": 95435,
+                    "IoU": 0.9373883173654508,
+                    "TN": 164614448,
+                    "TP": 1485618,
+                    "n_pred": 1581053,
+                    "n_ref": 1489413
+                },
+                "2": {
+                    "Dice": 0.9695289556841183,
+                    "FN": 4115,
+                    "FP": 89247,
+                    "IoU": 0.9408599698478456,
+                    "TN": 164620636,
+                    "TP": 1485298,
+                    "n_pred": 1574545,
+                    "n_ref": 1489413
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00135.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00135.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9707670833202146,
+                    "FN": 5991,
+                    "FP": 7936,
+                    "IoU": 0.9431947497868834,
+                    "TN": 28328525,
+                    "TP": 231244,
+                    "n_pred": 239180,
+                    "n_ref": 237235
+                },
+                "(2, 3)": {
+                    "Dice": 0.7904366918760674,
+                    "FN": 1203,
+                    "FP": 515,
+                    "IoU": 0.6534893102057281,
+                    "TN": 28568738,
+                    "TP": 3240,
+                    "n_pred": 3755,
+                    "n_ref": 4443
+                },
+                "2": {
+                    "Dice": 0.3357440280517204,
+                    "FN": 1064,
+                    "FP": 1967,
+                    "IoU": 0.20173821437977352,
+                    "TN": 28569899,
+                    "TP": 766,
+                    "n_pred": 2733,
+                    "n_ref": 1830
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00137.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00137.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.980995917428555,
+                    "FN": 6045,
+                    "FP": 4531,
+                    "IoU": 0.962700674322151,
+                    "TN": 51358824,
+                    "TP": 272968,
+                    "n_pred": 277499,
+                    "n_ref": 279013
+                },
+                "(2, 3)": {
+                    "Dice": 0.9318120442884148,
+                    "FN": 1838,
+                    "FP": 1192,
+                    "IoU": 0.8723296675515105,
+                    "TN": 51618635,
+                    "TP": 20703,
+                    "n_pred": 21895,
+                    "n_ref": 22541
+                },
+                "2": {
+                    "Dice": 0.9374748835779968,
+                    "FN": 1755,
+                    "FP": 890,
+                    "IoU": 0.8823084453145857,
+                    "TN": 51619894,
+                    "TP": 19829,
+                    "n_pred": 20719,
+                    "n_ref": 21584
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00144.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00144.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9864970253347891,
+                    "FN": 3027,
+                    "FP": 609,
+                    "IoU": 0.9733538529185446,
+                    "TN": 9300729,
+                    "TP": 132819,
+                    "n_pred": 133428,
+                    "n_ref": 135846
+                },
+                "(2, 3)": {
+                    "Dice": 0.9516406186073153,
+                    "FN": 388,
+                    "FP": 203,
+                    "IoU": 0.9077427411801436,
+                    "TN": 9430778,
+                    "TP": 5815,
+                    "n_pred": 6018,
+                    "n_ref": 6203
+                },
+                "2": {
+                    "Dice": 0.9510133749076886,
+                    "FN": 408,
+                    "FP": 189,
+                    "IoU": 0.906602002503129,
+                    "TN": 9430792,
+                    "TP": 5795,
+                    "n_pred": 5984,
+                    "n_ref": 6203
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00148.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00148.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9801681097484679,
+                    "FN": 9028,
+                    "FP": 5395,
+                    "IoU": 0.9611075306800991,
+                    "TN": 27416421,
+                    "TP": 356420,
+                    "n_pred": 361815,
+                    "n_ref": 365448
+                },
+                "(2, 3)": {
+                    "Dice": 0.8773784355179705,
+                    "FN": 613,
+                    "FP": 1591,
+                    "IoU": 0.7815442561205274,
+                    "TN": 27777175,
+                    "TP": 7885,
+                    "n_pred": 9476,
+                    "n_ref": 8498
+                },
+                "2": {
+                    "Dice": 0.8787963220952911,
+                    "FN": 613,
+                    "FP": 1562,
+                    "IoU": 0.7837972166998012,
+                    "TN": 27777204,
+                    "TP": 7885,
+                    "n_pred": 9447,
+                    "n_ref": 8498
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00150.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00150.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9704971532522502,
+                    "FN": 14577,
+                    "FP": 42413,
+                    "IoU": 0.9426852546528631,
+                    "TN": 257741794,
+                    "TP": 937344,
+                    "n_pred": 979757,
+                    "n_ref": 951921
+                },
+                "(2, 3)": {
+                    "Dice": 0.8040304338885461,
+                    "FN": 1662,
+                    "FP": 5962,
+                    "IoU": 0.6722833562585969,
+                    "TN": 258712864,
+                    "TP": 15640,
+                    "n_pred": 21602,
+                    "n_ref": 17302
+                },
+                "2": {
+                    "Dice": 0.6308234372960981,
+                    "FN": 504,
+                    "FP": 5154,
+                    "IoU": 0.46073198627525735,
+                    "TN": 258725636,
+                    "TP": 4834,
+                    "n_pred": 9988,
+                    "n_ref": 5338
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00156.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00156.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9721217854325289,
+                    "FN": 17322,
+                    "FP": 58123,
+                    "IoU": 0.9457558022490006,
+                    "TN": 183420680,
+                    "TP": 1315395,
+                    "n_pred": 1373518,
+                    "n_ref": 1332717
+                },
+                "(2, 3)": {
+                    "Dice": 0.8447397563676633,
+                    "FN": 592,
+                    "FP": 5016,
+                    "IoU": 0.7312116564417178,
+                    "TN": 184790656,
+                    "TP": 15256,
+                    "n_pred": 20272,
+                    "n_ref": 15848
+                },
+                "2": {
+                    "Dice": 0.8774301161854365,
+                    "FN": 387,
+                    "FP": 3875,
+                    "IoU": 0.781626274529897,
+                    "TN": 184792003,
+                    "TP": 15255,
+                    "n_pred": 19130,
+                    "n_ref": 15642
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00158.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00158.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9767050681612155,
+                    "FN": 16373,
+                    "FP": 63314,
+                    "IoU": 0.9544707373915647,
+                    "TN": 186731299,
+                    "TP": 1670550,
+                    "n_pred": 1733864,
+                    "n_ref": 1686923
+                },
+                "(2, 3)": {
+                    "Dice": 0.957574500305988,
+                    "FN": 11758,
+                    "FP": 8693,
+                    "IoU": 0.9186023371330319,
+                    "TN": 188230288,
+                    "TP": 230797,
+                    "n_pred": 239490,
+                    "n_ref": 242555
+                },
+                "2": {
+                    "Dice": 0.956549588538558,
+                    "FN": 12578,
+                    "FP": 8315,
+                    "IoU": 0.9167178219795113,
+                    "TN": 188230666,
+                    "TP": 229977,
+                    "n_pred": 238292,
+                    "n_ref": 242555
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00159.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00159.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9686832717024777,
+                    "FN": 29645,
+                    "FP": 114538,
+                    "IoU": 0.9392684566472236,
+                    "TN": 100329000,
+                    "TP": 2229921,
+                    "n_pred": 2344459,
+                    "n_ref": 2259566
+                },
+                "(2, 3)": {
+                    "Dice": 0.8641373997031024,
+                    "FN": 11243,
+                    "FP": 61059,
+                    "IoU": 0.7607763469606532,
+                    "TN": 102400868,
+                    "TP": 229934,
+                    "n_pred": 290993,
+                    "n_ref": 241177
+                },
+                "2": {
+                    "Dice": 0.865880916214678,
+                    "FN": 11451,
+                    "FP": 59715,
+                    "IoU": 0.7634832431570131,
+                    "TN": 102402212,
+                    "TP": 229726,
+                    "n_pred": 289441,
+                    "n_ref": 241177
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00160.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00160.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9660599787953754,
+                    "FN": 1685,
+                    "FP": 9071,
+                    "IoU": 0.934348181696107,
+                    "TN": 24477702,
+                    "TP": 153078,
+                    "n_pred": 162149,
+                    "n_ref": 154763
+                },
+                "(2, 3)": {
+                    "Dice": 0.9318957085947377,
+                    "FN": 371,
+                    "FP": 2484,
+                    "IoU": 0.8724763266035376,
+                    "TN": 24619148,
+                    "TP": 19533,
+                    "n_pred": 22017,
+                    "n_ref": 19904
+                },
+                "2": {
+                    "Dice": 0.9328799597710783,
+                    "FN": 425,
+                    "FP": 2378,
+                    "IoU": 0.8742033928731712,
+                    "TN": 24619254,
+                    "TP": 19479,
+                    "n_pred": 21857,
+                    "n_ref": 19904
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00162.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00162.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9775348039610785,
+                    "FN": 7107,
+                    "FP": 976,
+                    "IoU": 0.9560568005132053,
+                    "TN": 25768314,
+                    "TP": 175859,
+                    "n_pred": 176835,
+                    "n_ref": 182966
+                },
+                "(2, 3)": {
+                    "Dice": 0.9106205983835137,
+                    "FN": 498,
+                    "FP": 1393,
+                    "IoU": 0.8359076709475877,
+                    "TN": 25940732,
+                    "TP": 9633,
+                    "n_pred": 11026,
+                    "n_ref": 10131
+                },
+                "2": {
+                    "Dice": 0.9171791311247768,
+                    "FN": 381,
+                    "FP": 1289,
+                    "IoU": 0.8470275716772007,
+                    "TN": 25941339,
+                    "TP": 9247,
+                    "n_pred": 10536,
+                    "n_ref": 9628
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00163.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00163.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9767061447766743,
+                    "FN": 2759,
+                    "FP": 1627,
+                    "IoU": 0.9544727937054952,
+                    "TN": 21661614,
+                    "TP": 91952,
+                    "n_pred": 93579,
+                    "n_ref": 94711
+                },
+                "(2, 3)": {
+                    "Dice": 0.9252947634731968,
+                    "FN": 281,
+                    "FP": 1284,
+                    "IoU": 0.8609753930887448,
+                    "TN": 21746695,
+                    "TP": 9692,
+                    "n_pred": 10976,
+                    "n_ref": 9973
+                },
+                "2": {
+                    "Dice": 0.9252175576169074,
+                    "FN": 298,
+                    "FP": 1266,
+                    "IoU": 0.8608417118960762,
+                    "TN": 21746713,
+                    "TP": 9675,
+                    "n_pred": 10941,
+                    "n_ref": 9973
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00168.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00168.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9806436400531603,
+                    "FN": 2075,
+                    "FP": 3343,
+                    "IoU": 0.9620223884258707,
+                    "TN": 26333881,
+                    "TP": 137245,
+                    "n_pred": 140588,
+                    "n_ref": 139320
+                },
+                "(2, 3)": {
+                    "Dice": 0.8912691771269177,
+                    "FN": 520,
+                    "FP": 1429,
+                    "IoU": 0.8038643453758679,
+                    "TN": 26466607,
+                    "TP": 7988,
+                    "n_pred": 9417,
+                    "n_ref": 8508
+                },
+                "2": {
+                    "Dice": 0.8914689550731953,
+                    "FN": 561,
+                    "FP": 1374,
+                    "IoU": 0.8041894353369763,
+                    "TN": 26466662,
+                    "TP": 7947,
+                    "n_pred": 9321,
+                    "n_ref": 8508
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00169.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00169.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9700876178694061,
+                    "FN": 9228,
+                    "FP": 7794,
+                    "IoU": 0.9419127633581534,
+                    "TN": 35620686,
+                    "TP": 276020,
+                    "n_pred": 283814,
+                    "n_ref": 285248
+                },
+                "(2, 3)": {
+                    "Dice": 0.9096766161411809,
+                    "FN": 11067,
+                    "FP": 541,
+                    "IoU": 0.8343181753304216,
+                    "TN": 35843666,
+                    "TP": 58454,
+                    "n_pred": 58995,
+                    "n_ref": 69521
+                },
+                "2": {
+                    "Dice": 0.9072447772960189,
+                    "FN": 11555,
+                    "FP": 211,
+                    "IoU": 0.8302360477866912,
+                    "TN": 35844420,
+                    "TP": 57542,
+                    "n_pred": 57753,
+                    "n_ref": 69097
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00180.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00180.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9791834960639433,
+                    "FN": 11854,
+                    "FP": 7447,
+                    "IoU": 0.9592159729867363,
+                    "TN": 50644831,
+                    "TP": 453948,
+                    "n_pred": 461395,
+                    "n_ref": 465802
+                },
+                "(2, 3)": {
+                    "Dice": 0.9344893826904107,
+                    "FN": 4844,
+                    "FP": 1465,
+                    "IoU": 0.8770343228019568,
+                    "TN": 51066773,
+                    "TP": 44998,
+                    "n_pred": 46463,
+                    "n_ref": 49842
+                },
+                "2": {
+                    "Dice": 0.9046096178732392,
+                    "FN": 4140,
+                    "FP": 2273,
+                    "IoU": 0.8258330843811955,
+                    "TN": 51081259,
+                    "TP": 30408,
+                    "n_pred": 32681,
+                    "n_ref": 34548
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00183.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00183.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9661078449486776,
+                    "FN": 7317,
+                    "FP": 7908,
+                    "IoU": 0.9344377363040539,
+                    "TN": 38040802,
+                    "TP": 216997,
+                    "n_pred": 224905,
+                    "n_ref": 224314
+                },
+                "(2, 3)": {
+                    "Dice": 0.8676017864111347,
+                    "FN": 16629,
+                    "FP": 7799,
+                    "IoU": 0.7661631535619244,
+                    "TN": 38168558,
+                    "TP": 80038,
+                    "n_pred": 87837,
+                    "n_ref": 96667
+                },
+                "2": {
+                    "Dice": 0.8739966310528355,
+                    "FN": 8044,
+                    "FP": 7889,
+                    "IoU": 0.7761936199800537,
+                    "TN": 38201833,
+                    "TP": 55258,
+                    "n_pred": 63147,
+                    "n_ref": 63302
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00184.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00184.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9871104758615368,
+                    "FN": 3210,
+                    "FP": 3806,
+                    "IoU": 0.9745490029637207,
+                    "TN": 37210925,
+                    "TP": 268651,
+                    "n_pred": 272457,
+                    "n_ref": 271861
+                },
+                "(2, 3)": {
+                    "Dice": 0.9642691502269778,
+                    "FN": 2405,
+                    "FP": 5222,
+                    "IoU": 0.9310036004414611,
+                    "TN": 37376050,
+                    "TP": 102915,
+                    "n_pred": 108137,
+                    "n_ref": 105320
+                },
+                "2": {
+                    "Dice": 0.9649895315976753,
+                    "FN": 2538,
+                    "FP": 4920,
+                    "IoU": 0.9323476052249637,
+                    "TN": 37376352,
+                    "TP": 102782,
+                    "n_pred": 107702,
+                    "n_ref": 105320
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00186.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00186.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9853510677577516,
+                    "FN": 6949,
+                    "FP": 3287,
+                    "IoU": 0.9711251216519274,
+                    "TN": 41850689,
+                    "TP": 344259,
+                    "n_pred": 347546,
+                    "n_ref": 351208
+                },
+                "(2, 3)": {
+                    "Dice": 0.9660747955128118,
+                    "FN": 1117,
+                    "FP": 1384,
+                    "IoU": 0.9343759019705596,
+                    "TN": 42167073,
+                    "TP": 35610,
+                    "n_pred": 36994,
+                    "n_ref": 36727
+                },
+                "2": {
+                    "Dice": 0.8277670651754724,
+                    "FN": 1716,
+                    "FP": 2750,
+                    "IoU": 0.7061455454665088,
+                    "TN": 42189986,
+                    "TP": 10732,
+                    "n_pred": 13482,
+                    "n_ref": 12448
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00190.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00190.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9745899693161894,
+                    "FN": 18039,
+                    "FP": 15351,
+                    "IoU": 0.9504392780966545,
+                    "TN": 90814537,
+                    "TP": 640329,
+                    "n_pred": 655680,
+                    "n_ref": 658368
+                },
+                "(2, 3)": {
+                    "Dice": 0.7670521595468491,
+                    "FN": 59,
+                    "FP": 1915,
+                    "IoU": 0.6221286370597243,
+                    "TN": 91483032,
+                    "TP": 3250,
+                    "n_pred": 5165,
+                    "n_ref": 3309
+                },
+                "2": {
+                    "Dice": 0.7835946924004825,
+                    "FN": 61,
+                    "FP": 1733,
+                    "IoU": 0.6441888139627132,
+                    "TN": 91483214,
+                    "TP": 3248,
+                    "n_pred": 4981,
+                    "n_ref": 3309
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00191.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00191.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9812173955438546,
+                    "FN": 4908,
+                    "FP": 4338,
+                    "IoU": 0.9631273553867321,
+                    "TN": 46410877,
+                    "TP": 241509,
+                    "n_pred": 245847,
+                    "n_ref": 246417
+                },
+                "(2, 3)": {
+                    "Dice": 0.9118492183314664,
+                    "FN": 371,
+                    "FP": 3249,
+                    "IoU": 0.8379805755717674,
+                    "TN": 46639289,
+                    "TP": 18723,
+                    "n_pred": 21972,
+                    "n_ref": 19094
+                },
+                "2": {
+                    "Dice": 0.9211563084802521,
+                    "FN": 173,
+                    "FP": 3029,
+                    "IoU": 0.8538366732094764,
+                    "TN": 46639725,
+                    "TP": 18705,
+                    "n_pred": 21734,
+                    "n_ref": 18878
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00196.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00196.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9898313679612472,
+                    "FN": 2365,
+                    "FP": 2207,
+                    "IoU": 0.9798674563508664,
+                    "TN": 19433705,
+                    "TP": 222523,
+                    "n_pred": 224730,
+                    "n_ref": 224888
+                },
+                "(2, 3)": {
+                    "Dice": 0.9699142689788601,
+                    "FN": 777,
+                    "FP": 918,
+                    "IoU": 0.9415859668470207,
+                    "TN": 19631783,
+                    "TP": 27322,
+                    "n_pred": 28240,
+                    "n_ref": 28099
+                },
+                "2": {
+                    "Dice": 0.9724313453289907,
+                    "FN": 780,
+                    "FP": 769,
+                    "IoU": 0.94634197034779,
+                    "TN": 19631932,
+                    "TP": 27319,
+                    "n_pred": 28088,
+                    "n_ref": 28099
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00204.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00204.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9910691132386652,
+                    "FN": 1116,
+                    "FP": 606,
+                    "IoU": 0.9822963358966977,
+                    "TN": 15631372,
+                    "TP": 95546,
+                    "n_pred": 96152,
+                    "n_ref": 96662
+                },
+                "(2, 3)": {
+                    "Dice": 0.9498645927366155,
+                    "FN": 1201,
+                    "FP": 243,
+                    "IoU": 0.9045162996759902,
+                    "TN": 15713517,
+                    "TP": 13679,
+                    "n_pred": 13922,
+                    "n_ref": 14880
+                },
+                "2": {
+                    "Dice": 0.8996680586786594,
+                    "FN": 1080,
+                    "FP": 794,
+                    "IoU": 0.817633320358116,
+                    "TN": 15718364,
+                    "TP": 8402,
+                    "n_pred": 9196,
+                    "n_ref": 9482
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00206.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00206.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9864411007885874,
+                    "FN": 1209,
+                    "FP": 1726,
+                    "IoU": 0.9732449703278973,
+                    "TN": 21386109,
+                    "TP": 106764,
+                    "n_pred": 108490,
+                    "n_ref": 107973
+                },
+                "(2, 3)": {
+                    "Dice": 0.918146494974471,
+                    "FN": 2002,
+                    "FP": 547,
+                    "IoU": 0.8486791332739685,
+                    "TN": 21478963,
+                    "TP": 14296,
+                    "n_pred": 14843,
+                    "n_ref": 16298
+                },
+                "2": {
+                    "Dice": 0.8545828539553045,
+                    "FN": 1969,
+                    "FP": 2202,
+                    "IoU": 0.7460887563158215,
+                    "TN": 21479381,
+                    "TP": 12256,
+                    "n_pred": 14458,
+                    "n_ref": 14225
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00215.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00215.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.97684986436738,
+                    "FN": 36476,
+                    "FP": 35407,
+                    "IoU": 0.9547473340883523,
+                    "TN": 193184511,
+                    "TP": 1516598,
+                    "n_pred": 1552005,
+                    "n_ref": 1553074
+                },
+                "(2, 3)": {
+                    "Dice": 0.9651805955859373,
+                    "FN": 3372,
+                    "FP": 10666,
+                    "IoU": 0.9327043844258445,
+                    "TN": 194564390,
+                    "TP": 194564,
+                    "n_pred": 205230,
+                    "n_ref": 197936
+                },
+                "2": {
+                    "Dice": 0.9662489945185714,
+                    "FN": 1939,
+                    "FP": 6201,
+                    "IoU": 0.9347018666923367,
+                    "TN": 194648333,
+                    "TP": 116519,
+                    "n_pred": 122720,
+                    "n_ref": 118458
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00216.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00216.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.983289387297751,
+                    "FN": 4622,
+                    "FP": 6399,
+                    "IoU": 0.9671280844451206,
+                    "TN": 36627033,
+                    "TP": 324250,
+                    "n_pred": 330649,
+                    "n_ref": 328872
+                },
+                "(2, 3)": {
+                    "Dice": 0.9597044407052454,
+                    "FN": 5537,
+                    "FP": 10987,
+                    "IoU": 0.9225305559853163,
+                    "TN": 36749007,
+                    "TP": 196773,
+                    "n_pred": 207760,
+                    "n_ref": 202310
+                },
+                "2": {
+                    "Dice": 0.9592496464642751,
+                    "FN": 6613,
+                    "FP": 10014,
+                    "IoU": 0.9216904353723555,
+                    "TN": 36749980,
+                    "TP": 195697,
+                    "n_pred": 205711,
+                    "n_ref": 202310
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00221.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00221.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.985925049364103,
+                    "FN": 5160,
+                    "FP": 7079,
+                    "IoU": 0.9722408079855024,
+                    "TN": 125126077,
+                    "TP": 428660,
+                    "n_pred": 435739,
+                    "n_ref": 433820
+                },
+                "(2, 3)": {
+                    "Dice": 0.980401782473268,
+                    "FN": 3867,
+                    "FP": 7471,
+                    "IoU": 0.9615569796222833,
+                    "TN": 125272046,
+                    "TP": 283592,
+                    "n_pred": 291063,
+                    "n_ref": 287459
+                },
+                "2": {
+                    "Dice": 0.9806433514120068,
+                    "FN": 4310,
+                    "FP": 6868,
+                    "IoU": 0.9620218328593707,
+                    "TN": 125272649,
+                    "TP": 283149,
+                    "n_pred": 290017,
+                    "n_ref": 287459
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00223.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00223.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9818289995912552,
+                    "FN": 4069,
+                    "FP": 3444,
+                    "IoU": 0.9643065842546096,
+                    "TN": 25741769,
+                    "TP": 202974,
+                    "n_pred": 206418,
+                    "n_ref": 207043
+                },
+                "(2, 3)": {
+                    "Dice": 0.90895342099836,
+                    "FN": 8534,
+                    "FP": 737,
+                    "IoU": 0.8331023060721165,
+                    "TN": 25896707,
+                    "TP": 46278,
+                    "n_pred": 47015,
+                    "n_ref": 54812
+                },
+                "2": {
+                    "Dice": 0.7211411297940676,
+                    "FN": 2885,
+                    "FP": 14827,
+                    "IoU": 0.5638942236667159,
+                    "TN": 25911642,
+                    "TP": 22902,
+                    "n_pred": 37729,
+                    "n_ref": 25787
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00241.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00241.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9760703425767152,
+                    "FN": 6632,
+                    "FP": 5495,
+                    "IoU": 0.9532591770346731,
+                    "TN": 46926468,
+                    "TP": 247325,
+                    "n_pred": 252820,
+                    "n_ref": 253957
+                },
+                "(2, 3)": {
+                    "Dice": 0.9166247358357653,
+                    "FN": 1268,
+                    "FP": 2046,
+                    "IoU": 0.8460823928289443,
+                    "TN": 47164389,
+                    "TP": 18217,
+                    "n_pred": 20263,
+                    "n_ref": 19485
+                },
+                "2": {
+                    "Dice": 0.8709625839462743,
+                    "FN": 3144,
+                    "FP": 1698,
+                    "IoU": 0.7714204786857386,
+                    "TN": 47164737,
+                    "TP": 16341,
+                    "n_pred": 18039,
+                    "n_ref": 19485
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00255.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00255.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9801890922151925,
+                    "FN": 2647,
+                    "FP": 2648,
+                    "IoU": 0.9611478801931232,
+                    "TN": 22932386,
+                    "TP": 130991,
+                    "n_pred": 133639,
+                    "n_ref": 133638
+                },
+                "(2, 3)": {
+                    "Dice": 0.8353651501749798,
+                    "FN": 4063,
+                    "FP": 218,
+                    "IoU": 0.7172764496103553,
+                    "TN": 23053530,
+                    "TP": 10861,
+                    "n_pred": 11079,
+                    "n_ref": 14924
+                },
+                "2": {
+                    "Dice": 0.813245561539996,
+                    "FN": 4480,
+                    "FP": 201,
+                    "IoU": 0.6852686075438714,
+                    "TN": 23053799,
+                    "TP": 10192,
+                    "n_pred": 10393,
+                    "n_ref": 14672
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00266.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00266.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9770155652352014,
+                    "FN": 16801,
+                    "FP": 14284,
+                    "IoU": 0.9550639599514862,
+                    "TN": 175731151,
+                    "TP": 660676,
+                    "n_pred": 674960,
+                    "n_ref": 677477
+                },
+                "(2, 3)": {
+                    "Dice": 0.8906708187362138,
+                    "FN": 361,
+                    "FP": 3852,
+                    "IoU": 0.8028913633386358,
+                    "TN": 176401538,
+                    "TP": 17161,
+                    "n_pred": 21013,
+                    "n_ref": 17522
+                },
+                "2": {
+                    "Dice": 0.903259837535605,
+                    "FN": 398,
+                    "FP": 3270,
+                    "IoU": 0.8235859946133128,
+                    "TN": 176402120,
+                    "TP": 17124,
+                    "n_pred": 20394,
+                    "n_ref": 17522
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00272.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00272.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9863773876637519,
+                    "FN": 2597,
+                    "FP": 1262,
+                    "IoU": 0.9731209383641315,
+                    "TN": 22400815,
+                    "TP": 139710,
+                    "n_pred": 140972,
+                    "n_ref": 142307
+                },
+                "(2, 3)": {
+                    "Dice": 0.9452435217283052,
+                    "FN": 1377,
+                    "FP": 1482,
+                    "IoU": 0.896172283556072,
+                    "TN": 22516848,
+                    "TP": 24677,
+                    "n_pred": 26159,
+                    "n_ref": 26054
+                },
+                "2": {
+                    "Dice": 0.4696290256828373,
+                    "FN": 776,
+                    "FP": 525,
+                    "IoU": 0.30687266915290357,
+                    "TN": 22542507,
+                    "TP": 576,
+                    "n_pred": 1101,
+                    "n_ref": 1352
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00289.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00289.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9729093991349795,
+                    "FN": 25883,
+                    "FP": 31103,
+                    "IoU": 0.9472478847684817,
+                    "TN": 177964092,
+                    "TP": 1023274,
+                    "n_pred": 1054377,
+                    "n_ref": 1049157
+                },
+                "(2, 3)": {
+                    "Dice": 0.8884485948631284,
+                    "FN": 3172,
+                    "FP": 4485,
+                    "IoU": 0.7992870062124826,
+                    "TN": 179006203,
+                    "TP": 30492,
+                    "n_pred": 34977,
+                    "n_ref": 33664
+                },
+                "2": {
+                    "Dice": 0.9175014821458432,
+                    "FN": 2762,
+                    "FP": 2665,
+                    "IoU": 0.8475775874174976,
+                    "TN": 179008747,
+                    "TP": 30178,
+                    "n_pred": 32843,
+                    "n_ref": 32940
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00290.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00290.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9727259005692902,
+                    "FN": 3527,
+                    "FP": 6050,
+                    "IoU": 0.9469000543363755,
+                    "TN": 34160506,
+                    "TP": 170781,
+                    "n_pred": 176831,
+                    "n_ref": 174308
+                },
+                "(2, 3)": {
+                    "Dice": 0.927045616848541,
+                    "FN": 2333,
+                    "FP": 3490,
+                    "IoU": 0.8640121438580103,
+                    "TN": 34298044,
+                    "TP": 36997,
+                    "n_pred": 40487,
+                    "n_ref": 39330
+                },
+                "2": {
+                    "Dice": 0.9258121990977671,
+                    "FN": 2697,
+                    "FP": 3174,
+                    "IoU": 0.8618718238283456,
+                    "TN": 34298360,
+                    "TP": 36633,
+                    "n_pred": 39807,
+                    "n_ref": 39330
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00291.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00291.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9790664575857417,
+                    "FN": 8923,
+                    "FP": 44542,
+                    "IoU": 0.9589913710450623,
+                    "TN": 146545466,
+                    "TP": 1250285,
+                    "n_pred": 1294827,
+                    "n_ref": 1259208
+                },
+                "(2, 3)": {
+                    "Dice": 0.8221531091926287,
+                    "FN": 8467,
+                    "FP": 11433,
+                    "IoU": 0.6980135666267053,
+                    "TN": 147783319,
+                    "TP": 45997,
+                    "n_pred": 57430,
+                    "n_ref": 54464
+                },
+                "2": {
+                    "Dice": 0.8653641275397611,
+                    "FN": 8977,
+                    "FP": 5177,
+                    "IoU": 0.762680035546017,
+                    "TN": 147789575,
+                    "TP": 45487,
+                    "n_pred": 50664,
+                    "n_ref": 54464
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00295.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00295.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9653003495124506,
+                    "FN": 7146,
+                    "FP": 3060,
+                    "IoU": 0.9329280715013308,
+                    "TN": 21605787,
+                    "TP": 141959,
+                    "n_pred": 145019,
+                    "n_ref": 149105
+                },
+                "(2, 3)": {
+                    "Dice": 0.8286919831223629,
+                    "FN": 2062,
+                    "FP": 171,
+                    "IoU": 0.707492795389049,
+                    "TN": 21750318,
+                    "TP": 5401,
+                    "n_pred": 5572,
+                    "n_ref": 7463
+                },
+                "2": {
+                    "Dice": 0.8463975983989326,
+                    "FN": 1691,
+                    "FP": 151,
+                    "IoU": 0.7336995807430967,
+                    "TN": 21751035,
+                    "TP": 5075,
+                    "n_pred": 5226,
+                    "n_ref": 6766
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00296.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00296.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9774766166329043,
+                    "FN": 3383,
+                    "FP": 742,
+                    "IoU": 0.9559454898861525,
+                    "TN": 23761470,
+                    "TP": 89509,
+                    "n_pred": 90251,
+                    "n_ref": 92892
+                },
+                "(2, 3)": {
+                    "Dice": 0.9565995874041493,
+                    "FN": 822,
+                    "FP": 293,
+                    "IoU": 0.9168096694769827,
+                    "TN": 23841701,
+                    "TP": 12288,
+                    "n_pred": 12581,
+                    "n_ref": 13110
+                },
+                "2": {
+                    "Dice": 0.9519056974459725,
+                    "FN": 997,
+                    "FP": 227,
+                    "IoU": 0.9082252380595336,
+                    "TN": 23841767,
+                    "TP": 12113,
+                    "n_pred": 12340,
+                    "n_ref": 13110
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00406.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00406.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.980349068878017,
+                    "FN": 11334,
+                    "FP": 2652,
+                    "IoU": 0.9614555716624317,
+                    "TN": 24016538,
+                    "TP": 348868,
+                    "n_pred": 351520,
+                    "n_ref": 360202
+                },
+                "(2, 3)": {
+                    "Dice": 0.9695947667131983,
+                    "FN": 10688,
+                    "FP": 1248,
+                    "IoU": 0.9409839307787392,
+                    "TN": 24177142,
+                    "TP": 190314,
+                    "n_pred": 191562,
+                    "n_ref": 201002
+                },
+                "2": {
+                    "Dice": 0.9674057518046978,
+                    "FN": 11608,
+                    "FP": 1021,
+                    "IoU": 0.9368692044290035,
+                    "TN": 24179347,
+                    "TP": 187416,
+                    "n_pred": 188437,
+                    "n_ref": 199024
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00408.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00408.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9902166053450033,
+                    "FN": 1826,
+                    "FP": 1543,
+                    "IoU": 0.9806227856255464,
+                    "TN": 24467672,
+                    "TP": 170495,
+                    "n_pred": 172038,
+                    "n_ref": 172321
+                },
+                "(2, 3)": {
+                    "Dice": 0.8859972529458541,
+                    "FN": 927,
+                    "FP": 650,
+                    "IoU": 0.7953277092796885,
+                    "TN": 24633831,
+                    "TP": 6128,
+                    "n_pred": 6778,
+                    "n_ref": 7055
+                },
+                "2": {
+                    "Dice": 0.8875135386043633,
+                    "FN": 765,
+                    "FP": 689,
+                    "IoU": 0.7977746870653686,
+                    "TN": 24634346,
+                    "TP": 5736,
+                    "n_pred": 6425,
+                    "n_ref": 6501
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00414.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00414.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9541296881906899,
+                    "FN": 12925,
+                    "FP": 4612,
+                    "IoU": 0.9122829832889005,
+                    "TN": 37024521,
+                    "TP": 182390,
+                    "n_pred": 187002,
+                    "n_ref": 195315
+                },
+                "(2, 3)": {
+                    "Dice": 0.8581101210627522,
+                    "FN": 17614,
+                    "FP": 3342,
+                    "IoU": 0.7514823774963237,
+                    "TN": 37140124,
+                    "TP": 63368,
+                    "n_pred": 66710,
+                    "n_ref": 80982
+                },
+                "2": {
+                    "Dice": 0.2577893780149612,
+                    "FN": 57994,
+                    "FP": 5704,
+                    "IoU": 0.14796682718031032,
+                    "TN": 37149688,
+                    "TP": 11062,
+                    "n_pred": 16766,
+                    "n_ref": 69056
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00417.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00417.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9793520556778511,
+                    "FN": 3404,
+                    "FP": 1239,
+                    "IoU": 0.9595395367481744,
+                    "TN": 12206014,
+                    "TP": 110111,
+                    "n_pred": 111350,
+                    "n_ref": 113515
+                },
+                "(2, 3)": {
+                    "Dice": 0.9327281191806331,
+                    "FN": 172,
+                    "FP": 406,
+                    "IoU": 0.8739367502726282,
+                    "TN": 12316183,
+                    "TP": 4007,
+                    "n_pred": 4413,
+                    "n_ref": 4179
+                },
+                "2": {
+                    "Dice": 0.9172969016833374,
+                    "FN": 419,
+                    "FP": 259,
+                    "IoU": 0.847228481297882,
+                    "TN": 12316330,
+                    "TP": 3760,
+                    "n_pred": 4019,
+                    "n_ref": 4179
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00423.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00423.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9778983464862834,
+                    "FN": 5017,
+                    "FP": 2511,
+                    "IoU": 0.9567525334926581,
+                    "TN": 22108172,
+                    "TP": 166540,
+                    "n_pred": 169051,
+                    "n_ref": 171557
+                },
+                "(2, 3)": {
+                    "Dice": 0.6966345022358202,
+                    "FN": 1074,
+                    "FP": 215,
+                    "IoU": 0.5344889851932105,
+                    "TN": 22279471,
+                    "TP": 1480,
+                    "n_pred": 1695,
+                    "n_ref": 2554
+                },
+                "2": {
+                    "Dice": 0.5328444851817904,
+                    "FN": 930,
+                    "FP": 599,
+                    "IoU": 0.3631820074968763,
+                    "TN": 22279839,
+                    "TP": 872,
+                    "n_pred": 1471,
+                    "n_ref": 1802
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00424.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00424.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9849714574191294,
+                    "FN": 2016,
+                    "FP": 306,
+                    "IoU": 0.9703879409289158,
+                    "TN": 25087410,
+                    "TP": 76092,
+                    "n_pred": 76398,
+                    "n_ref": 78108
+                },
+                "(2, 3)": {
+                    "Dice": 0.8537124802527646,
+                    "FN": 400,
+                    "FP": 63,
+                    "IoU": 0.7447629547960308,
+                    "TN": 25164010,
+                    "TP": 1351,
+                    "n_pred": 1414,
+                    "n_ref": 1751
+                },
+                "2": {
+                    "Dice": 0.8668730650154799,
+                    "FN": 378,
+                    "FP": 9,
+                    "IoU": 0.7650273224043715,
+                    "TN": 25164177,
+                    "TP": 1260,
+                    "n_pred": 1269,
+                    "n_ref": 1638
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00429.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00429.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9085841392300313,
+                    "FN": 3977,
+                    "FP": 66834,
+                    "IoU": 0.8324820738714996,
+                    "TN": 42044621,
+                    "TP": 351896,
+                    "n_pred": 418730,
+                    "n_ref": 355873
+                },
+                "(2, 3)": {
+                    "Dice": 0.5891141146738037,
+                    "FN": 2968,
+                    "FP": 52147,
+                    "IoU": 0.4175490879885021,
+                    "TN": 42372702,
+                    "TP": 39511,
+                    "n_pred": 91658,
+                    "n_ref": 42479
+                },
+                "2": {
+                    "Dice": 0.6655848359559097,
+                    "FN": 2854,
+                    "FP": 35889,
+                    "IoU": 0.4987839271391239,
+                    "TN": 42390030,
+                    "TP": 38555,
+                    "n_pred": 74444,
+                    "n_ref": 41409
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00432.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00432.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9802580031340945,
+                    "FN": 1811,
+                    "FP": 3833,
+                    "IoU": 0.9612804083256726,
+                    "TN": 12175002,
+                    "TP": 140122,
+                    "n_pred": 143955,
+                    "n_ref": 141933
+                },
+                "(2, 3)": {
+                    "Dice": 0.22745441603241526,
+                    "FN": 13911,
+                    "FP": 198,
+                    "IoU": 0.1283207710366984,
+                    "TN": 12304582,
+                    "TP": 2077,
+                    "n_pred": 2275,
+                    "n_ref": 15988
+                },
+                "2": {
+                    "Dice": 0.20818713450292398,
+                    "FN": 14119,
+                    "FP": 98,
+                    "IoU": 0.11618798955613577,
+                    "TN": 12304682,
+                    "TP": 1869,
+                    "n_pred": 1967,
+                    "n_ref": 15988
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00436.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00436.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9827227714537601,
+                    "FN": 3021,
+                    "FP": 3211,
+                    "IoU": 0.9660324087448016,
+                    "TN": 24982355,
+                    "TP": 177237,
+                    "n_pred": 180448,
+                    "n_ref": 180258
+                },
+                "(2, 3)": {
+                    "Dice": 0.9431837425910246,
+                    "FN": 941,
+                    "FP": 401,
+                    "IoU": 0.8924765643778544,
+                    "TN": 25153343,
+                    "TP": 11139,
+                    "n_pred": 11540,
+                    "n_ref": 12080
+                },
+                "2": {
+                    "Dice": 0.9416986769099445,
+                    "FN": 1048,
+                    "FP": 318,
+                    "IoU": 0.8898209388611066,
+                    "TN": 25153426,
+                    "TP": 11032,
+                    "n_pred": 11350,
+                    "n_ref": 12080
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00438.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00438.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9734048158938776,
+                    "FN": 5257,
+                    "FP": 2566,
+                    "IoU": 0.9481875923092716,
+                    "TN": 13480501,
+                    "TP": 143164,
+                    "n_pred": 145730,
+                    "n_ref": 148421
+                },
+                "(2, 3)": {
+                    "Dice": 0.785089605734767,
+                    "FN": 162,
+                    "FP": 1337,
+                    "IoU": 0.646211942412084,
+                    "TN": 13627251,
+                    "TP": 2738,
+                    "n_pred": 4075,
+                    "n_ref": 2900
+                },
+                "2": {
+                    "Dice": 0.7857655330750466,
+                    "FN": 162,
+                    "FP": 1331,
+                    "IoU": 0.6471283384542661,
+                    "TN": 13627257,
+                    "TP": 2738,
+                    "n_pred": 4069,
+                    "n_ref": 2900
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00441.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00441.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9747763595307167,
+                    "FN": 35553,
+                    "FP": 28084,
+                    "IoU": 0.9507938766262989,
+                    "TN": 254297126,
+                    "TP": 1229637,
+                    "n_pred": 1257721,
+                    "n_ref": 1265190
+                },
+                "(2, 3)": {
+                    "Dice": 0.9335039179152097,
+                    "FN": 11569,
+                    "FP": 9273,
+                    "IoU": 0.8752999036718381,
+                    "TN": 255423263,
+                    "TP": 146295,
+                    "n_pred": 155568,
+                    "n_ref": 157864
+                },
+                "2": {
+                    "Dice": 0.8179480759012819,
+                    "FN": 9795,
+                    "FP": 20014,
+                    "IoU": 0.6919730506127679,
+                    "TN": 255493626,
+                    "TP": 66965,
+                    "n_pred": 86979,
+                    "n_ref": 76760
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00442.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00442.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9809464030262208,
+                    "FN": 7020,
+                    "FP": 11254,
+                    "IoU": 0.9626053094157924,
+                    "TN": 32017177,
+                    "TP": 470405,
+                    "n_pred": 481659,
+                    "n_ref": 477425
+                },
+                "(2, 3)": {
+                    "Dice": 0.07861498257839722,
+                    "FN": 50,
+                    "FP": 16874,
+                    "IoU": 0.04091578828063017,
+                    "TN": 32488210,
+                    "TP": 722,
+                    "n_pred": 17596,
+                    "n_ref": 772
+                },
+                "2": {
+                    "Dice": 0.9002493765586035,
+                    "FN": 50,
+                    "FP": 110,
+                    "IoU": 0.81859410430839,
+                    "TN": 32504974,
+                    "TP": 722,
+                    "n_pred": 832,
+                    "n_ref": 772
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00451.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00451.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9804212787819345,
+                    "FN": 3759,
+                    "FP": 433,
+                    "IoU": 0.9615944883693233,
+                    "TN": 13260193,
+                    "TP": 104959,
+                    "n_pred": 105392,
+                    "n_ref": 108718
+                },
+                "(2, 3)": {
+                    "Dice": 0.9255053612234136,
+                    "FN": 887,
+                    "FP": 1232,
+                    "IoU": 0.8613401387252977,
+                    "TN": 13354062,
+                    "TP": 13163,
+                    "n_pred": 14395,
+                    "n_ref": 14050
+                },
+                "2": {
+                    "Dice": 0.9251461164706711,
+                    "FN": 912,
+                    "FP": 1214,
+                    "IoU": 0.8607180293501048,
+                    "TN": 13354080,
+                    "TP": 13138,
+                    "n_pred": 14352,
+                    "n_ref": 14050
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00452.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00452.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9873213987458054,
+                    "FN": 2773,
+                    "FP": 1402,
+                    "IoU": 0.9749602662908208,
+                    "TN": 41514161,
+                    "TP": 162560,
+                    "n_pred": 163962,
+                    "n_ref": 165333
+                },
+                "(2, 3)": {
+                    "Dice": 0.9799938964429826,
+                    "FN": 416,
+                    "FP": 764,
+                    "IoU": 0.9607725806987799,
+                    "TN": 41650815,
+                    "TP": 28901,
+                    "n_pred": 29665,
+                    "n_ref": 29317
+                },
+                "2": {
+                    "Dice": 0.040787853918752566,
+                    "FN": 23,
+                    "FP": 23353,
+                    "IoU": 0.02081849788463955,
+                    "TN": 41657023,
+                    "TP": 497,
+                    "n_pred": 23850,
+                    "n_ref": 520
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00455.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00455.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9841992655277024,
+                    "FN": 3661,
+                    "FP": 1287,
+                    "IoU": 0.9688900904752623,
+                    "TN": 25531063,
+                    "TP": 154101,
+                    "n_pred": 155388,
+                    "n_ref": 157762
+                },
+                "(2, 3)": {
+                    "Dice": 0.7947346770876182,
+                    "FN": 141,
+                    "FP": 358,
+                    "IoU": 0.6593856655290102,
+                    "TN": 25688647,
+                    "TP": 966,
+                    "n_pred": 1324,
+                    "n_ref": 1107
+                },
+                "2": {
+                    "Dice": 0.8429752066115702,
+                    "FN": 3,
+                    "FP": 187,
+                    "IoU": 0.7285714285714285,
+                    "TN": 25689412,
+                    "TP": 510,
+                    "n_pred": 697,
+                    "n_ref": 513
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00456.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00456.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9759476794465264,
+                    "FN": 4093,
+                    "FP": 1247,
+                    "IoU": 0.9530252115624835,
+                    "TN": 15090674,
+                    "TP": 108338,
+                    "n_pred": 109585,
+                    "n_ref": 112431
+                },
+                "(2, 3)": {
+                    "Dice": 0.08409986859395532,
+                    "FN": 1965,
+                    "FP": 126,
+                    "IoU": 0.0438957475994513,
+                    "TN": 15202165,
+                    "TP": 96,
+                    "n_pred": 222,
+                    "n_ref": 2061
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 2061,
+                    "FP": 14,
+                    "IoU": 0.0,
+                    "TN": 15202277,
+                    "TP": 0,
+                    "n_pred": 14,
+                    "n_ref": 2061
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00463.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00463.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.983932009960581,
+                    "FN": 5189,
+                    "FP": 2780,
+                    "IoU": 0.968372214857796,
+                    "TN": 25176006,
+                    "TP": 243993,
+                    "n_pred": 246773,
+                    "n_ref": 249182
+                },
+                "(2, 3)": {
+                    "Dice": 0.755280375883722,
+                    "FN": 10949,
+                    "FP": 197,
+                    "IoU": 0.6067875537994779,
+                    "TN": 25399622,
+                    "TP": 17200,
+                    "n_pred": 17397,
+                    "n_ref": 28149
+                },
+                "2": {
+                    "Dice": 0.637953488372093,
+                    "FN": 9809,
+                    "FP": 1867,
+                    "IoU": 0.4683786367982516,
+                    "TN": 25406005,
+                    "TP": 10287,
+                    "n_pred": 12154,
+                    "n_ref": 20096
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00475.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00475.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9820971697267952,
+                    "FN": 7128,
+                    "FP": 3662,
+                    "IoU": 0.964824087838719,
+                    "TN": 19878344,
+                    "TP": 295954,
+                    "n_pred": 299616,
+                    "n_ref": 303082
+                },
+                "(2, 3)": {
+                    "Dice": 0.9220629856687101,
+                    "FN": 7593,
+                    "FP": 200,
+                    "IoU": 0.8553959771394641,
+                    "TN": 20131196,
+                    "TP": 46099,
+                    "n_pred": 46299,
+                    "n_ref": 53692
+                },
+                "2": {
+                    "Dice": 0.9220598677828118,
+                    "FN": 7595,
+                    "FP": 198,
+                    "IoU": 0.8553906105028762,
+                    "TN": 20131198,
+                    "TP": 46097,
+                    "n_pred": 46295,
+                    "n_ref": 53692
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00477.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00477.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9325041333924076,
+                    "FN": 2471,
+                    "FP": 10021,
+                    "IoU": 0.8735435541833274,
+                    "TN": 16940575,
+                    "TP": 86293,
+                    "n_pred": 96314,
+                    "n_ref": 88764
+                },
+                "(2, 3)": {
+                    "Dice": 0.5149768650052764,
+                    "FN": 462,
+                    "FP": 5513,
+                    "IoU": 0.34678036514704275,
+                    "TN": 17030213,
+                    "TP": 3172,
+                    "n_pred": 8685,
+                    "n_ref": 3634
+                },
+                "2": {
+                    "Dice": 0.7274043682876795,
+                    "FN": 462,
+                    "FP": 1797,
+                    "IoU": 0.5715911245970036,
+                    "TN": 17034087,
+                    "TP": 3014,
+                    "n_pred": 4811,
+                    "n_ref": 3476
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00484.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00484.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9804788522418063,
+                    "FN": 4928,
+                    "FP": 5783,
+                    "IoU": 0.9617052617277859,
+                    "TN": 33536877,
+                    "TP": 268988,
+                    "n_pred": 274771,
+                    "n_ref": 273916
+                },
+                "(2, 3)": {
+                    "Dice": 0.8623230787226576,
+                    "FN": 3127,
+                    "FP": 404,
+                    "IoU": 0.7579683323051615,
+                    "TN": 33801987,
+                    "TP": 11058,
+                    "n_pred": 11462,
+                    "n_ref": 14185
+                },
+                "2": {
+                    "Dice": 0.8711965946712912,
+                    "FN": 3133,
+                    "FP": 135,
+                    "IoU": 0.7717877094972067,
+                    "TN": 33802256,
+                    "TP": 11052,
+                    "n_pred": 11187,
+                    "n_ref": 14185
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00493.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00493.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.983135162196912,
+                    "FN": 3861,
+                    "FP": 3550,
+                    "IoU": 0.9668297355240956,
+                    "TN": 9213761,
+                    "TP": 216012,
+                    "n_pred": 219562,
+                    "n_ref": 219873
+                },
+                "(2, 3)": {
+                    "Dice": 0.7788573649436455,
+                    "FN": 715,
+                    "FP": 1561,
+                    "IoU": 0.6378103119032463,
+                    "TN": 9430900,
+                    "TP": 4008,
+                    "n_pred": 5569,
+                    "n_ref": 4723
+                },
+                "2": {
+                    "Dice": 0.8244653373282363,
+                    "FN": 733,
+                    "FP": 966,
+                    "IoU": 0.7013534891896642,
+                    "TN": 9431495,
+                    "TP": 3990,
+                    "n_pred": 4956,
+                    "n_ref": 4723
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00497.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00497.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9618701719896262,
+                    "FN": 2687,
+                    "FP": 11045,
+                    "IoU": 0.9265413111509349,
+                    "TN": 23930313,
+                    "TP": 173203,
+                    "n_pred": 184248,
+                    "n_ref": 175890
+                },
+                "(2, 3)": {
+                    "Dice": 0.578654722372384,
+                    "FN": 3679,
+                    "FP": 7233,
+                    "IoU": 0.4071176310785113,
+                    "TN": 24098843,
+                    "TP": 7493,
+                    "n_pred": 14726,
+                    "n_ref": 11172
+                },
+                "2": {
+                    "Dice": 0.07076502732240438,
+                    "FN": 2719,
+                    "FP": 4083,
+                    "IoU": 0.03668035688995893,
+                    "TN": 24110187,
+                    "TP": 259,
+                    "n_pred": 4342,
+                    "n_ref": 2978
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00503.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00503.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9706935668062429,
+                    "FN": 28423,
+                    "FP": 10071,
+                    "IoU": 0.9430559603075162,
+                    "TN": 128560995,
+                    "TP": 637503,
+                    "n_pred": 647574,
+                    "n_ref": 665926
+                },
+                "(2, 3)": {
+                    "Dice": 0.6985671092414881,
+                    "FN": 4141,
+                    "FP": 445,
+                    "IoU": 0.5367676767676768,
+                    "TN": 129227092,
+                    "TP": 5314,
+                    "n_pred": 5759,
+                    "n_ref": 9455
+                },
+                "2": {
+                    "Dice": 0.7124602798999391,
+                    "FN": 4186,
+                    "FP": 67,
+                    "IoU": 0.5533501365259399,
+                    "TN": 129227470,
+                    "TP": 5269,
+                    "n_pred": 5336,
+                    "n_ref": 9455
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00541.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00541.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9815653205343996,
+                    "FN": 14887,
+                    "FP": 4882,
+                    "IoU": 0.9637980130934396,
+                    "TN": 141011685,
+                    "TP": 526306,
+                    "n_pred": 531188,
+                    "n_ref": 541193
+                },
+                "(2, 3)": {
+                    "Dice": 0.8702797127391145,
+                    "FN": 2975,
+                    "FP": 3040,
+                    "IoU": 0.7703497251069029,
+                    "TN": 141531568,
+                    "TP": 20177,
+                    "n_pred": 23217,
+                    "n_ref": 23152
+                },
+                "2": {
+                    "Dice": 0.4444444444444444,
+                    "FN": 234,
+                    "FP": 2606,
+                    "IoU": 0.2857142857142857,
+                    "TN": 141553784,
+                    "TP": 1136,
+                    "n_pred": 3742,
+                    "n_ref": 1370
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00544.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00544.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9687555209485235,
+                    "FN": 13123,
+                    "FP": 1202,
+                    "IoU": 0.9394043222801741,
+                    "TN": 7627917,
+                    "TP": 222078,
+                    "n_pred": 223280,
+                    "n_ref": 235201
+                },
+                "(2, 3)": {
+                    "Dice": 0.6974064063488412,
+                    "FN": 4232,
+                    "FP": 22077,
+                    "IoU": 0.535398308227524,
+                    "TN": 7807693,
+                    "TP": 30318,
+                    "n_pred": 52395,
+                    "n_ref": 34550
+                },
+                "2": {
+                    "Dice": 0.7114119328584759,
+                    "FN": 4437,
+                    "FP": 19994,
+                    "IoU": 0.5520863889703725,
+                    "TN": 7809776,
+                    "TP": 30113,
+                    "n_pred": 50107,
+                    "n_ref": 34550
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00546.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00546.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9891575097198607,
+                    "FN": 1408,
+                    "FP": 1417,
+                    "IoU": 0.9785476166971683,
+                    "TN": 13237657,
+                    "TP": 128862,
+                    "n_pred": 130279,
+                    "n_ref": 130270
+                },
+                "(2, 3)": {
+                    "Dice": 0.8710433763188745,
+                    "FN": 376,
+                    "FP": 64,
+                    "IoU": 0.7715472481827622,
+                    "TN": 13367418,
+                    "TP": 1486,
+                    "n_pred": 1550,
+                    "n_ref": 1862
+                },
+                "2": {
+                    "Dice": 0.5748647023451593,
+                    "FN": 238,
+                    "FP": 469,
+                    "IoU": 0.40337552742616034,
+                    "TN": 13368159,
+                    "TP": 478,
+                    "n_pred": 947,
+                    "n_ref": 716
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00548.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00548.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9800398692198847,
+                    "FN": 5884,
+                    "FP": 1155,
+                    "IoU": 0.9608609588203241,
+                    "TN": 9519482,
+                    "TP": 172807,
+                    "n_pred": 173962,
+                    "n_ref": 178691
+                },
+                "(2, 3)": {
+                    "Dice": 0.8104231412861582,
+                    "FN": 560,
+                    "FP": 233,
+                    "IoU": 0.6812700964630225,
+                    "TN": 9696840,
+                    "TP": 1695,
+                    "n_pred": 1928,
+                    "n_ref": 2255
+                },
+                "2": {
+                    "Dice": 0.8490663900414938,
+                    "FN": 434,
+                    "FP": 148,
+                    "IoU": 0.7377196935556557,
+                    "TN": 9697109,
+                    "TP": 1637,
+                    "n_pred": 1785,
+                    "n_ref": 2071
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00550.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00550.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9511392426550783,
+                    "FN": 34863,
+                    "FP": 57245,
+                    "IoU": 0.9068308028443977,
+                    "TN": 127986238,
+                    "TP": 896502,
+                    "n_pred": 953747,
+                    "n_ref": 931365
+                },
+                "(2, 3)": {
+                    "Dice": 0.540529669804799,
+                    "FN": 19709,
+                    "FP": 126511,
+                    "IoU": 0.37036016328780336,
+                    "TN": 128742620,
+                    "TP": 86008,
+                    "n_pred": 212519,
+                    "n_ref": 105717
+                },
+                "2": {
+                    "Dice": 0.6005137287044084,
+                    "FN": 20294,
+                    "FP": 88884,
+                    "IoU": 0.4290958339651846,
+                    "TN": 128783611,
+                    "TP": 82059,
+                    "n_pred": 170943,
+                    "n_ref": 102353
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00553.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00553.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9754118957819623,
+                    "FN": 17195,
+                    "FP": 4234,
+                    "IoU": 0.9520039240806856,
+                    "TN": 118042614,
+                    "TP": 425045,
+                    "n_pred": 429279,
+                    "n_ref": 442240
+                },
+                "(2, 3)": {
+                    "Dice": 0.9220179331582284,
+                    "FN": 1160,
+                    "FP": 1423,
+                    "IoU": 0.8553184338766594,
+                    "TN": 118471235,
+                    "TP": 15270,
+                    "n_pred": 16693,
+                    "n_ref": 16430
+                },
+                "2": {
+                    "Dice": 0.8919333547397339,
+                    "FN": 2495,
+                    "FP": 534,
+                    "IoU": 0.8049455856784081,
+                    "TN": 118473559,
+                    "TP": 12500,
+                    "n_pred": 13034,
+                    "n_ref": 14995
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00555.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00555.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9769692154915591,
+                    "FN": 8871,
+                    "FP": 2725,
+                    "IoU": 0.9549753832295339,
+                    "TN": 56103412,
+                    "TP": 245952,
+                    "n_pred": 248677,
+                    "n_ref": 254823
+                },
+                "(2, 3)": {
+                    "Dice": 0.8939554961489159,
+                    "FN": 3291,
+                    "FP": 6388,
+                    "IoU": 0.8082455028132182,
+                    "TN": 56310484,
+                    "TP": 40797,
+                    "n_pred": 47185,
+                    "n_ref": 44088
+                },
+                "2": {
+                    "Dice": 0.1551951725438431,
+                    "FN": 1755,
+                    "FP": 16165,
+                    "IoU": 0.08412552386793418,
+                    "TN": 56341394,
+                    "TP": 1646,
+                    "n_pred": 17811,
+                    "n_ref": 3401
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00563.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00563.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.984466432434027,
+                    "FN": 5745,
+                    "FP": 4260,
+                    "IoU": 0.96940806673047,
+                    "TN": 51839609,
+                    "TP": 317042,
+                    "n_pred": 321302,
+                    "n_ref": 322787
+                },
+                "(2, 3)": {
+                    "Dice": 0.8794913499926068,
+                    "FN": 10114,
+                    "FP": 1296,
+                    "IoU": 0.7849036685141199,
+                    "TN": 52113610,
+                    "TP": 41636,
+                    "n_pred": 42932,
+                    "n_ref": 51750
+                },
+                "2": {
+                    "Dice": 0.7588657489116367,
+                    "FN": 10101,
+                    "FP": 10393,
+                    "IoU": 0.611429221493307,
+                    "TN": 52113914,
+                    "TP": 32248,
+                    "n_pred": 42641,
+                    "n_ref": 42349
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00567.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00567.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9809163373300288,
+                    "FN": 3870,
+                    "FP": 1828,
+                    "IoU": 0.9625474073051618,
+                    "TN": 18984373,
+                    "TP": 146441,
+                    "n_pred": 148269,
+                    "n_ref": 150311
+                },
+                "(2, 3)": {
+                    "Dice": 0.882113991373173,
+                    "FN": 1777,
+                    "FP": 6668,
+                    "IoU": 0.7890911815389227,
+                    "TN": 19096471,
+                    "TP": 31596,
+                    "n_pred": 38264,
+                    "n_ref": 33373
+                },
+                "2": {
+                    "Dice": 0.8852542347541376,
+                    "FN": 1450,
+                    "FP": 6225,
+                    "IoU": 0.7941310587162361,
+                    "TN": 19099231,
+                    "TP": 29606,
+                    "n_pred": 35831,
+                    "n_ref": 31056
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00571.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00571.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9466058274703231,
+                    "FN": 9808,
+                    "FP": 23144,
+                    "IoU": 0.898624515073112,
+                    "TN": 20646471,
+                    "TP": 292097,
+                    "n_pred": 315241,
+                    "n_ref": 301905
+                },
+                "(2, 3)": {
+                    "Dice": 0.9187516402764413,
+                    "FN": 3478,
+                    "FP": 18812,
+                    "IoU": 0.8497137887093186,
+                    "TN": 20823203,
+                    "TP": 126027,
+                    "n_pred": 144839,
+                    "n_ref": 129505
+                },
+                "2": {
+                    "Dice": 0.922694235221711,
+                    "FN": 3572,
+                    "FP": 17530,
+                    "IoU": 0.8564831502703438,
+                    "TN": 20824485,
+                    "TP": 125933,
+                    "n_pred": 143463,
+                    "n_ref": 129505
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00573.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00573.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9848613792092243,
+                    "FN": 5382,
+                    "FP": 4633,
+                    "IoU": 0.9701742787029757,
+                    "TN": 65986648,
+                    "TP": 325769,
+                    "n_pred": 330402,
+                    "n_ref": 331151
+                },
+                "(2, 3)": {
+                    "Dice": 0.938647812638091,
+                    "FN": 1517,
+                    "FP": 1954,
+                    "IoU": 0.8843886353795424,
+                    "TN": 66292409,
+                    "TP": 26552,
+                    "n_pred": 28506,
+                    "n_ref": 28069
+                },
+                "2": {
+                    "Dice": 0.9172669312219067,
+                    "FN": 1235,
+                    "FP": 3164,
+                    "IoU": 0.8471773493138788,
+                    "TN": 66293647,
+                    "TP": 24386,
+                    "n_pred": 27550,
+                    "n_ref": 25621
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00575.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00575.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.921842405006591,
+                    "FN": 40582,
+                    "FP": 14381,
+                    "IoU": 0.855016380988557,
+                    "TN": 39728934,
+                    "TP": 324135,
+                    "n_pred": 338516,
+                    "n_ref": 364717
+                },
+                "(2, 3)": {
+                    "Dice": 0.8236349572671249,
+                    "FN": 50602,
+                    "FP": 5032,
+                    "IoU": 0.7001525269347476,
+                    "TN": 39922491,
+                    "TP": 129907,
+                    "n_pred": 134939,
+                    "n_ref": 180509
+                },
+                "2": {
+                    "Dice": 0.05618184158743587,
+                    "FN": 2385,
+                    "FP": 100259,
+                    "IoU": 0.028902827841323003,
+                    "TN": 40002333,
+                    "TP": 3055,
+                    "n_pred": 103314,
+                    "n_ref": 5440
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00586.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00586.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9667436938654941,
+                    "FN": 979,
+                    "FP": 7915,
+                    "IoU": 0.9356281574338114,
+                    "TN": 12444746,
+                    "TP": 129272,
+                    "n_pred": 137187,
+                    "n_ref": 130251
+                },
+                "(2, 3)": {
+                    "Dice": 0.7623707017053397,
+                    "FN": 223,
+                    "FP": 1477,
+                    "IoU": 0.6159927716286424,
+                    "TN": 12578485,
+                    "TP": 2727,
+                    "n_pred": 4204,
+                    "n_ref": 2950
+                },
+                "2": {
+                    "Dice": 0.7019704433497537,
+                    "FN": 136,
+                    "FP": 590,
+                    "IoU": 0.540796963946869,
+                    "TN": 12581331,
+                    "TP": 855,
+                    "n_pred": 1445,
+                    "n_ref": 991
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00587.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00587.nii.gz"
+        },
+        {
+            "metrics": {
+                "(1, 2, 3)": {
+                    "Dice": 0.9560199116223046,
+                    "FN": 7101,
+                    "FP": 43250,
+                    "IoU": 0.9157453501895064,
+                    "TN": 64414107,
+                    "TP": 547254,
+                    "n_pred": 590504,
+                    "n_ref": 554355
+                },
+                "(2, 3)": {
+                    "Dice": 0.885302497067203,
+                    "FN": 6021,
+                    "FP": 823,
+                    "IoU": 0.794208738010043,
+                    "TN": 64978455,
+                    "TP": 26413,
+                    "n_pred": 27236,
+                    "n_ref": 32434
+                },
+                "2": {
+                    "Dice": 0.8678081608314167,
+                    "FN": 6966,
+                    "FP": 793,
+                    "IoU": 0.7664850874288982,
+                    "TN": 64978485,
+                    "TP": 25468,
+                    "n_pred": 26261,
+                    "n_ref": 32434
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset220_KiTS2023\\nnUNetTrainer_1000epochs__nnUNetPlans_1_spacing_batchsize_4__3d_fullres\\fold_0\\validation\\case_00588.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset220_KiTS2023\\gt_segmentations\\case_00588.nii.gz"
+        }
+    ]
+}

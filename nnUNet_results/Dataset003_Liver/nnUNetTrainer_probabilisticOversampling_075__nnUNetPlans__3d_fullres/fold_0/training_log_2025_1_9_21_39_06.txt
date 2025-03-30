@@ -1,0 +1,74 @@
+2025-01-09 21:39:06.750542: Ignore previous message about oversample_foreground_percent. oversample_foreground_percent overwritten to 0.75 
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-01-09 21:39:06.754542: self.oversample_foreground_percent 1.0 
+2025-01-09 21:39:06.757542: do_dummy_2d_data_aug: False 
+2025-01-09 21:39:06.763541: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset003_Liver\splits_final.json 
+2025-01-09 21:39:06.770541: The split file contains 5 splits. 
+2025-01-09 21:39:06.772540: Desired fold for training: 0 
+2025-01-09 21:39:06.775541: This split has 104 training and 27 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 2, 'patch_size': [128, 128, 128], 'median_image_size_in_voxels': [482.0, 512.0, 512.0], 'spacing': [1.0, 0.767578125, 0.767578125], 'normalization_schemes': ['CTNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 320, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset003_Liver', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [1.0, 0.767578125, 0.767578125], 'original_median_shape_after_transp': [432, 512, 512], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 5420.0, 'mean': 99.48007202148438, 'median': 101.0, 'min': -983.0, 'percentile_00_5': -15.0, 'percentile_99_5': 197.0, 'std': 37.13840103149414}}} 
+ 
+2025-01-09 21:39:14.650631: unpacking dataset... 
+2025-01-09 21:39:14.930380: unpacking done... 
+2025-01-09 21:39:18.665465:  
+2025-01-09 21:39:18.665465: Epoch 0 
+2025-01-09 21:39:18.670081: Current learning rate: 0.01 
+2025-01-09 21:40:00.276734: train_loss 0.065 
+2025-01-09 21:40:00.277734: val_loss -0.1069 
+2025-01-09 21:40:00.283256: Pseudo dice [np.float32(0.8827), np.float32(0.0)] 
+2025-01-09 21:40:00.286556: Epoch time: 41.61 s 
+2025-01-09 21:40:00.290575: Yayy! New best EMA pseudo Dice: 0.44130000472068787 
+2025-01-09 21:40:00.909114:  
+2025-01-09 21:40:00.909616: Epoch 1 
+2025-01-09 21:40:00.915637: Current learning rate: 0.00996 
+2025-01-09 21:40:39.475832: train_loss -0.0974 
+2025-01-09 21:40:39.475832: val_loss -0.2275 
+2025-01-09 21:40:39.481869: Pseudo dice [np.float32(0.8767), np.float32(0.439)] 
+2025-01-09 21:40:39.485379: Epoch time: 38.57 s 
+2025-01-09 21:40:39.488387: Yayy! New best EMA pseudo Dice: 0.46299999952316284 
+2025-01-09 21:40:40.148451:  
+2025-01-09 21:40:40.149452: Epoch 2 
+2025-01-09 21:40:40.155048: Current learning rate: 0.00993 
+2025-01-09 21:41:16.655111: train_loss -0.1571 
+2025-01-09 21:41:16.655614: val_loss -0.3588 
+2025-01-09 21:41:16.661215: Pseudo dice [np.float32(0.9205), np.float32(0.5082)] 
+2025-01-09 21:41:16.664432: Epoch time: 36.51 s 
+2025-01-09 21:41:16.667940: Yayy! New best EMA pseudo Dice: 0.48809999227523804 
+2025-01-09 21:41:17.367893:  
+2025-01-09 21:41:17.367893: Epoch 3 
+2025-01-09 21:41:17.372937: Current learning rate: 0.00989 
+2025-01-09 21:41:53.869885: train_loss -0.2674 
+2025-01-09 21:41:53.869885: val_loss -0.3644 
+2025-01-09 21:41:53.876009: Pseudo dice [np.float32(0.9199), np.float32(0.4506)] 
+2025-01-09 21:41:53.881020: Epoch time: 36.5 s 
+2025-01-09 21:41:53.885032: Yayy! New best EMA pseudo Dice: 0.5077999830245972 
+2025-01-09 21:41:54.567029:  
+2025-01-09 21:41:54.567029: Epoch 4 
+2025-01-09 21:41:54.572098: Current learning rate: 0.00986 
+2025-01-09 21:42:31.093610: train_loss -0.3232 
+2025-01-09 21:42:31.095113: val_loss -0.4184 
+2025-01-09 21:42:31.100131: Pseudo dice [np.float32(0.9285), np.float32(0.5144)] 
+2025-01-09 21:42:31.102638: Epoch time: 36.53 s 
+2025-01-09 21:42:31.106148: Yayy! New best EMA pseudo Dice: 0.52920001745224 
+2025-01-09 21:42:31.908223:  
+2025-01-09 21:42:31.908223: Epoch 5 
+2025-01-09 21:42:31.913768: Current learning rate: 0.00982 
+2025-01-09 21:43:08.706287: train_loss -0.3464 
+2025-01-09 21:43:08.707293: val_loss -0.4633 
+2025-01-09 21:43:08.713168: Pseudo dice [np.float32(0.935), np.float32(0.6198)] 
+2025-01-09 21:43:08.717187: Epoch time: 36.8 s 
+2025-01-09 21:43:08.722203: Yayy! New best EMA pseudo Dice: 0.5540000200271606 
+2025-01-09 21:43:09.402804:  
+2025-01-09 21:43:09.403341: Epoch 6 
+2025-01-09 21:43:09.408441: Current learning rate: 0.00978 

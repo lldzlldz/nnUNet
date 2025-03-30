@@ -1,0 +1,442 @@
+{
+    "foreground_mean": {
+        "Dice": 0.40746159660244236,
+        "FN": 4696.2692307692305,
+        "FP": 6679.307692307692,
+        "IoU": 0.299566686730507,
+        "TN": 30176513.307692308,
+        "TP": 9083.423076923076,
+        "n_pred": 15762.73076923077,
+        "n_ref": 13779.692307692309
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.40746159660244236,
+            "FN": 4696.2692307692305,
+            "FP": 6679.307692307692,
+            "IoU": 0.299566686730507,
+            "TN": 30176513.307692308,
+            "TP": 9083.423076923076,
+            "n_pred": 15762.73076923077,
+            "n_ref": 13779.692307692309
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.3955927854501547,
+                    "FN": 6123,
+                    "FP": 1886,
+                    "IoU": 0.24656632173095014,
+                    "TN": 39048826,
+                    "TP": 2621,
+                    "n_pred": 4507,
+                    "n_ref": 8744
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_008.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7210768614891914,
+                    "FN": 10080,
+                    "FP": 1068,
+                    "IoU": 0.5638156350262149,
+                    "TN": 9935914,
+                    "TP": 14410,
+                    "n_pred": 15478,
+                    "n_ref": 24490
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_027.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_027.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.688564590182255,
+                    "FN": 13455,
+                    "FP": 19986,
+                    "IoU": 0.5250465139399793,
+                    "TN": 29289719,
+                    "TP": 36968,
+                    "n_pred": 56954,
+                    "n_ref": 50423
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_030.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_030.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.701959641380076,
+                    "FN": 10150,
+                    "FP": 32800,
+                    "IoU": 0.5407841418169765,
+                    "TN": 51024551,
+                    "TP": 50579,
+                    "n_pred": 83379,
+                    "n_ref": 60729
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_033.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7846144176984476,
+                    "FN": 730,
+                    "FP": 2697,
+                    "IoU": 0.6455683110973214,
+                    "TN": 27253307,
+                    "TP": 6242,
+                    "n_pred": 8939,
+                    "n_ref": 6972
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_041.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_041.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 3094,
+                    "FP": 2872,
+                    "IoU": 0.0,
+                    "TN": 14411954,
+                    "TP": 0,
+                    "n_pred": 2872,
+                    "n_ref": 3094
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_042.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_042.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.15983026874115983,
+                    "FN": 5037,
+                    "FP": 2091,
+                    "IoU": 0.08685626441199078,
+                    "TN": 22274434,
+                    "TP": 678,
+                    "n_pred": 2769,
+                    "n_ref": 5715
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_061.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_061.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.32568559289300886,
+                    "FN": 1892,
+                    "FP": 6837,
+                    "IoU": 0.19451877825966596,
+                    "TN": 20960683,
+                    "TP": 2108,
+                    "n_pred": 8945,
+                    "n_ref": 4000
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_074.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_074.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 2179,
+                    "FP": 1139,
+                    "IoU": 0.0,
+                    "TN": 22541066,
+                    "TP": 0,
+                    "n_pred": 1139,
+                    "n_ref": 2179
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_075.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_075.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7010510877536055,
+                    "FN": 324,
+                    "FP": 2122,
+                    "IoU": 0.5397064358298833,
+                    "TN": 24898366,
+                    "TP": 2868,
+                    "n_pred": 4990,
+                    "n_ref": 3192
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_088.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_088.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4811304117802663,
+                    "FN": 7800,
+                    "FP": 15738,
+                    "IoU": 0.3167687440132362,
+                    "TN": 44792173,
+                    "TP": 10913,
+                    "n_pred": 26651,
+                    "n_ref": 18713
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_091.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_091.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.724423066529752,
+                    "FN": 793,
+                    "FP": 4306,
+                    "IoU": 0.5679179730531311,
+                    "TN": 23581159,
+                    "TP": 6702,
+                    "n_pred": 11008,
+                    "n_ref": 7495
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_092.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_092.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2034017183938278,
+                    "FN": 355,
+                    "FP": 8731,
+                    "IoU": 0.11321491313683389,
+                    "TN": 25155578,
+                    "TP": 1160,
+                    "n_pred": 9891,
+                    "n_ref": 1515
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_095.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_095.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.26749399882241043,
+                    "FN": 3476,
+                    "FP": 12697,
+                    "IoU": 0.1543971557042769,
+                    "TN": 25146698,
+                    "TP": 2953,
+                    "n_pred": 15650,
+                    "n_ref": 6429
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_102.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_102.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.11147116007777058,
+                    "FN": 10098,
+                    "FP": 9096,
+                    "IoU": 0.059025394646533974,
+                    "TN": 12562514,
+                    "TP": 1204,
+                    "n_pred": 10300,
+                    "n_ref": 11302
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_111.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_111.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4876013352408202,
+                    "FN": 2661,
+                    "FP": 1637,
+                    "IoU": 0.32240264858899575,
+                    "TN": 25421625,
+                    "TP": 2045,
+                    "n_pred": 3682,
+                    "n_ref": 4706
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_115.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_115.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.28668198862949074,
+                    "FN": 5797,
+                    "FP": 100,
+                    "IoU": 0.16732561423326744,
+                    "TN": 43508822,
+                    "TP": 1185,
+                    "n_pred": 1285,
+                    "n_ref": 6982
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_118.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_118.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.22167214374119756,
+                    "FN": 10360,
+                    "FP": 7877,
+                    "IoU": 0.12465201113564366,
+                    "TN": 40087198,
+                    "TP": 2597,
+                    "n_pred": 10474,
+                    "n_ref": 12957
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_124.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_124.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8045037327132541,
+                    "FN": 7674,
+                    "FP": 16287,
+                    "IoU": 0.6729454158306376,
+                    "TN": 45277649,
+                    "TP": 49302,
+                    "n_pred": 65589,
+                    "n_ref": 56976
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_127.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_127.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7040656763096169,
+                    "FN": 364,
+                    "FP": 1150,
+                    "IoU": 0.543288084464555,
+                    "TN": 33026829,
+                    "TP": 1801,
+                    "n_pred": 2951,
+                    "n_ref": 2165
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_154.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_154.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.48709934424220136,
+                    "FN": 7750,
+                    "FP": 619,
+                    "IoU": 0.3219638661589565,
+                    "TN": 24891337,
+                    "TP": 3974,
+                    "n_pred": 4593,
+                    "n_ref": 11724
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_161.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_161.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 1685,
+                    "FP": 6711,
+                    "IoU": 0.0,
+                    "TN": 27254580,
+                    "TP": 0,
+                    "n_pred": 6711,
+                    "n_ref": 1685
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_162.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_162.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 1874,
+                    "FP": 2010,
+                    "IoU": 0.0,
+                    "TN": 37220564,
+                    "TP": 0,
+                    "n_pred": 2010,
+                    "n_ref": 1874
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_165.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_165.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.881122054074252,
+                    "FN": 2103,
+                    "FP": 6805,
+                    "IoU": 0.7875050690584671,
+                    "TN": 22764607,
+                    "TP": 33013,
+                    "n_pred": 39818,
+                    "n_ref": 35116
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_166.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_166.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.45495963552074176,
+                    "FN": 419,
+                    "FP": 6400,
+                    "IoU": 0.29446456285566475,
+                    "TN": 67623487,
+                    "TP": 2846,
+                    "n_pred": 9246,
+                    "n_ref": 3265
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_169.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_169.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 5830,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 24635706,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 5830
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset010_Colon\\nnUNetTrainer_probabilisticOversampling_025__nnUNetPlans_batch_size_4__3d_fullres\\fold_0\\validation\\colon_187.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset010_Colon\\gt_segmentations\\colon_187.nii.gz"
+        }
+    ]
+}

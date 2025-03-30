@@ -1,0 +1,234 @@
+{
+    "foreground_mean": {
+        "Dice": 0.12010011460667208,
+        "FN": 4263.846153846154,
+        "FP": 526016.0,
+        "IoU": 0.07288864316483523,
+        "TN": 67633715.38461539,
+        "TP": 13609.692307692309,
+        "n_pred": 539625.6923076923,
+        "n_ref": 17873.53846153846
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.12010011460667208,
+            "FN": 4263.846153846154,
+            "FP": 526016.0,
+            "IoU": 0.07288864316483523,
+            "TN": 67633715.38461539,
+            "TP": 13609.692307692309,
+            "n_pred": 539625.6923076923,
+            "n_ref": 17873.53846153846
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 1.8706923967043745e-05,
+                    "FN": 7029,
+                    "FP": 2238087,
+                    "IoU": 9.353549471591265e-06,
+                    "TN": 146390511,
+                    "TP": 21,
+                    "n_pred": 2238108,
+                    "n_ref": 7050
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_006.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.14074096529980626,
+                    "FN": 1777,
+                    "FP": 310006,
+                    "IoU": 0.07569734107679127,
+                    "TN": 62839387,
+                    "TP": 25534,
+                    "n_pred": 335540,
+                    "n_ref": 27311
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_010.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.043209316697901574,
+                    "FN": 12185,
+                    "FP": 1179914,
+                    "IoU": 0.02208172650586497,
+                    "TN": 66938423,
+                    "TP": 26918,
+                    "n_pred": 1206832,
+                    "n_ref": 39103
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_033.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0275249417037273,
+                    "FN": 1715,
+                    "FP": 874486,
+                    "IoU": 0.013954519520009543,
+                    "TN": 76706023,
+                    "TP": 12400,
+                    "n_pred": 886886,
+                    "n_ref": 14115
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_034.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_034.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.19639472100891553,
+                    "FN": 12798,
+                    "FP": 501425,
+                    "IoU": 0.10889007883076081,
+                    "TN": 62337501,
+                    "TP": 62836,
+                    "n_pred": 564261,
+                    "n_ref": 75634
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_041.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_041.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.00013473759852686892,
+                    "FN": 4477,
+                    "FP": 173623,
+                    "IoU": 6.737333812432626e-05,
+                    "TN": 32589888,
+                    "TP": 12,
+                    "n_pred": 173635,
+                    "n_ref": 4489
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_042.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_042.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5748207772607219,
+                    "FN": 1855,
+                    "FP": 15048,
+                    "IoU": 0.4033322743478414,
+                    "TN": 59216215,
+                    "TP": 11426,
+                    "n_pred": 26474,
+                    "n_ref": 13281
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_046.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_046.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.013508336557242472,
+                    "FN": 425,
+                    "FP": 522312,
+                    "IoU": 0.006800097279961088,
+                    "TN": 83884052,
+                    "TP": 3579,
+                    "n_pred": 525891,
+                    "n_ref": 4004
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_048.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_048.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2132975805960144,
+                    "FN": 115,
+                    "FP": 12794,
+                    "IoU": 0.11938058530595538,
+                    "TN": 57132733,
+                    "TP": 1750,
+                    "n_pred": 14544,
+                    "n_ref": 1865
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_059.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_059.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2677411608988738,
+                    "FN": 8548,
+                    "FP": 116483,
+                    "IoU": 0.1545618673464558,
+                    "TN": 33406543,
+                    "TP": 22858,
+                    "n_pred": 139341,
+                    "n_ref": 31406
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_065.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_065.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.049327457720969935,
+                    "FN": 2700,
+                    "FP": 203325,
+                    "IoU": 0.025287410701613285,
+                    "TN": 62965334,
+                    "TP": 5345,
+                    "n_pred": 208670,
+                    "n_ref": 8045
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_066.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_066.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.026915957052943355,
+                    "FN": 899,
+                    "FP": 156799,
+                    "IoU": 0.013641566434616179,
+                    "TN": 69570425,
+                    "TP": 2181,
+                    "n_pred": 158980,
+                    "n_ref": 3080
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_070.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_070.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.007666830567126515,
+                    "FN": 907,
+                    "FP": 533906,
+                    "IoU": 0.0038481669053920904,
+                    "TN": 65261265,
+                    "TP": 2066,
+                    "n_pred": 535972,
+                    "n_ref": 2973
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset006_Lung\\nnUNetTrainer_probabilisticOversampling_100__nnUNetPlans__3d_fullres\\fold_0\\validation\\lung_079.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset006_Lung\\gt_segmentations\\lung_079.nii.gz"
+        }
+    ]
+}

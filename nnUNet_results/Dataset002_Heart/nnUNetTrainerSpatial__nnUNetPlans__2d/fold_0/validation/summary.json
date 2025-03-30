@@ -1,0 +1,90 @@
+{
+    "foreground_mean": {
+        "Dice": 0.917996965447323,
+        "FN": 3542.5,
+        "FP": 4309.0,
+        "IoU": 0.848706971665981,
+        "TN": 11212352.5,
+        "TP": 43796.0,
+        "n_pred": 48105.0,
+        "n_ref": 47338.5
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.917996965447323,
+            "FN": 3542.5,
+            "FP": 4309.0,
+            "IoU": 0.848706971665981,
+            "TN": 11212352.5,
+            "TP": 43796.0,
+            "n_pred": 48105.0,
+            "n_ref": 47338.5
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.906694307362087,
+                    "FN": 6021,
+                    "FP": 4151,
+                    "IoU": 0.8293145398103868,
+                    "TN": 13252405,
+                    "TP": 49423,
+                    "n_pred": 53574,
+                    "n_ref": 55444
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset002_Heart\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\fold_0\\validation\\la_007.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset002_Heart\\gt_segmentations\\la_007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9406526943592759,
+                    "FN": 3464,
+                    "FP": 2188,
+                    "IoU": 0.8879549599555944,
+                    "TN": 9165556,
+                    "TP": 44792,
+                    "n_pred": 46980,
+                    "n_ref": 48256
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset002_Heart\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\fold_0\\validation\\la_016.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset002_Heart\\gt_segmentations\\la_016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9135515732342371,
+                    "FN": 1797,
+                    "FP": 5275,
+                    "IoU": 0.8408605054119129,
+                    "TN": 10195561,
+                    "TP": 37367,
+                    "n_pred": 42642,
+                    "n_ref": 39164
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset002_Heart\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\fold_0\\validation\\la_021.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset002_Heart\\gt_segmentations\\la_021.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9110892868336921,
+                    "FN": 2888,
+                    "FP": 5622,
+                    "IoU": 0.8366978814860301,
+                    "TN": 12235888,
+                    "TP": 43602,
+                    "n_pred": 49224,
+                    "n_ref": 46490
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset002_Heart\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\fold_0\\validation\\la_024.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset002_Heart\\gt_segmentations\\la_024.nii.gz"
+        }
+    ]
+}

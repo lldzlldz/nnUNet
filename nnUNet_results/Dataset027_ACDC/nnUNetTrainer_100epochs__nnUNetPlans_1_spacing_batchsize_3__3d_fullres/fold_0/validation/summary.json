@@ -1,0 +1,1486 @@
+{
+    "foreground_mean": {
+        "Dice": 0.9207538629848099,
+        "FN": 343.65000000000003,
+        "FP": 467.92499999999995,
+        "IoU": 0.85707600335413,
+        "TN": 463920.5333333334,
+        "TP": 5245.491666666667,
+        "n_pred": 5713.416666666667,
+        "n_ref": 5589.141666666666
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.9141669101752916,
+            "FN": 331.85,
+            "FP": 392.275,
+            "IoU": 0.8456496743316428,
+            "TN": 464697.475,
+            "TP": 4556.0,
+            "n_pred": 4948.275,
+            "n_ref": 4887.85
+        },
+        "2": {
+            "Dice": 0.9019094961277355,
+            "FN": 517.875,
+            "FP": 683.45,
+            "IoU": 0.8234625620088231,
+            "TN": 463221.025,
+            "TP": 5555.25,
+            "n_pred": 6238.7,
+            "n_ref": 6073.125
+        },
+        "3": {
+            "Dice": 0.9461851826514028,
+            "FN": 181.225,
+            "FP": 328.05,
+            "IoU": 0.9021157737219241,
+            "TN": 463843.1,
+            "TP": 5625.225,
+            "n_pred": 5953.275,
+            "n_ref": 5806.45
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8984092344799862,
+                    "FN": 798,
+                    "FP": 971,
+                    "IoU": 0.8155562506516526,
+                    "TN": 543369,
+                    "TP": 7822,
+                    "n_pred": 8793,
+                    "n_ref": 8620
+                },
+                "2": {
+                    "Dice": 0.9165089170070738,
+                    "FN": 985,
+                    "FP": 691,
+                    "IoU": 0.8458850574712644,
+                    "TN": 542085,
+                    "TP": 9199,
+                    "n_pred": 9890,
+                    "n_ref": 10184
+                },
+                "3": {
+                    "Dice": 0.9777822866998073,
+                    "FN": 248,
+                    "FP": 409,
+                    "IoU": 0.9565303691941247,
+                    "TN": 537846,
+                    "TP": 14457,
+                    "n_pred": 14866,
+                    "n_ref": 14705
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient005_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient005_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8329152032112394,
+                    "FN": 450,
+                    "FP": 882,
+                    "IoU": 0.7136715391229579,
+                    "TN": 548308,
+                    "TP": 3320,
+                    "n_pred": 4202,
+                    "n_ref": 3770
+                },
+                "2": {
+                    "Dice": 0.9119348054679285,
+                    "FN": 1338,
+                    "FP": 672,
+                    "IoU": 0.8381251510026576,
+                    "TN": 540543,
+                    "TP": 10407,
+                    "n_pred": 11079,
+                    "n_ref": 11745
+                },
+                "3": {
+                    "Dice": 0.9641513513513513,
+                    "FN": 184,
+                    "FP": 645,
+                    "IoU": 0.9307840026717876,
+                    "TN": 540983,
+                    "TP": 11148,
+                    "n_pred": 11793,
+                    "n_ref": 11332
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient005_frame13.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient005_frame13.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9472342890240371,
+                    "FN": 194,
+                    "FP": 717,
+                    "IoU": 0.8997579225352113,
+                    "TN": 488192,
+                    "TP": 8177,
+                    "n_pred": 8894,
+                    "n_ref": 8371
+                },
+                "2": {
+                    "Dice": 0.7755892799483372,
+                    "FN": 421,
+                    "FP": 2359,
+                    "IoU": 0.6334388185654009,
+                    "TN": 489696,
+                    "TP": 4804,
+                    "n_pred": 7163,
+                    "n_ref": 5225
+                },
+                "3": {
+                    "Dice": 0.9060148424931237,
+                    "FN": 81,
+                    "FP": 1730,
+                    "IoU": 0.8281783681214421,
+                    "TN": 486740,
+                    "TP": 8729,
+                    "n_pred": 10459,
+                    "n_ref": 8810
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient007_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient007_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8706172124022022,
+                    "FN": 78,
+                    "FP": 1708,
+                    "IoU": 0.7708787684413085,
+                    "TN": 489485,
+                    "TP": 6009,
+                    "n_pred": 7717,
+                    "n_ref": 6087
+                },
+                "2": {
+                    "Dice": 0.7709996806132227,
+                    "FN": 405,
+                    "FP": 2463,
+                    "IoU": 0.6273388773388774,
+                    "TN": 489584,
+                    "TP": 4828,
+                    "n_pred": 7291,
+                    "n_ref": 5233
+                },
+                "3": {
+                    "Dice": 0.8914469897548061,
+                    "FN": 143,
+                    "FP": 1743,
+                    "IoU": 0.8041536863966771,
+                    "TN": 487650,
+                    "TP": 7744,
+                    "n_pred": 9487,
+                    "n_ref": 7887
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient007_frame07.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient007_frame07.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9525613104819619,
+                    "FN": 663,
+                    "FP": 339,
+                    "IoU": 0.909419634785753,
+                    "TN": 521418,
+                    "TP": 10060,
+                    "n_pred": 10399,
+                    "n_ref": 10723
+                },
+                "2": {
+                    "Dice": 0.8963171128531282,
+                    "FN": 670,
+                    "FP": 732,
+                    "IoU": 0.812114714553739,
+                    "TN": 525018,
+                    "TP": 6060,
+                    "n_pred": 6792,
+                    "n_ref": 6730
+                },
+                "3": {
+                    "Dice": 0.9774222366604401,
+                    "FN": 169,
+                    "FP": 387,
+                    "IoU": 0.9558414740687793,
+                    "TN": 519889,
+                    "TP": 12035,
+                    "n_pred": 12422,
+                    "n_ref": 12204
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient010_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient010_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9292953238902388,
+                    "FN": 290,
+                    "FP": 903,
+                    "IoU": 0.8679287058563047,
+                    "TN": 523447,
+                    "TP": 7840,
+                    "n_pred": 8743,
+                    "n_ref": 8130
+                },
+                "2": {
+                    "Dice": 0.8986313731388179,
+                    "FN": 597,
+                    "FP": 751,
+                    "IoU": 0.8159224361600437,
+                    "TN": 525157,
+                    "TP": 5975,
+                    "n_pred": 6726,
+                    "n_ref": 6572
+                },
+                "3": {
+                    "Dice": 0.9777107883438385,
+                    "FN": 188,
+                    "FP": 300,
+                    "IoU": 0.9563935305155928,
+                    "TN": 521289,
+                    "TP": 10703,
+                    "n_pred": 11003,
+                    "n_ref": 10891
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient010_frame13.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient010_frame13.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9658167036215817,
+                    "FN": 241,
+                    "FP": 129,
+                    "IoU": 0.9338931570484188,
+                    "TN": 420387,
+                    "TP": 5227,
+                    "n_pred": 5356,
+                    "n_ref": 5468
+                },
+                "2": {
+                    "Dice": 0.8562378167641326,
+                    "FN": 381,
+                    "FP": 799,
+                    "IoU": 0.7486152535151257,
+                    "TN": 421290,
+                    "TP": 3514,
+                    "n_pred": 4313,
+                    "n_ref": 3895
+                },
+                "3": {
+                    "Dice": 0.9794407894736842,
+                    "FN": 95,
+                    "FP": 205,
+                    "IoU": 0.959709911361805,
+                    "TN": 418538,
+                    "TP": 7146,
+                    "n_pred": 7351,
+                    "n_ref": 7241
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient020_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient020_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9663392772003433,
+                    "FN": 186,
+                    "FP": 167,
+                    "IoU": 0.9348708487084871,
+                    "TN": 420564,
+                    "TP": 5067,
+                    "n_pred": 5234,
+                    "n_ref": 5253
+                },
+                "2": {
+                    "Dice": 0.8374180186399723,
+                    "FN": 636,
+                    "FP": 777,
+                    "IoU": 0.7203087885985748,
+                    "TN": 420932,
+                    "TP": 3639,
+                    "n_pred": 4416,
+                    "n_ref": 4275
+                },
+                "3": {
+                    "Dice": 0.9672292315254792,
+                    "FN": 86,
+                    "FP": 314,
+                    "IoU": 0.9365381564334444,
+                    "TN": 419681,
+                    "TP": 5903,
+                    "n_pred": 6217,
+                    "n_ref": 5989
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient020_frame11.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient020_frame11.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9423015620019126,
+                    "FN": 72,
+                    "FP": 290,
+                    "IoU": 0.8908981314044605,
+                    "TN": 355082,
+                    "TP": 2956,
+                    "n_pred": 3246,
+                    "n_ref": 3028
+                },
+                "2": {
+                    "Dice": 0.9032070817007691,
+                    "FN": 451,
+                    "FP": 216,
+                    "IoU": 0.8234982799682455,
+                    "TN": 354621,
+                    "TP": 3112,
+                    "n_pred": 3328,
+                    "n_ref": 3563
+                },
+                "3": {
+                    "Dice": 0.9697053918843802,
+                    "FN": 139,
+                    "FP": 79,
+                    "IoU": 0.9411923388184515,
+                    "TN": 354693,
+                    "TP": 3489,
+                    "n_pred": 3568,
+                    "n_ref": 3628
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient022_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient022_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8703752994410434,
+                    "FN": 56,
+                    "FP": 431,
+                    "IoU": 0.7704995287464655,
+                    "TN": 356278,
+                    "TP": 1635,
+                    "n_pred": 2066,
+                    "n_ref": 1691
+                },
+                "2": {
+                    "Dice": 0.928257318758638,
+                    "FN": 402,
+                    "FP": 169,
+                    "IoU": 0.8661195779601407,
+                    "TN": 354135,
+                    "TP": 3694,
+                    "n_pred": 3863,
+                    "n_ref": 4096
+                },
+                "3": {
+                    "Dice": 0.931739298110297,
+                    "FN": 64,
+                    "FP": 113,
+                    "IoU": 0.8722021660649819,
+                    "TN": 357015,
+                    "TP": 1208,
+                    "n_pred": 1321,
+                    "n_ref": 1272
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient022_frame11.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient022_frame11.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.949611703088315,
+                    "FN": 324,
+                    "FP": 234,
+                    "IoU": 0.9040577716643742,
+                    "TN": 547144,
+                    "TP": 5258,
+                    "n_pred": 5492,
+                    "n_ref": 5582
+                },
+                "2": {
+                    "Dice": 0.9117268678871846,
+                    "FN": 1284,
+                    "FP": 500,
+                    "IoU": 0.8377739383468219,
+                    "TN": 541963,
+                    "TP": 9213,
+                    "n_pred": 9713,
+                    "n_ref": 10497
+                },
+                "3": {
+                    "Dice": 0.9432653627410181,
+                    "FN": 207,
+                    "FP": 611,
+                    "IoU": 0.8926227356261486,
+                    "TN": 545342,
+                    "TP": 6800,
+                    "n_pred": 7411,
+                    "n_ref": 7007
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient027_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient027_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8727360540932142,
+                    "FN": 344,
+                    "FP": 183,
+                    "IoU": 0.7742073693230506,
+                    "TN": 550626,
+                    "TP": 1807,
+                    "n_pred": 1990,
+                    "n_ref": 2151
+                },
+                "2": {
+                    "Dice": 0.9111091763886471,
+                    "FN": 1293,
+                    "FP": 749,
+                    "IoU": 0.8367314303989766,
+                    "TN": 540453,
+                    "TP": 10465,
+                    "n_pred": 11214,
+                    "n_ref": 11758
+                },
+                "3": {
+                    "Dice": 0.9075158042612971,
+                    "FN": 190,
+                    "FP": 205,
+                    "IoU": 0.8306900985855122,
+                    "TN": 550627,
+                    "TP": 1938,
+                    "n_pred": 2143,
+                    "n_ref": 2128
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient027_frame11.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient027_frame11.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9399917796958488,
+                    "FN": 223,
+                    "FP": 653,
+                    "IoU": 0.8867778208607987,
+                    "TN": 606663,
+                    "TP": 6861,
+                    "n_pred": 7514,
+                    "n_ref": 7084
+                },
+                "2": {
+                    "Dice": 0.9126753280330941,
+                    "FN": 691,
+                    "FP": 660,
+                    "IoU": 0.8393770063012721,
+                    "TN": 605989,
+                    "TP": 7060,
+                    "n_pred": 7720,
+                    "n_ref": 7751
+                },
+                "3": {
+                    "Dice": 0.9583896889171771,
+                    "FN": 130,
+                    "FP": 393,
+                    "IoU": 0.9201038802322029,
+                    "TN": 607854,
+                    "TP": 6023,
+                    "n_pred": 6416,
+                    "n_ref": 6153
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient032_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient032_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8418181818181818,
+                    "FN": 118,
+                    "FP": 578,
+                    "IoU": 0.7268445839874411,
+                    "TN": 611852,
+                    "TP": 1852,
+                    "n_pred": 2430,
+                    "n_ref": 1970
+                },
+                "2": {
+                    "Dice": 0.9207975938509524,
+                    "FN": 533,
+                    "FP": 889,
+                    "IoU": 0.8532204789430223,
+                    "TN": 604712,
+                    "TP": 8266,
+                    "n_pred": 9155,
+                    "n_ref": 8799
+                },
+                "3": {
+                    "Dice": 0.9114126097366321,
+                    "FN": 92,
+                    "FP": 130,
+                    "IoU": 0.8372434017595308,
+                    "TN": 613036,
+                    "TP": 1142,
+                    "n_pred": 1272,
+                    "n_ref": 1234
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient032_frame12.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient032_frame12.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9260175399145492,
+                    "FN": 464,
+                    "FP": 194,
+                    "IoU": 0.8622278056951423,
+                    "TN": 568664,
+                    "TP": 4118,
+                    "n_pred": 4312,
+                    "n_ref": 4582
+                },
+                "2": {
+                    "Dice": 0.9301100263443359,
+                    "FN": 705,
+                    "FP": 648,
+                    "IoU": 0.869351100811124,
+                    "TN": 563084,
+                    "TP": 9003,
+                    "n_pred": 9651,
+                    "n_ref": 9708
+                },
+                "3": {
+                    "Dice": 0.9455315544260906,
+                    "FN": 384,
+                    "FP": 259,
+                    "IoU": 0.8966902313624678,
+                    "TN": 567216,
+                    "TP": 5581,
+                    "n_pred": 5840,
+                    "n_ref": 5965
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient034_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient034_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7427495291902072,
+                    "FN": 247,
+                    "FP": 436,
+                    "IoU": 0.5907729179149191,
+                    "TN": 571771,
+                    "TP": 986,
+                    "n_pred": 1422,
+                    "n_ref": 1233
+                },
+                "2": {
+                    "Dice": 0.9000475346787088,
+                    "FN": 1804,
+                    "FP": 509,
+                    "IoU": 0.8182603912940991,
+                    "TN": 560713,
+                    "TP": 10414,
+                    "n_pred": 10923,
+                    "n_ref": 12218
+                },
+                "3": {
+                    "Dice": 0.6461217027944633,
+                    "FN": 121,
+                    "FP": 1234,
+                    "IoU": 0.47723765432098764,
+                    "TN": 570848,
+                    "TP": 1237,
+                    "n_pred": 2471,
+                    "n_ref": 1358
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient034_frame16.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient034_frame16.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8983291859225027,
+                    "FN": 208,
+                    "FP": 364,
+                    "IoU": 0.8154243304291707,
+                    "TN": 203877,
+                    "TP": 2527,
+                    "n_pred": 2891,
+                    "n_ref": 2735
+                },
+                "2": {
+                    "Dice": 0.9199851135094901,
+                    "FN": 193,
+                    "FP": 237,
+                    "IoU": 0.8518263266712612,
+                    "TN": 204074,
+                    "TP": 2472,
+                    "n_pred": 2709,
+                    "n_ref": 2665
+                },
+                "3": {
+                    "Dice": 0.9687015804152463,
+                    "FN": 123,
+                    "FP": 79,
+                    "IoU": 0.9393028846153846,
+                    "TN": 203648,
+                    "TP": 3126,
+                    "n_pred": 3205,
+                    "n_ref": 3249
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient041_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient041_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8429335851432169,
+                    "FN": 156,
+                    "FP": 343,
+                    "IoU": 0.7285092491838956,
+                    "TN": 205138,
+                    "TP": 1339,
+                    "n_pred": 1682,
+                    "n_ref": 1495
+                },
+                "2": {
+                    "Dice": 0.9192307692307692,
+                    "FN": 219,
+                    "FP": 285,
+                    "IoU": 0.8505338078291815,
+                    "TN": 203604,
+                    "TP": 2868,
+                    "n_pred": 3153,
+                    "n_ref": 3087
+                },
+                "3": {
+                    "Dice": 0.9323943661971831,
+                    "FN": 91,
+                    "FP": 197,
+                    "IoU": 0.8733509234828496,
+                    "TN": 204702,
+                    "TP": 1986,
+                    "n_pred": 2183,
+                    "n_ref": 2077
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient041_frame11.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient041_frame11.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9422531214528944,
+                    "FN": 718,
+                    "FP": 96,
+                    "IoU": 0.8908115358819584,
+                    "TN": 490209,
+                    "TP": 6641,
+                    "n_pred": 6737,
+                    "n_ref": 7359
+                },
+                "2": {
+                    "Dice": 0.918316054037072,
+                    "FN": 261,
+                    "FP": 779,
+                    "IoU": 0.8489689224513506,
+                    "TN": 490778,
+                    "TP": 5846,
+                    "n_pred": 6625,
+                    "n_ref": 6107
+                },
+                "3": {
+                    "Dice": 0.9720812182741116,
+                    "FN": 372,
+                    "FP": 90,
+                    "IoU": 0.945679012345679,
+                    "TN": 489159,
+                    "TP": 8043,
+                    "n_pred": 8133,
+                    "n_ref": 8415
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient046_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient046_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9028822055137845,
+                    "FN": 406,
+                    "FP": 214,
+                    "IoU": 0.8229583095374072,
+                    "TN": 494162,
+                    "TP": 2882,
+                    "n_pred": 3096,
+                    "n_ref": 3288
+                },
+                "2": {
+                    "Dice": 0.9308528372341135,
+                    "FN": 349,
+                    "FP": 688,
+                    "IoU": 0.8706498690283149,
+                    "TN": 489647,
+                    "TP": 6980,
+                    "n_pred": 7668,
+                    "n_ref": 7329
+                },
+                "3": {
+                    "Dice": 0.9434837621256854,
+                    "FN": 391,
+                    "FP": 145,
+                    "IoU": 0.8930139720558882,
+                    "TN": 492654,
+                    "TP": 4474,
+                    "n_pred": 4619,
+                    "n_ref": 4865
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient046_frame10.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient046_frame10.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9206018518518518,
+                    "FN": 456,
+                    "FP": 230,
+                    "IoU": 0.8528844091786404,
+                    "TN": 474569,
+                    "TP": 3977,
+                    "n_pred": 4207,
+                    "n_ref": 4433
+                },
+                "2": {
+                    "Dice": 0.883451513033057,
+                    "FN": 322,
+                    "FP": 845,
+                    "IoU": 0.7912343470483005,
+                    "TN": 473642,
+                    "TP": 4423,
+                    "n_pred": 5268,
+                    "n_ref": 4745
+                },
+                "3": {
+                    "Dice": 0.9676329862088376,
+                    "FN": 378,
+                    "FP": 82,
+                    "IoU": 0.9372955288985824,
+                    "TN": 471896,
+                    "TP": 6876,
+                    "n_pred": 6958,
+                    "n_ref": 7254
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient047_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient047_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7872068230277186,
+                    "FN": 310,
+                    "FP": 688,
+                    "IoU": 0.6490857946554149,
+                    "TN": 476388,
+                    "TP": 1846,
+                    "n_pred": 2534,
+                    "n_ref": 2156
+                },
+                "2": {
+                    "Dice": 0.87067036606104,
+                    "FN": 578,
+                    "FP": 867,
+                    "IoU": 0.7709621176097639,
+                    "TN": 472923,
+                    "TP": 4864,
+                    "n_pred": 5731,
+                    "n_ref": 5442
+                },
+                "3": {
+                    "Dice": 0.949733688415446,
+                    "FN": 334,
+                    "FP": 270,
+                    "IoU": 0.9042789223454833,
+                    "TN": 472922,
+                    "TP": 5706,
+                    "n_pred": 5976,
+                    "n_ref": 6040
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient047_frame09.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient047_frame09.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9552766155276615,
+                    "FN": 146,
+                    "FP": 335,
+                    "IoU": 0.9143823424706301,
+                    "TN": 567822,
+                    "TP": 5137,
+                    "n_pred": 5472,
+                    "n_ref": 5283
+                },
+                "2": {
+                    "Dice": 0.8799000768639508,
+                    "FN": 359,
+                    "FP": 891,
+                    "IoU": 0.7855549837021788,
+                    "TN": 567611,
+                    "TP": 4579,
+                    "n_pred": 5470,
+                    "n_ref": 4938
+                },
+                "3": {
+                    "Dice": 0.970734470388319,
+                    "FN": 167,
+                    "FP": 298,
+                    "IoU": 0.943133178427296,
+                    "TN": 565263,
+                    "TP": 7712,
+                    "n_pred": 8010,
+                    "n_ref": 7879
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient051_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient051_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9233128834355828,
+                    "FN": 79,
+                    "FP": 321,
+                    "IoU": 0.8575498575498576,
+                    "TN": 570632,
+                    "TP": 2408,
+                    "n_pred": 2729,
+                    "n_ref": 2487
+                },
+                "2": {
+                    "Dice": 0.8555815768930523,
+                    "FN": 324,
+                    "FP": 1341,
+                    "IoU": 0.747612551159618,
+                    "TN": 566843,
+                    "TP": 4932,
+                    "n_pred": 6273,
+                    "n_ref": 5256
+                },
+                "3": {
+                    "Dice": 0.9374325782092773,
+                    "FN": 102,
+                    "FP": 478,
+                    "IoU": 0.8822335025380711,
+                    "TN": 568515,
+                    "TP": 4345,
+                    "n_pred": 4823,
+                    "n_ref": 4447
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient051_frame11.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient051_frame11.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9549042736593776,
+                    "FN": 279,
+                    "FP": 218,
+                    "IoU": 0.9137002951901372,
+                    "TN": 381313,
+                    "TP": 5262,
+                    "n_pred": 5480,
+                    "n_ref": 5541
+                },
+                "2": {
+                    "Dice": 0.9232581886733171,
+                    "FN": 285,
+                    "FP": 692,
+                    "IoU": 0.8574555004377006,
+                    "TN": 380218,
+                    "TP": 5877,
+                    "n_pred": 6569,
+                    "n_ref": 6162
+                },
+                "3": {
+                    "Dice": 0.9780640456948411,
+                    "FN": 200,
+                    "FP": 161,
+                    "IoU": 0.9570698061600666,
+                    "TN": 378663,
+                    "TP": 8048,
+                    "n_pred": 8209,
+                    "n_ref": 8248
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient053_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient053_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.935810300558828,
+                    "FN": 274,
+                    "FP": 151,
+                    "IoU": 0.8793641782571672,
+                    "TN": 383549,
+                    "TP": 3098,
+                    "n_pred": 3249,
+                    "n_ref": 3372
+                },
+                "2": {
+                    "Dice": 0.9083115373437954,
+                    "FN": 296,
+                    "FP": 966,
+                    "IoU": 0.8320244908824704,
+                    "TN": 379559,
+                    "TP": 6251,
+                    "n_pred": 7217,
+                    "n_ref": 6547
+                },
+                "3": {
+                    "Dice": 0.9719381493904933,
+                    "FN": 262,
+                    "FP": 81,
+                    "IoU": 0.9454082444692026,
+                    "TN": 380789,
+                    "TP": 5940,
+                    "n_pred": 6021,
+                    "n_ref": 6202
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient053_frame12.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient053_frame12.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9687629578438148,
+                    "FN": 331,
+                    "FP": 121,
+                    "IoU": 0.9394183085377296,
+                    "TN": 490203,
+                    "TP": 7009,
+                    "n_pred": 7130,
+                    "n_ref": 7340
+                },
+                "2": {
+                    "Dice": 0.9474148709274105,
+                    "FN": 343,
+                    "FP": 372,
+                    "IoU": 0.9000838457238681,
+                    "TN": 490508,
+                    "TP": 6441,
+                    "n_pred": 6813,
+                    "n_ref": 6784
+                },
+                "3": {
+                    "Dice": 0.9797090102433614,
+                    "FN": 126,
+                    "FP": 185,
+                    "IoU": 0.9602250927228546,
+                    "TN": 489845,
+                    "TP": 7508,
+                    "n_pred": 7693,
+                    "n_ref": 7634
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient059_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient059_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9191029235082099,
+                    "FN": 203,
+                    "FP": 201,
+                    "IoU": 0.8503149314560948,
+                    "TN": 494965,
+                    "TP": 2295,
+                    "n_pred": 2496,
+                    "n_ref": 2498
+                },
+                "2": {
+                    "Dice": 0.9362697329955174,
+                    "FN": 360,
+                    "FP": 621,
+                    "IoU": 0.8801758886038842,
+                    "TN": 489477,
+                    "TP": 7206,
+                    "n_pred": 7827,
+                    "n_ref": 7566
+                },
+                "3": {
+                    "Dice": 0.9611639363042731,
+                    "FN": 256,
+                    "FP": 83,
+                    "IoU": 0.9252315835906484,
+                    "TN": 493130,
+                    "TP": 4195,
+                    "n_pred": 4278,
+                    "n_ref": 4451
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient059_frame09.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient059_frame09.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9538800882293964,
+                    "FN": 360,
+                    "FP": 100,
+                    "IoU": 0.9118267203373587,
+                    "TN": 367519,
+                    "TP": 4757,
+                    "n_pred": 4857,
+                    "n_ref": 5117
+                },
+                "2": {
+                    "Dice": 0.8981116414193816,
+                    "FN": 228,
+                    "FP": 263,
+                    "IoU": 0.8150659133709981,
+                    "TN": 370081,
+                    "TP": 2164,
+                    "n_pred": 2427,
+                    "n_ref": 2392
+                },
+                "3": {
+                    "Dice": 0.9809372517871326,
+                    "FN": 118,
+                    "FP": 74,
+                    "IoU": 0.9625876851130164,
+                    "TN": 367604,
+                    "TP": 4940,
+                    "n_pred": 5014,
+                    "n_ref": 5058
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient068_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient068_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9421661409043113,
+                    "FN": 119,
+                    "FP": 156,
+                    "IoU": 0.8906560636182903,
+                    "TN": 370221,
+                    "TP": 2240,
+                    "n_pred": 2396,
+                    "n_ref": 2359
+                },
+                "2": {
+                    "Dice": 0.924255925859918,
+                    "FN": 221,
+                    "FP": 204,
+                    "IoU": 0.8591782637508284,
+                    "TN": 369718,
+                    "TP": 2593,
+                    "n_pred": 2797,
+                    "n_ref": 2814
+                },
+                "3": {
+                    "Dice": 0.9612015018773467,
+                    "FN": 99,
+                    "FP": 56,
+                    "IoU": 0.9253012048192771,
+                    "TN": 370661,
+                    "TP": 1920,
+                    "n_pred": 1976,
+                    "n_ref": 2019
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient068_frame12.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient068_frame12.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9724657744962314,
+                    "FN": 86,
+                    "FP": 93,
+                    "IoU": 0.9464071856287425,
+                    "TN": 383732,
+                    "TP": 3161,
+                    "n_pred": 3254,
+                    "n_ref": 3247
+                },
+                "2": {
+                    "Dice": 0.9232063959604461,
+                    "FN": 132,
+                    "FP": 233,
+                    "IoU": 0.8573661586557249,
+                    "TN": 384513,
+                    "TP": 2194,
+                    "n_pred": 2427,
+                    "n_ref": 2326
+                },
+                "3": {
+                    "Dice": 0.9777411376751854,
+                    "FN": 100,
+                    "FP": 35,
+                    "IoU": 0.9564516129032258,
+                    "TN": 383972,
+                    "TP": 2965,
+                    "n_pred": 3000,
+                    "n_ref": 3065
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient069_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient069_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9241379310344827,
+                    "FN": 95,
+                    "FP": 81,
+                    "IoU": 0.8589743589743589,
+                    "TN": 385824,
+                    "TP": 1072,
+                    "n_pred": 1153,
+                    "n_ref": 1167
+                },
+                "2": {
+                    "Dice": 0.9373959373959374,
+                    "FN": 148,
+                    "FP": 228,
+                    "IoU": 0.8821685991852084,
+                    "TN": 383881,
+                    "TP": 2815,
+                    "n_pred": 3043,
+                    "n_ref": 2963
+                },
+                "3": {
+                    "Dice": 0.9587706146926537,
+                    "FN": 86,
+                    "FP": 24,
+                    "IoU": 0.9208063354931606,
+                    "TN": 385683,
+                    "TP": 1279,
+                    "n_pred": 1303,
+                    "n_ref": 1365
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient069_frame12.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient069_frame12.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9504570383912249,
+                    "FN": 444,
+                    "FP": 98,
+                    "IoU": 0.905591360390176,
+                    "TN": 366995,
+                    "TP": 5199,
+                    "n_pred": 5297,
+                    "n_ref": 5643
+                },
+                "2": {
+                    "Dice": 0.9137882617242348,
+                    "FN": 273,
+                    "FP": 341,
+                    "IoU": 0.8412616339193382,
+                    "TN": 368868,
+                    "TP": 3254,
+                    "n_pred": 3595,
+                    "n_ref": 3527
+                },
+                "3": {
+                    "Dice": 0.969366619426578,
+                    "FN": 149,
+                    "FP": 132,
+                    "IoU": 0.9405542627459277,
+                    "TN": 368009,
+                    "TP": 4446,
+                    "n_pred": 4578,
+                    "n_ref": 4595
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient073_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient073_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8823529411764706,
+                    "FN": 578,
+                    "FP": 70,
+                    "IoU": 0.7894736842105263,
+                    "TN": 369658,
+                    "TP": 2430,
+                    "n_pred": 2500,
+                    "n_ref": 3008
+                },
+                "2": {
+                    "Dice": 0.9302577431232402,
+                    "FN": 333,
+                    "FP": 311,
+                    "IoU": 0.8696092326381859,
+                    "TN": 367797,
+                    "TP": 4295,
+                    "n_pred": 4606,
+                    "n_ref": 4628
+                },
+                "3": {
+                    "Dice": 0.9129672897196262,
+                    "FN": 138,
+                    "FP": 160,
+                    "IoU": 0.8398710370768404,
+                    "TN": 370875,
+                    "TP": 1563,
+                    "n_pred": 1723,
+                    "n_ref": 1701
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient073_frame10.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient073_frame10.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9679866888519135,
+                    "FN": 337,
+                    "FP": 144,
+                    "IoU": 0.9379594995485618,
+                    "TN": 519095,
+                    "TP": 7272,
+                    "n_pred": 7416,
+                    "n_ref": 7609
+                },
+                "2": {
+                    "Dice": 0.9135237337048463,
+                    "FN": 320,
+                    "FP": 549,
+                    "IoU": 0.8408133357757831,
+                    "TN": 521389,
+                    "TP": 4590,
+                    "n_pred": 5139,
+                    "n_ref": 4910
+                },
+                "3": {
+                    "Dice": 0.9709072624093097,
+                    "FN": 295,
+                    "FP": 110,
+                    "IoU": 0.9434594443668853,
+                    "TN": 519685,
+                    "TP": 6758,
+                    "n_pred": 6868,
+                    "n_ref": 7053
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient075_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient075_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8774753785873134,
+                    "FN": 299,
+                    "FP": 858,
+                    "IoU": 0.7816981132075471,
+                    "TN": 521548,
+                    "TP": 4143,
+                    "n_pred": 5001,
+                    "n_ref": 4442
+                },
+                "2": {
+                    "Dice": 0.9435205762893708,
+                    "FN": 211,
+                    "FP": 526,
+                    "IoU": 0.8930799361671261,
+                    "TN": 519955,
+                    "TP": 6156,
+                    "n_pred": 6682,
+                    "n_ref": 6367
+                },
+                "3": {
+                    "Dice": 0.9573289414583022,
+                    "FN": 224,
+                    "FP": 61,
+                    "IoU": 0.918150488225158,
+                    "TN": 523366,
+                    "TP": 3197,
+                    "n_pred": 3258,
+                    "n_ref": 3421
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient075_frame06.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient075_frame06.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9489456159822419,
+                    "FN": 464,
+                    "FP": 364,
+                    "IoU": 0.9028511087645196,
+                    "TN": 429749,
+                    "TP": 7695,
+                    "n_pred": 8059,
+                    "n_ref": 8159
+                },
+                "2": {
+                    "Dice": 0.9470928329878914,
+                    "FN": 339,
+                    "FP": 146,
+                    "IoU": 0.8995026937422296,
+                    "TN": 433446,
+                    "TP": 4341,
+                    "n_pred": 4487,
+                    "n_ref": 4680
+                },
+                "3": {
+                    "Dice": 0.9868976561362643,
+                    "FN": 45,
+                    "FP": 135,
+                    "IoU": 0.9741342146860181,
+                    "TN": 431313,
+                    "TP": 6779,
+                    "n_pred": 6914,
+                    "n_ref": 6824
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient077_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient077_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9277506273940034,
+                    "FN": 337,
+                    "FP": 210,
+                    "IoU": 0.8652377432865238,
+                    "TN": 434213,
+                    "TP": 3512,
+                    "n_pred": 3722,
+                    "n_ref": 3849
+                },
+                "2": {
+                    "Dice": 0.9135038890450754,
+                    "FN": 97,
+                    "FP": 826,
+                    "IoU": 0.8407797136449888,
+                    "TN": 432475,
+                    "TP": 4874,
+                    "n_pred": 5700,
+                    "n_ref": 4971
+                },
+                "3": {
+                    "Dice": 0.899978489997849,
+                    "FN": 147,
+                    "FP": 318,
+                    "IoU": 0.8181462651544779,
+                    "TN": 435715,
+                    "TP": 2092,
+                    "n_pred": 2410,
+                    "n_ref": 2239
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient077_frame09.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient077_frame09.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9254036378499898,
+                    "FN": 1023,
+                    "FP": 802,
+                    "IoU": 0.8611639406618486,
+                    "TN": 538791,
+                    "TP": 11320,
+                    "n_pred": 12122,
+                    "n_ref": 12343
+                },
+                "2": {
+                    "Dice": 0.8789269832161813,
+                    "FN": 1040,
+                    "FP": 648,
+                    "IoU": 0.7840051183621242,
+                    "TN": 544121,
+                    "TP": 6127,
+                    "n_pred": 6775,
+                    "n_ref": 7167
+                },
+                "3": {
+                    "Dice": 0.9727348604284521,
+                    "FN": 298,
+                    "FP": 290,
+                    "IoU": 0.946917035298366,
+                    "TN": 540859,
+                    "TP": 10489,
+                    "n_pred": 10779,
+                    "n_ref": 10787
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient088_frame01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient088_frame01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8934876131137813,
+                    "FN": 818,
+                    "FP": 618,
+                    "IoU": 0.8074808955624079,
+                    "TN": 544477,
+                    "TP": 6023,
+                    "n_pred": 6641,
+                    "n_ref": 6841
+                },
+                "2": {
+                    "Dice": 0.8779853555053719,
+                    "FN": 888,
+                    "FP": 895,
+                    "IoU": 0.7825079287631129,
+                    "TN": 543738,
+                    "TP": 6415,
+                    "n_pred": 7310,
+                    "n_ref": 7303
+                },
+                "3": {
+                    "Dice": 0.9106259594064472,
+                    "FN": 227,
+                    "FP": 821,
+                    "IoU": 0.8359167058086738,
+                    "TN": 545549,
+                    "TP": 5339,
+                    "n_pred": 6160,
+                    "n_ref": 5566
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset027_ACDC\\nnUNetTrainer_100epochs__nnUNetPlans_1_spacing_batchsize_3__3d_fullres\\fold_0\\validation\\patient088_frame12.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset027_ACDC\\gt_segmentations\\patient088_frame12.nii.gz"
+        }
+    ]
+}

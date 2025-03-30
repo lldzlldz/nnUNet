@@ -1,0 +1,218 @@
+{
+    "foreground_mean": {
+        "Dice": 0.7798111923073998,
+        "FN": 4052.1428571428573,
+        "FP": 3698.9285714285716,
+        "IoU": 0.6558632273562359,
+        "TN": 1886424.0,
+        "TP": 22167.785714285714,
+        "n_pred": 25866.714285714286,
+        "n_ref": 26219.928571428572
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.6732371884390643,
+            "FN": 2280.0,
+            "FP": 3994.4285714285716,
+            "IoU": 0.5150703455262201,
+            "TN": 1903339.0,
+            "TP": 6729.428571428572,
+            "n_pred": 10723.857142857143,
+            "n_ref": 9009.42857142857
+        },
+        "2": {
+            "Dice": 0.8863851961757352,
+            "FN": 5824.285714285715,
+            "FP": 3403.4285714285716,
+            "IoU": 0.7966561091862518,
+            "TN": 1869509.0,
+            "TP": 37606.142857142855,
+            "n_pred": 41009.57142857143,
+            "n_ref": 43430.42857142857
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5762831858407079,
+                    "FN": 1743,
+                    "FP": 4242,
+                    "IoU": 0.4047737444057683,
+                    "TN": 1525945,
+                    "TP": 4070,
+                    "n_pred": 8312,
+                    "n_ref": 5813
+                },
+                "2": {
+                    "Dice": 0.8822217562853821,
+                    "FN": 3891,
+                    "FP": 2288,
+                    "IoU": 0.7892636676784557,
+                    "TN": 1506679,
+                    "TP": 23142,
+                    "n_pred": 25430,
+                    "n_ref": 27033
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_0\\postprocessed\\temp\\keep_largest_perClassOrRegion\\prostate_00.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_00.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5535091016484992,
+                    "FN": 5693,
+                    "FP": 2622,
+                    "IoU": 0.3826564704135422,
+                    "TN": 1522531,
+                    "TP": 5154,
+                    "n_pred": 7776,
+                    "n_ref": 10847
+                },
+                "2": {
+                    "Dice": 0.8745074314491734,
+                    "FN": 11324,
+                    "FP": 4026,
+                    "IoU": 0.776999738501322,
+                    "TN": 1467166,
+                    "TP": 53484,
+                    "n_pred": 57510,
+                    "n_ref": 64808
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_0\\postprocessed\\temp\\keep_largest_perClassOrRegion\\prostate_04.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_04.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7726202805762169,
+                    "FN": 1495,
+                    "FP": 3335,
+                    "IoU": 0.629487572875115,
+                    "TN": 2034964,
+                    "TP": 8206,
+                    "n_pred": 11541,
+                    "n_ref": 9701
+                },
+                "2": {
+                    "Dice": 0.8464562605697217,
+                    "FN": 5459,
+                    "FP": 1532,
+                    "IoU": 0.7337877460873539,
+                    "TN": 2021739,
+                    "TP": 19270,
+                    "n_pred": 20802,
+                    "n_ref": 24729
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_0\\postprocessed\\temp\\keep_largest_perClassOrRegion\\prostate_14.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_14.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.783334933282135,
+                    "FN": 1626,
+                    "FP": 2888,
+                    "IoU": 0.643837778128452,
+                    "TN": 2035326,
+                    "TP": 8160,
+                    "n_pred": 11048,
+                    "n_ref": 9786
+                },
+                "2": {
+                    "Dice": 0.9089205768693757,
+                    "FN": 4447,
+                    "FP": 5664,
+                    "IoU": 0.8330471252600641,
+                    "TN": 1987438,
+                    "TP": 50451,
+                    "n_pred": 56115,
+                    "n_ref": 54898
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_0\\postprocessed\\temp\\keep_largest_perClassOrRegion\\prostate_20.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_20.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6364051988766246,
+                    "FN": 763,
+                    "FP": 4804,
+                    "IoU": 0.46671137082095987,
+                    "TN": 1935161,
+                    "TP": 4872,
+                    "n_pred": 9676,
+                    "n_ref": 5635
+                },
+                "2": {
+                    "Dice": 0.89571456179341,
+                    "FN": 5051,
+                    "FP": 3583,
+                    "IoU": 0.8111259379170039,
+                    "TN": 1899887,
+                    "TP": 37079,
+                    "n_pred": 40662,
+                    "n_ref": 42130
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_0\\postprocessed\\temp\\keep_largest_perClassOrRegion\\prostate_25.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_25.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7777163042090479,
+                    "FN": 1264,
+                    "FP": 3959,
+                    "IoU": 0.6362813370473538,
+                    "TN": 2033640,
+                    "TP": 9137,
+                    "n_pred": 13096,
+                    "n_ref": 10401
+                },
+                "2": {
+                    "Dice": 0.8787391533364752,
+                    "FN": 6084,
+                    "FP": 2664,
+                    "IoU": 0.7837062677710471,
+                    "TN": 2007555,
+                    "TP": 31697,
+                    "n_pred": 34361,
+                    "n_ref": 37781
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_0\\postprocessed\\temp\\keep_largest_perClassOrRegion\\prostate_31.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_31.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6127913146402187,
+                    "FN": 3376,
+                    "FP": 6111,
+                    "IoU": 0.44174414499235026,
+                    "TN": 2235806,
+                    "TP": 7507,
+                    "n_pred": 13618,
+                    "n_ref": 10883
+                },
+                "2": {
+                    "Dice": 0.9181366329266082,
+                    "FN": 4514,
+                    "FP": 4067,
+                    "IoU": 0.8486622810885169,
+                    "TN": 2196099,
+                    "TP": 48120,
+                    "n_pred": 52187,
+                    "n_ref": 52634
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__2d\\crossval_results_folds_0\\postprocessed\\temp\\keep_largest_perClassOrRegion\\prostate_42.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_42.nii.gz"
+        }
+    ]
+}

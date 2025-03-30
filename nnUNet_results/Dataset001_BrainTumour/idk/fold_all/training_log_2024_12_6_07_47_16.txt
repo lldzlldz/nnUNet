@@ -1,0 +1,988 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2024-12-06 07:47:17.157150: do_dummy_2d_data_aug: False 
+
+This is the configuration used by this training:
+Configuration name: 2d
+ {'data_identifier': 'nnUNetPlans_2d', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 105, 'patch_size': [192, 160], 'median_image_size_in_voxels': [169.0, 138.0], 'spacing': [1.0, 1.0], 'normalization_schemes': ['ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization'], 'use_mask_for_norm': [True, True, True, True], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 512, 512], 'conv_op': 'torch.nn.modules.conv.Conv2d', 'kernel_sizes': [[3, 3], [3, 3], [3, 3], [3, 3], [3, 3], [3, 3]], 'strides': [[1, 1], [2, 2], [2, 2], [2, 2], [2, 2], [2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm2d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset001_BrainTumour', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [1.0, 1.0, 1.0], 'original_median_shape_after_transp': [138, 169, 138], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 5721.0, 'mean': 728.8666381835938, 'median': 779.0, 'min': 0.0, 'percentile_00_5': 104.0, 'percentile_99_5': 1733.0, 'std': 354.5618896484375}, '1': {'max': 8761.0, 'mean': 621.560791015625, 'median': 644.0, 'min': 0.0, 'percentile_00_5': 56.0, 'percentile_99_5': 2421.0, 'std': 335.946044921875}, '2': {'max': 9012.0, 'mean': 662.5552368164062, 'median': 639.0, 'min': 0.0, 'percentile_00_5': 44.0, 'percentile_99_5': 2963.0, 'std': 420.2735595703125}, '3': {'max': 3346.0, 'mean': 664.2885131835938, 'median': 647.0, 'min': 0.0, 'percentile_00_5': 103.0, 'percentile_99_5': 1997.0, 'std': 318.48980712890625}}} 
+ 
+2024-12-06 07:48:02.089691: unpacking dataset... 
+2024-12-06 07:48:02.377372: unpacking done... 
+2024-12-06 07:48:04.196519: Training done. 
+2024-12-06 07:48:04.241532: predicting BRATS_001 
+2024-12-06 07:48:04.249532: BRATS_001, shape torch.Size([4, 132, 176, 136]), rank 0 
+2024-12-06 07:48:05.925193: predicting BRATS_002 
+2024-12-06 07:48:05.938193: BRATS_002, shape torch.Size([4, 146, 176, 142]), rank 0 
+2024-12-06 07:48:07.436842: predicting BRATS_003 
+2024-12-06 07:48:07.450843: BRATS_003, shape torch.Size([4, 140, 177, 146]), rank 0 
+2024-12-06 07:48:09.786167: predicting BRATS_004 
+2024-12-06 07:48:09.804173: BRATS_004, shape torch.Size([4, 130, 156, 129]), rank 0 
+2024-12-06 07:48:11.325914: predicting BRATS_005 
+2024-12-06 07:48:11.342917: BRATS_005, shape torch.Size([4, 138, 169, 141]), rank 0 
+2024-12-06 07:48:12.790120: predicting BRATS_006 
+2024-12-06 07:48:12.804633: BRATS_006, shape torch.Size([4, 146, 175, 146]), rank 0 
+2024-12-06 07:48:14.283116: predicting BRATS_007 
+2024-12-06 07:48:14.295119: BRATS_007, shape torch.Size([4, 129, 179, 142]), rank 0 
+2024-12-06 07:48:15.603819: predicting BRATS_008 
+2024-12-06 07:48:15.613327: BRATS_008, shape torch.Size([4, 135, 174, 141]), rank 0 
+2024-12-06 07:48:17.131026: predicting BRATS_009 
+2024-12-06 07:48:17.145027: BRATS_009, shape torch.Size([4, 130, 169, 128]), rank 0 
+2024-12-06 07:48:19.362103: predicting BRATS_010 
+2024-12-06 07:48:19.372105: BRATS_010, shape torch.Size([4, 140, 170, 147]), rank 0 
+2024-12-06 07:48:20.973404: predicting BRATS_011 
+2024-12-06 07:48:20.987404: BRATS_011, shape torch.Size([4, 132, 159, 137]), rank 0 
+2024-12-06 07:48:22.441539: predicting BRATS_012 
+2024-12-06 07:48:22.457048: BRATS_012, shape torch.Size([4, 136, 171, 144]), rank 0 
+2024-12-06 07:48:23.962711: predicting BRATS_013 
+2024-12-06 07:48:23.974711: BRATS_013, shape torch.Size([4, 128, 180, 141]), rank 0 
+2024-12-06 07:48:25.301841: predicting BRATS_014 
+2024-12-06 07:48:25.317841: BRATS_014, shape torch.Size([4, 137, 177, 139]), rank 0 
+2024-12-06 07:48:26.708949: predicting BRATS_015 
+2024-12-06 07:48:26.725949: BRATS_015, shape torch.Size([4, 144, 183, 145]), rank 0 
+2024-12-06 07:48:28.138051: predicting BRATS_016 
+2024-12-06 07:48:28.152052: BRATS_016, shape torch.Size([4, 142, 166, 149]), rank 0 
+2024-12-06 07:48:29.900216: predicting BRATS_017 
+2024-12-06 07:48:29.910218: BRATS_017, shape torch.Size([4, 137, 155, 144]), rank 0 
+2024-12-06 07:48:31.180304: predicting BRATS_018 
+2024-12-06 07:48:31.190807: BRATS_018, shape torch.Size([4, 143, 165, 143]), rank 0 
+2024-12-06 07:48:32.839635: predicting BRATS_019 
+2024-12-06 07:48:32.850636: BRATS_019, shape torch.Size([4, 135, 169, 144]), rank 0 
+2024-12-06 07:48:34.223561: predicting BRATS_020 
+2024-12-06 07:48:34.234566: BRATS_020, shape torch.Size([4, 139, 164, 157]), rank 0 
+2024-12-06 07:48:35.655218: predicting BRATS_021 
+2024-12-06 07:48:35.666220: BRATS_021, shape torch.Size([4, 133, 159, 133]), rank 0 
+2024-12-06 07:48:37.288408: predicting BRATS_022 
+2024-12-06 07:48:37.305410: BRATS_022, shape torch.Size([4, 133, 167, 144]), rank 0 
+2024-12-06 07:48:38.816066: predicting BRATS_023 
+2024-12-06 07:48:38.829067: BRATS_023, shape torch.Size([4, 135, 176, 145]), rank 0 
+2024-12-06 07:48:40.346013: predicting BRATS_024 
+2024-12-06 07:48:40.363019: BRATS_024, shape torch.Size([4, 131, 167, 131]), rank 0 
+2024-12-06 07:48:41.779666: predicting BRATS_025 
+2024-12-06 07:48:41.802176: BRATS_025, shape torch.Size([4, 140, 168, 151]), rank 0 
+2024-12-06 07:48:43.346830: predicting BRATS_026 
+2024-12-06 07:48:43.361832: BRATS_026, shape torch.Size([4, 130, 165, 141]), rank 0 
+2024-12-06 07:48:44.863519: predicting BRATS_027 
+2024-12-06 07:48:44.874520: BRATS_027, shape torch.Size([4, 138, 163, 137]), rank 0 
+2024-12-06 07:48:46.432697: predicting BRATS_028 
+2024-12-06 07:48:46.453698: BRATS_028, shape torch.Size([4, 133, 161, 149]), rank 0 
+2024-12-06 07:48:47.945329: predicting BRATS_029 
+2024-12-06 07:48:47.961334: BRATS_029, shape torch.Size([4, 132, 175, 146]), rank 0 
+2024-12-06 07:48:49.484992: predicting BRATS_030 
+2024-12-06 07:48:49.505993: BRATS_030, shape torch.Size([4, 145, 171, 131]), rank 0 
+2024-12-06 07:48:52.052340: predicting BRATS_031 
+2024-12-06 07:48:52.072346: BRATS_031, shape torch.Size([4, 141, 171, 144]), rank 0 
+2024-12-06 07:48:54.431690: predicting BRATS_032 
+2024-12-06 07:48:54.453695: BRATS_032, shape torch.Size([4, 137, 163, 145]), rank 0 
+2024-12-06 07:48:56.063952: predicting BRATS_033 
+2024-12-06 07:48:56.078954: BRATS_033, shape torch.Size([4, 137, 160, 134]), rank 0 
+2024-12-06 07:48:57.546183: predicting BRATS_034 
+2024-12-06 07:48:57.559187: BRATS_034, shape torch.Size([4, 136, 169, 147]), rank 0 
+2024-12-06 07:48:59.049927: predicting BRATS_035 
+2024-12-06 07:48:59.061928: BRATS_035, shape torch.Size([4, 130, 171, 138]), rank 0 
+2024-12-06 07:49:00.532143: predicting BRATS_036 
+2024-12-06 07:49:00.545142: BRATS_036, shape torch.Size([4, 129, 157, 129]), rank 0 
+2024-12-06 07:49:01.942802: predicting BRATS_037 
+2024-12-06 07:49:01.957808: BRATS_037, shape torch.Size([4, 139, 160, 147]), rank 0 
+2024-12-06 07:49:03.614035: predicting BRATS_038 
+2024-12-06 07:49:03.634037: BRATS_038, shape torch.Size([4, 134, 161, 135]), rank 0 
+2024-12-06 07:49:05.220197: predicting BRATS_039 
+2024-12-06 07:49:05.232201: BRATS_039, shape torch.Size([4, 136, 165, 130]), rank 0 
+2024-12-06 07:49:06.741837: predicting BRATS_040 
+2024-12-06 07:49:06.754837: BRATS_040, shape torch.Size([4, 134, 159, 133]), rank 0 
+2024-12-06 07:49:08.282499: predicting BRATS_041 
+2024-12-06 07:49:08.299500: BRATS_041, shape torch.Size([4, 138, 166, 146]), rank 0 
+2024-12-06 07:49:09.807138: predicting BRATS_042 
+2024-12-06 07:49:09.821139: BRATS_042, shape torch.Size([4, 136, 163, 135]), rank 0 
+2024-12-06 07:49:11.430479: predicting BRATS_043 
+2024-12-06 07:49:11.447990: BRATS_043, shape torch.Size([4, 131, 164, 150]), rank 0 
+2024-12-06 07:49:12.926614: predicting BRATS_044 
+2024-12-06 07:49:12.939615: BRATS_044, shape torch.Size([4, 139, 165, 147]), rank 0 
+2024-12-06 07:49:14.557530: predicting BRATS_045 
+2024-12-06 07:49:14.572043: BRATS_045, shape torch.Size([4, 137, 175, 141]), rank 0 
+2024-12-06 07:49:16.175185: predicting BRATS_046 
+2024-12-06 07:49:16.191186: BRATS_046, shape torch.Size([4, 138, 171, 139]), rank 0 
+2024-12-06 07:49:17.716778: predicting BRATS_047 
+2024-12-06 07:49:17.736777: BRATS_047, shape torch.Size([4, 139, 161, 136]), rank 0 
+2024-12-06 07:49:19.594022: predicting BRATS_048 
+2024-12-06 07:49:19.610021: BRATS_048, shape torch.Size([4, 138, 170, 145]), rank 0 
+2024-12-06 07:49:21.084661: predicting BRATS_049 
+2024-12-06 07:49:21.097664: BRATS_049, shape torch.Size([4, 143, 168, 133]), rank 0 
+2024-12-06 07:49:22.693402: predicting BRATS_050 
+2024-12-06 07:49:22.705406: BRATS_050, shape torch.Size([4, 136, 165, 140]), rank 0 
+2024-12-06 07:49:24.180036: predicting BRATS_051 
+2024-12-06 07:49:24.200035: BRATS_051, shape torch.Size([4, 139, 153, 138]), rank 0 
+2024-12-06 07:49:25.892391: predicting BRATS_052 
+2024-12-06 07:49:25.908393: BRATS_052, shape torch.Size([4, 138, 160, 133]), rank 0 
+2024-12-06 07:49:27.407661: predicting BRATS_053 
+2024-12-06 07:49:27.419662: BRATS_053, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-06 07:49:28.987899: predicting BRATS_054 
+2024-12-06 07:49:28.999900: BRATS_054, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-06 07:49:30.494248: predicting BRATS_055 
+2024-12-06 07:49:30.511248: BRATS_055, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-06 07:49:31.925360: predicting BRATS_056 
+2024-12-06 07:49:31.937361: BRATS_056, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-06 07:49:33.439512: predicting BRATS_057 
+2024-12-06 07:49:33.449513: BRATS_057, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-06 07:49:34.926144: predicting BRATS_058 
+2024-12-06 07:49:34.942147: BRATS_058, shape torch.Size([4, 137, 151, 133]), rank 0 
+2024-12-06 07:49:36.528429: predicting BRATS_059 
+2024-12-06 07:49:36.541430: BRATS_059, shape torch.Size([4, 139, 174, 136]), rank 0 
+2024-12-06 07:49:38.135620: predicting BRATS_060 
+2024-12-06 07:49:38.151620: BRATS_060, shape torch.Size([4, 138, 169, 151]), rank 0 
+2024-12-06 07:49:39.724375: predicting BRATS_061 
+2024-12-06 07:49:39.741376: BRATS_061, shape torch.Size([4, 139, 167, 134]), rank 0 
+2024-12-06 07:49:41.239916: predicting BRATS_062 
+2024-12-06 07:49:41.251917: BRATS_062, shape torch.Size([4, 137, 171, 144]), rank 0 
+2024-12-06 07:49:42.715056: predicting BRATS_063 
+2024-12-06 07:49:42.730564: BRATS_063, shape torch.Size([4, 143, 175, 134]), rank 0 
+2024-12-06 07:49:44.304217: predicting BRATS_064 
+2024-12-06 07:49:44.318218: BRATS_064, shape torch.Size([4, 135, 164, 144]), rank 0 
+2024-12-06 07:49:45.832867: predicting BRATS_065 
+2024-12-06 07:49:45.846372: BRATS_065, shape torch.Size([4, 146, 176, 148]), rank 0 
+2024-12-06 07:49:47.538543: predicting BRATS_066 
+2024-12-06 07:49:47.554057: BRATS_066, shape torch.Size([4, 142, 174, 150]), rank 0 
+2024-12-06 07:49:49.154231: predicting BRATS_067 
+2024-12-06 07:49:49.166740: BRATS_067, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:49:50.611470: predicting BRATS_068 
+2024-12-06 07:49:50.626471: BRATS_068, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:49:52.118138: predicting BRATS_069 
+2024-12-06 07:49:52.132139: BRATS_069, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:49:53.627774: predicting BRATS_070 
+2024-12-06 07:49:53.645792: BRATS_070, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:49:55.312028: predicting BRATS_071 
+2024-12-06 07:49:55.327029: BRATS_071, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:49:56.861288: predicting BRATS_072 
+2024-12-06 07:49:56.874290: BRATS_072, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:49:58.358928: predicting BRATS_073 
+2024-12-06 07:49:58.373931: BRATS_073, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:49:59.894587: predicting BRATS_074 
+2024-12-06 07:49:59.912588: BRATS_074, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:50:01.390110: predicting BRATS_075 
+2024-12-06 07:50:01.404111: BRATS_075, shape torch.Size([4, 133, 176, 142]), rank 0 
+2024-12-06 07:50:02.930902: predicting BRATS_076 
+2024-12-06 07:50:02.946411: BRATS_076, shape torch.Size([4, 138, 161, 133]), rank 0 
+2024-12-06 07:50:04.408508: predicting BRATS_077 
+2024-12-06 07:50:04.423508: BRATS_077, shape torch.Size([4, 131, 165, 135]), rank 0 
+2024-12-06 07:50:05.896164: predicting BRATS_078 
+2024-12-06 07:50:05.908165: BRATS_078, shape torch.Size([4, 137, 161, 141]), rank 0 
+2024-12-06 07:50:07.430836: predicting BRATS_079 
+2024-12-06 07:50:07.444837: BRATS_079, shape torch.Size([4, 139, 170, 136]), rank 0 
+2024-12-06 07:50:09.100543: predicting BRATS_080 
+2024-12-06 07:50:09.119542: BRATS_080, shape torch.Size([4, 139, 152, 138]), rank 0 
+2024-12-06 07:50:10.622177: predicting BRATS_081 
+2024-12-06 07:50:10.639178: BRATS_081, shape torch.Size([4, 134, 170, 142]), rank 0 
+2024-12-06 07:50:12.143831: predicting BRATS_082 
+2024-12-06 07:50:12.157832: BRATS_082, shape torch.Size([4, 142, 168, 136]), rank 0 
+2024-12-06 07:50:13.779611: predicting BRATS_083 
+2024-12-06 07:50:13.791612: BRATS_083, shape torch.Size([4, 139, 169, 135]), rank 0 
+2024-12-06 07:50:15.381778: predicting BRATS_084 
+2024-12-06 07:50:15.398783: BRATS_084, shape torch.Size([4, 141, 167, 134]), rank 0 
+2024-12-06 07:50:16.946917: predicting BRATS_085 
+2024-12-06 07:50:16.961917: BRATS_085, shape torch.Size([4, 127, 169, 133]), rank 0 
+2024-12-06 07:50:18.440153: predicting BRATS_086 
+2024-12-06 07:50:18.453156: BRATS_086, shape torch.Size([4, 133, 170, 160]), rank 0 
+2024-12-06 07:50:19.940827: predicting BRATS_087 
+2024-12-06 07:50:19.956827: BRATS_087, shape torch.Size([4, 136, 173, 140]), rank 0 
+2024-12-06 07:50:21.447490: predicting BRATS_088 
+2024-12-06 07:50:21.463488: BRATS_088, shape torch.Size([4, 136, 173, 140]), rank 0 
+2024-12-06 07:50:22.984646: predicting BRATS_089 
+2024-12-06 07:50:22.995649: BRATS_089, shape torch.Size([4, 142, 175, 136]), rank 0 
+2024-12-06 07:50:24.638830: predicting BRATS_090 
+2024-12-06 07:50:24.655338: BRATS_090, shape torch.Size([4, 141, 168, 143]), rank 0 
+2024-12-06 07:50:26.194979: predicting BRATS_091 
+2024-12-06 07:50:26.209980: BRATS_091, shape torch.Size([4, 133, 171, 144]), rank 0 
+2024-12-06 07:50:27.689636: predicting BRATS_092 
+2024-12-06 07:50:27.704637: BRATS_092, shape torch.Size([4, 134, 170, 133]), rank 0 
+2024-12-06 07:50:29.214301: predicting BRATS_093 
+2024-12-06 07:50:29.231301: BRATS_093, shape torch.Size([4, 137, 163, 136]), rank 0 
+2024-12-06 07:50:30.807457: predicting BRATS_094 
+2024-12-06 07:50:30.821457: BRATS_094, shape torch.Size([4, 146, 180, 132]), rank 0 
+2024-12-06 07:50:32.485652: predicting BRATS_095 
+2024-12-06 07:50:32.502170: BRATS_095, shape torch.Size([4, 141, 166, 144]), rank 0 
+2024-12-06 07:50:34.120869: predicting BRATS_096 
+2024-12-06 07:50:34.135870: BRATS_096, shape torch.Size([4, 135, 170, 130]), rank 0 
+2024-12-06 07:50:35.674525: predicting BRATS_097 
+2024-12-06 07:50:35.692527: BRATS_097, shape torch.Size([4, 138, 170, 143]), rank 0 
+2024-12-06 07:50:37.232131: predicting BRATS_098 
+2024-12-06 07:50:37.247134: BRATS_098, shape torch.Size([4, 139, 164, 136]), rank 0 
+2024-12-06 07:50:38.762765: predicting BRATS_099 
+2024-12-06 07:50:38.776764: BRATS_099, shape torch.Size([4, 140, 167, 131]), rank 0 
+2024-12-06 07:50:41.676699: predicting BRATS_100 
+2024-12-06 07:50:41.694694: BRATS_100, shape torch.Size([4, 128, 166, 153]), rank 0 
+2024-12-06 07:50:43.095417: predicting BRATS_101 
+2024-12-06 07:50:43.111419: BRATS_101, shape torch.Size([4, 128, 166, 153]), rank 0 
+2024-12-06 07:50:44.610078: predicting BRATS_102 
+2024-12-06 07:50:44.624085: BRATS_102, shape torch.Size([4, 145, 149, 141]), rank 0 
+2024-12-06 07:50:46.398328: predicting BRATS_103 
+2024-12-06 07:50:46.418321: BRATS_103, shape torch.Size([4, 145, 149, 141]), rank 0 
+2024-12-06 07:50:48.189017: predicting BRATS_104 
+2024-12-06 07:50:48.207531: BRATS_104, shape torch.Size([4, 139, 175, 136]), rank 0 
+2024-12-06 07:50:49.864403: predicting BRATS_105 
+2024-12-06 07:50:49.880404: BRATS_105, shape torch.Size([4, 139, 175, 136]), rank 0 
+2024-12-06 07:50:51.429560: predicting BRATS_106 
+2024-12-06 07:50:51.441562: BRATS_106, shape torch.Size([4, 139, 175, 136]), rank 0 
+2024-12-06 07:50:52.998766: predicting BRATS_107 
+2024-12-06 07:50:53.013770: BRATS_107, shape torch.Size([4, 139, 175, 136]), rank 0 
+2024-12-06 07:50:54.526430: predicting BRATS_108 
+2024-12-06 07:50:54.540938: BRATS_108, shape torch.Size([4, 139, 175, 136]), rank 0 
+2024-12-06 07:50:56.025075: predicting BRATS_109 
+2024-12-06 07:50:56.039590: BRATS_109, shape torch.Size([4, 135, 161, 134]), rank 0 
+2024-12-06 07:50:57.552264: predicting BRATS_110 
+2024-12-06 07:50:57.572260: BRATS_110, shape torch.Size([4, 135, 176, 140]), rank 0 
+2024-12-06 07:50:59.225072: predicting BRATS_111 
+2024-12-06 07:50:59.240076: BRATS_111, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 07:51:00.892350: predicting BRATS_112 
+2024-12-06 07:51:00.906351: BRATS_112, shape torch.Size([4, 130, 166, 138]), rank 0 
+2024-12-06 07:51:02.454040: predicting BRATS_113 
+2024-12-06 07:51:02.470044: BRATS_113, shape torch.Size([4, 132, 166, 142]), rank 0 
+2024-12-06 07:51:03.939276: predicting BRATS_114 
+2024-12-06 07:51:03.959277: BRATS_114, shape torch.Size([4, 132, 168, 142]), rank 0 
+2024-12-06 07:51:05.474935: predicting BRATS_115 
+2024-12-06 07:51:05.488445: BRATS_115, shape torch.Size([4, 144, 168, 139]), rank 0 
+2024-12-06 07:51:07.070105: predicting BRATS_116 
+2024-12-06 07:51:07.083112: BRATS_116, shape torch.Size([4, 139, 165, 141]), rank 0 
+2024-12-06 07:51:08.613271: predicting BRATS_117 
+2024-12-06 07:51:08.627272: BRATS_117, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:51:10.259431: predicting BRATS_118 
+2024-12-06 07:51:10.276433: BRATS_118, shape torch.Size([4, 138, 175, 145]), rank 0 
+2024-12-06 07:51:11.844610: predicting BRATS_119 
+2024-12-06 07:51:11.858611: BRATS_119, shape torch.Size([4, 139, 175, 142]), rank 0 
+2024-12-06 07:51:13.434794: predicting BRATS_120 
+2024-12-06 07:51:13.451796: BRATS_120, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 07:51:15.092969: predicting BRATS_121 
+2024-12-06 07:51:15.114970: BRATS_121, shape torch.Size([4, 132, 171, 140]), rank 0 
+2024-12-06 07:51:16.684179: predicting BRATS_122 
+2024-12-06 07:51:16.703177: BRATS_122, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 07:51:18.340369: predicting BRATS_123 
+2024-12-06 07:51:18.356881: BRATS_123, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 07:51:19.787030: predicting BRATS_124 
+2024-12-06 07:51:19.801030: BRATS_124, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 07:51:21.147632: predicting BRATS_125 
+2024-12-06 07:51:21.159637: BRATS_125, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 07:51:22.472245: predicting BRATS_126 
+2024-12-06 07:51:22.484749: BRATS_126, shape torch.Size([4, 130, 165, 140]), rank 0 
+2024-12-06 07:51:23.792356: predicting BRATS_127 
+2024-12-06 07:51:23.803356: BRATS_127, shape torch.Size([4, 128, 158, 133]), rank 0 
+2024-12-06 07:51:25.248477: predicting BRATS_128 
+2024-12-06 07:51:25.261479: BRATS_128, shape torch.Size([4, 137, 168, 136]), rank 0 
+2024-12-06 07:51:26.700106: predicting BRATS_129 
+2024-12-06 07:51:26.711108: BRATS_129, shape torch.Size([4, 134, 166, 141]), rank 0 
+2024-12-06 07:51:27.987190: predicting BRATS_130 
+2024-12-06 07:51:27.998194: BRATS_130, shape torch.Size([4, 138, 171, 135]), rank 0 
+2024-12-06 07:51:29.405748: predicting BRATS_131 
+2024-12-06 07:51:29.417749: BRATS_131, shape torch.Size([4, 137, 174, 137]), rank 0 
+2024-12-06 07:51:31.187366: predicting BRATS_132 
+2024-12-06 07:51:31.198365: BRATS_132, shape torch.Size([4, 137, 156, 132]), rank 0 
+2024-12-06 07:51:32.645512: predicting BRATS_133 
+2024-12-06 07:51:32.656516: BRATS_133, shape torch.Size([4, 136, 173, 141]), rank 0 
+2024-12-06 07:51:34.080170: predicting BRATS_134 
+2024-12-06 07:51:34.094170: BRATS_134, shape torch.Size([4, 136, 173, 141]), rank 0 
+2024-12-06 07:51:35.605819: predicting BRATS_135 
+2024-12-06 07:51:35.620820: BRATS_135, shape torch.Size([4, 136, 174, 135]), rank 0 
+2024-12-06 07:51:37.249988: predicting BRATS_136 
+2024-12-06 07:51:37.263988: BRATS_136, shape torch.Size([4, 133, 162, 140]), rank 0 
+2024-12-06 07:51:38.700619: predicting BRATS_137 
+2024-12-06 07:51:38.723618: BRATS_137, shape torch.Size([4, 136, 168, 138]), rank 0 
+2024-12-06 07:51:40.875348: predicting BRATS_138 
+2024-12-06 07:51:40.891356: BRATS_138, shape torch.Size([4, 136, 168, 138]), rank 0 
+2024-12-06 07:51:43.769232: predicting BRATS_139 
+2024-12-06 07:51:43.789234: BRATS_139, shape torch.Size([4, 136, 168, 138]), rank 0 
+2024-12-06 07:51:45.203351: predicting BRATS_140 
+2024-12-06 07:51:45.219354: BRATS_140, shape torch.Size([4, 136, 168, 138]), rank 0 
+2024-12-06 07:51:46.720997: predicting BRATS_141 
+2024-12-06 07:51:46.738508: BRATS_141, shape torch.Size([4, 136, 168, 138]), rank 0 
+2024-12-06 07:51:48.110117: predicting BRATS_142 
+2024-12-06 07:51:48.122118: BRATS_142, shape torch.Size([4, 140, 168, 140]), rank 0 
+2024-12-06 07:51:50.240947: predicting BRATS_143 
+2024-12-06 07:51:50.248954: BRATS_143, shape torch.Size([4, 131, 159, 138]), rank 0 
+2024-12-06 07:51:51.673601: predicting BRATS_144 
+2024-12-06 07:51:51.679601: BRATS_144, shape torch.Size([4, 139, 163, 146]), rank 0 
+2024-12-06 07:51:53.136742: predicting BRATS_145 
+2024-12-06 07:51:53.142741: BRATS_145, shape torch.Size([4, 136, 167, 138]), rank 0 
+2024-12-06 07:51:54.637902: predicting BRATS_146 
+2024-12-06 07:51:54.643901: BRATS_146, shape torch.Size([4, 143, 174, 137]), rank 0 
+2024-12-06 07:51:56.244588: predicting BRATS_147 
+2024-12-06 07:51:56.257587: BRATS_147, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-06 07:51:57.740214: predicting BRATS_148 
+2024-12-06 07:51:57.753216: BRATS_148, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-06 07:51:59.170842: predicting BRATS_149 
+2024-12-06 07:51:59.183842: BRATS_149, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-06 07:52:00.652013: predicting BRATS_150 
+2024-12-06 07:52:00.664014: BRATS_150, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-06 07:52:02.092353: predicting BRATS_151 
+2024-12-06 07:52:02.104355: BRATS_151, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-06 07:52:03.607964: predicting BRATS_152 
+2024-12-06 07:52:03.620970: BRATS_152, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-06 07:52:05.085586: predicting BRATS_153 
+2024-12-06 07:52:05.100585: BRATS_153, shape torch.Size([4, 137, 176, 142]), rank 0 
+2024-12-06 07:52:06.607234: predicting BRATS_154 
+2024-12-06 07:52:06.627237: BRATS_154, shape torch.Size([4, 139, 173, 141]), rank 0 
+2024-12-06 07:52:08.163474: predicting BRATS_155 
+2024-12-06 07:52:08.177475: BRATS_155, shape torch.Size([4, 139, 173, 141]), rank 0 
+2024-12-06 07:52:09.727119: predicting BRATS_156 
+2024-12-06 07:52:09.742121: BRATS_156, shape torch.Size([4, 139, 173, 141]), rank 0 
+2024-12-06 07:52:11.252762: predicting BRATS_157 
+2024-12-06 07:52:11.269271: BRATS_157, shape torch.Size([4, 139, 173, 141]), rank 0 
+2024-12-06 07:52:12.652867: predicting BRATS_158 
+2024-12-06 07:52:12.664873: BRATS_158, shape torch.Size([4, 139, 161, 136]), rank 0 
+2024-12-06 07:52:14.130516: predicting BRATS_159 
+2024-12-06 07:52:14.143516: BRATS_159, shape torch.Size([4, 131, 169, 139]), rank 0 
+2024-12-06 07:52:15.572712: predicting BRATS_160 
+2024-12-06 07:52:15.591224: BRATS_160, shape torch.Size([4, 137, 180, 141]), rank 0 
+2024-12-06 07:52:17.060413: predicting BRATS_161 
+2024-12-06 07:52:17.073416: BRATS_161, shape torch.Size([4, 138, 174, 136]), rank 0 
+2024-12-06 07:52:18.484023: predicting BRATS_162 
+2024-12-06 07:52:18.498029: BRATS_162, shape torch.Size([4, 137, 171, 139]), rank 0 
+2024-12-06 07:52:19.919662: predicting BRATS_163 
+2024-12-06 07:52:19.932661: BRATS_163, shape torch.Size([4, 139, 161, 137]), rank 0 
+2024-12-06 07:52:21.304262: predicting BRATS_164 
+2024-12-06 07:52:21.320266: BRATS_164, shape torch.Size([4, 130, 162, 137]), rank 0 
+2024-12-06 07:52:22.640371: predicting BRATS_165 
+2024-12-06 07:52:22.653373: BRATS_165, shape torch.Size([4, 138, 172, 140]), rank 0 
+2024-12-06 07:52:24.059541: predicting BRATS_166 
+2024-12-06 07:52:24.073541: BRATS_166, shape torch.Size([4, 140, 173, 139]), rank 0 
+2024-12-06 07:52:25.591829: predicting BRATS_167 
+2024-12-06 07:52:25.605830: BRATS_167, shape torch.Size([4, 137, 163, 142]), rank 0 
+2024-12-06 07:52:27.055444: predicting BRATS_168 
+2024-12-06 07:52:27.069445: BRATS_168, shape torch.Size([4, 137, 169, 143]), rank 0 
+2024-12-06 07:52:28.483108: predicting BRATS_169 
+2024-12-06 07:52:28.497108: BRATS_169, shape torch.Size([4, 141, 170, 137]), rank 0 
+2024-12-06 07:52:29.951225: predicting BRATS_170 
+2024-12-06 07:52:29.963228: BRATS_170, shape torch.Size([4, 138, 166, 140]), rank 0 
+2024-12-06 07:52:31.438838: predicting BRATS_171 
+2024-12-06 07:52:31.458843: BRATS_171, shape torch.Size([4, 141, 172, 140]), rank 0 
+2024-12-06 07:52:32.886465: predicting BRATS_172 
+2024-12-06 07:52:32.900469: BRATS_172, shape torch.Size([4, 141, 158, 137]), rank 0 
+2024-12-06 07:52:34.360661: predicting BRATS_173 
+2024-12-06 07:52:34.371660: BRATS_173, shape torch.Size([4, 137, 168, 145]), rank 0 
+2024-12-06 07:52:35.792792: predicting BRATS_174 
+2024-12-06 07:52:35.808298: BRATS_174, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 07:52:37.193896: predicting BRATS_175 
+2024-12-06 07:52:37.206403: BRATS_175, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 07:52:38.638089: predicting BRATS_176 
+2024-12-06 07:52:38.648089: BRATS_176, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 07:52:40.037198: predicting BRATS_177 
+2024-12-06 07:52:40.050199: BRATS_177, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 07:52:41.464309: predicting BRATS_178 
+2024-12-06 07:52:41.478309: BRATS_178, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 07:52:42.965928: predicting BRATS_179 
+2024-12-06 07:52:42.980928: BRATS_179, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 07:52:44.435036: predicting BRATS_180 
+2024-12-06 07:52:44.452552: BRATS_180, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 07:52:45.884662: predicting BRATS_181 
+2024-12-06 07:52:45.896663: BRATS_181, shape torch.Size([4, 140, 160, 150]), rank 0 
+2024-12-06 07:52:47.354815: predicting BRATS_182 
+2024-12-06 07:52:47.372321: BRATS_182, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:52:48.955486: predicting BRATS_183 
+2024-12-06 07:52:48.971491: BRATS_183, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:52:50.610150: predicting BRATS_184 
+2024-12-06 07:52:50.624151: BRATS_184, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:52:52.302819: predicting BRATS_185 
+2024-12-06 07:52:52.316816: BRATS_185, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:52:53.794949: predicting BRATS_186 
+2024-12-06 07:52:53.809458: BRATS_186, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:52:55.260588: predicting BRATS_187 
+2024-12-06 07:52:55.275588: BRATS_187, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:52:56.775228: predicting BRATS_188 
+2024-12-06 07:52:56.787230: BRATS_188, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:52:58.280849: predicting BRATS_189 
+2024-12-06 07:52:58.293852: BRATS_189, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 07:53:00.076569: predicting BRATS_190 
+2024-12-06 07:53:00.089571: BRATS_190, shape torch.Size([4, 132, 162, 135]), rank 0 
+2024-12-06 07:53:01.743284: predicting BRATS_191 
+2024-12-06 07:53:01.756285: BRATS_191, shape torch.Size([4, 131, 157, 142]), rank 0 
+2024-12-06 07:53:03.121898: predicting BRATS_192 
+2024-12-06 07:53:03.136903: BRATS_192, shape torch.Size([4, 131, 157, 142]), rank 0 
+2024-12-06 07:53:04.501017: predicting BRATS_193 
+2024-12-06 07:53:04.513019: BRATS_193, shape torch.Size([4, 136, 165, 146]), rank 0 
+2024-12-06 07:53:05.919127: predicting BRATS_194 
+2024-12-06 07:53:05.931130: BRATS_194, shape torch.Size([4, 131, 164, 139]), rank 0 
+2024-12-06 07:53:07.389767: predicting BRATS_195 
+2024-12-06 07:53:07.401766: BRATS_195, shape torch.Size([4, 144, 157, 135]), rank 0 
+2024-12-06 07:53:09.055903: predicting BRATS_196 
+2024-12-06 07:53:09.068905: BRATS_196, shape torch.Size([4, 135, 176, 151]), rank 0 
+2024-12-06 07:53:10.399017: predicting BRATS_197 
+2024-12-06 07:53:10.412018: BRATS_197, shape torch.Size([4, 136, 179, 148]), rank 0 
+2024-12-06 07:53:11.797135: predicting BRATS_198 
+2024-12-06 07:53:11.810138: BRATS_198, shape torch.Size([4, 142, 173, 139]), rank 0 
+2024-12-06 07:53:13.260253: predicting BRATS_199 
+2024-12-06 07:53:13.272254: BRATS_199, shape torch.Size([4, 138, 170, 144]), rank 0 
+2024-12-06 07:53:15.359980: predicting BRATS_200 
+2024-12-06 07:53:15.373982: BRATS_200, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 07:53:16.753324: predicting BRATS_201 
+2024-12-06 07:53:16.764326: BRATS_201, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 07:53:18.201023: predicting BRATS_202 
+2024-12-06 07:53:18.213026: BRATS_202, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 07:53:19.585168: predicting BRATS_203 
+2024-12-06 07:53:19.600169: BRATS_203, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 07:53:20.994299: predicting BRATS_204 
+2024-12-06 07:53:21.005299: BRATS_204, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 07:53:22.364047: predicting BRATS_205 
+2024-12-06 07:53:22.377048: BRATS_205, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 07:53:23.835177: predicting BRATS_206 
+2024-12-06 07:53:23.847181: BRATS_206, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 07:53:25.188304: predicting BRATS_207 
+2024-12-06 07:53:25.204305: BRATS_207, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:26.640450: predicting BRATS_208 
+2024-12-06 07:53:26.652451: BRATS_208, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:28.082092: predicting BRATS_209 
+2024-12-06 07:53:28.097090: BRATS_209, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:29.561820: predicting BRATS_210 
+2024-12-06 07:53:29.572822: BRATS_210, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:30.982954: predicting BRATS_211 
+2024-12-06 07:53:30.993956: BRATS_211, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:32.447600: predicting BRATS_212 
+2024-12-06 07:53:32.465604: BRATS_212, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:33.875706: predicting BRATS_213 
+2024-12-06 07:53:33.886706: BRATS_213, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:35.291327: predicting BRATS_214 
+2024-12-06 07:53:35.306329: BRATS_214, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:37.100474: predicting BRATS_215 
+2024-12-06 07:53:37.112479: BRATS_215, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:39.221141: predicting BRATS_216 
+2024-12-06 07:53:39.235146: BRATS_216, shape torch.Size([4, 134, 170, 138]), rank 0 
+2024-12-06 07:53:41.295809: predicting BRATS_217 
+2024-12-06 07:53:41.307811: BRATS_217, shape torch.Size([4, 140, 167, 139]), rank 0 
+2024-12-06 07:53:43.429921: predicting BRATS_218 
+2024-12-06 07:53:43.445932: BRATS_218, shape torch.Size([4, 145, 181, 138]), rank 0 
+2024-12-06 07:53:45.633622: predicting BRATS_219 
+2024-12-06 07:53:45.647623: BRATS_219, shape torch.Size([4, 133, 155, 133]), rank 0 
+2024-12-06 07:53:47.401776: predicting BRATS_220 
+2024-12-06 07:53:47.413777: BRATS_220, shape torch.Size([4, 141, 169, 140]), rank 0 
+2024-12-06 07:53:49.409959: predicting BRATS_221 
+2024-12-06 07:53:49.424959: BRATS_221, shape torch.Size([4, 141, 174, 141]), rank 0 
+2024-12-06 07:53:51.426141: predicting BRATS_222 
+2024-12-06 07:53:51.443140: BRATS_222, shape torch.Size([4, 138, 159, 142]), rank 0 
+2024-12-06 07:53:53.412332: predicting BRATS_223 
+2024-12-06 07:53:53.426332: BRATS_223, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 07:53:55.071484: predicting BRATS_224 
+2024-12-06 07:53:55.088486: BRATS_224, shape torch.Size([4, 140, 172, 138]), rank 0 
+2024-12-06 07:53:56.564112: predicting BRATS_225 
+2024-12-06 07:53:56.580115: BRATS_225, shape torch.Size([4, 142, 165, 139]), rank 0 
+2024-12-06 07:53:58.060743: predicting BRATS_226 
+2024-12-06 07:53:58.076743: BRATS_226, shape torch.Size([4, 141, 165, 136]), rank 0 
+2024-12-06 07:53:59.500861: predicting BRATS_227 
+2024-12-06 07:53:59.512862: BRATS_227, shape torch.Size([4, 131, 168, 131]), rank 0 
+2024-12-06 07:54:00.914989: predicting BRATS_228 
+2024-12-06 07:54:00.928996: BRATS_228, shape torch.Size([4, 131, 168, 131]), rank 0 
+2024-12-06 07:54:02.312115: predicting BRATS_229 
+2024-12-06 07:54:02.326115: BRATS_229, shape torch.Size([4, 141, 166, 140]), rank 0 
+2024-12-06 07:54:03.766747: predicting BRATS_230 
+2024-12-06 07:54:03.779747: BRATS_230, shape torch.Size([4, 137, 172, 133]), rank 0 
+2024-12-06 07:54:05.233407: predicting BRATS_231 
+2024-12-06 07:54:05.248408: BRATS_231, shape torch.Size([4, 140, 144, 135]), rank 0 
+2024-12-06 07:54:06.777059: predicting BRATS_232 
+2024-12-06 07:54:06.788568: BRATS_232, shape torch.Size([4, 136, 161, 145]), rank 0 
+2024-12-06 07:54:08.221701: predicting BRATS_233 
+2024-12-06 07:54:08.234702: BRATS_233, shape torch.Size([4, 135, 176, 134]), rank 0 
+2024-12-06 07:54:09.640831: predicting BRATS_234 
+2024-12-06 07:54:09.655832: BRATS_234, shape torch.Size([4, 132, 153, 148]), rank 0 
+2024-12-06 07:54:11.052952: predicting BRATS_235 
+2024-12-06 07:54:11.066952: BRATS_235, shape torch.Size([4, 139, 163, 128]), rank 0 
+2024-12-06 07:54:12.523146: predicting BRATS_236 
+2024-12-06 07:54:12.538147: BRATS_236, shape torch.Size([4, 137, 172, 138]), rank 0 
+2024-12-06 07:54:13.947268: predicting BRATS_237 
+2024-12-06 07:54:13.964268: BRATS_237, shape torch.Size([4, 135, 167, 134]), rank 0 
+2024-12-06 07:54:15.367401: predicting BRATS_238 
+2024-12-06 07:54:15.381403: BRATS_238, shape torch.Size([4, 139, 171, 134]), rank 0 
+2024-12-06 07:54:16.793085: predicting BRATS_239 
+2024-12-06 07:54:16.810085: BRATS_239, shape torch.Size([4, 134, 158, 137]), rank 0 
+2024-12-06 07:54:18.168526: predicting BRATS_240 
+2024-12-06 07:54:18.185527: BRATS_240, shape torch.Size([4, 134, 158, 137]), rank 0 
+2024-12-06 07:54:19.612674: predicting BRATS_241 
+2024-12-06 07:54:19.625674: BRATS_241, shape torch.Size([4, 134, 158, 137]), rank 0 
+2024-12-06 07:54:20.990799: predicting BRATS_242 
+2024-12-06 07:54:21.005801: BRATS_242, shape torch.Size([4, 134, 158, 137]), rank 0 
+2024-12-06 07:54:22.415926: predicting BRATS_243 
+2024-12-06 07:54:22.429927: BRATS_243, shape torch.Size([4, 140, 175, 138]), rank 0 
+2024-12-06 07:54:23.932567: predicting BRATS_244 
+2024-12-06 07:54:23.945567: BRATS_244, shape torch.Size([4, 134, 177, 139]), rank 0 
+2024-12-06 07:54:25.334692: predicting BRATS_245 
+2024-12-06 07:54:25.348696: BRATS_245, shape torch.Size([4, 138, 177, 139]), rank 0 
+2024-12-06 07:54:26.862342: predicting BRATS_246 
+2024-12-06 07:54:26.882342: BRATS_246, shape torch.Size([4, 138, 177, 139]), rank 0 
+2024-12-06 07:54:28.363987: predicting BRATS_247 
+2024-12-06 07:54:28.379987: BRATS_247, shape torch.Size([4, 138, 177, 139]), rank 0 
+2024-12-06 07:54:30.112669: predicting BRATS_248 
+2024-12-06 07:54:30.128184: BRATS_248, shape torch.Size([4, 138, 177, 139]), rank 0 
+2024-12-06 07:54:31.653340: predicting BRATS_249 
+2024-12-06 07:54:31.669341: BRATS_249, shape torch.Size([4, 144, 166, 140]), rank 0 
+2024-12-06 07:54:33.272496: predicting BRATS_250 
+2024-12-06 07:54:33.285496: BRATS_250, shape torch.Size([4, 144, 166, 140]), rank 0 
+2024-12-06 07:54:34.977181: predicting BRATS_251 
+2024-12-06 07:54:34.993182: BRATS_251, shape torch.Size([4, 144, 166, 140]), rank 0 
+2024-12-06 07:54:36.984337: predicting BRATS_252 
+2024-12-06 07:54:37.002337: BRATS_252, shape torch.Size([4, 138, 152, 132]), rank 0 
+2024-12-06 07:54:39.032035: predicting BRATS_253 
+2024-12-06 07:54:39.046035: BRATS_253, shape torch.Size([4, 134, 167, 133]), rank 0 
+2024-12-06 07:54:40.972538: predicting BRATS_254 
+2024-12-06 07:54:40.987044: BRATS_254, shape torch.Size([4, 135, 163, 137]), rank 0 
+2024-12-06 07:54:42.819204: predicting BRATS_255 
+2024-12-06 07:54:42.836205: BRATS_255, shape torch.Size([4, 139, 176, 138]), rank 0 
+2024-12-06 07:54:44.683359: predicting BRATS_256 
+2024-12-06 07:54:44.703870: BRATS_256, shape torch.Size([4, 144, 163, 133]), rank 0 
+2024-12-06 07:54:46.686548: predicting BRATS_257 
+2024-12-06 07:54:46.702550: BRATS_257, shape torch.Size([4, 140, 166, 134]), rank 0 
+2024-12-06 07:54:48.581809: predicting BRATS_258 
+2024-12-06 07:54:48.594810: BRATS_258, shape torch.Size([4, 133, 156, 131]), rank 0 
+2024-12-06 07:54:50.484520: predicting BRATS_259 
+2024-12-06 07:54:50.498520: BRATS_259, shape torch.Size([4, 141, 171, 141]), rank 0 
+2024-12-06 07:54:52.058687: predicting BRATS_260 
+2024-12-06 07:54:52.073687: BRATS_260, shape torch.Size([4, 138, 170, 141]), rank 0 
+2024-12-06 07:54:53.543347: predicting BRATS_261 
+2024-12-06 07:54:53.558854: BRATS_261, shape torch.Size([4, 142, 180, 144]), rank 0 
+2024-12-06 07:54:56.328684: predicting BRATS_262 
+2024-12-06 07:54:56.342683: BRATS_262, shape torch.Size([4, 137, 168, 145]), rank 0 
+2024-12-06 07:54:57.765811: predicting BRATS_263 
+2024-12-06 07:54:57.781318: BRATS_263, shape torch.Size([4, 138, 161, 139]), rank 0 
+2024-12-06 07:54:59.314519: predicting BRATS_264 
+2024-12-06 07:54:59.328520: BRATS_264, shape torch.Size([4, 119, 163, 143]), rank 0 
+2024-12-06 07:55:00.568464: predicting BRATS_265 
+2024-12-06 07:55:00.589989: BRATS_265, shape torch.Size([4, 137, 173, 138]), rank 0 
+2024-12-06 07:55:01.969600: predicting BRATS_266 
+2024-12-06 07:55:01.983603: BRATS_266, shape torch.Size([4, 130, 169, 152]), rank 0 
+2024-12-06 07:55:03.385851: predicting BRATS_267 
+2024-12-06 07:55:03.401855: BRATS_267, shape torch.Size([4, 136, 167, 137]), rank 0 
+2024-12-06 07:55:04.802979: predicting BRATS_268 
+2024-12-06 07:55:04.821496: BRATS_268, shape torch.Size([4, 140, 176, 137]), rank 0 
+2024-12-06 07:55:06.280718: predicting BRATS_269 
+2024-12-06 07:55:06.294719: BRATS_269, shape torch.Size([4, 139, 165, 139]), rank 0 
+2024-12-06 07:55:07.697836: predicting BRATS_270 
+2024-12-06 07:55:07.713841: BRATS_270, shape torch.Size([4, 139, 164, 132]), rank 0 
+2024-12-06 07:55:09.181530: predicting BRATS_271 
+2024-12-06 07:55:09.201530: BRATS_271, shape torch.Size([4, 142, 169, 141]), rank 0 
+2024-12-06 07:55:10.645162: predicting BRATS_272 
+2024-12-06 07:55:10.662163: BRATS_272, shape torch.Size([4, 135, 158, 136]), rank 0 
+2024-12-06 07:55:12.031311: predicting BRATS_273 
+2024-12-06 07:55:12.047314: BRATS_273, shape torch.Size([4, 137, 172, 135]), rank 0 
+2024-12-06 07:55:13.764530: predicting BRATS_274 
+2024-12-06 07:55:13.780530: BRATS_274, shape torch.Size([4, 137, 171, 141]), rank 0 
+2024-12-06 07:55:15.551159: predicting BRATS_275 
+2024-12-06 07:55:15.567669: BRATS_275, shape torch.Size([4, 132, 176, 136]), rank 0 
+2024-12-06 07:55:17.258787: predicting BRATS_276 
+2024-12-06 07:55:17.273791: BRATS_276, shape torch.Size([4, 143, 165, 143]), rank 0 
+2024-12-06 07:55:19.073958: predicting BRATS_277 
+2024-12-06 07:55:19.087473: BRATS_277, shape torch.Size([4, 130, 169, 128]), rank 0 
+2024-12-06 07:55:20.748594: predicting BRATS_278 
+2024-12-06 07:55:20.762593: BRATS_278, shape torch.Size([4, 140, 170, 147]), rank 0 
+2024-12-06 07:55:22.553742: predicting BRATS_279 
+2024-12-06 07:55:22.567742: BRATS_279, shape torch.Size([4, 135, 174, 141]), rank 0 
+2024-12-06 07:55:24.257373: predicting BRATS_280 
+2024-12-06 07:55:24.272372: BRATS_280, shape torch.Size([4, 144, 183, 145]), rank 0 
+2024-12-06 07:55:26.073526: predicting BRATS_281 
+2024-12-06 07:55:26.089526: BRATS_281, shape torch.Size([4, 140, 177, 146]), rank 0 
+2024-12-06 07:55:27.664153: predicting BRATS_282 
+2024-12-06 07:55:27.680657: BRATS_282, shape torch.Size([4, 138, 169, 141]), rank 0 
+2024-12-06 07:55:29.156852: predicting BRATS_283 
+2024-12-06 07:55:29.171855: BRATS_283, shape torch.Size([4, 146, 175, 146]), rank 0 
+2024-12-06 07:55:30.696014: predicting BRATS_284 
+2024-12-06 07:55:30.715016: BRATS_284, shape torch.Size([4, 130, 156, 129]), rank 0 
+2024-12-06 07:55:32.187150: predicting BRATS_285 
+2024-12-06 07:55:32.205656: BRATS_285, shape torch.Size([4, 139, 164, 157]), rank 0 
+2024-12-06 07:55:33.808830: predicting BRATS_286 
+2024-12-06 07:55:33.829831: BRATS_286, shape torch.Size([4, 137, 177, 139]), rank 0 
+2024-12-06 07:55:35.246448: predicting BRATS_287 
+2024-12-06 07:55:35.271448: BRATS_287, shape torch.Size([4, 136, 171, 144]), rank 0 
+2024-12-06 07:55:36.936685: predicting BRATS_288 
+2024-12-06 07:55:36.956685: BRATS_288, shape torch.Size([4, 128, 180, 141]), rank 0 
+2024-12-06 07:55:38.465359: predicting BRATS_289 
+2024-12-06 07:55:38.486360: BRATS_289, shape torch.Size([4, 142, 166, 149]), rank 0 
+2024-12-06 07:55:39.906473: predicting BRATS_290 
+2024-12-06 07:55:39.921476: BRATS_290, shape torch.Size([4, 129, 179, 142]), rank 0 
+2024-12-06 07:55:41.278607: predicting BRATS_291 
+2024-12-06 07:55:41.293604: BRATS_291, shape torch.Size([4, 137, 155, 144]), rank 0 
+2024-12-06 07:55:42.625209: predicting BRATS_292 
+2024-12-06 07:55:42.640213: BRATS_292, shape torch.Size([4, 135, 169, 144]), rank 0 
+2024-12-06 07:55:44.010887: predicting BRATS_293 
+2024-12-06 07:55:44.029887: BRATS_293, shape torch.Size([4, 146, 176, 142]), rank 0 
+2024-12-06 07:55:45.653052: predicting BRATS_294 
+2024-12-06 07:55:45.676564: BRATS_294, shape torch.Size([4, 132, 159, 137]), rank 0 
+2024-12-06 07:55:47.083865: predicting BRATS_295 
+2024-12-06 07:55:47.102867: BRATS_295, shape torch.Size([4, 135, 173, 137]), rank 0 
+2024-12-06 07:55:48.641085: predicting BRATS_296 
+2024-12-06 07:55:48.658089: BRATS_296, shape torch.Size([4, 140, 187, 134]), rank 0 
+2024-12-06 07:55:50.204274: predicting BRATS_297 
+2024-12-06 07:55:50.221273: BRATS_297, shape torch.Size([4, 135, 163, 129]), rank 0 
+2024-12-06 07:55:51.529873: predicting BRATS_298 
+2024-12-06 07:55:51.545872: BRATS_298, shape torch.Size([4, 140, 182, 135]), rank 0 
+2024-12-06 07:55:52.897977: predicting BRATS_299 
+2024-12-06 07:55:52.912978: BRATS_299, shape torch.Size([4, 140, 175, 133]), rank 0 
+2024-12-06 07:55:54.551129: predicting BRATS_300 
+2024-12-06 07:55:54.565128: BRATS_300, shape torch.Size([4, 141, 177, 133]), rank 0 
+2024-12-06 07:55:56.053754: predicting BRATS_301 
+2024-12-06 07:55:56.069753: BRATS_301, shape torch.Size([4, 138, 170, 139]), rank 0 
+2024-12-06 07:55:57.497446: predicting BRATS_302 
+2024-12-06 07:55:57.513450: BRATS_302, shape torch.Size([4, 138, 179, 140]), rank 0 
+2024-12-06 07:55:58.987067: predicting BRATS_303 
+2024-12-06 07:55:59.005068: BRATS_303, shape torch.Size([4, 144, 170, 130]), rank 0 
+2024-12-06 07:56:00.543749: predicting BRATS_304 
+2024-12-06 07:56:00.560754: BRATS_304, shape torch.Size([4, 141, 171, 130]), rank 0 
+2024-12-06 07:56:02.190904: predicting BRATS_305 
+2024-12-06 07:56:02.213905: BRATS_305, shape torch.Size([4, 142, 160, 152]), rank 0 
+2024-12-06 07:56:03.663139: predicting BRATS_306 
+2024-12-06 07:56:03.677140: BRATS_306, shape torch.Size([4, 143, 178, 138]), rank 0 
+2024-12-06 07:56:05.163955: predicting BRATS_307 
+2024-12-06 07:56:05.182956: BRATS_307, shape torch.Size([4, 140, 164, 145]), rank 0 
+2024-12-06 07:56:06.705581: predicting BRATS_308 
+2024-12-06 07:56:06.726583: BRATS_308, shape torch.Size([4, 143, 179, 141]), rank 0 
+2024-12-06 07:56:08.303751: predicting BRATS_309 
+2024-12-06 07:56:08.321752: BRATS_309, shape torch.Size([4, 141, 176, 144]), rank 0 
+2024-12-06 07:56:09.824163: predicting BRATS_310 
+2024-12-06 07:56:09.849165: BRATS_310, shape torch.Size([4, 140, 176, 133]), rank 0 
+2024-12-06 07:56:11.372295: predicting BRATS_311 
+2024-12-06 07:56:11.395808: BRATS_311, shape torch.Size([4, 141, 177, 140]), rank 0 
+2024-12-06 07:56:12.825925: predicting BRATS_312 
+2024-12-06 07:56:12.843927: BRATS_312, shape torch.Size([4, 136, 167, 137]), rank 0 
+2024-12-06 07:56:14.240029: predicting BRATS_313 
+2024-12-06 07:56:14.253031: BRATS_313, shape torch.Size([4, 137, 167, 133]), rank 0 
+2024-12-06 07:56:15.593626: predicting BRATS_314 
+2024-12-06 07:56:15.607629: BRATS_314, shape torch.Size([4, 139, 180, 140]), rank 0 
+2024-12-06 07:56:16.983743: predicting BRATS_315 
+2024-12-06 07:56:16.998744: BRATS_315, shape torch.Size([4, 136, 157, 133]), rank 0 
+2024-12-06 07:56:18.499863: predicting BRATS_316 
+2024-12-06 07:56:18.519868: BRATS_316, shape torch.Size([4, 143, 187, 132]), rank 0 
+2024-12-06 07:56:20.115607: predicting BRATS_317 
+2024-12-06 07:56:20.132611: BRATS_317, shape torch.Size([4, 147, 168, 127]), rank 0 
+2024-12-06 07:56:21.820253: predicting BRATS_318 
+2024-12-06 07:56:21.841256: BRATS_318, shape torch.Size([4, 144, 170, 138]), rank 0 
+2024-12-06 07:56:23.361399: predicting BRATS_319 
+2024-12-06 07:56:23.380400: BRATS_319, shape torch.Size([4, 139, 160, 131]), rank 0 
+2024-12-06 07:56:24.935019: predicting BRATS_320 
+2024-12-06 07:56:24.956023: BRATS_320, shape torch.Size([4, 142, 184, 141]), rank 0 
+2024-12-06 07:56:26.423759: predicting BRATS_321 
+2024-12-06 07:56:26.438759: BRATS_321, shape torch.Size([4, 142, 172, 134]), rank 0 
+2024-12-06 07:56:27.861889: predicting BRATS_322 
+2024-12-06 07:56:27.877404: BRATS_322, shape torch.Size([4, 142, 179, 144]), rank 0 
+2024-12-06 07:56:29.368078: predicting BRATS_323 
+2024-12-06 07:56:29.384081: BRATS_323, shape torch.Size([4, 138, 161, 132]), rank 0 
+2024-12-06 07:56:30.796043: predicting BRATS_324 
+2024-12-06 07:56:30.809044: BRATS_324, shape torch.Size([4, 140, 182, 132]), rank 0 
+2024-12-06 07:56:32.374711: predicting BRATS_325 
+2024-12-06 07:56:32.389716: BRATS_325, shape torch.Size([4, 145, 177, 140]), rank 0 
+2024-12-06 07:56:33.896807: predicting BRATS_326 
+2024-12-06 07:56:33.909820: BRATS_326, shape torch.Size([4, 143, 172, 129]), rank 0 
+2024-12-06 07:56:36.090483: predicting BRATS_327 
+2024-12-06 07:56:36.104483: BRATS_327, shape torch.Size([4, 140, 167, 133]), rank 0 
+2024-12-06 07:56:37.958689: predicting BRATS_328 
+2024-12-06 07:56:37.973689: BRATS_328, shape torch.Size([4, 144, 162, 128]), rank 0 
+2024-12-06 07:56:39.850880: predicting BRATS_329 
+2024-12-06 07:56:39.866882: BRATS_329, shape torch.Size([4, 130, 167, 148]), rank 0 
+2024-12-06 07:56:41.727064: predicting BRATS_330 
+2024-12-06 07:56:41.743065: BRATS_330, shape torch.Size([4, 139, 158, 137]), rank 0 
+2024-12-06 07:56:43.905823: predicting BRATS_331 
+2024-12-06 07:56:43.922822: BRATS_331, shape torch.Size([4, 135, 162, 142]), rank 0 
+2024-12-06 07:56:45.813168: predicting BRATS_332 
+2024-12-06 07:56:45.830168: BRATS_332, shape torch.Size([4, 139, 172, 130]), rank 0 
+2024-12-06 07:56:47.850105: predicting BRATS_333 
+2024-12-06 07:56:47.868106: BRATS_333, shape torch.Size([4, 147, 167, 125]), rank 0 
+2024-12-06 07:56:50.109422: predicting BRATS_334 
+2024-12-06 07:56:50.124422: BRATS_334, shape torch.Size([4, 140, 187, 137]), rank 0 
+2024-12-06 07:56:52.210869: predicting BRATS_335 
+2024-12-06 07:56:52.226868: BRATS_335, shape torch.Size([4, 141, 165, 143]), rank 0 
+2024-12-06 07:56:55.482263: predicting BRATS_336 
+2024-12-06 07:56:55.498263: BRATS_336, shape torch.Size([4, 142, 165, 142]), rank 0 
+2024-12-06 07:56:57.775983: predicting BRATS_337 
+2024-12-06 07:56:57.792981: BRATS_337, shape torch.Size([4, 144, 168, 146]), rank 0 
+2024-12-06 07:56:59.832175: predicting BRATS_338 
+2024-12-06 07:56:59.847178: BRATS_338, shape torch.Size([4, 139, 173, 136]), rank 0 
+2024-12-06 07:57:01.707424: predicting BRATS_339 
+2024-12-06 07:57:01.729425: BRATS_339, shape torch.Size([4, 136, 162, 135]), rank 0 
+2024-12-06 07:57:03.873006: predicting BRATS_340 
+2024-12-06 07:57:03.890517: BRATS_340, shape torch.Size([4, 143, 174, 133]), rank 0 
+2024-12-06 07:57:06.037215: predicting BRATS_341 
+2024-12-06 07:57:06.054217: BRATS_341, shape torch.Size([4, 146, 178, 139]), rank 0 
+2024-12-06 07:57:08.624993: predicting BRATS_342 
+2024-12-06 07:57:08.640992: BRATS_342, shape torch.Size([4, 143, 176, 131]), rank 0 
+2024-12-06 07:57:10.958752: predicting BRATS_343 
+2024-12-06 07:57:10.973752: BRATS_343, shape torch.Size([4, 141, 178, 140]), rank 0 
+2024-12-06 07:57:13.190960: predicting BRATS_344 
+2024-12-06 07:57:13.209960: BRATS_344, shape torch.Size([4, 144, 173, 137]), rank 0 
+2024-12-06 07:57:15.269699: predicting BRATS_345 
+2024-12-06 07:57:15.288699: BRATS_345, shape torch.Size([4, 144, 165, 134]), rank 0 
+2024-12-06 07:57:18.534367: predicting BRATS_346 
+2024-12-06 07:57:18.551372: BRATS_346, shape torch.Size([4, 138, 167, 142]), rank 0 
+2024-12-06 07:57:20.700579: predicting BRATS_347 
+2024-12-06 07:57:20.721578: BRATS_347, shape torch.Size([4, 140, 186, 136]), rank 0 
+2024-12-06 07:57:23.451388: predicting BRATS_348 
+2024-12-06 07:57:23.467390: BRATS_348, shape torch.Size([4, 140, 169, 127]), rank 0 
+2024-12-06 07:57:25.409274: predicting BRATS_349 
+2024-12-06 07:57:25.425274: BRATS_349, shape torch.Size([4, 149, 176, 143]), rank 0 
+2024-12-06 07:57:27.581976: predicting BRATS_350 
+2024-12-06 07:57:27.598982: BRATS_350, shape torch.Size([4, 136, 162, 122]), rank 0 
+2024-12-06 07:57:29.646691: predicting BRATS_351 
+2024-12-06 07:57:29.661691: BRATS_351, shape torch.Size([4, 134, 157, 126]), rank 0 
+2024-12-06 07:57:31.429678: predicting BRATS_352 
+2024-12-06 07:57:31.443678: BRATS_352, shape torch.Size([4, 143, 174, 137]), rank 0 
+2024-12-06 07:57:33.606880: predicting BRATS_353 
+2024-12-06 07:57:33.622879: BRATS_353, shape torch.Size([4, 136, 173, 131]), rank 0 
+2024-12-06 07:57:35.481560: predicting BRATS_354 
+2024-12-06 07:57:35.499560: BRATS_354, shape torch.Size([4, 138, 168, 128]), rank 0 
+2024-12-06 07:57:37.370746: predicting BRATS_355 
+2024-12-06 07:57:37.392747: BRATS_355, shape torch.Size([4, 137, 176, 133]), rank 0 
+2024-12-06 07:57:39.491328: predicting BRATS_356 
+2024-12-06 07:57:39.510322: BRATS_356, shape torch.Size([4, 146, 160, 127]), rank 0 
+2024-12-06 07:57:41.756531: predicting BRATS_357 
+2024-12-06 07:57:41.770534: BRATS_357, shape torch.Size([4, 141, 174, 138]), rank 0 
+2024-12-06 07:57:44.624577: predicting BRATS_358 
+2024-12-06 07:57:44.642576: BRATS_358, shape torch.Size([4, 137, 167, 124]), rank 0 
+2024-12-06 07:57:46.500718: predicting BRATS_359 
+2024-12-06 07:57:46.515227: BRATS_359, shape torch.Size([4, 137, 166, 140]), rank 0 
+2024-12-06 07:57:48.467479: predicting BRATS_360 
+2024-12-06 07:57:48.484479: BRATS_360, shape torch.Size([4, 137, 174, 139]), rank 0 
+2024-12-06 07:57:51.508850: predicting BRATS_361 
+2024-12-06 07:57:51.527853: BRATS_361, shape torch.Size([4, 145, 172, 140]), rank 0 
+2024-12-06 07:57:53.563095: predicting BRATS_362 
+2024-12-06 07:57:53.579095: BRATS_362, shape torch.Size([4, 141, 178, 135]), rank 0 
+2024-12-06 07:57:56.580451: predicting BRATS_363 
+2024-12-06 07:57:56.601451: BRATS_363, shape torch.Size([4, 129, 175, 128]), rank 0 
+2024-12-06 07:57:59.405308: predicting BRATS_364 
+2024-12-06 07:57:59.421309: BRATS_364, shape torch.Size([4, 142, 185, 132]), rank 0 
+2024-12-06 07:58:02.120116: predicting BRATS_365 
+2024-12-06 07:58:02.135117: BRATS_365, shape torch.Size([4, 139, 175, 132]), rank 0 
+2024-12-06 07:58:04.007770: predicting BRATS_366 
+2024-12-06 07:58:04.023771: BRATS_366, shape torch.Size([4, 136, 168, 134]), rank 0 
+2024-12-06 07:58:06.070737: predicting BRATS_367 
+2024-12-06 07:58:06.086737: BRATS_367, shape torch.Size([4, 141, 179, 135]), rank 0 
+2024-12-06 07:58:08.370914: predicting BRATS_368 
+2024-12-06 07:58:08.396912: BRATS_368, shape torch.Size([4, 138, 166, 147]), rank 0 
+2024-12-06 07:58:10.219723: predicting BRATS_369 
+2024-12-06 07:58:10.235726: BRATS_369, shape torch.Size([4, 143, 187, 138]), rank 0 
+2024-12-06 07:58:12.120213: predicting BRATS_370 
+2024-12-06 07:58:12.136222: BRATS_370, shape torch.Size([4, 136, 150, 130]), rank 0 
+2024-12-06 07:58:14.922542: predicting BRATS_371 
+2024-12-06 07:58:14.936543: BRATS_371, shape torch.Size([4, 137, 169, 138]), rank 0 
+2024-12-06 07:58:17.363826: predicting BRATS_372 
+2024-12-06 07:58:17.382334: BRATS_372, shape torch.Size([4, 140, 173, 130]), rank 0 
+2024-12-06 07:58:19.936527: predicting BRATS_373 
+2024-12-06 07:58:19.950527: BRATS_373, shape torch.Size([4, 138, 167, 135]), rank 0 
+2024-12-06 07:58:21.930703: predicting BRATS_374 
+2024-12-06 07:58:21.947703: BRATS_374, shape torch.Size([4, 141, 173, 131]), rank 0 
+2024-12-06 07:58:23.935346: predicting BRATS_375 
+2024-12-06 07:58:23.954351: BRATS_375, shape torch.Size([4, 136, 174, 141]), rank 0 
+2024-12-06 07:58:25.903406: predicting BRATS_376 
+2024-12-06 07:58:25.925934: BRATS_376, shape torch.Size([4, 140, 170, 136]), rank 0 
+2024-12-06 07:58:27.820068: predicting BRATS_377 
+2024-12-06 07:58:27.835573: BRATS_377, shape torch.Size([4, 141, 176, 141]), rank 0 
+2024-12-06 07:58:29.642719: predicting BRATS_378 
+2024-12-06 07:58:29.661723: BRATS_378, shape torch.Size([4, 144, 167, 139]), rank 0 
+2024-12-06 07:58:31.657746: predicting BRATS_379 
+2024-12-06 07:58:31.673746: BRATS_379, shape torch.Size([4, 144, 173, 141]), rank 0 
+2024-12-06 07:58:33.895151: predicting BRATS_380 
+2024-12-06 07:58:33.918149: BRATS_380, shape torch.Size([4, 139, 180, 138]), rank 0 
+2024-12-06 07:58:35.753534: predicting BRATS_381 
+2024-12-06 07:58:35.769537: BRATS_381, shape torch.Size([4, 147, 173, 137]), rank 0 
+2024-12-06 07:58:38.923928: predicting BRATS_382 
+2024-12-06 07:58:38.943927: BRATS_382, shape torch.Size([4, 142, 171, 133]), rank 0 
+2024-12-06 07:58:41.174946: predicting BRATS_383 
+2024-12-06 07:58:41.194951: BRATS_383, shape torch.Size([4, 137, 160, 134]), rank 0 
+2024-12-06 07:58:43.453322: predicting BRATS_384 
+2024-12-06 07:58:43.468320: BRATS_384, shape torch.Size([4, 130, 171, 138]), rank 0 
+2024-12-06 07:58:46.081844: predicting BRATS_385 
+2024-12-06 07:58:46.098844: BRATS_385, shape torch.Size([4, 129, 157, 129]), rank 0 
+2024-12-06 07:58:47.945520: predicting BRATS_386 
+2024-12-06 07:58:47.962517: BRATS_386, shape torch.Size([4, 139, 160, 147]), rank 0 
+2024-12-06 07:58:49.847676: predicting BRATS_387 
+2024-12-06 07:58:49.865187: BRATS_387, shape torch.Size([4, 134, 161, 135]), rank 0 
+2024-12-06 07:58:51.805846: predicting BRATS_388 
+2024-12-06 07:58:51.820847: BRATS_388, shape torch.Size([4, 134, 159, 133]), rank 0 
+2024-12-06 07:58:53.569487: predicting BRATS_389 
+2024-12-06 07:58:53.586996: BRATS_389, shape torch.Size([4, 131, 164, 150]), rank 0 
+2024-12-06 07:58:55.944774: predicting BRATS_390 
+2024-12-06 07:58:55.959774: BRATS_390, shape torch.Size([4, 139, 165, 147]), rank 0 
+2024-12-06 07:58:58.000446: predicting BRATS_391 
+2024-12-06 07:58:58.016446: BRATS_391, shape torch.Size([4, 137, 175, 141]), rank 0 
+2024-12-06 07:59:00.045060: predicting BRATS_392 
+2024-12-06 07:59:00.067060: BRATS_392, shape torch.Size([4, 138, 171, 139]), rank 0 
+2024-12-06 07:59:02.043236: predicting BRATS_393 
+2024-12-06 07:59:02.059236: BRATS_393, shape torch.Size([4, 138, 170, 145]), rank 0 
+2024-12-06 07:59:04.252698: predicting BRATS_394 
+2024-12-06 07:59:04.269698: BRATS_394, shape torch.Size([4, 143, 168, 133]), rank 0 
+2024-12-06 07:59:06.207286: predicting BRATS_395 
+2024-12-06 07:59:06.221287: BRATS_395, shape torch.Size([4, 136, 165, 140]), rank 0 
+2024-12-06 07:59:07.977445: predicting BRATS_396 
+2024-12-06 07:59:07.993445: BRATS_396, shape torch.Size([4, 139, 153, 138]), rank 0 
+2024-12-06 07:59:09.958535: predicting BRATS_397 
+2024-12-06 07:59:09.975536: BRATS_397, shape torch.Size([4, 139, 167, 134]), rank 0 
+2024-12-06 07:59:12.077408: predicting BRATS_398 
+2024-12-06 07:59:12.094409: BRATS_398, shape torch.Size([4, 143, 175, 134]), rank 0 
+2024-12-06 07:59:14.160636: predicting BRATS_399 
+2024-12-06 07:59:14.182149: BRATS_399, shape torch.Size([4, 135, 164, 144]), rank 0 
+2024-12-06 07:59:16.190683: predicting BRATS_400 
+2024-12-06 07:59:16.214188: BRATS_400, shape torch.Size([4, 146, 176, 148]), rank 0 
+2024-12-06 07:59:18.147866: predicting BRATS_401 
+2024-12-06 07:59:18.163866: BRATS_401, shape torch.Size([4, 134, 173, 143]), rank 0 
+2024-12-06 07:59:20.246934: predicting BRATS_402 
+2024-12-06 07:59:20.265935: BRATS_402, shape torch.Size([4, 139, 170, 136]), rank 0 
+2024-12-06 07:59:22.006581: predicting BRATS_403 
+2024-12-06 07:59:22.021587: BRATS_403, shape torch.Size([4, 139, 152, 138]), rank 0 
+2024-12-06 07:59:23.866166: predicting BRATS_404 
+2024-12-06 07:59:23.882165: BRATS_404, shape torch.Size([4, 142, 168, 136]), rank 0 
+2024-12-06 07:59:25.929408: predicting BRATS_405 
+2024-12-06 07:59:25.946411: BRATS_405, shape torch.Size([4, 139, 169, 135]), rank 0 
+2024-12-06 07:59:27.822691: predicting BRATS_406 
+2024-12-06 07:59:27.837691: BRATS_406, shape torch.Size([4, 141, 167, 134]), rank 0 
+2024-12-06 07:59:30.055288: predicting BRATS_407 
+2024-12-06 07:59:30.075799: BRATS_407, shape torch.Size([4, 127, 169, 133]), rank 0 
+2024-12-06 07:59:32.002485: predicting BRATS_408 
+2024-12-06 07:59:32.021486: BRATS_408, shape torch.Size([4, 136, 173, 140]), rank 0 
+2024-12-06 07:59:33.883648: predicting BRATS_409 
+2024-12-06 07:59:33.901157: BRATS_409, shape torch.Size([4, 142, 175, 136]), rank 0 
+2024-12-06 07:59:35.931370: predicting BRATS_410 
+2024-12-06 07:59:35.952370: BRATS_410, shape torch.Size([4, 133, 171, 144]), rank 0 
+2024-12-06 07:59:38.050102: predicting BRATS_411 
+2024-12-06 07:59:38.073102: BRATS_411, shape torch.Size([4, 137, 163, 136]), rank 0 
+2024-12-06 07:59:39.939751: predicting BRATS_412 
+2024-12-06 07:59:39.957753: BRATS_412, shape torch.Size([4, 146, 180, 132]), rank 0 
+2024-12-06 07:59:42.184496: predicting BRATS_413 
+2024-12-06 07:59:42.206497: BRATS_413, shape torch.Size([4, 141, 166, 144]), rank 0 
+2024-12-06 07:59:44.481229: predicting BRATS_414 
+2024-12-06 07:59:44.499229: BRATS_414, shape torch.Size([4, 135, 170, 130]), rank 0 
+2024-12-06 07:59:46.556457: predicting BRATS_415 
+2024-12-06 07:59:46.573967: BRATS_415, shape torch.Size([4, 139, 164, 136]), rank 0 
+2024-12-06 07:59:48.765314: predicting BRATS_416 
+2024-12-06 07:59:48.777820: BRATS_416, shape torch.Size([4, 140, 167, 131]), rank 0 
+2024-12-06 07:59:50.705474: predicting BRATS_417 
+2024-12-06 07:59:50.730474: BRATS_417, shape torch.Size([4, 138, 164, 142]), rank 0 
+2024-12-06 07:59:52.529629: predicting BRATS_418 
+2024-12-06 07:59:52.544627: BRATS_418, shape torch.Size([4, 145, 149, 141]), rank 0 
+2024-12-06 07:59:54.481278: predicting BRATS_419 
+2024-12-06 07:59:54.497281: BRATS_419, shape torch.Size([4, 135, 161, 134]), rank 0 
+2024-12-06 07:59:56.995691: predicting BRATS_420 
+2024-12-06 07:59:57.010694: BRATS_420, shape torch.Size([4, 135, 176, 140]), rank 0 
+2024-12-06 07:59:59.092371: predicting BRATS_421 
+2024-12-06 07:59:59.111375: BRATS_421, shape torch.Size([4, 135, 171, 140]), rank 0 
+2024-12-06 08:00:01.179316: predicting BRATS_422 
+2024-12-06 08:00:01.195317: BRATS_422, shape torch.Size([4, 132, 166, 142]), rank 0 
+2024-12-06 08:00:02.935954: predicting BRATS_423 
+2024-12-06 08:00:02.954464: BRATS_423, shape torch.Size([4, 132, 168, 142]), rank 0 
+2024-12-06 08:00:04.886104: predicting BRATS_424 
+2024-12-06 08:00:04.905102: BRATS_424, shape torch.Size([4, 138, 175, 145]), rank 0 
+2024-12-06 08:00:06.703978: predicting BRATS_425 
+2024-12-06 08:00:06.724978: BRATS_425, shape torch.Size([4, 128, 158, 133]), rank 0 
+2024-12-06 08:00:08.932235: predicting BRATS_426 
+2024-12-06 08:00:08.949235: BRATS_426, shape torch.Size([4, 134, 166, 141]), rank 0 
+2024-12-06 08:00:10.781398: predicting BRATS_427 
+2024-12-06 08:00:10.803908: BRATS_427, shape torch.Size([4, 137, 174, 137]), rank 0 
+2024-12-06 08:00:13.757739: predicting BRATS_428 
+2024-12-06 08:00:13.775739: BRATS_428, shape torch.Size([4, 137, 156, 132]), rank 0 
+2024-12-06 08:00:15.212375: predicting BRATS_429 
+2024-12-06 08:00:15.230375: BRATS_429, shape torch.Size([4, 136, 173, 141]), rank 0 
+2024-12-06 08:00:16.622005: predicting BRATS_430 
+2024-12-06 08:00:16.637005: BRATS_430, shape torch.Size([4, 133, 162, 140]), rank 0 
+2024-12-06 08:00:18.077690: predicting BRATS_431 
+2024-12-06 08:00:18.094691: BRATS_431, shape torch.Size([4, 136, 168, 138]), rank 0 
+2024-12-06 08:00:19.477832: predicting BRATS_432 
+2024-12-06 08:00:19.494833: BRATS_432, shape torch.Size([4, 140, 168, 140]), rank 0 
+2024-12-06 08:00:20.922956: predicting BRATS_433 
+2024-12-06 08:00:20.941468: BRATS_433, shape torch.Size([4, 136, 167, 138]), rank 0 
+2024-12-06 08:00:22.367609: predicting BRATS_434 
+2024-12-06 08:00:22.384609: BRATS_434, shape torch.Size([4, 138, 173, 143]), rank 0 
+2024-12-06 08:00:23.754735: predicting BRATS_435 
+2024-12-06 08:00:23.773737: BRATS_435, shape torch.Size([4, 139, 173, 141]), rank 0 
+2024-12-06 08:00:25.161369: predicting BRATS_436 
+2024-12-06 08:00:25.177373: BRATS_436, shape torch.Size([4, 139, 161, 136]), rank 0 
+2024-12-06 08:00:26.550989: predicting BRATS_437 
+2024-12-06 08:00:26.565498: BRATS_437, shape torch.Size([4, 131, 169, 139]), rank 0 
+2024-12-06 08:00:27.855599: predicting BRATS_438 
+2024-12-06 08:00:27.868601: BRATS_438, shape torch.Size([4, 137, 180, 141]), rank 0 
+2024-12-06 08:00:29.298243: predicting BRATS_439 
+2024-12-06 08:00:29.312246: BRATS_439, shape torch.Size([4, 137, 171, 139]), rank 0 
+2024-12-06 08:00:30.732369: predicting BRATS_440 
+2024-12-06 08:00:30.753370: BRATS_440, shape torch.Size([4, 130, 162, 137]), rank 0 
+2024-12-06 08:00:32.028973: predicting BRATS_441 
+2024-12-06 08:00:32.043973: BRATS_441, shape torch.Size([4, 138, 172, 140]), rank 0 
+2024-12-06 08:00:33.411100: predicting BRATS_442 
+2024-12-06 08:00:33.426101: BRATS_442, shape torch.Size([4, 140, 173, 139]), rank 0 
+2024-12-06 08:00:34.820234: predicting BRATS_443 
+2024-12-06 08:00:34.841236: BRATS_443, shape torch.Size([4, 137, 163, 142]), rank 0 
+2024-12-06 08:00:36.309369: predicting BRATS_444 
+2024-12-06 08:00:36.325881: BRATS_444, shape torch.Size([4, 137, 169, 143]), rank 0 
+2024-12-06 08:00:37.728005: predicting BRATS_445 
+2024-12-06 08:00:37.748008: BRATS_445, shape torch.Size([4, 141, 158, 137]), rank 0 
+2024-12-06 08:00:39.144144: predicting BRATS_446 
+2024-12-06 08:00:39.160146: BRATS_446, shape torch.Size([4, 137, 168, 145]), rank 0 
+2024-12-06 08:00:40.537253: predicting BRATS_447 
+2024-12-06 08:00:40.553252: BRATS_447, shape torch.Size([4, 137, 167, 134]), rank 0 
+2024-12-06 08:00:41.910853: predicting BRATS_448 
+2024-12-06 08:00:41.930858: BRATS_448, shape torch.Size([4, 140, 160, 150]), rank 0 
+2024-12-06 08:00:43.294968: predicting BRATS_449 
+2024-12-06 08:00:43.310968: BRATS_449, shape torch.Size([4, 139, 172, 134]), rank 0 
+2024-12-06 08:00:44.742092: predicting BRATS_450 
+2024-12-06 08:00:44.762602: BRATS_450, shape torch.Size([4, 132, 162, 135]), rank 0 
+2024-12-06 08:00:46.142244: predicting BRATS_451 
+2024-12-06 08:00:46.164768: BRATS_451, shape torch.Size([4, 131, 157, 142]), rank 0 
+2024-12-06 08:00:47.596881: predicting BRATS_452 
+2024-12-06 08:00:47.616886: BRATS_452, shape torch.Size([4, 136, 165, 146]), rank 0 
+2024-12-06 08:00:49.069022: predicting BRATS_453 
+2024-12-06 08:00:49.083536: BRATS_453, shape torch.Size([4, 144, 157, 135]), rank 0 
+2024-12-06 08:00:50.617182: predicting BRATS_454 
+2024-12-06 08:00:50.633182: BRATS_454, shape torch.Size([4, 138, 170, 144]), rank 0 
+2024-12-06 08:00:52.012317: predicting BRATS_455 
+2024-12-06 08:00:52.028317: BRATS_455, shape torch.Size([4, 130, 172, 136]), rank 0 
+2024-12-06 08:00:53.321921: predicting BRATS_456 
+2024-12-06 08:00:53.335922: BRATS_456, shape torch.Size([4, 140, 167, 139]), rank 0 
+2024-12-06 08:00:54.941089: predicting BRATS_457 
+2024-12-06 08:00:54.959088: BRATS_457, shape torch.Size([4, 141, 169, 140]), rank 0 
+2024-12-06 08:00:56.480740: predicting BRATS_458 
+2024-12-06 08:00:56.494740: BRATS_458, shape torch.Size([4, 138, 159, 142]), rank 0 
+2024-12-06 08:00:57.946142: predicting BRATS_459 
+2024-12-06 08:00:57.960144: BRATS_459, shape torch.Size([4, 140, 172, 138]), rank 0 
+2024-12-06 08:00:59.346265: predicting BRATS_460 
+2024-12-06 08:00:59.361266: BRATS_460, shape torch.Size([4, 142, 165, 139]), rank 0 
+2024-12-06 08:01:00.820400: predicting BRATS_461 
+2024-12-06 08:01:00.839916: BRATS_461, shape torch.Size([4, 141, 166, 140]), rank 0 
+2024-12-06 08:01:02.454076: predicting BRATS_462 
+2024-12-06 08:01:02.467077: BRATS_462, shape torch.Size([4, 136, 161, 145]), rank 0 
+2024-12-06 08:01:03.820694: predicting BRATS_463 
+2024-12-06 08:01:03.834695: BRATS_463, shape torch.Size([4, 132, 153, 148]), rank 0 
+2024-12-06 08:01:05.164807: predicting BRATS_464 
+2024-12-06 08:01:05.178808: BRATS_464, shape torch.Size([4, 139, 163, 128]), rank 0 
+2024-12-06 08:01:06.549414: predicting BRATS_465 
+2024-12-06 08:01:06.565418: BRATS_465, shape torch.Size([4, 135, 167, 134]), rank 0 
+2024-12-06 08:01:07.968489: predicting BRATS_466 
+2024-12-06 08:01:07.985003: BRATS_466, shape torch.Size([4, 139, 171, 134]), rank 0 
+2024-12-06 08:01:09.449135: predicting BRATS_467 
+2024-12-06 08:01:09.464137: BRATS_467, shape torch.Size([4, 134, 177, 139]), rank 0 
+2024-12-06 08:01:10.804251: predicting BRATS_468 
+2024-12-06 08:01:10.823253: BRATS_468, shape torch.Size([4, 138, 152, 132]), rank 0 
+2024-12-06 08:01:12.194862: predicting BRATS_469 
+2024-12-06 08:01:12.214368: BRATS_469, shape torch.Size([4, 139, 176, 138]), rank 0 
+2024-12-06 08:01:13.578980: predicting BRATS_470 
+2024-12-06 08:01:13.595984: BRATS_470, shape torch.Size([4, 144, 163, 133]), rank 0 
+2024-12-06 08:01:15.210147: predicting BRATS_471 
+2024-12-06 08:01:15.230654: BRATS_471, shape torch.Size([4, 142, 180, 144]), rank 0 
+2024-12-06 08:01:16.725300: predicting BRATS_472 
+2024-12-06 08:01:16.747298: BRATS_472, shape torch.Size([4, 138, 161, 139]), rank 0 
+2024-12-06 08:01:18.238952: predicting BRATS_473 
+2024-12-06 08:01:18.251953: BRATS_473, shape torch.Size([4, 119, 163, 143]), rank 0 
+2024-12-06 08:01:19.427538: predicting BRATS_474 
+2024-12-06 08:01:19.443051: BRATS_474, shape torch.Size([4, 137, 173, 138]), rank 0 
+2024-12-06 08:01:20.836177: predicting BRATS_475 
+2024-12-06 08:01:20.854691: BRATS_475, shape torch.Size([4, 130, 169, 152]), rank 0 
+2024-12-06 08:01:22.261829: predicting BRATS_476 
+2024-12-06 08:01:22.278829: BRATS_476, shape torch.Size([4, 136, 167, 137]), rank 0 
+2024-12-06 08:01:23.738941: predicting BRATS_477 
+2024-12-06 08:01:23.757451: BRATS_477, shape torch.Size([4, 142, 169, 141]), rank 0 
+2024-12-06 08:01:25.215578: predicting BRATS_478 
+2024-12-06 08:01:25.230584: BRATS_478, shape torch.Size([4, 137, 172, 135]), rank 0 
+2024-12-06 08:01:26.635703: predicting BRATS_479 
+2024-12-06 08:01:26.650704: BRATS_479, shape torch.Size([4, 137, 171, 141]), rank 0 
+2024-12-06 08:01:28.132319: predicting BRATS_480 
+2024-12-06 08:01:28.151319: BRATS_480, shape torch.Size([4, 146, 172, 131]), rank 0 
+2024-12-06 08:01:29.624473: predicting BRATS_481 
+2024-12-06 08:01:29.639471: BRATS_481, shape torch.Size([4, 139, 173, 135]), rank 0 
+2024-12-06 08:01:31.062104: predicting BRATS_482 
+2024-12-06 08:01:31.079106: BRATS_482, shape torch.Size([4, 143, 169, 134]), rank 0 
+2024-12-06 08:01:32.526300: predicting BRATS_483 
+2024-12-06 08:01:32.541301: BRATS_483, shape torch.Size([4, 136, 177, 133]), rank 0 
+2024-12-06 08:01:33.897943: predicting BRATS_484 
+2024-12-06 08:01:33.914450: BRATS_484, shape torch.Size([4, 139, 166, 142]), rank 0 
+2024-12-06 08:02:00.611660: Validation complete 
+2024-12-06 08:02:00.618660: Mean Validation Dice:  0.8159831478058108 

@@ -1,0 +1,868 @@
+{
+    "foreground_mean": {
+        "Dice": 0.9764794701541942,
+        "FN": 464.953125,
+        "FP": 429.390625,
+        "IoU": 0.9542723657687904,
+        "TN": 1857195.984375,
+        "TP": 25045.671875,
+        "n_pred": 25475.0625,
+        "n_ref": 25510.625
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.969494917963458,
+            "FN": 349.6875,
+            "FP": 302.40625,
+            "IoU": 0.9410293536096552,
+            "TN": 1870514.59375,
+            "TP": 11969.3125,
+            "n_pred": 12271.71875,
+            "n_ref": 12319.0
+        },
+        "2": {
+            "Dice": 0.9834640223449305,
+            "FN": 580.21875,
+            "FP": 556.375,
+            "IoU": 0.9675153779279254,
+            "TN": 1843877.375,
+            "TP": 38122.03125,
+            "n_pred": 38678.40625,
+            "n_ref": 38702.25
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9391348948538212,
+                    "FN": 320,
+                    "FP": 392,
+                    "IoU": 0.8852538275584206,
+                    "TN": 1529795,
+                    "TP": 5493,
+                    "n_pred": 5885,
+                    "n_ref": 5813
+                },
+                "2": {
+                    "Dice": 0.9770910037561829,
+                    "FN": 760,
+                    "FP": 472,
+                    "IoU": 0.9552081439738229,
+                    "TN": 1508495,
+                    "TP": 26273,
+                    "n_pred": 26745,
+                    "n_ref": 27033
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_00.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_00.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9713258720692753,
+                    "FN": 383,
+                    "FP": 319,
+                    "IoU": 0.9442503176620076,
+                    "TN": 2035408,
+                    "TP": 11890,
+                    "n_pred": 12209,
+                    "n_ref": 12273
+                },
+                "2": {
+                    "Dice": 0.9852248783913846,
+                    "FN": 505,
+                    "FP": 631,
+                    "IoU": 0.9708800082028146,
+                    "TN": 2008989,
+                    "TP": 37875,
+                    "n_pred": 38506,
+                    "n_ref": 38380
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_01.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_01.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9710676446617766,
+                    "FN": 472,
+                    "FP": 380,
+                    "IoU": 0.9437623762376237,
+                    "TN": 2442450,
+                    "TP": 14298,
+                    "n_pred": 14678,
+                    "n_ref": 14770
+                },
+                "2": {
+                    "Dice": 0.981682128600637,
+                    "FN": 574,
+                    "FP": 743,
+                    "IoU": 0.9640232742371677,
+                    "TN": 2420993,
+                    "TP": 35290,
+                    "n_pred": 36033,
+                    "n_ref": 35864
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_02.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_02.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9684043496523078,
+                    "FN": 472,
+                    "FP": 205,
+                    "IoU": 0.9387441187115454,
+                    "TN": 1524948,
+                    "TP": 10375,
+                    "n_pred": 10580,
+                    "n_ref": 10847
+                },
+                "2": {
+                    "Dice": 0.9859187460062053,
+                    "FN": 778,
+                    "FP": 1051,
+                    "IoU": 0.9722285488695547,
+                    "TN": 1470141,
+                    "TP": 64030,
+                    "n_pred": 65081,
+                    "n_ref": 64808
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_04.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_04.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9716073596712431,
+                    "FN": 327,
+                    "FP": 281,
+                    "IoU": 0.9447824902370356,
+                    "TN": 2036989,
+                    "TP": 10403,
+                    "n_pred": 10684,
+                    "n_ref": 10730
+                },
+                "2": {
+                    "Dice": 0.9854333128457283,
+                    "FN": 491,
+                    "FP": 457,
+                    "IoU": 0.971284909432362,
+                    "TN": 2014986,
+                    "TP": 32066,
+                    "n_pred": 32523,
+                    "n_ref": 32557
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_06.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_06.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9707479418462077,
+                    "FN": 204,
+                    "FP": 130,
+                    "IoU": 0.9431586113002042,
+                    "TN": 2042124,
+                    "TP": 5542,
+                    "n_pred": 5672,
+                    "n_ref": 5746
+                },
+                "2": {
+                    "Dice": 0.9764476713299097,
+                    "FN": 139,
+                    "FP": 127,
+                    "IoU": 0.9539792387543252,
+                    "TN": 2042220,
+                    "TP": 5514,
+                    "n_pred": 5641,
+                    "n_ref": 5653
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_07.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_07.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.980307036583922,
+                    "FN": 299,
+                    "FP": 200,
+                    "IoU": 0.9613747194055268,
+                    "TN": 2035081,
+                    "TP": 12420,
+                    "n_pred": 12620,
+                    "n_ref": 12719
+                },
+                "2": {
+                    "Dice": 0.9867742810634834,
+                    "FN": 202,
+                    "FP": 188,
+                    "IoU": 0.9738938349287101,
+                    "TN": 2033061,
+                    "TP": 14549,
+                    "n_pred": 14737,
+                    "n_ref": 14751
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_10.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_10.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9771104815864022,
+                    "FN": 226,
+                    "FP": 178,
+                    "IoU": 0.9552453749861527,
+                    "TN": 2038973,
+                    "TP": 8623,
+                    "n_pred": 8801,
+                    "n_ref": 8849
+                },
+                "2": {
+                    "Dice": 0.9856621307666777,
+                    "FN": 194,
+                    "FP": 238,
+                    "IoU": 0.971729598848243,
+                    "TN": 2032719,
+                    "TP": 14849,
+                    "n_pred": 15087,
+                    "n_ref": 15043
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_13.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_13.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.974900788537855,
+                    "FN": 243,
+                    "FP": 244,
+                    "IoU": 0.9510306686777275,
+                    "TN": 2038055,
+                    "TP": 9458,
+                    "n_pred": 9702,
+                    "n_ref": 9701
+                },
+                "2": {
+                    "Dice": 0.9832869080779945,
+                    "FN": 372,
+                    "FP": 456,
+                    "IoU": 0.9671232876712329,
+                    "TN": 2022815,
+                    "TP": 24357,
+                    "n_pred": 24813,
+                    "n_ref": 24729
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_14.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_14.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9648782850914376,
+                    "FN": 297,
+                    "FP": 283,
+                    "IoU": 0.9321399321399322,
+                    "TN": 2039453,
+                    "TP": 7967,
+                    "n_pred": 8250,
+                    "n_ref": 8264
+                },
+                "2": {
+                    "Dice": 0.9891463663518804,
+                    "FN": 2767,
+                    "FP": 1913,
+                    "IoU": 0.978525805741135,
+                    "TN": 1830064,
+                    "TP": 213256,
+                    "n_pred": 215169,
+                    "n_ref": 216023
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_16.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_16.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9809574387375768,
+                    "FN": 249,
+                    "FP": 253,
+                    "IoU": 0.9626265634306135,
+                    "TN": 2034568,
+                    "TP": 12930,
+                    "n_pred": 13183,
+                    "n_ref": 13179
+                },
+                "2": {
+                    "Dice": 0.9800747198007472,
+                    "FN": 227,
+                    "FP": 221,
+                    "IoU": 0.960927960927961,
+                    "TN": 2036534,
+                    "TP": 11018,
+                    "n_pred": 11239,
+                    "n_ref": 11245
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_17.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_17.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9866849508979917,
+                    "FN": 556,
+                    "FP": 648,
+                    "IoU": 0.9737198236346968,
+                    "TN": 1133834,
+                    "TP": 44610,
+                    "n_pred": 45258,
+                    "n_ref": 45166
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 1179648,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_18.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_18.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9712358861697236,
+                    "FN": 281,
+                    "FP": 282,
+                    "IoU": 0.9440802542709575,
+                    "TN": 2037932,
+                    "TP": 9505,
+                    "n_pred": 9787,
+                    "n_ref": 9786
+                },
+                "2": {
+                    "Dice": 0.9855112033346075,
+                    "FN": 755,
+                    "FP": 837,
+                    "IoU": 0.9714362608773661,
+                    "TN": 1992265,
+                    "TP": 54143,
+                    "n_pred": 54980,
+                    "n_ref": 54898
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_20.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_20.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9792392364497701,
+                    "FN": 331,
+                    "FP": 265,
+                    "IoU": 0.9593229593229593,
+                    "TN": 2033348,
+                    "TP": 14056,
+                    "n_pred": 14321,
+                    "n_ref": 14387
+                },
+                "2": {
+                    "Dice": 0.986095328608913,
+                    "FN": 321,
+                    "FP": 352,
+                    "IoU": 0.9725720340709948,
+                    "TN": 2023463,
+                    "TP": 23864,
+                    "n_pred": 24216,
+                    "n_ref": 24185
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_21.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_21.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.965967365967366,
+                    "FN": 195,
+                    "FP": 170,
+                    "IoU": 0.9341749323715058,
+                    "TN": 2042455,
+                    "TP": 5180,
+                    "n_pred": 5350,
+                    "n_ref": 5375
+                },
+                "2": {
+                    "Dice": 0.9877778328857777,
+                    "FN": 884,
+                    "FP": 841,
+                    "IoU": 0.9758508210720835,
+                    "TN": 1976569,
+                    "TP": 69706,
+                    "n_pred": 70547,
+                    "n_ref": 70590
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_24.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_24.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9608680184987549,
+                    "FN": 233,
+                    "FP": 207,
+                    "IoU": 0.9246833276275248,
+                    "TN": 1939758,
+                    "TP": 5402,
+                    "n_pred": 5609,
+                    "n_ref": 5635
+                },
+                "2": {
+                    "Dice": 0.9781218044755178,
+                    "FN": 999,
+                    "FP": 841,
+                    "IoU": 0.9571804240068884,
+                    "TN": 1902629,
+                    "TP": 41131,
+                    "n_pred": 41972,
+                    "n_ref": 42130
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_25.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_25.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9699610020025998,
+                    "FN": 594,
+                    "FP": 261,
+                    "IoU": 0.9416740568933761,
+                    "TN": 1607357,
+                    "TP": 13804,
+                    "n_pred": 14065,
+                    "n_ref": 14398
+                },
+                "2": {
+                    "Dice": 0.9793380364163623,
+                    "FN": 404,
+                    "FP": 337,
+                    "IoU": 0.9595126215714129,
+                    "TN": 1603714,
+                    "TP": 17561,
+                    "n_pred": 17898,
+                    "n_ref": 17965
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_28.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_28.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9612002069322297,
+                    "FN": 791,
+                    "FP": 559,
+                    "IoU": 0.9252988047808764,
+                    "TN": 1517928,
+                    "TP": 16722,
+                    "n_pred": 17281,
+                    "n_ref": 17513
+                },
+                "2": {
+                    "Dice": 0.9809229081792542,
+                    "FN": 990,
+                    "FP": 958,
+                    "IoU": 0.962560061502979,
+                    "TN": 1483970,
+                    "TP": 50082,
+                    "n_pred": 51040,
+                    "n_ref": 51072
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_29.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_29.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9767329366806946,
+                    "FN": 305,
+                    "FP": 176,
+                    "IoU": 0.9545239670984211,
+                    "TN": 2037423,
+                    "TP": 10096,
+                    "n_pred": 10272,
+                    "n_ref": 10401
+                },
+                "2": {
+                    "Dice": 0.9864673214309383,
+                    "FN": 568,
+                    "FP": 453,
+                    "IoU": 0.9732960192498823,
+                    "TN": 2009766,
+                    "TP": 37213,
+                    "n_pred": 37666,
+                    "n_ref": 37781
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_31.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_31.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9873899041632717,
+                    "FN": 240,
+                    "FP": 410,
+                    "IoU": 0.9750938769254349,
+                    "TN": 2021902,
+                    "TP": 25448,
+                    "n_pred": 25858,
+                    "n_ref": 25688
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 2048000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_32.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_32.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9552258577295006,
+                    "FN": 706,
+                    "FP": 646,
+                    "IoU": 0.9142893368834791,
+                    "TN": 1520226,
+                    "TP": 14422,
+                    "n_pred": 15068,
+                    "n_ref": 15128
+                },
+                "2": {
+                    "Dice": 0.9827405857740585,
+                    "FN": 479,
+                    "FP": 511,
+                    "IoU": 0.9660668380462725,
+                    "TN": 1506825,
+                    "TP": 28185,
+                    "n_pred": 28696,
+                    "n_ref": 28664
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_34.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_34.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9689031974829883,
+                    "FN": 228,
+                    "FP": 197,
+                    "IoU": 0.9396820891285836,
+                    "TN": 2040954,
+                    "TP": 6621,
+                    "n_pred": 6818,
+                    "n_ref": 6849
+                },
+                "2": {
+                    "Dice": 0.9885497751876177,
+                    "FN": 636,
+                    "FP": 757,
+                    "IoU": 0.9773587972368956,
+                    "TN": 1986475,
+                    "TP": 60132,
+                    "n_pred": 60889,
+                    "n_ref": 60768
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_35.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_35.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9450035945363048,
+                    "FN": 148,
+                    "FP": 158,
+                    "IoU": 0.8957410562180579,
+                    "TN": 980105,
+                    "TP": 2629,
+                    "n_pred": 2787,
+                    "n_ref": 2777
+                },
+                "2": {
+                    "Dice": 0.9808919500334436,
+                    "FN": 500,
+                    "FP": 557,
+                    "IoU": 0.9625004434668464,
+                    "TN": 954853,
+                    "TP": 27130,
+                    "n_pred": 27687,
+                    "n_ref": 27630
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_37.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_37.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9634449977365324,
+                    "FN": 331,
+                    "FP": 315,
+                    "IoU": 0.9294682825635986,
+                    "TN": 2038841,
+                    "TP": 8513,
+                    "n_pred": 8828,
+                    "n_ref": 8844
+                },
+                "2": {
+                    "Dice": 0.9880856765329652,
+                    "FN": 1568,
+                    "FP": 1651,
+                    "IoU": 0.9764519125962882,
+                    "TN": 1911301,
+                    "TP": 133480,
+                    "n_pred": 135131,
+                    "n_ref": 135048
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_38.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_38.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9497948818128541,
+                    "FN": 367,
+                    "FP": 147,
+                    "IoU": 0.9043898809523809,
+                    "TN": 1530624,
+                    "TP": 4862,
+                    "n_pred": 5009,
+                    "n_ref": 5229
+                },
+                "2": {
+                    "Dice": 0.9826787858000343,
+                    "FN": 558,
+                    "FP": 654,
+                    "IoU": 0.9659474039109912,
+                    "TN": 1500408,
+                    "TP": 34380,
+                    "n_pred": 35034,
+                    "n_ref": 34938
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_39.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_39.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9748378099799915,
+                    "FN": 190,
+                    "FP": 225,
+                    "IoU": 0.9509108114502011,
+                    "TN": 2039546,
+                    "TP": 8039,
+                    "n_pred": 8264,
+                    "n_ref": 8229
+                },
+                "2": {
+                    "Dice": 0.9886428165814878,
+                    "FN": 149,
+                    "FP": 211,
+                    "IoU": 0.9775407074677148,
+                    "TN": 2031971,
+                    "TP": 15669,
+                    "n_pred": 15880,
+                    "n_ref": 15818
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_40.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_40.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9555593685655457,
+                    "FN": 470,
+                    "FP": 566,
+                    "IoU": 0.914900607852801,
+                    "TN": 1167474,
+                    "TP": 11138,
+                    "n_pred": 11704,
+                    "n_ref": 11608
+                },
+                "2": {
+                    "Dice": 0.9630747863892999,
+                    "FN": 766,
+                    "FP": 457,
+                    "IoU": 0.9287794083391567,
+                    "TN": 1162476,
+                    "TP": 15949,
+                    "n_pred": 16406,
+                    "n_ref": 16715
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_41.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_41.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9678550016141678,
+                    "FN": 390,
+                    "FP": 307,
+                    "IoU": 0.9377122430741733,
+                    "TN": 2241610,
+                    "TP": 10493,
+                    "n_pred": 10800,
+                    "n_ref": 10883
+                },
+                "2": {
+                    "Dice": 0.9852623977347231,
+                    "FN": 789,
+                    "FP": 762,
+                    "IoU": 0.9709528803655705,
+                    "TN": 2199404,
+                    "TP": 51845,
+                    "n_pred": 52607,
+                    "n_ref": 52634
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_42.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_42.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9855887375567496,
+                    "FN": 358,
+                    "FP": 334,
+                    "IoU": 0.9715869431328269,
+                    "TN": 2023645,
+                    "TP": 23663,
+                    "n_pred": 23997,
+                    "n_ref": 24021
+                },
+                "2": {
+                    "Dice": 0.983809243450103,
+                    "FN": 210,
+                    "FP": 230,
+                    "IoU": 0.9681344148319815,
+                    "TN": 2034192,
+                    "TP": 13368,
+                    "n_pred": 13598,
+                    "n_ref": 13578
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_43.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_43.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9795121258388666,
+                    "FN": 286,
+                    "FP": 291,
+                    "IoU": 0.9598469032707029,
+                    "TN": 2033630,
+                    "TP": 13793,
+                    "n_pred": 14084,
+                    "n_ref": 14079
+                },
+                "2": {
+                    "Dice": 0.9857194072657743,
+                    "FN": 256,
+                    "FP": 222,
+                    "IoU": 0.971840942562592,
+                    "TN": 2031025,
+                    "TP": 16497,
+                    "n_pred": 16719,
+                    "n_ref": 16753
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_44.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_44.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9792097836312323,
+                    "FN": 235,
+                    "FP": 207,
+                    "IoU": 0.959266427057414,
+                    "TN": 2037149,
+                    "TP": 10409,
+                    "n_pred": 10616,
+                    "n_ref": 10644
+                },
+                "2": {
+                    "Dice": 0.9877322117069751,
+                    "FN": 200,
+                    "FP": 150,
+                    "IoU": 0.9757617728531855,
+                    "TN": 2033560,
+                    "TP": 14090,
+                    "n_pred": 14240,
+                    "n_ref": 14290
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_46.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_46.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9691804172916951,
+                    "FN": 463,
+                    "FP": 441,
+                    "IoU": 0.9402037306522026,
+                    "TN": 2032882,
+                    "TP": 14214,
+                    "n_pred": 14655,
+                    "n_ref": 14677
+                },
+                "2": {
+                    "Dice": 0.9857564515692274,
+                    "FN": 526,
+                    "FP": 526,
+                    "IoU": 0.9719129622213323,
+                    "TN": 2010545,
+                    "TP": 36403,
+                    "n_pred": 36929,
+                    "n_ref": 36929
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset005_Prostate\\nnUNetTrainer_100epochs__nnUNetPlans__3d_fullres\\fold_all\\validation\\prostate_47.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset005_Prostate\\gt_segmentations\\prostate_47.nii.gz"
+        }
+    ]
+}

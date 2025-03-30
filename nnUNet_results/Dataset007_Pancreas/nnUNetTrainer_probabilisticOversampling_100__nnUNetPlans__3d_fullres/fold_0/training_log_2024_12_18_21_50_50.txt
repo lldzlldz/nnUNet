@@ -1,0 +1,50 @@
+2024-12-18 21:50:50.978526: Ignore previous message about oversample_foreground_percent. oversample_foreground_percent overwritten to 1 
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2024-12-18 21:50:50.982526: self.oversample_foreground_percent 1.0 
+2024-12-18 21:50:50.985527: do_dummy_2d_data_aug: True 
+2024-12-18 21:50:50.995460: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset007_Pancreas\splits_final.json 
+2024-12-18 21:50:51.001461: The split file contains 5 splits. 
+2024-12-18 21:50:51.003461: Desired fold for training: 0 
+2024-12-18 21:50:51.006460: This split has 224 training and 57 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 2, 'patch_size': [40, 224, 224], 'median_image_size_in_voxels': [96.0, 512.0, 512.0], 'spacing': [2.5, 0.8027340173721313, 0.8027340173721313], 'normalization_schemes': ['CTNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 320, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[1, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [1, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset007_Pancreas', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [2.5, 0.8027340173721313, 0.8027340173721313], 'original_median_shape_after_transp': [93, 512, 512], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 3071.0, 'mean': 80.36482238769531, 'median': 86.0, 'min': -998.0, 'percentile_00_5': -92.0, 'percentile_99_5': 217.0, 'std': 72.70781707763672}}} 
+ 
+2024-12-18 21:50:58.059881: unpacking dataset... 
+2024-12-18 21:50:58.528454: unpacking done... 
+2024-12-18 21:51:01.940583:  
+2024-12-18 21:51:01.940583: Epoch 0 
+2024-12-18 21:51:01.945642: Current learning rate: 0.01 
+2024-12-18 21:51:48.473488: train_loss 0.1345 
+2024-12-18 21:51:48.473991: val_loss 0.0619 
+2024-12-18 21:51:48.479054: Pseudo dice [np.float32(0.0), np.float32(0.0)] 
+2024-12-18 21:51:48.482095: Epoch time: 46.53 s 
+2024-12-18 21:51:48.485128: Yayy! New best EMA pseudo Dice: 0.0 
+2024-12-18 21:51:49.184151:  
+2024-12-18 21:51:49.184151: Epoch 1 
+2024-12-18 21:51:49.189186: Current learning rate: 0.00991 
+2024-12-18 21:52:31.151875: train_loss -0.0159 
+2024-12-18 21:52:31.152878: val_loss -0.0991 
+2024-12-18 21:52:31.157912: Pseudo dice [np.float32(0.4127), np.float32(0.0)] 
+2024-12-18 21:52:31.160639: Epoch time: 41.97 s 
+2024-12-18 21:52:31.164662: Yayy! New best EMA pseudo Dice: 0.020600000396370888 
+2024-12-18 21:52:31.951551:  
+2024-12-18 21:52:31.952555: Epoch 2 
+2024-12-18 21:52:31.957108: Current learning rate: 0.00982 
+2024-12-18 21:53:13.465881: train_loss -0.1045 
+2024-12-18 21:53:13.466885: val_loss -0.1503 
+2024-12-18 21:53:13.471934: Pseudo dice [np.float32(0.4593), np.float32(0.0)] 
+2024-12-18 21:53:13.475505: Epoch time: 41.51 s 
+2024-12-18 21:53:13.478522: Yayy! New best EMA pseudo Dice: 0.04149999842047691 
+2024-12-18 21:53:14.310015:  
+2024-12-18 21:53:14.311015: Epoch 3 
+2024-12-18 21:53:14.316027: Current learning rate: 0.00973 

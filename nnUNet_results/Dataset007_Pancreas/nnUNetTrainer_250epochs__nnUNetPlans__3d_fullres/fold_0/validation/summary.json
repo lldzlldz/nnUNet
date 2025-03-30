@@ -1,0 +1,1518 @@
+{
+    "foreground_mean": {
+        "Dice": 0.640963697175142,
+        "FN": 5918.666666666666,
+        "FP": 4582.289473684211,
+        "IoU": 0.5275422805611765,
+        "TN": 23695053.745614037,
+        "TP": 20776.80701754386,
+        "n_pred": 25359.09649122807,
+        "n_ref": 26695.473684210527
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.810237216125008,
+            "FN": 8843.561403508771,
+            "FP": 8013.368421052632,
+            "IoU": 0.6884734002109635,
+            "TN": 23670731.38596491,
+            "TP": 38743.19298245614,
+            "n_pred": 46756.56140350877,
+            "n_ref": 47586.754385964916
+        },
+        "2": {
+            "Dice": 0.4716901782252761,
+            "FN": 2993.7719298245615,
+            "FP": 1151.2105263157894,
+            "IoU": 0.36661116091138957,
+            "TN": 23719376.10526316,
+            "TP": 2810.4210526315787,
+            "n_pred": 3961.6315789473683,
+            "n_ref": 5804.19298245614
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.838017552675556,
+                    "FN": 9954,
+                    "FP": 3907,
+                    "IoU": 0.721196395526591,
+                    "TN": 24329676,
+                    "TP": 35855,
+                    "n_pred": 39762,
+                    "n_ref": 45809
+                },
+                "2": {
+                    "Dice": 0.510899360396815,
+                    "FN": 3743,
+                    "FP": 4,
+                    "IoU": 0.34309256661991583,
+                    "TN": 24373688,
+                    "TP": 1957,
+                    "n_pred": 1961,
+                    "n_ref": 5700
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_021.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_021.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5370603291319607,
+                    "FN": 37852,
+                    "FP": 14781,
+                    "IoU": 0.36711037360364585,
+                    "TN": 27441957,
+                    "TP": 30530,
+                    "n_pred": 45311,
+                    "n_ref": 68382
+                },
+                "2": {
+                    "Dice": 0.016276346604215456,
+                    "FN": 15533,
+                    "FP": 1269,
+                    "IoU": 0.008204946579304645,
+                    "TN": 27508179,
+                    "TP": 139,
+                    "n_pred": 1408,
+                    "n_ref": 15672
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_024.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_024.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7300118937491741,
+                    "FN": 5721,
+                    "FP": 24924,
+                    "IoU": 0.5748178980228928,
+                    "TN": 19064437,
+                    "TP": 41430,
+                    "n_pred": 66354,
+                    "n_ref": 47151
+                },
+                "2": {
+                    "Dice": 0.8702867957490174,
+                    "FN": 24,
+                    "FP": 1758,
+                    "IoU": 0.7703608247422681,
+                    "TN": 19128752,
+                    "TP": 5978,
+                    "n_pred": 7736,
+                    "n_ref": 6002
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_035.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_035.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8906105334851597,
+                    "FN": 6546,
+                    "FP": 3733,
+                    "IoU": 0.8027933925522323,
+                    "TN": 11744357,
+                    "TP": 41844,
+                    "n_pred": 45577,
+                    "n_ref": 48390
+                },
+                "2": {
+                    "Dice": 0.6897832817337461,
+                    "FN": 1168,
+                    "FP": 335,
+                    "IoU": 0.5264650283553876,
+                    "TN": 11793306,
+                    "TP": 1671,
+                    "n_pred": 2006,
+                    "n_ref": 2839
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_040.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_040.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7641029629053581,
+                    "FN": 8710,
+                    "FP": 6457,
+                    "IoU": 0.6182577835946742,
+                    "TN": 13329613,
+                    "TP": 24564,
+                    "n_pred": 31021,
+                    "n_ref": 33274
+                },
+                "2": {
+                    "Dice": 0.9385387473114776,
+                    "FN": 167,
+                    "FP": 776,
+                    "IoU": 0.8841950141225593,
+                    "TN": 13361201,
+                    "TP": 7200,
+                    "n_pred": 7976,
+                    "n_ref": 7367
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_042.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_042.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8772722604498305,
+                    "FN": 5375,
+                    "FP": 2990,
+                    "IoU": 0.7813757775338456,
+                    "TN": 21981834,
+                    "TP": 29897,
+                    "n_pred": 32887,
+                    "n_ref": 35272
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 2369,
+                    "FP": 345,
+                    "IoU": 0.0,
+                    "TN": 22017382,
+                    "TP": 0,
+                    "n_pred": 345,
+                    "n_ref": 2369
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_056.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_056.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9076770841922982,
+                    "FN": 9170,
+                    "FP": 2026,
+                    "IoU": 0.8309603973849894,
+                    "TN": 26934599,
+                    "TP": 55037,
+                    "n_pred": 57063,
+                    "n_ref": 64207
+                },
+                "2": {
+                    "Dice": 0.910095429432446,
+                    "FN": 129,
+                    "FP": 50,
+                    "IoU": 0.8350230414746543,
+                    "TN": 26999747,
+                    "TP": 906,
+                    "n_pred": 956,
+                    "n_ref": 1035
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_067.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_067.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8662751607345464,
+                    "FN": 21418,
+                    "FP": 4040,
+                    "IoU": 0.7640964815552693,
+                    "TN": 31611507,
+                    "TP": 82459,
+                    "n_pred": 86499,
+                    "n_ref": 103877
+                },
+                "2": {
+                    "Dice": 0.8756902877003282,
+                    "FN": 1166,
+                    "FP": 2053,
+                    "IoU": 0.7788692725149413,
+                    "TN": 31704867,
+                    "TP": 11338,
+                    "n_pred": 13391,
+                    "n_ref": 12504
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_075.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_075.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8248393595841828,
+                    "FN": 25014,
+                    "FP": 4372,
+                    "IoU": 0.7018949845804252,
+                    "TN": 13270768,
+                    "TP": 69190,
+                    "n_pred": 73562,
+                    "n_ref": 94204
+                },
+                "2": {
+                    "Dice": 0.22911051212938005,
+                    "FN": 1505,
+                    "FP": 211,
+                    "IoU": 0.1293759512937595,
+                    "TN": 13367373,
+                    "TP": 255,
+                    "n_pred": 466,
+                    "n_ref": 1760
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_086.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_086.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8169418657738549,
+                    "FN": 13382,
+                    "FP": 5864,
+                    "IoU": 0.690534000096477,
+                    "TN": 23792913,
+                    "TP": 42945,
+                    "n_pred": 48809,
+                    "n_ref": 56327
+                },
+                "2": {
+                    "Dice": 0.8159289853285662,
+                    "FN": 501,
+                    "FP": 992,
+                    "IoU": 0.6890878800499792,
+                    "TN": 23850302,
+                    "TP": 3309,
+                    "n_pred": 4301,
+                    "n_ref": 3810
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_089.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_089.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7853223477448399,
+                    "FN": 8103,
+                    "FP": 4534,
+                    "IoU": 0.64652736986378,
+                    "TN": 24081497,
+                    "TP": 23114,
+                    "n_pred": 27648,
+                    "n_ref": 31217
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 1507,
+                    "FP": 733,
+                    "IoU": 0.0,
+                    "TN": 24115008,
+                    "TP": 0,
+                    "n_pred": 733,
+                    "n_ref": 1507
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_092.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_092.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8436465176222099,
+                    "FN": 36465,
+                    "FP": 7210,
+                    "IoU": 0.7295749357605028,
+                    "TN": 21858591,
+                    "TP": 117830,
+                    "n_pred": 125040,
+                    "n_ref": 154295
+                },
+                "2": {
+                    "Dice": 0.04080617068922618,
+                    "FN": 12837,
+                    "FP": 2583,
+                    "IoU": 0.02082804165608331,
+                    "TN": 22004348,
+                    "TP": 328,
+                    "n_pred": 2911,
+                    "n_ref": 13165
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_094.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_094.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8460045333299938,
+                    "FN": 21580,
+                    "FP": 3014,
+                    "IoU": 0.7331090613130765,
+                    "TN": 24287242,
+                    "TP": 67556,
+                    "n_pred": 70570,
+                    "n_ref": 89136
+                },
+                "2": {
+                    "Dice": 0.7317885809480539,
+                    "FN": 1728,
+                    "FP": 43,
+                    "IoU": 0.5770241222832577,
+                    "TN": 24375205,
+                    "TP": 2416,
+                    "n_pred": 2459,
+                    "n_ref": 4144
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_095.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_095.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8379711698341372,
+                    "FN": 6059,
+                    "FP": 5732,
+                    "IoU": 0.7211276932901303,
+                    "TN": 38492887,
+                    "TP": 30490,
+                    "n_pred": 36222,
+                    "n_ref": 36549
+                },
+                "2": {
+                    "Dice": 0.7126123672023972,
+                    "FN": 2423,
+                    "FP": 742,
+                    "IoU": 0.5535336436732966,
+                    "TN": 38528079,
+                    "TP": 3924,
+                    "n_pred": 4666,
+                    "n_ref": 6347
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_098.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_098.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8639098723625944,
+                    "FN": 17262,
+                    "FP": 3636,
+                    "IoU": 0.7604237122975157,
+                    "TN": 25865027,
+                    "TP": 66331,
+                    "n_pred": 69967,
+                    "n_ref": 83593
+                },
+                "2": {
+                    "Dice": 0.3057553956834532,
+                    "FN": 1132,
+                    "FP": 26,
+                    "IoU": 0.18046709129511676,
+                    "TN": 25950843,
+                    "TP": 255,
+                    "n_pred": 281,
+                    "n_ref": 1387
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_109.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_109.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7111995205045126,
+                    "FN": 31105,
+                    "FP": 2142,
+                    "IoU": 0.5518305834142133,
+                    "TN": 25615928,
+                    "TP": 40937,
+                    "n_pred": 43079,
+                    "n_ref": 72042
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 1074,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 25689038,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 1074
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_110.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_110.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8363905413004232,
+                    "FN": 11548,
+                    "FP": 16093,
+                    "IoU": 0.7187897408767664,
+                    "TN": 25591819,
+                    "TP": 70652,
+                    "n_pred": 86745,
+                    "n_ref": 82200
+                },
+                "2": {
+                    "Dice": 0.8236594803758983,
+                    "FN": 1305,
+                    "FP": 290,
+                    "IoU": 0.700187969924812,
+                    "TN": 25684792,
+                    "TP": 3725,
+                    "n_pred": 4015,
+                    "n_ref": 5030
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_114.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_114.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8542111396425662,
+                    "FN": 10230,
+                    "FP": 3907,
+                    "IoU": 0.7455222940255252,
+                    "TN": 22226687,
+                    "TP": 41416,
+                    "n_pred": 45323,
+                    "n_ref": 51646
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 7572,
+                    "FP": 130,
+                    "IoU": 0.0,
+                    "TN": 22274538,
+                    "TP": 0,
+                    "n_pred": 130,
+                    "n_ref": 7572
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_119.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_119.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8665455318655404,
+                    "FN": 8429,
+                    "FP": 5379,
+                    "IoU": 0.7645172843085424,
+                    "TN": 24845043,
+                    "TP": 44829,
+                    "n_pred": 50208,
+                    "n_ref": 53258
+                },
+                "2": {
+                    "Dice": 0.8135968748177949,
+                    "FN": 2029,
+                    "FP": 1168,
+                    "IoU": 0.6857676430115982,
+                    "TN": 24893506,
+                    "TP": 6977,
+                    "n_pred": 8145,
+                    "n_ref": 9006
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_138.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_138.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6653215375860106,
+                    "FN": 17945,
+                    "FP": 7931,
+                    "IoU": 0.49848825490348087,
+                    "TN": 24327796,
+                    "TP": 25720,
+                    "n_pred": 33651,
+                    "n_ref": 43665
+                },
+                "2": {
+                    "Dice": 0.7339359882726606,
+                    "FN": 78,
+                    "FP": 1011,
+                    "IoU": 0.5796989579313007,
+                    "TN": 24376801,
+                    "TP": 1502,
+                    "n_pred": 2513,
+                    "n_ref": 1580
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_145.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_145.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.75165744176145,
+                    "FN": 5703,
+                    "FP": 6546,
+                    "IoU": 0.6021243422334828,
+                    "TN": 10979262,
+                    "TP": 18537,
+                    "n_pred": 25083,
+                    "n_ref": 24240
+                },
+                "2": {
+                    "Dice": 0.7802259887005649,
+                    "FN": 57,
+                    "FP": 721,
+                    "IoU": 0.6396479851783233,
+                    "TN": 11007889,
+                    "TP": 1381,
+                    "n_pred": 2102,
+                    "n_ref": 1438
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_148.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_148.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7860038325471698,
+                    "FN": 1033,
+                    "FP": 10581,
+                    "IoU": 0.6474516589260237,
+                    "TN": 22773585,
+                    "TP": 21329,
+                    "n_pred": 31910,
+                    "n_ref": 22362
+                },
+                "2": {
+                    "Dice": 0.6792137181095775,
+                    "FN": 527,
+                    "FP": 240,
+                    "IoU": 0.5142495250158328,
+                    "TN": 22804949,
+                    "TP": 812,
+                    "n_pred": 1052,
+                    "n_ref": 1339
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_169.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_169.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8331907613344739,
+                    "FN": 5689,
+                    "FP": 7766,
+                    "IoU": 0.7140762463343109,
+                    "TN": 26953774,
+                    "TP": 33603,
+                    "n_pred": 41369,
+                    "n_ref": 39292
+                },
+                "2": {
+                    "Dice": 0.4494200161855948,
+                    "FN": 829,
+                    "FP": 1212,
+                    "IoU": 0.28983994432846205,
+                    "TN": 26997958,
+                    "TP": 833,
+                    "n_pred": 2045,
+                    "n_ref": 1662
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_170.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_170.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.838817216818889,
+                    "FN": 9683,
+                    "FP": 20777,
+                    "IoU": 0.7223817205771106,
+                    "TN": 24793961,
+                    "TP": 79259,
+                    "n_pred": 100036,
+                    "n_ref": 88942
+                },
+                "2": {
+                    "Dice": 0.536441717791411,
+                    "FN": 205,
+                    "FP": 1684,
+                    "IoU": 0.36653252850435947,
+                    "TN": 24900698,
+                    "TP": 1093,
+                    "n_pred": 2777,
+                    "n_ref": 1298
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_172.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_172.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8288347198508131,
+                    "FN": 3780,
+                    "FP": 10355,
+                    "IoU": 0.7077008974730138,
+                    "TN": 23806746,
+                    "TP": 34223,
+                    "n_pred": 44578,
+                    "n_ref": 38003
+                },
+                "2": {
+                    "Dice": 0.4534440983039114,
+                    "FN": 1095,
+                    "FP": 484,
+                    "IoU": 0.29319606087735006,
+                    "TN": 23852870,
+                    "TP": 655,
+                    "n_pred": 1139,
+                    "n_ref": 1750
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_175.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_175.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.84290614163082,
+                    "FN": 4259,
+                    "FP": 12321,
+                    "IoU": 0.728468253058417,
+                    "TN": 24842619,
+                    "TP": 44481,
+                    "n_pred": 56802,
+                    "n_ref": 48740
+                },
+                "2": {
+                    "Dice": 0.8294022213902409,
+                    "FN": 2211,
+                    "FP": 523,
+                    "IoU": 0.7085287846481876,
+                    "TN": 24894300,
+                    "TP": 6646,
+                    "n_pred": 7169,
+                    "n_ref": 8857
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_180.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_180.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8911840493389093,
+                    "FN": 2980,
+                    "FP": 7324,
+                    "IoU": 0.8037258562230942,
+                    "TN": 14889710,
+                    "TP": 42194,
+                    "n_pred": 49518,
+                    "n_ref": 45174
+                },
+                "2": {
+                    "Dice": 0.8456053200865316,
+                    "FN": 1332,
+                    "FP": 595,
+                    "IoU": 0.7325097168239867,
+                    "TN": 14935004,
+                    "TP": 5277,
+                    "n_pred": 5872,
+                    "n_ref": 6609
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_191.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_191.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7976083252851236,
+                    "FN": 3521,
+                    "FP": 15130,
+                    "IoU": 0.6633515035558283,
+                    "TN": 29566870,
+                    "TP": 36751,
+                    "n_pred": 51881,
+                    "n_ref": 40272
+                },
+                "2": {
+                    "Dice": 0.31437479840877325,
+                    "FN": 3181,
+                    "FP": 3196,
+                    "IoU": 0.1865033805332313,
+                    "TN": 29614433,
+                    "TP": 1462,
+                    "n_pred": 4658,
+                    "n_ref": 4643
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_193.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_193.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8631227412049957,
+                    "FN": 10216,
+                    "FP": 1752,
+                    "IoU": 0.7592048609713895,
+                    "TN": 25378266,
+                    "TP": 37734,
+                    "n_pred": 39486,
+                    "n_ref": 47950
+                },
+                "2": {
+                    "Dice": 0.03060650388207494,
+                    "FN": 401,
+                    "FP": 16829,
+                    "IoU": 0.015541081019312078,
+                    "TN": 25410466,
+                    "TP": 272,
+                    "n_pred": 17101,
+                    "n_ref": 673
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_212.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_212.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8935942450971996,
+                    "FN": 7145,
+                    "FP": 2795,
+                    "IoU": 0.8076550950114169,
+                    "TN": 25900578,
+                    "TP": 41738,
+                    "n_pred": 44533,
+                    "n_ref": 48883
+                },
+                "2": {
+                    "Dice": 0.3230437903804738,
+                    "FN": 818,
+                    "FP": 125,
+                    "IoU": 0.19263698630136986,
+                    "TN": 25951088,
+                    "TP": 225,
+                    "n_pred": 350,
+                    "n_ref": 1043
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_215.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_215.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.814413046672217,
+                    "FN": 6941,
+                    "FP": 8217,
+                    "IoU": 0.6869281450730116,
+                    "TN": 20136671,
+                    "TP": 33259,
+                    "n_pred": 41476,
+                    "n_ref": 40200
+                },
+                "2": {
+                    "Dice": 0.6364474897878508,
+                    "FN": 419,
+                    "FP": 2340,
+                    "IoU": 0.46675686122922305,
+                    "TN": 20179914,
+                    "TP": 2415,
+                    "n_pred": 4755,
+                    "n_ref": 2834
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_222.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_222.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8967768586714492,
+                    "FN": 3033,
+                    "FP": 7212,
+                    "IoU": 0.8128698765251698,
+                    "TN": 21965348,
+                    "TP": 44503,
+                    "n_pred": 51715,
+                    "n_ref": 47536
+                },
+                "2": {
+                    "Dice": 0.624031007751938,
+                    "FN": 857,
+                    "FP": 307,
+                    "IoU": 0.4535211267605634,
+                    "TN": 22017966,
+                    "TP": 966,
+                    "n_pred": 1273,
+                    "n_ref": 1823
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_235.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_235.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8578441745312962,
+                    "FN": 5323,
+                    "FP": 4754,
+                    "IoU": 0.7510745516525863,
+                    "TN": 25911774,
+                    "TP": 30405,
+                    "n_pred": 35159,
+                    "n_ref": 35728
+                },
+                "2": {
+                    "Dice": 0.7958853444290338,
+                    "FN": 1087,
+                    "FP": 679,
+                    "IoU": 0.6609713956613553,
+                    "TN": 25947047,
+                    "TP": 3443,
+                    "n_pred": 4122,
+                    "n_ref": 4530
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_241.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_241.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.876599398883641,
+                    "FN": 5829,
+                    "FP": 2793,
+                    "IoU": 0.7803088212811496,
+                    "TN": 26437298,
+                    "TP": 30624,
+                    "n_pred": 33417,
+                    "n_ref": 36453
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 405,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 26476139,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 405
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_242.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_242.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7954736350909939,
+                    "FN": 2863,
+                    "FP": 5903,
+                    "IoU": 0.6604036725680859,
+                    "TN": 26975019,
+                    "TP": 17047,
+                    "n_pred": 22950,
+                    "n_ref": 19910
+                },
+                "2": {
+                    "Dice": 0.4783092324805339,
+                    "FN": 62,
+                    "FP": 1345,
+                    "IoU": 0.31432748538011696,
+                    "TN": 26998780,
+                    "TP": 645,
+                    "n_pred": 1990,
+                    "n_ref": 707
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_244.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_244.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8776320479883962,
+                    "FN": 7469,
+                    "FP": 2486,
+                    "IoU": 0.7819468173654006,
+                    "TN": 28003754,
+                    "TP": 35699,
+                    "n_pred": 38185,
+                    "n_ref": 43168
+                },
+                "2": {
+                    "Dice": 0.5785793154214207,
+                    "FN": 5,
+                    "FP": 1140,
+                    "IoU": 0.40704298291040913,
+                    "TN": 28047477,
+                    "TP": 786,
+                    "n_pred": 1926,
+                    "n_ref": 791
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_246.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_246.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9006639625907459,
+                    "FN": 4280,
+                    "FP": 7255,
+                    "IoU": 0.8192799398383155,
+                    "TN": 23266988,
+                    "TP": 52293,
+                    "n_pred": 59548,
+                    "n_ref": 56573
+                },
+                "2": {
+                    "Dice": 0.7802175251385184,
+                    "FN": 2,
+                    "FP": 1069,
+                    "IoU": 0.6396366083445492,
+                    "TN": 23327844,
+                    "TP": 1901,
+                    "n_pred": 2970,
+                    "n_ref": 1903
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_247.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_247.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8149971159392424,
+                    "FN": 1855,
+                    "FP": 7767,
+                    "IoU": 0.6877596053997923,
+                    "TN": 28542880,
+                    "TP": 21194,
+                    "n_pred": 28961,
+                    "n_ref": 23049
+                },
+                "2": {
+                    "Dice": 0.3805680583579078,
+                    "FN": 3686,
+                    "FP": 305,
+                    "IoU": 0.23500095840521373,
+                    "TN": 28568479,
+                    "TP": 1226,
+                    "n_pred": 1531,
+                    "n_ref": 4912
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_264.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_264.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8886538624249091,
+                    "FN": 3927,
+                    "FP": 3969,
+                    "IoU": 0.7996193376475067,
+                    "TN": 21194259,
+                    "TP": 31509,
+                    "n_pred": 35478,
+                    "n_ref": 35436
+                },
+                "2": {
+                    "Dice": 0.3551684967815221,
+                    "FN": 57,
+                    "FP": 1646,
+                    "IoU": 0.21593001841620627,
+                    "TN": 21231492,
+                    "TP": 469,
+                    "n_pred": 2115,
+                    "n_ref": 526
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_265.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_265.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.841619110075486,
+                    "FN": 3677,
+                    "FP": 7674,
+                    "IoU": 0.7265478198024572,
+                    "TN": 25386458,
+                    "TP": 30159,
+                    "n_pred": 37833,
+                    "n_ref": 33836
+                },
+                "2": {
+                    "Dice": 0.5523696915952311,
+                    "FN": 3934,
+                    "FP": 609,
+                    "IoU": 0.3815682003811598,
+                    "TN": 25420622,
+                    "TP": 2803,
+                    "n_pred": 3412,
+                    "n_ref": 6737
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_266.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_266.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8026451434462296,
+                    "FN": 18764,
+                    "FP": 12632,
+                    "IoU": 0.6703485930281394,
+                    "TN": 23235576,
+                    "TP": 63844,
+                    "n_pred": 76476,
+                    "n_ref": 82608
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 2778,
+                    "FP": 302,
+                    "IoU": 0.0,
+                    "TN": 23327736,
+                    "TP": 0,
+                    "n_pred": 302,
+                    "n_ref": 2778
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_267.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_267.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8771044745033151,
+                    "FN": 4868,
+                    "FP": 5753,
+                    "IoU": 0.7811095997691768,
+                    "TN": 27476598,
+                    "TP": 37901,
+                    "n_pred": 43654,
+                    "n_ref": 42769
+                },
+                "2": {
+                    "Dice": 0.8395412564701106,
+                    "FN": 2689,
+                    "FP": 473,
+                    "IoU": 0.7234563582298408,
+                    "TN": 27513686,
+                    "TP": 8272,
+                    "n_pred": 8745,
+                    "n_ref": 10961
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_275.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_275.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7903507636551903,
+                    "FN": 7647,
+                    "FP": 5311,
+                    "IoU": 0.6533718535163042,
+                    "TN": 20934137,
+                    "TP": 24425,
+                    "n_pred": 29736,
+                    "n_ref": 32072
+                },
+                "2": {
+                    "Dice": 0.2690656307503578,
+                    "FN": 3543,
+                    "FP": 32,
+                    "IoU": 0.15544531065438225,
+                    "TN": 20967287,
+                    "TP": 658,
+                    "n_pred": 690,
+                    "n_ref": 4201
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_279.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_279.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8198693198693199,
+                    "FN": 6397,
+                    "FP": 5733,
+                    "IoU": 0.6947275701522587,
+                    "TN": 25650377,
+                    "TP": 27605,
+                    "n_pred": 33338,
+                    "n_ref": 34002
+                },
+                "2": {
+                    "Dice": 0.8675360892388452,
+                    "FN": 1934,
+                    "FP": 1296,
+                    "IoU": 0.7660606938509452,
+                    "TN": 25676305,
+                    "TP": 10577,
+                    "n_pred": 11873,
+                    "n_ref": 12511
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_287.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_287.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.728978886282257,
+                    "FN": 126,
+                    "FP": 13044,
+                    "IoU": 0.5735379832912376,
+                    "TN": 21727070,
+                    "TP": 17712,
+                    "n_pred": 30756,
+                    "n_ref": 17838
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 1024,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 21756928,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 1024
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_301.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_301.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8456543273287596,
+                    "FN": 6068,
+                    "FP": 6553,
+                    "IoU": 0.7325832697686244,
+                    "TN": 24856484,
+                    "TP": 34575,
+                    "n_pred": 41128,
+                    "n_ref": 40643
+                },
+                "2": {
+                    "Dice": 0.6820944366526415,
+                    "FN": 180,
+                    "FP": 1180,
+                    "IoU": 0.5175594182334161,
+                    "TN": 24900861,
+                    "TP": 1459,
+                    "n_pred": 2639,
+                    "n_ref": 1639
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_323.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_323.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8165303913514077,
+                    "FN": 2566,
+                    "FP": 11503,
+                    "IoU": 0.6899462270803949,
+                    "TN": 24071872,
+                    "TP": 31307,
+                    "n_pred": 42810,
+                    "n_ref": 33873
+                },
+                "2": {
+                    "Dice": 0.6193329859301719,
+                    "FN": 606,
+                    "FP": 2316,
+                    "IoU": 0.44857520286846575,
+                    "TN": 24111949,
+                    "TP": 2377,
+                    "n_pred": 4693,
+                    "n_ref": 2983
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_336.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_336.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8259977458601855,
+                    "FN": 2391,
+                    "FP": 9651,
+                    "IoU": 0.7035742418274912,
+                    "TN": 29319504,
+                    "TP": 28582,
+                    "n_pred": 38233,
+                    "n_ref": 30973
+                },
+                "2": {
+                    "Dice": 0.6201657458563536,
+                    "FN": 324,
+                    "FP": 2426,
+                    "IoU": 0.4494494494494494,
+                    "TN": 29355133,
+                    "TP": 2245,
+                    "n_pred": 4671,
+                    "n_ref": 2569
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_344.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_344.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8148638863639865,
+                    "FN": 2231,
+                    "FP": 9786,
+                    "IoU": 0.6875698723448509,
+                    "TN": 23030209,
+                    "TP": 26446,
+                    "n_pred": 36232,
+                    "n_ref": 28677
+                },
+                "2": {
+                    "Dice": 0.36182336182336183,
+                    "FN": 920,
+                    "FP": 1320,
+                    "IoU": 0.22086956521739132,
+                    "TN": 23065797,
+                    "TP": 635,
+                    "n_pred": 1955,
+                    "n_ref": 1555
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_351.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_351.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6625045570543201,
+                    "FN": 6565,
+                    "FP": 841,
+                    "IoU": 0.4953321976149915,
+                    "TN": 21218989,
+                    "TP": 7269,
+                    "n_pred": 8110,
+                    "n_ref": 13834
+                },
+                "2": {
+                    "Dice": 0.7716970702045329,
+                    "FN": 490,
+                    "FP": 1988,
+                    "IoU": 0.6282628262826283,
+                    "TN": 21226998,
+                    "TP": 4188,
+                    "n_pred": 6176,
+                    "n_ref": 4678
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_354.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_354.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8669296877389363,
+                    "FN": 10543,
+                    "FP": 2510,
+                    "IoU": 0.7651155258043619,
+                    "TN": 24323820,
+                    "TP": 42519,
+                    "n_pred": 45029,
+                    "n_ref": 53062
+                },
+                "2": {
+                    "Dice": 0.0935886761032473,
+                    "FN": 10886,
+                    "FP": 0,
+                    "IoU": 0.04909154437456324,
+                    "TN": 24367944,
+                    "TP": 562,
+                    "n_pred": 562,
+                    "n_ref": 11448
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_372.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_372.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5257636699641265,
+                    "FN": 876,
+                    "FP": 16574,
+                    "IoU": 0.35663459056888985,
+                    "TN": 14390797,
+                    "TP": 9673,
+                    "n_pred": 26247,
+                    "n_ref": 10549
+                },
+                "2": {
+                    "Dice": 0.4037025609379821,
+                    "FN": 9663,
+                    "FP": 0,
+                    "IoU": 0.2528993350858203,
+                    "TN": 14404986,
+                    "TP": 3271,
+                    "n_pred": 3271,
+                    "n_ref": 12934
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_377.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_377.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5488890684333845,
+                    "FN": 1387,
+                    "FP": 26530,
+                    "IoU": 0.3782543818623193,
+                    "TN": 13062299,
+                    "TP": 16984,
+                    "n_pred": 43514,
+                    "n_ref": 18371
+                },
+                "2": {
+                    "Dice": 0.13970528372547422,
+                    "FN": 21131,
+                    "FP": 3,
+                    "IoU": 0.07509846827133479,
+                    "TN": 13084350,
+                    "TP": 1716,
+                    "n_pred": 1719,
+                    "n_ref": 22847
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_387.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_387.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7573678543706337,
+                    "FN": 8294,
+                    "FP": 11086,
+                    "IoU": 0.6094867713140024,
+                    "TN": 23281189,
+                    "TP": 30247,
+                    "n_pred": 41333,
+                    "n_ref": 38541
+                },
+                "2": {
+                    "Dice": 0.7759681217890751,
+                    "FN": 22370,
+                    "FP": 175,
+                    "IoU": 0.633944373183523,
+                    "TN": 23269227,
+                    "TP": 39044,
+                    "n_pred": 39219,
+                    "n_ref": 61414
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_391.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_391.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7916550073065324,
+                    "FN": 5638,
+                    "FP": 7764,
+                    "IoU": 0.6551564429806505,
+                    "TN": 14903344,
+                    "TP": 25462,
+                    "n_pred": 33226,
+                    "n_ref": 31100
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 914,
+                    "FP": 4540,
+                    "IoU": 0.0,
+                    "TN": 14936754,
+                    "TP": 0,
+                    "n_pred": 4540,
+                    "n_ref": 914
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_392.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_392.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8476790404686083,
+                    "FN": 8135,
+                    "FP": 11524,
+                    "IoU": 0.7356275466978658,
+                    "TN": 26402183,
+                    "TP": 54702,
+                    "n_pred": 66226,
+                    "n_ref": 62837
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 6964,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 26469580,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 6964
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_410.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_410.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.805813092915293,
+                    "FN": 513,
+                    "FP": 13918,
+                    "IoU": 0.6747797083812228,
+                    "TN": 42947243,
+                    "TP": 29942,
+                    "n_pred": 43860,
+                    "n_ref": 30455
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 5069,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 42986547,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 5069
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset007_Pancreas\\nnUNetTrainer_250epochs__nnUNetPlans__3d_fullres\\fold_0\\validation\\pancreas_412.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset007_Pancreas\\gt_segmentations\\pancreas_412.nii.gz"
+        }
+    ]
+}

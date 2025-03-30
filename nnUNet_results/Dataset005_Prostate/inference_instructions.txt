@@ -1,0 +1,7 @@
+***Run inference like this:***
+
+nnUNetv2_predict -d Dataset005_Prostate -i INPUT_FOLDER -o OUTPUT_FOLDER -f  1 -tr nnUNetTrainer_100epochs -c 2d -p nnUNetPlans
+
+***Once inference is completed, run postprocessing like this:***
+
+nnUNetv2_apply_postprocessing -i OUTPUT_FOLDER -o OUTPUT_FOLDER_PP -pp_pkl_file C:\Users\linch\fyp\nnUNet_results\Dataset005_Prostate\nnUNetTrainer_100epochs__nnUNetPlans__2d\crossval_results_folds_1\postprocessing.pkl -np 8 -plans_json C:\Users\linch\fyp\nnUNet_results\Dataset005_Prostate\nnUNetTrainer_100epochs__nnUNetPlans__2d\crossval_results_folds_1\plans.json

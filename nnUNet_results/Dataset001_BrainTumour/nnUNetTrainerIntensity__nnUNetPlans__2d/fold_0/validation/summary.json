@@ -1,0 +1,3538 @@
+{
+    "foreground_mean": {
+        "Dice": 0.6982939380966933,
+        "FN": 7418.972508591066,
+        "FP": 6287.580756013745,
+        "IoU": 0.5798338196640679,
+        "TN": 8886936.027491407,
+        "TP": 27357.419243986253,
+        "n_pred": 33645.0,
+        "n_ref": 34776.39175257732
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.7733997528387058,
+            "FN": 11387.39175257732,
+            "FP": 12870.298969072164,
+            "IoU": 0.6515862336388095,
+            "TN": 8850430.639175259,
+            "TP": 53311.67010309279,
+            "n_pred": 66181.96907216495,
+            "n_ref": 64699.0618556701
+        },
+        "2": {
+            "Dice": 0.5875813244221555,
+            "FN": 8108.474226804124,
+            "FP": 3584.3917525773195,
+            "IoU": 0.45599936176800115,
+            "TN": 8903061.175257731,
+            "TP": 13245.958762886597,
+            "n_pred": 16830.350515463917,
+            "n_ref": 21354.432989690722
+        },
+        "3": {
+            "Dice": 0.7339007370292187,
+            "FN": 2761.0515463917527,
+            "FP": 2408.0515463917527,
+            "IoU": 0.6319158635853929,
+            "TN": 8907316.268041236,
+            "TP": 15514.62886597938,
+            "n_pred": 17922.680412371134,
+            "n_ref": 18275.680412371134
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.917348215144809,
+                    "FN": 1306,
+                    "FP": 1271,
+                    "IoU": 0.8473160327052969,
+                    "TN": 8911122,
+                    "TP": 14301,
+                    "n_pred": 15572,
+                    "n_ref": 15607
+                },
+                "2": {
+                    "Dice": 0.7129506008010681,
+                    "FN": 146,
+                    "FP": 69,
+                    "IoU": 0.553941908713693,
+                    "TN": 8927518,
+                    "TP": 267,
+                    "n_pred": 336,
+                    "n_ref": 413
+                },
+                "3": {
+                    "Dice": 0.942004693261817,
+                    "FN": 252,
+                    "FP": 267,
+                    "IoU": 0.8903675538656527,
+                    "TN": 8923266,
+                    "TP": 4215,
+                    "n_pred": 4482,
+                    "n_ref": 4467
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_010.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.955245138318269,
+                    "FN": 3612,
+                    "FP": 4558,
+                    "IoU": 0.9143246644295302,
+                    "TN": 8832640,
+                    "TP": 87190,
+                    "n_pred": 91748,
+                    "n_ref": 90802
+                },
+                "2": {
+                    "Dice": 0.8986748626996524,
+                    "FN": 2395,
+                    "FP": 1627,
+                    "IoU": 0.815994144020496,
+                    "TN": 8906142,
+                    "TP": 17836,
+                    "n_pred": 19463,
+                    "n_ref": 20231
+                },
+                "3": {
+                    "Dice": 0.9295721245900396,
+                    "FN": 1747,
+                    "FP": 1968,
+                    "IoU": 0.8684117313686597,
+                    "TN": 8899768,
+                    "TP": 24517,
+                    "n_pred": 26485,
+                    "n_ref": 26264
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_011.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.594147227266378,
+                    "FN": 3983,
+                    "FP": 7639,
+                    "IoU": 0.42262407471806845,
+                    "TN": 8907871,
+                    "TP": 8507,
+                    "n_pred": 16146,
+                    "n_ref": 12490
+                },
+                "2": {
+                    "Dice": 0.00022033711578715433,
+                    "FN": 8412,
+                    "FP": 663,
+                    "IoU": 0.00011018069634200089,
+                    "TN": 8918924,
+                    "TP": 1,
+                    "n_pred": 664,
+                    "n_ref": 8413
+                },
+                "3": {
+                    "Dice": 0.0915032679738562,
+                    "FN": 673,
+                    "FP": 22,
+                    "IoU": 0.04794520547945205,
+                    "TN": 8927270,
+                    "TP": 35,
+                    "n_pred": 57,
+                    "n_ref": 708
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_012.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9512153892964603,
+                    "FN": 3398,
+                    "FP": 3817,
+                    "IoU": 0.9069692476307137,
+                    "TN": 8850445,
+                    "TP": 70340,
+                    "n_pred": 74157,
+                    "n_ref": 73738
+                },
+                "2": {
+                    "Dice": 0.9253512470212742,
+                    "FN": 2930,
+                    "FP": 3993,
+                    "IoU": 0.8610732059720662,
+                    "TN": 8878168,
+                    "TP": 42909,
+                    "n_pred": 46902,
+                    "n_ref": 45839
+                },
+                "3": {
+                    "Dice": 0.8390023865096641,
+                    "FN": 3681,
+                    "FP": 2458,
+                    "IoU": 0.7226564264739102,
+                    "TN": 8905865,
+                    "TP": 15996,
+                    "n_pred": 18454,
+                    "n_ref": 19677
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_018.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_018.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9455499718453513,
+                    "FN": 7436,
+                    "FP": 7939,
+                    "IoU": 0.8967233596646784,
+                    "TN": 8779128,
+                    "TP": 133497,
+                    "n_pred": 141436,
+                    "n_ref": 140933
+                },
+                "2": {
+                    "Dice": 0.8670801086566552,
+                    "FN": 6507,
+                    "FP": 6460,
+                    "IoU": 0.7653498850907512,
+                    "TN": 8872739,
+                    "TP": 42294,
+                    "n_pred": 48754,
+                    "n_ref": 48801
+                },
+                "3": {
+                    "Dice": 0.9263970145481307,
+                    "FN": 4826,
+                    "FP": 5075,
+                    "IoU": 0.8628860268660851,
+                    "TN": 8855790,
+                    "TP": 62309,
+                    "n_pred": 67384,
+                    "n_ref": 67135
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_020.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_020.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.40986516961758074,
+                    "FN": 7243,
+                    "FP": 41953,
+                    "IoU": 0.25775497887748944,
+                    "TN": 8861720,
+                    "TP": 17084,
+                    "n_pred": 59037,
+                    "n_ref": 24327
+                },
+                "2": {
+                    "Dice": 0.17508646798444472,
+                    "FN": 45156,
+                    "FP": 875,
+                    "IoU": 0.09594233639720323,
+                    "TN": 8877084,
+                    "TP": 4885,
+                    "n_pred": 5760,
+                    "n_ref": 50041
+                },
+                "3": {
+                    "Dice": 0.8536398467432951,
+                    "FN": 800,
+                    "FP": 728,
+                    "IoU": 0.7446524064171123,
+                    "TN": 8922016,
+                    "TP": 4456,
+                    "n_pred": 5184,
+                    "n_ref": 5256
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_028.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_028.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.42049826317558736,
+                    "FN": 3932,
+                    "FP": 11583,
+                    "IoU": 0.26622209610291336,
+                    "TN": 8906856,
+                    "TP": 5629,
+                    "n_pred": 17212,
+                    "n_ref": 9561
+                },
+                "2": {
+                    "Dice": 0.009743961853425935,
+                    "FN": 9282,
+                    "FP": 271,
+                    "IoU": 0.004895833333333334,
+                    "TN": 8918400,
+                    "TP": 47,
+                    "n_pred": 318,
+                    "n_ref": 9329
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 77,
+                    "IoU": 0.0,
+                    "TN": 8927923,
+                    "TP": 0,
+                    "n_pred": 77,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_029.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_029.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7432432831545029,
+                    "FN": 46957,
+                    "FP": 39978,
+                    "IoU": 0.5913979000009401,
+                    "TN": 8715238,
+                    "TP": 125827,
+                    "n_pred": 165805,
+                    "n_ref": 172784
+                },
+                "2": {
+                    "Dice": 0.24308316974547406,
+                    "FN": 40535,
+                    "FP": 4578,
+                    "IoU": 0.13835781270890235,
+                    "TN": 8875643,
+                    "TP": 7244,
+                    "n_pred": 11822,
+                    "n_ref": 47779
+                },
+                "3": {
+                    "Dice": 0.6932815665091154,
+                    "FN": 66,
+                    "FP": 3568,
+                    "IoU": 0.5305516083193386,
+                    "TN": 8920259,
+                    "TP": 4107,
+                    "n_pred": 7675,
+                    "n_ref": 4173
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_032.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_032.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7662237923354581,
+                    "FN": 15597,
+                    "FP": 39195,
+                    "IoU": 0.6210395269218799,
+                    "TN": 8783415,
+                    "TP": 89793,
+                    "n_pred": 128988,
+                    "n_ref": 105390
+                },
+                "2": {
+                    "Dice": 0.794831789886767,
+                    "FN": 34785,
+                    "FP": 4008,
+                    "IoU": 0.6595193793006601,
+                    "TN": 8814064,
+                    "TP": 75143,
+                    "n_pred": 79151,
+                    "n_ref": 109928
+                },
+                "3": {
+                    "Dice": 0.14644351464435146,
+                    "FN": 717,
+                    "FP": 507,
+                    "IoU": 0.07900677200902935,
+                    "TN": 8926671,
+                    "TP": 105,
+                    "n_pred": 612,
+                    "n_ref": 822
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_034.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_034.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8095465536284665,
+                    "FN": 19040,
+                    "FP": 19240,
+                    "IoU": 0.6800320970937085,
+                    "TN": 8808363,
+                    "TP": 81357,
+                    "n_pred": 100597,
+                    "n_ref": 100397
+                },
+                "2": {
+                    "Dice": 0.7258685223259002,
+                    "FN": 14278,
+                    "FP": 6522,
+                    "IoU": 0.5696967189374819,
+                    "TN": 8879662,
+                    "TP": 27538,
+                    "n_pred": 34060,
+                    "n_ref": 41816
+                },
+                "3": {
+                    "Dice": 0.7020961775585697,
+                    "FN": 3819,
+                    "FP": 3429,
+                    "IoU": 0.5409462283868516,
+                    "TN": 8912211,
+                    "TP": 8541,
+                    "n_pred": 11970,
+                    "n_ref": 12360
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_041.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_041.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6864537068670994,
+                    "FN": 4298,
+                    "FP": 10386,
+                    "IoU": 0.5225957474478184,
+                    "TN": 8897242,
+                    "TP": 16074,
+                    "n_pred": 26460,
+                    "n_ref": 20372
+                },
+                "2": {
+                    "Dice": 0.5371629827544329,
+                    "FN": 7425,
+                    "FP": 197,
+                    "IoU": 0.3672063096720631,
+                    "TN": 8915955,
+                    "TP": 4423,
+                    "n_pred": 4620,
+                    "n_ref": 11848
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 352,
+                    "FP": 10,
+                    "IoU": 0.0,
+                    "TN": 8927638,
+                    "TP": 0,
+                    "n_pred": 10,
+                    "n_ref": 352
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_042.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_042.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6762476732342921,
+                    "FN": 28973,
+                    "FP": 17118,
+                    "IoU": 0.5108566455830539,
+                    "TN": 8833772,
+                    "TP": 48137,
+                    "n_pred": 65255,
+                    "n_ref": 77110
+                },
+                "2": {
+                    "Dice": 0.5074522691250672,
+                    "FN": 25689,
+                    "FP": 8184,
+                    "IoU": 0.3399906472857644,
+                    "TN": 8876678,
+                    "TP": 17449,
+                    "n_pred": 25633,
+                    "n_ref": 43138
+                },
+                "3": {
+                    "Dice": 0.807680097525048,
+                    "FN": 4583,
+                    "FP": 10562,
+                    "IoU": 0.677402176922913,
+                    "TN": 8881053,
+                    "TP": 31802,
+                    "n_pred": 42364,
+                    "n_ref": 36385
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_047.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_047.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4159160429941119,
+                    "FN": 12430,
+                    "FP": 35879,
+                    "IoU": 0.2625593429910394,
+                    "TN": 8862491,
+                    "TP": 17200,
+                    "n_pred": 53079,
+                    "n_ref": 29630
+                },
+                "2": {
+                    "Dice": 0.48025533512735463,
+                    "FN": 3212,
+                    "FP": 5093,
+                    "IoU": 0.3160105419206062,
+                    "TN": 8915858,
+                    "TP": 3837,
+                    "n_pred": 8930,
+                    "n_ref": 7049
+                },
+                "3": {
+                    "Dice": 0.9144260078516955,
+                    "FN": 5084,
+                    "FP": 2131,
+                    "IoU": 0.8423433266322874,
+                    "TN": 8882236,
+                    "TP": 38549,
+                    "n_pred": 40680,
+                    "n_ref": 43633
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_049.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_049.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7771772311007362,
+                    "FN": 8725,
+                    "FP": 16093,
+                    "IoU": 0.6355599935388185,
+                    "TN": 8859901,
+                    "TP": 43281,
+                    "n_pred": 59374,
+                    "n_ref": 52006
+                },
+                "2": {
+                    "Dice": 0.4961655508216677,
+                    "FN": 5639,
+                    "FP": 2639,
+                    "IoU": 0.32993362473692733,
+                    "TN": 8915646,
+                    "TP": 4076,
+                    "n_pred": 6715,
+                    "n_ref": 9715
+                },
+                "3": {
+                    "Dice": 0.8815514913465079,
+                    "FN": 1794,
+                    "FP": 1101,
+                    "IoU": 0.7881913959613697,
+                    "TN": 8914332,
+                    "TP": 10773,
+                    "n_pred": 11874,
+                    "n_ref": 12567
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_053.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_053.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9319401365678771,
+                    "FN": 12477,
+                    "FP": 4836,
+                    "IoU": 0.8725542158031889,
+                    "TN": 8792154,
+                    "TP": 118533,
+                    "n_pred": 123369,
+                    "n_ref": 131010
+                },
+                "2": {
+                    "Dice": 0.6170007710100232,
+                    "FN": 1790,
+                    "FP": 2184,
+                    "IoU": 0.44613240418118466,
+                    "TN": 8920825,
+                    "TP": 3201,
+                    "n_pred": 5385,
+                    "n_ref": 4991
+                },
+                "3": {
+                    "Dice": 0.9411663290375415,
+                    "FN": 1143,
+                    "FP": 222,
+                    "IoU": 0.8888707970365546,
+                    "TN": 8915717,
+                    "TP": 10918,
+                    "n_pred": 11140,
+                    "n_ref": 12061
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_056.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_056.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9104029770685262,
+                    "FN": 9985,
+                    "FP": 11395,
+                    "IoU": 0.8355409916770511,
+                    "TN": 8797998,
+                    "TP": 108622,
+                    "n_pred": 120017,
+                    "n_ref": 118607
+                },
+                "2": {
+                    "Dice": 0.5698771586256008,
+                    "FN": 3403,
+                    "FP": 1429,
+                    "IoU": 0.39848126478277107,
+                    "TN": 8919967,
+                    "TP": 3201,
+                    "n_pred": 4630,
+                    "n_ref": 6604
+                },
+                "3": {
+                    "Dice": 0.9386209892633277,
+                    "FN": 1320,
+                    "FP": 658,
+                    "IoU": 0.8843410127470471,
+                    "TN": 8910898,
+                    "TP": 15124,
+                    "n_pred": 15782,
+                    "n_ref": 16444
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_057.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_057.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8310098843715031,
+                    "FN": 9944,
+                    "FP": 4554,
+                    "IoU": 0.7108784524877855,
+                    "TN": 8877855,
+                    "TP": 35647,
+                    "n_pred": 40201,
+                    "n_ref": 45591
+                },
+                "2": {
+                    "Dice": 0.010032102728731942,
+                    "FN": 4848,
+                    "FP": 86,
+                    "IoU": 0.00504133897963299,
+                    "TN": 8923041,
+                    "TP": 25,
+                    "n_pred": 111,
+                    "n_ref": 4873
+                },
+                "3": {
+                    "Dice": 0.8813486982501068,
+                    "FN": 683,
+                    "FP": 429,
+                    "IoU": 0.7878672262495231,
+                    "TN": 8922758,
+                    "TP": 4130,
+                    "n_pred": 4559,
+                    "n_ref": 4813
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_067.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_067.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8467420956128975,
+                    "FN": 8967,
+                    "FP": 4741,
+                    "IoU": 0.7342174654878237,
+                    "TN": 8876424,
+                    "TP": 37868,
+                    "n_pred": 42609,
+                    "n_ref": 46835
+                },
+                "2": {
+                    "Dice": 0.5832160450387052,
+                    "FN": 3098,
+                    "FP": 1640,
+                    "IoU": 0.4116478331056749,
+                    "TN": 8919947,
+                    "TP": 3315,
+                    "n_pred": 4955,
+                    "n_ref": 6413
+                },
+                "3": {
+                    "Dice": 0.4364326375711575,
+                    "FN": 263,
+                    "FP": 34,
+                    "IoU": 0.279126213592233,
+                    "TN": 8927588,
+                    "TP": 115,
+                    "n_pred": 149,
+                    "n_ref": 378
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_069.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_069.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9057454963353282,
+                    "FN": 13851,
+                    "FP": 1568,
+                    "IoU": 0.827728369681802,
+                    "TN": 8838496,
+                    "TP": 74085,
+                    "n_pred": 75653,
+                    "n_ref": 87936
+                },
+                "2": {
+                    "Dice": 0.11097852028639618,
+                    "FN": 1382,
+                    "FP": 108,
+                    "IoU": 0.058749210360075806,
+                    "TN": 8926417,
+                    "TP": 93,
+                    "n_pred": 201,
+                    "n_ref": 1475
+                },
+                "3": {
+                    "Dice": 0.9736850859975382,
+                    "FN": 270,
+                    "FP": 521,
+                    "IoU": 0.9487196110210697,
+                    "TN": 8912575,
+                    "TP": 14634,
+                    "n_pred": 15155,
+                    "n_ref": 14904
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_085.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_085.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8565723852477483,
+                    "FN": 14376,
+                    "FP": 18093,
+                    "IoU": 0.7491269007293856,
+                    "TN": 8798576,
+                    "TP": 96955,
+                    "n_pred": 115048,
+                    "n_ref": 111331
+                },
+                "2": {
+                    "Dice": 0.22061392563014723,
+                    "FN": 3839,
+                    "FP": 5530,
+                    "IoU": 0.12398316970546984,
+                    "TN": 8917305,
+                    "TP": 1326,
+                    "n_pred": 6856,
+                    "n_ref": 5165
+                },
+                "3": {
+                    "Dice": 0.8369670879044577,
+                    "FN": 1334,
+                    "FP": 1014,
+                    "IoU": 0.7196417910447761,
+                    "TN": 8919625,
+                    "TP": 6027,
+                    "n_pred": 7041,
+                    "n_ref": 7361
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_086.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_086.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8721664533463088,
+                    "FN": 31643,
+                    "FP": 16697,
+                    "IoU": 0.773311324116974,
+                    "TN": 8714756,
+                    "TP": 164904,
+                    "n_pred": 181601,
+                    "n_ref": 196547
+                },
+                "2": {
+                    "Dice": 0.6135036153629448,
+                    "FN": 13323,
+                    "FP": 7256,
+                    "IoU": 0.44248482878196793,
+                    "TN": 8891088,
+                    "TP": 16333,
+                    "n_pred": 23589,
+                    "n_ref": 29656
+                },
+                "3": {
+                    "Dice": 0.9271923124744667,
+                    "FN": 1411,
+                    "FP": 2688,
+                    "IoU": 0.86426702870956,
+                    "TN": 8897801,
+                    "TP": 26100,
+                    "n_pred": 28788,
+                    "n_ref": 27511
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_088.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_088.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7916874207927971,
+                    "FN": 10981,
+                    "FP": 22058,
+                    "IoU": 0.655200843238956,
+                    "TN": 8832179,
+                    "TP": 62782,
+                    "n_pred": 84840,
+                    "n_ref": 73763
+                },
+                "2": {
+                    "Dice": 0.6449473835952141,
+                    "FN": 21625,
+                    "FP": 3005,
+                    "IoU": 0.47595744680851065,
+                    "TN": 8881000,
+                    "TP": 22370,
+                    "n_pred": 25375,
+                    "n_ref": 43995
+                },
+                "3": {
+                    "Dice": 0.8672241679174707,
+                    "FN": 3127,
+                    "FP": 8019,
+                    "IoU": 0.7655743911159719,
+                    "TN": 8880454,
+                    "TP": 36400,
+                    "n_pred": 44419,
+                    "n_ref": 39527
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_091.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_091.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.769103690685413,
+                    "FN": 7757,
+                    "FP": 18519,
+                    "IoU": 0.6248322339301522,
+                    "TN": 8857962,
+                    "TP": 43762,
+                    "n_pred": 62281,
+                    "n_ref": 51519
+                },
+                "2": {
+                    "Dice": 0.2160828025477707,
+                    "FN": 19472,
+                    "FP": 220,
+                    "IoU": 0.12112826921360349,
+                    "TN": 8905594,
+                    "TP": 2714,
+                    "n_pred": 2934,
+                    "n_ref": 22186
+                },
+                "3": {
+                    "Dice": 0.9244147954017512,
+                    "FN": 287,
+                    "FP": 2251,
+                    "IoU": 0.8594528740724333,
+                    "TN": 8909942,
+                    "TP": 15520,
+                    "n_pred": 17771,
+                    "n_ref": 15807
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_098.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_098.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8080918734366727,
+                    "FN": 9826,
+                    "FP": 11196,
+                    "IoU": 0.677981679482859,
+                    "TN": 8862718,
+                    "TP": 44260,
+                    "n_pred": 55456,
+                    "n_ref": 54086
+                },
+                "2": {
+                    "Dice": 0.7939748715019989,
+                    "FN": 4981,
+                    "FP": 3677,
+                    "IoU": 0.6583402391381555,
+                    "TN": 8902659,
+                    "TP": 16683,
+                    "n_pred": 20360,
+                    "n_ref": 21664
+                },
+                "3": {
+                    "Dice": 0.8505259789608416,
+                    "FN": 1693,
+                    "FP": 2044,
+                    "IoU": 0.7399262300786416,
+                    "TN": 8913631,
+                    "TP": 10632,
+                    "n_pred": 12676,
+                    "n_ref": 12325
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_100.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_100.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7132405591357679,
+                    "FN": 11987,
+                    "FP": 15646,
+                    "IoU": 0.554292073937869,
+                    "TN": 8866002,
+                    "TP": 34365,
+                    "n_pred": 50011,
+                    "n_ref": 46352
+                },
+                "2": {
+                    "Dice": 0.6185303237277477,
+                    "FN": 13400,
+                    "FP": 4193,
+                    "IoU": 0.4477335509794073,
+                    "TN": 8896144,
+                    "TP": 14263,
+                    "n_pred": 18456,
+                    "n_ref": 27663
+                },
+                "3": {
+                    "Dice": 0.47807429261096956,
+                    "FN": 5988,
+                    "FP": 1796,
+                    "IoU": 0.31412459247510793,
+                    "TN": 8916651,
+                    "TP": 3565,
+                    "n_pred": 5361,
+                    "n_ref": 9553
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_101.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_101.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7937512960530864,
+                    "FN": 8169,
+                    "FP": 6750,
+                    "IoU": 0.6580328695532583,
+                    "TN": 8884373,
+                    "TP": 28708,
+                    "n_pred": 35458,
+                    "n_ref": 36877
+                },
+                "2": {
+                    "Dice": 0.05753237900477164,
+                    "FN": 6889,
+                    "FP": 24,
+                    "IoU": 0.02961819202695115,
+                    "TN": 8920876,
+                    "TP": 211,
+                    "n_pred": 235,
+                    "n_ref": 7100
+                },
+                "3": {
+                    "Dice": 0.8904074917742344,
+                    "FN": 1078,
+                    "FP": 1087,
+                    "IoU": 0.802463503649635,
+                    "TN": 8917040,
+                    "TP": 8795,
+                    "n_pred": 9882,
+                    "n_ref": 9873
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_102.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_102.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.3529559748427673,
+                    "FN": 17108,
+                    "FP": 8612,
+                    "IoU": 0.21429662440812586,
+                    "TN": 8895265,
+                    "TP": 7015,
+                    "n_pred": 15627,
+                    "n_ref": 24123
+                },
+                "2": {
+                    "Dice": 0.4395173981465291,
+                    "FN": 8199,
+                    "FP": 7828,
+                    "IoU": 0.2816547891174757,
+                    "TN": 8905689,
+                    "TP": 6284,
+                    "n_pred": 14112,
+                    "n_ref": 14483
+                },
+                "3": {
+                    "Dice": 0.4554782981590958,
+                    "FN": 725,
+                    "FP": 17052,
+                    "IoU": 0.2948992543233381,
+                    "TN": 8902788,
+                    "TP": 7435,
+                    "n_pred": 24487,
+                    "n_ref": 8160
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_104.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_104.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9227110905780362,
+                    "FN": 4124,
+                    "FP": 7252,
+                    "IoU": 0.8565121969677859,
+                    "TN": 8848718,
+                    "TP": 67906,
+                    "n_pred": 75158,
+                    "n_ref": 72030
+                },
+                "2": {
+                    "Dice": 0.7094377510040161,
+                    "FN": 1090,
+                    "FP": 4698,
+                    "IoU": 0.5497121518593434,
+                    "TN": 8915146,
+                    "TP": 7066,
+                    "n_pred": 11764,
+                    "n_ref": 8156
+                },
+                "3": {
+                    "Dice": 0.8648099895096613,
+                    "FN": 3510,
+                    "FP": 485,
+                    "IoU": 0.7618195910093603,
+                    "TN": 8911227,
+                    "TP": 12778,
+                    "n_pred": 13263,
+                    "n_ref": 16288
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_111.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_111.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7619975186605616,
+                    "FN": 11926,
+                    "FP": 46967,
+                    "IoU": 0.6155056473199713,
+                    "TN": 8774830,
+                    "TP": 94277,
+                    "n_pred": 141244,
+                    "n_ref": 106203
+                },
+                "2": {
+                    "Dice": 0.6950857472258251,
+                    "FN": 38716,
+                    "FP": 3600,
+                    "IoU": 0.5326677563281353,
+                    "TN": 8837452,
+                    "TP": 48232,
+                    "n_pred": 51832,
+                    "n_ref": 86948
+                },
+                "3": {
+                    "Dice": 0.32842105263157895,
+                    "FN": 472,
+                    "FP": 166,
+                    "IoU": 0.1964735516372796,
+                    "TN": 8927206,
+                    "TP": 156,
+                    "n_pred": 322,
+                    "n_ref": 628
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_116.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_116.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7702458408657331,
+                    "FN": 28433,
+                    "FP": 26725,
+                    "IoU": 0.6263413180143074,
+                    "TN": 8780384,
+                    "TP": 92458,
+                    "n_pred": 119183,
+                    "n_ref": 120891
+                },
+                "2": {
+                    "Dice": 0.6780493564765616,
+                    "FN": 18431,
+                    "FP": 8835,
+                    "IoU": 0.5129157883454214,
+                    "TN": 8872022,
+                    "TP": 28712,
+                    "n_pred": 37547,
+                    "n_ref": 47143
+                },
+                "3": {
+                    "Dice": 0.5878582202111614,
+                    "FN": 1825,
+                    "FP": 361,
+                    "IoU": 0.4162883845126836,
+                    "TN": 8924255,
+                    "TP": 1559,
+                    "n_pred": 1920,
+                    "n_ref": 3384
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_135.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_135.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7438106404309187,
+                    "FN": 14473,
+                    "FP": 15681,
+                    "IoU": 0.5921166540417704,
+                    "TN": 8854072,
+                    "TP": 43774,
+                    "n_pred": 59455,
+                    "n_ref": 58247
+                },
+                "2": {
+                    "Dice": 0.7554347826086957,
+                    "FN": 908,
+                    "FP": 82,
+                    "IoU": 0.6069868995633187,
+                    "TN": 8925481,
+                    "TP": 1529,
+                    "n_pred": 1611,
+                    "n_ref": 2437
+                },
+                "3": {
+                    "Dice": 0.8360851542190684,
+                    "FN": 1106,
+                    "FP": 1227,
+                    "IoU": 0.7183387661475311,
+                    "TN": 8919717,
+                    "TP": 5950,
+                    "n_pred": 7177,
+                    "n_ref": 7056
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_136.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_136.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7604728328494401,
+                    "FN": 3412,
+                    "FP": 1208,
+                    "IoU": 0.6135184875355529,
+                    "TN": 8916046,
+                    "TP": 7334,
+                    "n_pred": 8542,
+                    "n_ref": 10746
+                },
+                "2": {
+                    "Dice": 0.28082901554404144,
+                    "FN": 489,
+                    "FP": 2287,
+                    "IoU": 0.16335141651597349,
+                    "TN": 8924682,
+                    "TP": 542,
+                    "n_pred": 2829,
+                    "n_ref": 1031
+                },
+                "3": {
+                    "Dice": 0.6895306859205776,
+                    "FN": 230,
+                    "FP": 458,
+                    "IoU": 0.5261707988980716,
+                    "TN": 8926548,
+                    "TP": 764,
+                    "n_pred": 1222,
+                    "n_ref": 994
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_138.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_138.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7598124022928608,
+                    "FN": 8351,
+                    "FP": 3172,
+                    "IoU": 0.6126592490503883,
+                    "TN": 8898251,
+                    "TP": 18226,
+                    "n_pred": 21398,
+                    "n_ref": 26577
+                },
+                "2": {
+                    "Dice": 0.9558581769108085,
+                    "FN": 3372,
+                    "FP": 226,
+                    "IoU": 0.915448606476477,
+                    "TN": 8885446,
+                    "TP": 38956,
+                    "n_pred": 39182,
+                    "n_ref": 42328
+                },
+                "3": {
+                    "Dice": 0.8848931876696124,
+                    "FN": 1358,
+                    "FP": 6913,
+                    "IoU": 0.7935501585003619,
+                    "TN": 8887937,
+                    "TP": 31792,
+                    "n_pred": 38705,
+                    "n_ref": 33150
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_145.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_145.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.874733667229309,
+                    "FN": 10661,
+                    "FP": 16501,
+                    "IoU": 0.777357005852555,
+                    "TN": 8806002,
+                    "TP": 94836,
+                    "n_pred": 111337,
+                    "n_ref": 105497
+                },
+                "2": {
+                    "Dice": 0.5326733309761821,
+                    "FN": 10734,
+                    "FP": 3805,
+                    "IoU": 0.36302300109529023,
+                    "TN": 8905175,
+                    "TP": 8286,
+                    "n_pred": 12091,
+                    "n_ref": 19020
+                },
+                "3": {
+                    "Dice": 0.3614457831325301,
+                    "FN": 220,
+                    "FP": 575,
+                    "IoU": 0.22058823529411764,
+                    "TN": 8926980,
+                    "TP": 225,
+                    "n_pred": 800,
+                    "n_ref": 445
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_149.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_149.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8574686010301519,
+                    "FN": 13801,
+                    "FP": 24829,
+                    "IoU": 0.7504989375375414,
+                    "TN": 8773171,
+                    "TP": 116199,
+                    "n_pred": 141028,
+                    "n_ref": 130000
+                },
+                "2": {
+                    "Dice": 0.6414785435930547,
+                    "FN": 22554,
+                    "FP": 8542,
+                    "IoU": 0.47218874649919373,
+                    "TN": 8869085,
+                    "TP": 27819,
+                    "n_pred": 36361,
+                    "n_ref": 50373
+                },
+                "3": {
+                    "Dice": 0.8721185890772555,
+                    "FN": 14160,
+                    "FP": 6139,
+                    "IoU": 0.7732360695294695,
+                    "TN": 8838484,
+                    "TP": 69217,
+                    "n_pred": 75356,
+                    "n_ref": 83377
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_155.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_155.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8107185115382708,
+                    "FN": 34069,
+                    "FP": 19361,
+                    "IoU": 0.6816876571306016,
+                    "TN": 8760146,
+                    "TP": 114424,
+                    "n_pred": 133785,
+                    "n_ref": 148493
+                },
+                "2": {
+                    "Dice": 0.30799965995069284,
+                    "FN": 11550,
+                    "FP": 4730,
+                    "IoU": 0.18203285936793448,
+                    "TN": 8908097,
+                    "TP": 3623,
+                    "n_pred": 8353,
+                    "n_ref": 15173
+                },
+                "3": {
+                    "Dice": 0.7177403938061556,
+                    "FN": 5578,
+                    "FP": 328,
+                    "IoU": 0.5597465523667536,
+                    "TN": 8914585,
+                    "TP": 7509,
+                    "n_pred": 7837,
+                    "n_ref": 13087
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_157.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_157.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7638114546376077,
+                    "FN": 6722,
+                    "FP": 2598,
+                    "IoU": 0.6178761787617876,
+                    "TN": 8903610,
+                    "TP": 15070,
+                    "n_pred": 17668,
+                    "n_ref": 21792
+                },
+                "2": {
+                    "Dice": 0.4592619435888144,
+                    "FN": 1240,
+                    "FP": 7713,
+                    "IoU": 0.29807918463347705,
+                    "TN": 8915245,
+                    "TP": 3802,
+                    "n_pred": 11515,
+                    "n_ref": 5042
+                },
+                "3": {
+                    "Dice": 0.7781943732635611,
+                    "FN": 7976,
+                    "FP": 247,
+                    "IoU": 0.6369215824796891,
+                    "TN": 8905352,
+                    "TP": 14425,
+                    "n_pred": 14672,
+                    "n_ref": 22401
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_158.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_158.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8878569823647687,
+                    "FN": 11627,
+                    "FP": 7838,
+                    "IoU": 0.7983298625141164,
+                    "TN": 8831481,
+                    "TP": 77054,
+                    "n_pred": 84892,
+                    "n_ref": 88681
+                },
+                "2": {
+                    "Dice": 0.709733817037458,
+                    "FN": 3625,
+                    "FP": 3016,
+                    "IoU": 0.5500677506775068,
+                    "TN": 8913240,
+                    "TP": 8119,
+                    "n_pred": 11135,
+                    "n_ref": 11744
+                },
+                "3": {
+                    "Dice": 0.9524937803577775,
+                    "FN": 2527,
+                    "FP": 1884,
+                    "IoU": 0.9092965392445148,
+                    "TN": 8879369,
+                    "TP": 44220,
+                    "n_pred": 46104,
+                    "n_ref": 46747
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_159.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_159.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6805635806035824,
+                    "FN": 7810,
+                    "FP": 6564,
+                    "IoU": 0.515798692986593,
+                    "TN": 8898314,
+                    "TP": 15312,
+                    "n_pred": 21876,
+                    "n_ref": 23122
+                },
+                "2": {
+                    "Dice": 0.888504182065746,
+                    "FN": 7622,
+                    "FP": 3842,
+                    "IoU": 0.7993769906548598,
+                    "TN": 8870858,
+                    "TP": 45678,
+                    "n_pred": 49520,
+                    "n_ref": 53300
+                },
+                "3": {
+                    "Dice": 0.744890598701611,
+                    "FN": 382,
+                    "FP": 679,
+                    "IoU": 0.5934865900383142,
+                    "TN": 8925390,
+                    "TP": 1549,
+                    "n_pred": 2228,
+                    "n_ref": 1931
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_163.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_163.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.889728925101849,
+                    "FN": 8142,
+                    "FP": 3118,
+                    "IoU": 0.801361888296934,
+                    "TN": 8871314,
+                    "TP": 45426,
+                    "n_pred": 48544,
+                    "n_ref": 53568
+                },
+                "2": {
+                    "Dice": 0.33060853769300635,
+                    "FN": 1290,
+                    "FP": 184,
+                    "IoU": 0.19804134929270947,
+                    "TN": 8926162,
+                    "TP": 364,
+                    "n_pred": 548,
+                    "n_ref": 1654
+                },
+                "3": {
+                    "Dice": 0.9570363875493205,
+                    "FN": 904,
+                    "FP": 664,
+                    "IoU": 0.9176124422026062,
+                    "TN": 8908968,
+                    "TP": 17464,
+                    "n_pred": 18128,
+                    "n_ref": 18368
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_164.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_164.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6488081133595565,
+                    "FN": 17689,
+                    "FP": 11953,
+                    "IoU": 0.48017466636269573,
+                    "TN": 8870977,
+                    "TP": 27381,
+                    "n_pred": 39334,
+                    "n_ref": 45070
+                },
+                "2": {
+                    "Dice": 0.6481863954539873,
+                    "FN": 13286,
+                    "FP": 18227,
+                    "IoU": 0.4794939134169103,
+                    "TN": 8867457,
+                    "TP": 29030,
+                    "n_pred": 47257,
+                    "n_ref": 42316
+                },
+                "3": {
+                    "Dice": 0.04225352112676056,
+                    "FN": 23,
+                    "FP": 113,
+                    "IoU": 0.02158273381294964,
+                    "TN": 8927861,
+                    "TP": 3,
+                    "n_pred": 116,
+                    "n_ref": 26
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_169.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_169.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8232720909886264,
+                    "FN": 1918,
+                    "FP": 1314,
+                    "IoU": 0.6996282527881041,
+                    "TN": 8917240,
+                    "TP": 7528,
+                    "n_pred": 8842,
+                    "n_ref": 9446
+                },
+                "2": {
+                    "Dice": 0.5657657657657658,
+                    "FN": 520,
+                    "FP": 203,
+                    "IoU": 0.3944723618090452,
+                    "TN": 8926806,
+                    "TP": 471,
+                    "n_pred": 674,
+                    "n_ref": 991
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_176.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_176.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8971058815558081,
+                    "FN": 22639,
+                    "FP": 10770,
+                    "IoU": 0.8134107042127662,
+                    "TN": 8748949,
+                    "TP": 145642,
+                    "n_pred": 156412,
+                    "n_ref": 168281
+                },
+                "2": {
+                    "Dice": 0.581420229126733,
+                    "FN": 9200,
+                    "FP": 9580,
+                    "IoU": 0.409860792508563,
+                    "TN": 8896177,
+                    "TP": 13043,
+                    "n_pred": 22623,
+                    "n_ref": 22243
+                },
+                "3": {
+                    "Dice": 0.75867126729745,
+                    "FN": 3182,
+                    "FP": 16891,
+                    "IoU": 0.6111767554479419,
+                    "TN": 8876375,
+                    "TP": 31552,
+                    "n_pred": 48443,
+                    "n_ref": 34734
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_181.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_181.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6336156717915781,
+                    "FN": 1423,
+                    "FP": 7704,
+                    "IoU": 0.4637170221517128,
+                    "TN": 8910981,
+                    "TP": 7892,
+                    "n_pred": 15596,
+                    "n_ref": 9315
+                },
+                "2": {
+                    "Dice": 0.6192919014380625,
+                    "FN": 3000,
+                    "FP": 1527,
+                    "IoU": 0.4485320989158241,
+                    "TN": 8919791,
+                    "TP": 3682,
+                    "n_pred": 5209,
+                    "n_ref": 6682
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 650,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927350,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 650
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_183.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_183.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6439939178915357,
+                    "FN": 7123,
+                    "FP": 6925,
+                    "IoU": 0.4749196381849443,
+                    "TN": 8901246,
+                    "TP": 12706,
+                    "n_pred": 19631,
+                    "n_ref": 19829
+                },
+                "2": {
+                    "Dice": 0.6371614301191766,
+                    "FN": 3086,
+                    "FP": 3612,
+                    "IoU": 0.46752524048016536,
+                    "TN": 8915421,
+                    "TP": 5881,
+                    "n_pred": 9493,
+                    "n_ref": 8967
+                },
+                "3": {
+                    "Dice": 0.05286343612334802,
+                    "FN": 640,
+                    "FP": 5,
+                    "IoU": 0.027149321266968326,
+                    "TN": 8927337,
+                    "TP": 18,
+                    "n_pred": 23,
+                    "n_ref": 658
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_184.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_184.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.664531985599557,
+                    "FN": 13216,
+                    "FP": 6166,
+                    "IoU": 0.49760232250706343,
+                    "TN": 8889421,
+                    "TP": 19197,
+                    "n_pred": 25363,
+                    "n_ref": 32413
+                },
+                "2": {
+                    "Dice": 0.48186748909922367,
+                    "FN": 2777,
+                    "FP": 6967,
+                    "IoU": 0.31740805604203154,
+                    "TN": 8913725,
+                    "TP": 4531,
+                    "n_pred": 11498,
+                    "n_ref": 7308
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 108,
+                    "FP": 1,
+                    "IoU": 0.0,
+                    "TN": 8927891,
+                    "TP": 0,
+                    "n_pred": 1,
+                    "n_ref": 108
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_187.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_187.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7510129206058024,
+                    "FN": 27941,
+                    "FP": 6534,
+                    "IoU": 0.6012975898598325,
+                    "TN": 8841532,
+                    "TP": 51993,
+                    "n_pred": 58527,
+                    "n_ref": 79934
+                },
+                "2": {
+                    "Dice": 0.37125370685847686,
+                    "FN": 7375,
+                    "FP": 2590,
+                    "IoU": 0.22793832803904857,
+                    "TN": 8915093,
+                    "TP": 2942,
+                    "n_pred": 5532,
+                    "n_ref": 10317
+                },
+                "3": {
+                    "Dice": 0.7497819018161631,
+                    "FN": 1800,
+                    "FP": 1355,
+                    "IoU": 0.599720883024613,
+                    "TN": 8920118,
+                    "TP": 4727,
+                    "n_pred": 6082,
+                    "n_ref": 6527
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_192.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_192.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.773451397398901,
+                    "FN": 14831,
+                    "FP": 19555,
+                    "IoU": 0.6305917236044862,
+                    "TN": 8834916,
+                    "TP": 58698,
+                    "n_pred": 78253,
+                    "n_ref": 73529
+                },
+                "2": {
+                    "Dice": 0.8879587435918301,
+                    "FN": 17603,
+                    "FP": 4427,
+                    "IoU": 0.7984944249819349,
+                    "TN": 8818673,
+                    "TP": 87297,
+                    "n_pred": 91724,
+                    "n_ref": 104900
+                },
+                "3": {
+                    "Dice": 0.7361729179910999,
+                    "FN": 856,
+                    "FP": 389,
+                    "IoU": 0.5824949698189135,
+                    "TN": 8925018,
+                    "TP": 1737,
+                    "n_pred": 2126,
+                    "n_ref": 2593
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_198.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_198.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.700286106747414,
+                    "FN": 69049,
+                    "FP": 9937,
+                    "IoU": 0.5388002008618374,
+                    "TN": 8756738,
+                    "TP": 92276,
+                    "n_pred": 102213,
+                    "n_ref": 161325
+                },
+                "2": {
+                    "Dice": 0.37818069115140246,
+                    "FN": 19137,
+                    "FP": 20989,
+                    "IoU": 0.23318299954135455,
+                    "TN": 8875672,
+                    "TP": 12202,
+                    "n_pred": 33191,
+                    "n_ref": 31339
+                },
+                "3": {
+                    "Dice": 0.6793513918830256,
+                    "FN": 1386,
+                    "FP": 5456,
+                    "IoU": 0.5144073811213626,
+                    "TN": 8913910,
+                    "TP": 7248,
+                    "n_pred": 12704,
+                    "n_ref": 8634
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_207.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_207.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7893764840383432,
+                    "FN": 5552,
+                    "FP": 6423,
+                    "IoU": 0.6520412610780183,
+                    "TN": 8893585,
+                    "TP": 22440,
+                    "n_pred": 28863,
+                    "n_ref": 27992
+                },
+                "2": {
+                    "Dice": 0.7368391066545124,
+                    "FN": 5589,
+                    "FP": 3649,
+                    "IoU": 0.5833295746696134,
+                    "TN": 8905829,
+                    "TP": 12933,
+                    "n_pred": 16582,
+                    "n_ref": 18522
+                },
+                "3": {
+                    "Dice": 0.8527568764627426,
+                    "FN": 3297,
+                    "FP": 2554,
+                    "IoU": 0.7433096428884794,
+                    "TN": 8905206,
+                    "TP": 16943,
+                    "n_pred": 19497,
+                    "n_ref": 20240
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_208.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_208.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5450827528915586,
+                    "FN": 12190,
+                    "FP": 23405,
+                    "IoU": 0.37464862965565704,
+                    "TN": 8871080,
+                    "TP": 21325,
+                    "n_pred": 44730,
+                    "n_ref": 33515
+                },
+                "2": {
+                    "Dice": 0.612538125408186,
+                    "FN": 55682,
+                    "FP": 1865,
+                    "IoU": 0.44148105012859706,
+                    "TN": 8824965,
+                    "TP": 45488,
+                    "n_pred": 47353,
+                    "n_ref": 101170
+                },
+                "3": {
+                    "Dice": 0.36792108147606867,
+                    "FN": 3107,
+                    "FP": 353,
+                    "IoU": 0.22543093798970226,
+                    "TN": 8923533,
+                    "TP": 1007,
+                    "n_pred": 1360,
+                    "n_ref": 4114
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_218.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_218.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8223122238586156,
+                    "FN": 24745,
+                    "FP": 4211,
+                    "IoU": 0.6982429813043206,
+                    "TN": 8832042,
+                    "TP": 67002,
+                    "n_pred": 71213,
+                    "n_ref": 91747
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 2152,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8925848,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 2152
+                },
+                "3": {
+                    "Dice": 0.8152759084791387,
+                    "FN": 345,
+                    "FP": 753,
+                    "IoU": 0.6881567736438512,
+                    "TN": 8924479,
+                    "TP": 2423,
+                    "n_pred": 3176,
+                    "n_ref": 2768
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_220.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_220.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7045613567454103,
+                    "FN": 7710,
+                    "FP": 1157,
+                    "IoU": 0.5438786008230453,
+                    "TN": 8908560,
+                    "TP": 10573,
+                    "n_pred": 11730,
+                    "n_ref": 18283
+                },
+                "2": {
+                    "Dice": 0.09135200974421437,
+                    "FN": 1416,
+                    "FP": 76,
+                    "IoU": 0.047862156987874924,
+                    "TN": 8926433,
+                    "TP": 75,
+                    "n_pred": 151,
+                    "n_ref": 1491
+                },
+                "3": {
+                    "Dice": 0.4517121969988457,
+                    "FN": 1004,
+                    "FP": 421,
+                    "IoU": 0.29174950298210733,
+                    "TN": 8925988,
+                    "TP": 587,
+                    "n_pred": 1008,
+                    "n_ref": 1591
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_224.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_224.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7348197938351183,
+                    "FN": 4667,
+                    "FP": 5906,
+                    "IoU": 0.5808024740306083,
+                    "TN": 8902778,
+                    "TP": 14649,
+                    "n_pred": 20555,
+                    "n_ref": 19316
+                },
+                "2": {
+                    "Dice": 0.7070942424428229,
+                    "FN": 3030,
+                    "FP": 1747,
+                    "IoU": 0.5469031584937873,
+                    "TN": 8917457,
+                    "TP": 5766,
+                    "n_pred": 7513,
+                    "n_ref": 8796
+                },
+                "3": {
+                    "Dice": 0.8258064516129032,
+                    "FN": 29,
+                    "FP": 25,
+                    "IoU": 0.7032967032967034,
+                    "TN": 8927818,
+                    "TP": 128,
+                    "n_pred": 153,
+                    "n_ref": 157
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_230.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_230.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7512593173793645,
+                    "FN": 36489,
+                    "FP": 11064,
+                    "IoU": 0.6016135518246708,
+                    "TN": 8808636,
+                    "TP": 71811,
+                    "n_pred": 82875,
+                    "n_ref": 108300
+                },
+                "2": {
+                    "Dice": 0.7741121731087255,
+                    "FN": 6289,
+                    "FP": 1770,
+                    "IoU": 0.6314706420340224,
+                    "TN": 8906132,
+                    "TP": 13809,
+                    "n_pred": 15579,
+                    "n_ref": 20098
+                },
+                "3": {
+                    "Dice": 0.953525506345071,
+                    "FN": 4199,
+                    "FP": 1884,
+                    "IoU": 0.9111789270799872,
+                    "TN": 8859514,
+                    "TP": 62403,
+                    "n_pred": 64287,
+                    "n_ref": 66602
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_271.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_271.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.873106841678636,
+                    "FN": 4718,
+                    "FP": 4205,
+                    "IoU": 0.7747911461093865,
+                    "TN": 8888379,
+                    "TP": 30698,
+                    "n_pred": 34903,
+                    "n_ref": 35416
+                },
+                "2": {
+                    "Dice": 0.938977377437614,
+                    "FN": 1946,
+                    "FP": 1299,
+                    "IoU": 0.8849739463329906,
+                    "TN": 8899789,
+                    "TP": 24966,
+                    "n_pred": 26265,
+                    "n_ref": 26912
+                },
+                "3": {
+                    "Dice": 0.875306823760432,
+                    "FN": 2307,
+                    "FP": 2265,
+                    "IoU": 0.7782627673505019,
+                    "TN": 8907381,
+                    "TP": 16047,
+                    "n_pred": 18312,
+                    "n_ref": 18354
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_282.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_282.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9101795076868391,
+                    "FN": 4234,
+                    "FP": 3852,
+                    "IoU": 0.8351646111507491,
+                    "TN": 8878945,
+                    "TP": 40969,
+                    "n_pred": 44821,
+                    "n_ref": 45203
+                },
+                "2": {
+                    "Dice": 0.9563770252908055,
+                    "FN": 2199,
+                    "FP": 2860,
+                    "IoU": 0.916400892340742,
+                    "TN": 8867485,
+                    "TP": 55456,
+                    "n_pred": 58316,
+                    "n_ref": 57655
+                },
+                "3": {
+                    "Dice": 0.9269871922301423,
+                    "FN": 1495,
+                    "FP": 1076,
+                    "IoU": 0.8639106500105865,
+                    "TN": 8909108,
+                    "TP": 16321,
+                    "n_pred": 17397,
+                    "n_ref": 17816
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_284.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_284.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5940642458100559,
+                    "FN": 3987,
+                    "FP": 7639,
+                    "IoU": 0.42254010827993843,
+                    "TN": 8907867,
+                    "TP": 8507,
+                    "n_pred": 16146,
+                    "n_ref": 12494
+                },
+                "2": {
+                    "Dice": 0.00022036139268400177,
+                    "FN": 8412,
+                    "FP": 662,
+                    "IoU": 0.00011019283746556474,
+                    "TN": 8918925,
+                    "TP": 1,
+                    "n_pred": 663,
+                    "n_ref": 8413
+                },
+                "3": {
+                    "Dice": 0.0915032679738562,
+                    "FN": 673,
+                    "FP": 22,
+                    "IoU": 0.04794520547945205,
+                    "TN": 8927270,
+                    "TP": 35,
+                    "n_pred": 57,
+                    "n_ref": 708
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_287.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_287.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.920510755780513,
+                    "FN": 2886,
+                    "FP": 2642,
+                    "IoU": 0.8527280477408354,
+                    "TN": 8890464,
+                    "TP": 32008,
+                    "n_pred": 34650,
+                    "n_ref": 34894
+                },
+                "2": {
+                    "Dice": 0.8366243535496004,
+                    "FN": 955,
+                    "FP": 435,
+                    "IoU": 0.7191351788240048,
+                    "TN": 8923051,
+                    "TP": 3559,
+                    "n_pred": 3994,
+                    "n_ref": 4514
+                },
+                "3": {
+                    "Dice": 0.9356152473344621,
+                    "FN": 1231,
+                    "FP": 1583,
+                    "IoU": 0.8790197764402408,
+                    "TN": 8904740,
+                    "TP": 20446,
+                    "n_pred": 22029,
+                    "n_ref": 21677
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_290.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_290.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9384884725905461,
+                    "FN": 3746,
+                    "FP": 4581,
+                    "IoU": 0.8841057759220599,
+                    "TN": 8856150,
+                    "TP": 63523,
+                    "n_pred": 68104,
+                    "n_ref": 67269
+                },
+                "2": {
+                    "Dice": 0.9054900247560798,
+                    "FN": 1103,
+                    "FP": 844,
+                    "IoU": 0.8273017562533262,
+                    "TN": 8916726,
+                    "TP": 9327,
+                    "n_pred": 10171,
+                    "n_ref": 10430
+                },
+                "3": {
+                    "Dice": 0.9224936452544052,
+                    "FN": 1775,
+                    "FP": 1823,
+                    "IoU": 0.8561375449820072,
+                    "TN": 8902990,
+                    "TP": 21412,
+                    "n_pred": 23235,
+                    "n_ref": 23187
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_291.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_291.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9417640938828052,
+                    "FN": 6282,
+                    "FP": 6928,
+                    "IoU": 0.8899377619289636,
+                    "TN": 8807977,
+                    "TP": 106813,
+                    "n_pred": 113741,
+                    "n_ref": 113095
+                },
+                "2": {
+                    "Dice": 0.8524847154726446,
+                    "FN": 2817,
+                    "FP": 1888,
+                    "IoU": 0.742896174863388,
+                    "TN": 8909700,
+                    "TP": 13595,
+                    "n_pred": 15483,
+                    "n_ref": 16412
+                },
+                "3": {
+                    "Dice": 0.8929451400412329,
+                    "FN": 2082,
+                    "FP": 2176,
+                    "IoU": 0.8065952034883721,
+                    "TN": 8905984,
+                    "TP": 17758,
+                    "n_pred": 19934,
+                    "n_ref": 19840
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_292.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_292.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9514659874304383,
+                    "FN": 2187,
+                    "FP": 3072,
+                    "IoU": 0.9074250105618927,
+                    "TN": 8871192,
+                    "TP": 51549,
+                    "n_pred": 54621,
+                    "n_ref": 53736
+                },
+                "2": {
+                    "Dice": 0.5076741440377804,
+                    "FN": 676,
+                    "FP": 158,
+                    "IoU": 0.3401898734177215,
+                    "TN": 8926736,
+                    "TP": 430,
+                    "n_pred": 588,
+                    "n_ref": 1106
+                },
+                "3": {
+                    "Dice": 0.936410567871242,
+                    "FN": 510,
+                    "FP": 537,
+                    "IoU": 0.8804248515303792,
+                    "TN": 8919244,
+                    "TP": 7709,
+                    "n_pred": 8246,
+                    "n_ref": 8219
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_293.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_293.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8932963279248506,
+                    "FN": 10772,
+                    "FP": 9220,
+                    "IoU": 0.80716848643852,
+                    "TN": 8824324,
+                    "TP": 83684,
+                    "n_pred": 92904,
+                    "n_ref": 94456
+                },
+                "2": {
+                    "Dice": 0.5938598992491209,
+                    "FN": 10455,
+                    "FP": 2364,
+                    "IoU": 0.4223333783966473,
+                    "TN": 8905809,
+                    "TP": 9372,
+                    "n_pred": 11736,
+                    "n_ref": 19827
+                },
+                "3": {
+                    "Dice": 0.8130019120458891,
+                    "FN": 5813,
+                    "FP": 2989,
+                    "IoU": 0.6849226804123711,
+                    "TN": 8900064,
+                    "TP": 19134,
+                    "n_pred": 22123,
+                    "n_ref": 24947
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_300.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_300.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8734350919416471,
+                    "FN": 3381,
+                    "FP": 8609,
+                    "IoU": 0.7753082718039054,
+                    "TN": 8874638,
+                    "TP": 41372,
+                    "n_pred": 49981,
+                    "n_ref": 44753
+                },
+                "2": {
+                    "Dice": 0.43919510061242345,
+                    "FN": 3097,
+                    "FP": 749,
+                    "IoU": 0.28139013452914796,
+                    "TN": 8922648,
+                    "TP": 1506,
+                    "n_pred": 2255,
+                    "n_ref": 4603
+                },
+                "3": {
+                    "Dice": 0.7551128117165853,
+                    "FN": 51,
+                    "FP": 3661,
+                    "IoU": 0.6065712771595124,
+                    "TN": 8918565,
+                    "TP": 5723,
+                    "n_pred": 9384,
+                    "n_ref": 5774
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_305.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_305.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8951035812763511,
+                    "FN": 5052,
+                    "FP": 13931,
+                    "IoU": 0.8101244298631671,
+                    "TN": 8828024,
+                    "TP": 80993,
+                    "n_pred": 94924,
+                    "n_ref": 86045
+                },
+                "2": {
+                    "Dice": 0.6241710228602637,
+                    "FN": 3491,
+                    "FP": 1326,
+                    "IoU": 0.45366904842917094,
+                    "TN": 8919183,
+                    "TP": 4000,
+                    "n_pred": 5326,
+                    "n_ref": 7491
+                },
+                "3": {
+                    "Dice": 0.8531112947308206,
+                    "FN": 511,
+                    "FP": 1800,
+                    "IoU": 0.7438483706495234,
+                    "TN": 8918978,
+                    "TP": 6711,
+                    "n_pred": 8511,
+                    "n_ref": 7222
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_311.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_311.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7156583174701107,
+                    "FN": 9408,
+                    "FP": 28383,
+                    "IoU": 0.5572180107558378,
+                    "TN": 8842651,
+                    "TP": 47558,
+                    "n_pred": 75941,
+                    "n_ref": 56966
+                },
+                "2": {
+                    "Dice": 0.7009795438025683,
+                    "FN": 40669,
+                    "FP": 2526,
+                    "IoU": 0.5396216360245137,
+                    "TN": 8834175,
+                    "TP": 50630,
+                    "n_pred": 53156,
+                    "n_ref": 91299
+                },
+                "3": {
+                    "Dice": 0.7123449497932663,
+                    "FN": 7511,
+                    "FP": 8560,
+                    "IoU": 0.5532110091743119,
+                    "TN": 8892030,
+                    "TP": 19899,
+                    "n_pred": 28459,
+                    "n_ref": 27410
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_314.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_314.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5632784705374763,
+                    "FN": 1416,
+                    "FP": 60329,
+                    "IoU": 0.3920582096018274,
+                    "TN": 8826436,
+                    "TP": 39819,
+                    "n_pred": 100148,
+                    "n_ref": 41235
+                },
+                "2": {
+                    "Dice": 0.7649180170216858,
+                    "FN": 699,
+                    "FP": 4190,
+                    "IoU": 0.6193257027174336,
+                    "TN": 8915157,
+                    "TP": 7954,
+                    "n_pred": 12144,
+                    "n_ref": 8653
+                },
+                "3": {
+                    "Dice": 0.8002258460925304,
+                    "FN": 4713,
+                    "FP": 1302,
+                    "IoU": 0.6669804008415458,
+                    "TN": 8909938,
+                    "TP": 12047,
+                    "n_pred": 13349,
+                    "n_ref": 16760
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_321.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_321.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8188630859096737,
+                    "FN": 3481,
+                    "FP": 15590,
+                    "IoU": 0.6932837981279553,
+                    "TN": 8865822,
+                    "TP": 43107,
+                    "n_pred": 58697,
+                    "n_ref": 46588
+                },
+                "2": {
+                    "Dice": 0.744948256729206,
+                    "FN": 6122,
+                    "FP": 3761,
+                    "IoU": 0.593559796019082,
+                    "TN": 8903684,
+                    "TP": 14433,
+                    "n_pred": 18194,
+                    "n_ref": 20555
+                },
+                "3": {
+                    "Dice": 0.702266715078583,
+                    "FN": 10891,
+                    "FP": 589,
+                    "IoU": 0.5411487269675047,
+                    "TN": 8902981,
+                    "TP": 13539,
+                    "n_pred": 14128,
+                    "n_ref": 24430
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_328.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_328.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6672998723694755,
+                    "FN": 8125,
+                    "FP": 14293,
+                    "IoU": 0.5007126948775056,
+                    "TN": 8883100,
+                    "TP": 22482,
+                    "n_pred": 36775,
+                    "n_ref": 30607
+                },
+                "2": {
+                    "Dice": 0.4593742966464101,
+                    "FN": 15782,
+                    "FP": 3434,
+                    "IoU": 0.2981738495252009,
+                    "TN": 8900620,
+                    "TP": 8164,
+                    "n_pred": 11598,
+                    "n_ref": 23946
+                },
+                "3": {
+                    "Dice": 0.8102115188091703,
+                    "FN": 3252,
+                    "FP": 6591,
+                    "IoU": 0.6809710562992254,
+                    "TN": 8897147,
+                    "TP": 21010,
+                    "n_pred": 27601,
+                    "n_ref": 24262
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_329.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_329.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.896341201255428,
+                    "FN": 4545,
+                    "FP": 9921,
+                    "IoU": 0.8121542656797819,
+                    "TN": 8850990,
+                    "TP": 62544,
+                    "n_pred": 72465,
+                    "n_ref": 67089
+                },
+                "2": {
+                    "Dice": 0.7717430101130279,
+                    "FN": 6196,
+                    "FP": 1478,
+                    "IoU": 0.6283237274180268,
+                    "TN": 8907353,
+                    "TP": 12973,
+                    "n_pred": 14451,
+                    "n_ref": 19169
+                },
+                "3": {
+                    "Dice": 0.783014376844711,
+                    "FN": 2822,
+                    "FP": 4015,
+                    "IoU": 0.6434047879831012,
+                    "TN": 8908827,
+                    "TP": 12336,
+                    "n_pred": 16351,
+                    "n_ref": 15158
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_335.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_335.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8929443310521471,
+                    "FN": 8847,
+                    "FP": 7203,
+                    "IoU": 0.8065938833056178,
+                    "TN": 8845014,
+                    "TP": 66936,
+                    "n_pred": 74139,
+                    "n_ref": 75783
+                },
+                "2": {
+                    "Dice": 0.25535636204634893,
+                    "FN": 1296,
+                    "FP": 407,
+                    "IoU": 0.14636591478696742,
+                    "TN": 8926005,
+                    "TP": 292,
+                    "n_pred": 699,
+                    "n_ref": 1588
+                },
+                "3": {
+                    "Dice": 0.799917718047175,
+                    "FN": 214,
+                    "FP": 2704,
+                    "IoU": 0.6665523940121129,
+                    "TN": 8919249,
+                    "TP": 5833,
+                    "n_pred": 8537,
+                    "n_ref": 6047
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_343.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_343.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6310412350654142,
+                    "FN": 10246,
+                    "FP": 2755,
+                    "IoU": 0.4609643849247481,
+                    "TN": 8903881,
+                    "TP": 11118,
+                    "n_pred": 13873,
+                    "n_ref": 21364
+                },
+                "2": {
+                    "Dice": 0.7881790036588798,
+                    "FN": 1871,
+                    "FP": 1892,
+                    "IoU": 0.6504087699739873,
+                    "TN": 8917236,
+                    "TP": 7001,
+                    "n_pred": 8893,
+                    "n_ref": 8872
+                },
+                "3": {
+                    "Dice": 0.8286503309516504,
+                    "FN": 6224,
+                    "FP": 1594,
+                    "IoU": 0.7074320784372428,
+                    "TN": 8901278,
+                    "TP": 18904,
+                    "n_pred": 20498,
+                    "n_ref": 25128
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_350.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_350.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8988902589395807,
+                    "FN": 10115,
+                    "FP": 5465,
+                    "IoU": 0.8163493840985442,
+                    "TN": 8843165,
+                    "TP": 69255,
+                    "n_pred": 74720,
+                    "n_ref": 79370
+                },
+                "2": {
+                    "Dice": 0.7330344720976967,
+                    "FN": 778,
+                    "FP": 949,
+                    "IoU": 0.5785749145924841,
+                    "TN": 8923902,
+                    "TP": 2371,
+                    "n_pred": 3320,
+                    "n_ref": 3149
+                },
+                "3": {
+                    "Dice": 0.8470166938754016,
+                    "FN": 571,
+                    "FP": 2334,
+                    "IoU": 0.7346304923723395,
+                    "TN": 8917053,
+                    "TP": 8042,
+                    "n_pred": 10376,
+                    "n_ref": 8613
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_351.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_351.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8671669387776124,
+                    "FN": 7796,
+                    "FP": 17995,
+                    "IoU": 0.7654851967702044,
+                    "TN": 8818024,
+                    "TP": 84185,
+                    "n_pred": 102180,
+                    "n_ref": 91981
+                },
+                "2": {
+                    "Dice": 0.8495266944339266,
+                    "FN": 3181,
+                    "FP": 2780,
+                    "IoU": 0.7384149552395998,
+                    "TN": 8905212,
+                    "TP": 16827,
+                    "n_pred": 19607,
+                    "n_ref": 20008
+                },
+                "3": {
+                    "Dice": 0.8934916552012921,
+                    "FN": 270,
+                    "FP": 6852,
+                    "IoU": 0.8074874983105825,
+                    "TN": 8891005,
+                    "TP": 29873,
+                    "n_pred": 36725,
+                    "n_ref": 30143
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_356.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_356.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5829501731854786,
+                    "FN": 7366,
+                    "FP": 40435,
+                    "IoU": 0.4113829747934342,
+                    "TN": 8846791,
+                    "TP": 33408,
+                    "n_pred": 73843,
+                    "n_ref": 40774
+                },
+                "2": {
+                    "Dice": 0.7672860333602624,
+                    "FN": 2744,
+                    "FP": 2153,
+                    "IoU": 0.6224363916730917,
+                    "TN": 8915030,
+                    "TP": 8073,
+                    "n_pred": 10226,
+                    "n_ref": 10817
+                },
+                "3": {
+                    "Dice": 0.8769271701230869,
+                    "FN": 6286,
+                    "FP": 2503,
+                    "IoU": 0.7808284082691205,
+                    "TN": 8887899,
+                    "TP": 31312,
+                    "n_pred": 33815,
+                    "n_ref": 37598
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_366.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_366.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8525251763285935,
+                    "FN": 4987,
+                    "FP": 2833,
+                    "IoU": 0.7429576307399007,
+                    "TN": 8897577,
+                    "TP": 22603,
+                    "n_pred": 25436,
+                    "n_ref": 27590
+                },
+                "2": {
+                    "Dice": 0.8624702279686969,
+                    "FN": 1132,
+                    "FP": 889,
+                    "IoU": 0.7581957406078009,
+                    "TN": 8919642,
+                    "TP": 6337,
+                    "n_pred": 7226,
+                    "n_ref": 7469
+                },
+                "3": {
+                    "Dice": 0.8253464508621602,
+                    "FN": 1658,
+                    "FP": 1644,
+                    "IoU": 0.7026296829971181,
+                    "TN": 8916896,
+                    "TP": 7802,
+                    "n_pred": 9446,
+                    "n_ref": 9460
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_367.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_367.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8130242015193019,
+                    "FN": 4114,
+                    "FP": 9128,
+                    "IoU": 0.6849543205177008,
+                    "TN": 8885968,
+                    "TP": 28790,
+                    "n_pred": 37918,
+                    "n_ref": 32904
+                },
+                "2": {
+                    "Dice": 0.6270627062706271,
+                    "FN": 1212,
+                    "FP": 1952,
+                    "IoU": 0.4567307692307692,
+                    "TN": 8922176,
+                    "TP": 2660,
+                    "n_pred": 4612,
+                    "n_ref": 3872
+                },
+                "3": {
+                    "Dice": 0.821256038647343,
+                    "FN": 1418,
+                    "FP": 876,
+                    "IoU": 0.6967213114754098,
+                    "TN": 8920436,
+                    "TP": 5270,
+                    "n_pred": 6146,
+                    "n_ref": 6688
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_374.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_374.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4111480439785221,
+                    "FN": 2198,
+                    "FP": 2408,
+                    "IoU": 0.2587705181847441,
+                    "TN": 8921786,
+                    "TP": 1608,
+                    "n_pred": 4016,
+                    "n_ref": 3806
+                },
+                "2": {
+                    "Dice": 0.6898208824814329,
+                    "FN": 198,
+                    "FP": 1222,
+                    "IoU": 0.5265088362787596,
+                    "TN": 8925001,
+                    "TP": 1579,
+                    "n_pred": 2801,
+                    "n_ref": 1777
+                },
+                "3": {
+                    "Dice": 0.7789226555367158,
+                    "FN": 1532,
+                    "FP": 163,
+                    "IoU": 0.6378978850672933,
+                    "TN": 8923319,
+                    "TP": 2986,
+                    "n_pred": 3149,
+                    "n_ref": 4518
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_376.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_376.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8986145033408879,
+                    "FN": 1841,
+                    "FP": 11982,
+                    "IoU": 0.8158946218800778,
+                    "TN": 8852918,
+                    "TP": 61259,
+                    "n_pred": 73241,
+                    "n_ref": 63100
+                },
+                "2": {
+                    "Dice": 0.8431430253090053,
+                    "FN": 526,
+                    "FP": 540,
+                    "IoU": 0.728822182650725,
+                    "TN": 8924069,
+                    "TP": 2865,
+                    "n_pred": 3405,
+                    "n_ref": 3391
+                },
+                "3": {
+                    "Dice": 0.8777874312192296,
+                    "FN": 1105,
+                    "FP": 583,
+                    "IoU": 0.7821935483870968,
+                    "TN": 8920250,
+                    "TP": 6062,
+                    "n_pred": 6645,
+                    "n_ref": 7167
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_377.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_377.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8532136801904403,
+                    "FN": 4604,
+                    "FP": 3967,
+                    "IoU": 0.7440040620053164,
+                    "TN": 8894519,
+                    "TP": 24910,
+                    "n_pred": 28877,
+                    "n_ref": 29514
+                },
+                "2": {
+                    "Dice": 0.5817417640150813,
+                    "FN": 5349,
+                    "FP": 1418,
+                    "IoU": 0.4101804236032424,
+                    "TN": 8916527,
+                    "TP": 4706,
+                    "n_pred": 6124,
+                    "n_ref": 10055
+                },
+                "3": {
+                    "Dice": 0.8244970385823562,
+                    "FN": 314,
+                    "FP": 7005,
+                    "IoU": 0.7013993717106605,
+                    "TN": 8903489,
+                    "TP": 17192,
+                    "n_pred": 24197,
+                    "n_ref": 17506
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_378.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_378.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8144200626959248,
+                    "FN": 6325,
+                    "FP": 3739,
+                    "IoU": 0.6869381279746166,
+                    "TN": 8895853,
+                    "TP": 22083,
+                    "n_pred": 25822,
+                    "n_ref": 28408
+                },
+                "2": {
+                    "Dice": 0.4117268041237113,
+                    "FN": 2844,
+                    "FP": 808,
+                    "IoU": 0.2592292089249493,
+                    "TN": 8923070,
+                    "TP": 1278,
+                    "n_pred": 2086,
+                    "n_ref": 4122
+                },
+                "3": {
+                    "Dice": 0.6018039084683481,
+                    "FN": 88,
+                    "FP": 4680,
+                    "IoU": 0.43041452634093896,
+                    "TN": 8919629,
+                    "TP": 3603,
+                    "n_pred": 8283,
+                    "n_ref": 3691
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_379.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_379.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8321709428866471,
+                    "FN": 7194,
+                    "FP": 13934,
+                    "IoU": 0.7125794120447836,
+                    "TN": 8854491,
+                    "TP": 52381,
+                    "n_pred": 66315,
+                    "n_ref": 59575
+                },
+                "2": {
+                    "Dice": 0.5743559718969555,
+                    "FN": 399,
+                    "FP": 3963,
+                    "IoU": 0.4028747433264887,
+                    "TN": 8920695,
+                    "TP": 2943,
+                    "n_pred": 6906,
+                    "n_ref": 3342
+                },
+                "3": {
+                    "Dice": 0.8983893235158766,
+                    "FN": 1149,
+                    "FP": 1059,
+                    "IoU": 0.8155234355418164,
+                    "TN": 8916031,
+                    "TP": 9761,
+                    "n_pred": 10820,
+                    "n_ref": 10910
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_384.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_384.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8268142199588678,
+                    "FN": 7342,
+                    "FP": 10342,
+                    "IoU": 0.7047598377214218,
+                    "TN": 8868103,
+                    "TP": 42213,
+                    "n_pred": 52555,
+                    "n_ref": 49555
+                },
+                "2": {
+                    "Dice": 0.7509208103130756,
+                    "FN": 1996,
+                    "FP": 4496,
+                    "IoU": 0.6011795060818282,
+                    "TN": 8911722,
+                    "TP": 9786,
+                    "n_pred": 14282,
+                    "n_ref": 11782
+                },
+                "3": {
+                    "Dice": 0.8944835836767248,
+                    "FN": 2058,
+                    "FP": 1911,
+                    "IoU": 0.8091092727972297,
+                    "TN": 8907208,
+                    "TP": 16823,
+                    "n_pred": 18734,
+                    "n_ref": 18881
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_386.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_386.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.44576611004211686,
+                    "FN": 4674,
+                    "FP": 36515,
+                    "IoU": 0.2868076117257978,
+                    "TN": 8870247,
+                    "TP": 16564,
+                    "n_pred": 53079,
+                    "n_ref": 21238
+                },
+                "2": {
+                    "Dice": 0.6071599616858238,
+                    "FN": 2703,
+                    "FP": 3859,
+                    "IoU": 0.43591506919969053,
+                    "TN": 8916367,
+                    "TP": 5071,
+                    "n_pred": 8930,
+                    "n_ref": 7774
+                },
+                "3": {
+                    "Dice": 0.9032019977119802,
+                    "FN": 3904,
+                    "FP": 3965,
+                    "IoU": 0.8234898275049909,
+                    "TN": 8883419,
+                    "TP": 36712,
+                    "n_pred": 40677,
+                    "n_ref": 40616
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_394.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_394.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8427394791084258,
+                    "FN": 30254,
+                    "FP": 7436,
+                    "IoU": 0.7282193282279814,
+                    "TN": 8789322,
+                    "TP": 100988,
+                    "n_pred": 108424,
+                    "n_ref": 131242
+                },
+                "2": {
+                    "Dice": 0.6731771492182361,
+                    "FN": 11649,
+                    "FP": 7728,
+                    "IoU": 0.5073602318663718,
+                    "TN": 8888667,
+                    "TP": 19956,
+                    "n_pred": 27684,
+                    "n_ref": 31605
+                },
+                "3": {
+                    "Dice": 0.6526240628347019,
+                    "FN": 1329,
+                    "FP": 3536,
+                    "IoU": 0.48436671966083733,
+                    "TN": 8918565,
+                    "TP": 4570,
+                    "n_pred": 8106,
+                    "n_ref": 5899
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_398.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_398.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.848619064920385,
+                    "FN": 2924,
+                    "FP": 23325,
+                    "IoU": 0.7370445688869298,
+                    "TN": 8828177,
+                    "TP": 73574,
+                    "n_pred": 96899,
+                    "n_ref": 76498
+                },
+                "2": {
+                    "Dice": 0.6738705170004657,
+                    "FN": 2173,
+                    "FP": 18833,
+                    "IoU": 0.5081483562798539,
+                    "TN": 8885292,
+                    "TP": 21702,
+                    "n_pred": 40535,
+                    "n_ref": 23875
+                },
+                "3": {
+                    "Dice": 0.7877927116530414,
+                    "FN": 7173,
+                    "FP": 5079,
+                    "IoU": 0.6498828370577814,
+                    "TN": 8893006,
+                    "TP": 22742,
+                    "n_pred": 27821,
+                    "n_ref": 29915
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_400.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_400.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8734659331358443,
+                    "FN": 3046,
+                    "FP": 17884,
+                    "IoU": 0.7753568745304282,
+                    "TN": 8834830,
+                    "TP": 72240,
+                    "n_pred": 90124,
+                    "n_ref": 75286
+                },
+                "2": {
+                    "Dice": 0.6881899709485917,
+                    "FN": 4058,
+                    "FP": 8285,
+                    "IoU": 0.5246109998459405,
+                    "TN": 8902036,
+                    "TP": 13621,
+                    "n_pred": 21906,
+                    "n_ref": 17679
+                },
+                "3": {
+                    "Dice": 0.8693099342716879,
+                    "FN": 15292,
+                    "FP": 734,
+                    "IoU": 0.7688313186971699,
+                    "TN": 8858674,
+                    "TP": 53300,
+                    "n_pred": 54034,
+                    "n_ref": 68592
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_432.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_432.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8761177753544166,
+                    "FN": 2709,
+                    "FP": 16603,
+                    "IoU": 0.7795458955947991,
+                    "TN": 8840399,
+                    "TP": 68289,
+                    "n_pred": 84892,
+                    "n_ref": 70998
+                },
+                "2": {
+                    "Dice": 0.7435923208362649,
+                    "FN": 1361,
+                    "FP": 3741,
+                    "IoU": 0.59184,
+                    "TN": 8915500,
+                    "TP": 7398,
+                    "n_pred": 11139,
+                    "n_ref": 8759
+                },
+                "3": {
+                    "Dice": 0.9397931070333212,
+                    "FN": 4887,
+                    "FP": 904,
+                    "IoU": 0.8864242566878481,
+                    "TN": 8877012,
+                    "TP": 45197,
+                    "n_pred": 46101,
+                    "n_ref": 50084
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_437.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_437.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9176640849033849,
+                    "FN": 1563,
+                    "FP": 13798,
+                    "IoU": 0.8478551548587107,
+                    "TN": 8827037,
+                    "TP": 85602,
+                    "n_pred": 99400,
+                    "n_ref": 87165
+                },
+                "2": {
+                    "Dice": 0.6236165178230669,
+                    "FN": 471,
+                    "FP": 4460,
+                    "IoU": 0.45308340727595386,
+                    "TN": 8918984,
+                    "TP": 4085,
+                    "n_pred": 8545,
+                    "n_ref": 4556
+                },
+                "3": {
+                    "Dice": 0.9114891389688563,
+                    "FN": 5622,
+                    "FP": 1142,
+                    "IoU": 0.837372571648394,
+                    "TN": 8886408,
+                    "TP": 34828,
+                    "n_pred": 35970,
+                    "n_ref": 40450
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_445.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_445.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.941158982972746,
+                    "FN": 6431,
+                    "FP": 9403,
+                    "IoU": 0.8888576923616863,
+                    "TN": 8785534,
+                    "TP": 126632,
+                    "n_pred": 136035,
+                    "n_ref": 133063
+                },
+                "2": {
+                    "Dice": 0.5902723122934047,
+                    "FN": 366,
+                    "FP": 7443,
+                    "IoU": 0.4187137114783385,
+                    "TN": 8914566,
+                    "TP": 5625,
+                    "n_pred": 13068,
+                    "n_ref": 5991
+                },
+                "3": {
+                    "Dice": 0.8960870149855822,
+                    "FN": 6260,
+                    "FP": 695,
+                    "IoU": 0.8117370002436185,
+                    "TN": 8891057,
+                    "TP": 29988,
+                    "n_pred": 30683,
+                    "n_ref": 36248
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_446.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_446.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7215171721517172,
+                    "FN": 481,
+                    "FP": 22823,
+                    "IoU": 0.5643542145701307,
+                    "TN": 8874507,
+                    "TP": 30189,
+                    "n_pred": 53012,
+                    "n_ref": 30670
+                },
+                "2": {
+                    "Dice": 0.7028209451761381,
+                    "FN": 2347,
+                    "FP": 4174,
+                    "IoU": 0.5418071950534008,
+                    "TN": 8913768,
+                    "TP": 7711,
+                    "n_pred": 11885,
+                    "n_ref": 10058
+                },
+                "3": {
+                    "Dice": 0.8423299786520281,
+                    "FN": 6610,
+                    "FP": 628,
+                    "IoU": 0.7276080084299262,
+                    "TN": 8901428,
+                    "TP": 19334,
+                    "n_pred": 19962,
+                    "n_ref": 25944
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_450.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_450.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2777382001714582,
+                    "FN": 57306,
+                    "FP": 2511,
+                    "IoU": 0.16126363610869626,
+                    "TN": 8856682,
+                    "TP": 11501,
+                    "n_pred": 14012,
+                    "n_ref": 68807
+                },
+                "2": {
+                    "Dice": 0.8193871215164907,
+                    "FN": 1971,
+                    "FP": 2974,
+                    "IoU": 0.694035391659448,
+                    "TN": 8911838,
+                    "TP": 11217,
+                    "n_pred": 14191,
+                    "n_ref": 13188
+                },
+                "3": {
+                    "Dice": 0.9159676681409181,
+                    "FN": 4336,
+                    "FP": 2827,
+                    "IoU": 0.8449634214969048,
+                    "TN": 8881798,
+                    "TP": 39039,
+                    "n_pred": 41866,
+                    "n_ref": 43375
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_452.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_452.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7056317990918927,
+                    "FN": 20409,
+                    "FP": 14146,
+                    "IoU": 0.5451553882402496,
+                    "TN": 8852029,
+                    "TP": 41416,
+                    "n_pred": 55562,
+                    "n_ref": 61825
+                },
+                "2": {
+                    "Dice": 0.8689987506692843,
+                    "FN": 2669,
+                    "FP": 4671,
+                    "IoU": 0.7683446425753511,
+                    "TN": 8896315,
+                    "TP": 24345,
+                    "n_pred": 29016,
+                    "n_ref": 27014
+                },
+                "3": {
+                    "Dice": 0.8668321640582839,
+                    "FN": 14305,
+                    "FP": 4202,
+                    "IoU": 0.7649636148893206,
+                    "TN": 8849259,
+                    "TP": 60234,
+                    "n_pred": 64436,
+                    "n_ref": 74539
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_460.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_460.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5766645676172362,
+                    "FN": 23362,
+                    "FP": 9579,
+                    "IoU": 0.40515015259042564,
+                    "TN": 8872623,
+                    "TP": 22436,
+                    "n_pred": 32015,
+                    "n_ref": 45798
+                },
+                "2": {
+                    "Dice": 0.8242641990265912,
+                    "FN": 9150,
+                    "FP": 7676,
+                    "IoU": 0.7010624311551718,
+                    "TN": 8871714,
+                    "TP": 39460,
+                    "n_pred": 47136,
+                    "n_ref": 48610
+                },
+                "3": {
+                    "Dice": 0.8224850204982656,
+                    "FN": 7323,
+                    "FP": 3935,
+                    "IoU": 0.6984921931492541,
+                    "TN": 8890661,
+                    "TP": 26081,
+                    "n_pred": 30016,
+                    "n_ref": 33404
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_470.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_470.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9225308897918567,
+                    "FN": 11815,
+                    "FP": 6869,
+                    "IoU": 0.8562017055074962,
+                    "TN": 8798068,
+                    "TP": 111248,
+                    "n_pred": 118117,
+                    "n_ref": 123063
+                },
+                "2": {
+                    "Dice": 0.6634816363093461,
+                    "FN": 729,
+                    "FP": 4906,
+                    "IoU": 0.4964253798033959,
+                    "TN": 8916810,
+                    "TP": 5555,
+                    "n_pred": 10461,
+                    "n_ref": 6284
+                },
+                "3": {
+                    "Dice": 0.9341668759334399,
+                    "FN": 3500,
+                    "FP": 1481,
+                    "IoU": 0.8764663574812133,
+                    "TN": 8887679,
+                    "TP": 35340,
+                    "n_pred": 36821,
+                    "n_ref": 38840
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_472.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_472.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8355701095125617,
+                    "FN": 2476,
+                    "FP": 3650,
+                    "IoU": 0.7175787192844959,
+                    "TN": 8906309,
+                    "TP": 15565,
+                    "n_pred": 19215,
+                    "n_ref": 18041
+                },
+                "2": {
+                    "Dice": 0.12146892655367232,
+                    "FN": 276,
+                    "FP": 346,
+                    "IoU": 0.06466165413533835,
+                    "TN": 8927335,
+                    "TP": 43,
+                    "n_pred": 389,
+                    "n_ref": 319
+                },
+                "3": {
+                    "Dice": 0.9064259367113182,
+                    "FN": 427,
+                    "FP": 537,
+                    "IoU": 0.8288656133499024,
+                    "TN": 8922367,
+                    "TP": 4669,
+                    "n_pred": 5206,
+                    "n_ref": 5096
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_473.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_473.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7873022707700675,
+                    "FN": 15198,
+                    "FP": 22344,
+                    "IoU": 0.6492155891724208,
+                    "TN": 8820977,
+                    "TP": 69481,
+                    "n_pred": 91825,
+                    "n_ref": 84679
+                },
+                "2": {
+                    "Dice": 0.6557148751805241,
+                    "FN": 34051,
+                    "FP": 5999,
+                    "IoU": 0.4877796109427157,
+                    "TN": 8849811,
+                    "TP": 38139,
+                    "n_pred": 44138,
+                    "n_ref": 72190
+                },
+                "3": {
+                    "Dice": 0.6361768270193372,
+                    "FN": 9740,
+                    "FP": 10975,
+                    "IoU": 0.466465770360068,
+                    "TN": 8889174,
+                    "TP": 18111,
+                    "n_pred": 29086,
+                    "n_ref": 27851
+                }
+            },
+            "prediction_file": "C:\\Users\\linch\\fyp\\nnUNet_results\\Dataset001_BrainTumour\\nnUNetTrainerIntensity__nnUNetPlans__2d\\fold_0\\validation\\BRATS_482.nii.gz",
+            "reference_file": "C:\\Users\\linch\\fyp\\nnUNet_preprocessed\\Dataset001_BrainTumour\\gt_segmentations\\BRATS_482.nii.gz"
+        }
+    ]
+}

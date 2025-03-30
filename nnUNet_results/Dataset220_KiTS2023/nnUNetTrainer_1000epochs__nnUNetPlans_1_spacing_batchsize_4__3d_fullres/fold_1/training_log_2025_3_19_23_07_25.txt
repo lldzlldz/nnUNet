@@ -1,0 +1,29 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-03-19 23:07:25.486807: do_dummy_2d_data_aug: False 
+2025-03-19 23:07:25.542804: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset220_KiTS2023\splits_final.json 
+2025-03-19 23:07:25.553024: The split file contains 5 splits. 
+2025-03-19 23:07:25.556024: Desired fold for training: 1 
+2025-03-19 23:07:25.558022: This split has 391 training and 98 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_1_spacing_batchsize_4_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 4, 'patch_size': [112, 112, 96], 'median_image_size_in_voxels': [417.0, 400.0, 400.0], 'spacing': [1.0, 1.0, 1.0], 'normalization_schemes': ['CTNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 5, 'features_per_stage': [32, 64, 128, 256, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset220_KiTS2023', 'plans_name': 'nnUNetPlans_1_spacing_batchsize_4', 'original_median_spacing_after_transp': [3.0, 0.78125, 0.78125], 'original_median_shape_after_transp': [104, 512, 512], 'image_reader_writer': 'NibabelIOWithReorient', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 3071.0, 'mean': 103.13614654541016, 'median': 102.0, 'min': -1021.0, 'percentile_00_5': -58.0, 'percentile_99_5': 302.0, 'std': 73.3431396484375}}} 
+ 
+2025-03-19 23:07:57.882825: unpacking dataset... 
+2025-03-19 23:07:58.611630: unpacking done... 
+2025-03-19 23:08:01.886450:  
+2025-03-19 23:08:01.891462: Epoch 0 
+2025-03-19 23:08:01.896475: Current learning rate: 0.01 
+2025-03-19 23:08:47.421905: train_loss 0.0803 
+2025-03-19 23:08:47.428416: val_loss 0.0109 
+2025-03-19 23:08:47.432923: Pseudo dice [np.float64(0.3515), np.float64(0.0), np.float64(0.0)] 
+2025-03-19 23:08:47.436936: Epoch time: 45.54 s 
+2025-03-19 23:08:47.440942: Yayy! New best EMA pseudo Dice: 0.1172 

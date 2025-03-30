@@ -1,0 +1,48 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-01-02 11:41:45.179326: do_dummy_2d_data_aug: True 
+2025-01-02 11:41:45.192325: Using splits from existing split file: C:\Users\linch\fyp\nnUNet_preprocessed\Dataset010_Colon\splits_final.json 
+2025-01-02 11:41:45.199329: The split file contains 5 splits. 
+2025-01-02 11:41:45.202330: Desired fold for training: 0 
+2025-01-02 11:41:45.204331: This split has 100 training and 26 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 2, 'patch_size': [56, 192, 192], 'median_image_size_in_voxels': [150.0, 512.0, 512.0], 'spacing': [3.0, 0.78125, 0.78125], 'normalization_schemes': ['CTNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 320, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[1, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [1, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset010_Colon', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [5.0, 0.78125, 0.78125], 'original_median_shape_after_transp': [95, 512, 512], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 445.0, 'mean': 67.2009506225586, 'median': 67.0, 'min': -848.0, 'percentile_00_5': -40.0, 'percentile_99_5': 188.0, 'std': 37.13160705566406}}} 
+ 
+2025-01-02 11:41:54.083737: unpacking dataset... 
+2025-01-02 11:42:08.878077: unpacking done... 
+2025-01-02 11:42:13.431188:  
+2025-01-02 11:42:13.431188: Epoch 0 
+2025-01-02 11:42:13.435196: Current learning rate: 0.01 
+2025-01-02 11:43:00.055795: train_loss 0.0344 
+2025-01-02 11:43:00.055795: val_loss -0.0187 
+2025-01-02 11:43:00.062907: Pseudo dice [np.float32(0.0)] 
+2025-01-02 11:43:00.066418: Epoch time: 46.63 s 
+2025-01-02 11:43:00.068924: Yayy! New best EMA pseudo Dice: 0.0 
+2025-01-02 11:43:00.793074:  
+2025-01-02 11:43:00.793074: Epoch 1 
+2025-01-02 11:43:00.798610: Current learning rate: 0.00996 
+2025-01-02 11:43:42.643312: train_loss -0.1279 
+2025-01-02 11:43:42.643312: val_loss -0.263 
+2025-01-02 11:43:42.649873: Pseudo dice [np.float32(0.3507)] 
+2025-01-02 11:43:42.652913: Epoch time: 41.85 s 
+2025-01-02 11:43:42.655943: Yayy! New best EMA pseudo Dice: 0.035100001841783524 
+2025-01-02 11:43:43.476195:  
+2025-01-02 11:43:43.476697: Epoch 2 
+2025-01-02 11:43:43.481709: Current learning rate: 0.00993 
+2025-01-02 11:44:25.168841: train_loss -0.2758 
+2025-01-02 11:44:25.169353: val_loss -0.2789 
+2025-01-02 11:44:25.173426: Pseudo dice [np.float32(0.3734)] 
+2025-01-02 11:44:25.176460: Epoch time: 41.69 s 
+2025-01-02 11:44:25.179492: Yayy! New best EMA pseudo Dice: 0.06889999657869339 
+2025-01-02 11:44:25.975175:  
+2025-01-02 11:44:25.976729: Epoch 3 
+2025-01-02 11:44:25.982751: Current learning rate: 0.00989 
