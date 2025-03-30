@@ -14,8 +14,8 @@ install the latest version with support for your hardware (cuda, mps, cpu).
 **DO NOT JUST `pip install nnunetv2` WITHOUT PROPERLY INSTALLING PYTORCH FIRST**. For maximum speed, consider 
 [compiling pytorch yourself](https://github.com/pytorch/pytorch#from-source) (experienced users only!). 
 2) Install nnU-Net depending on your use case:
-For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you
-   can modify it as needed):
+For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you can modify it as needed):
+
           ```bash
           git clone https://github.com/MIC-DKFZ/nnUNet.git
           cd nnUNet
@@ -27,6 +27,7 @@ For use as integrative **framework** (this will create a copy of the nnU-Net cod
    plots of the network topologies it generates (see [Model training](how_to_use_nnunet.md#model-training)). 
 To install hiddenlayer,
    run the following command:
+
     ```bash
     pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git
     ```
@@ -37,11 +38,10 @@ easy identification.
 
 Note that these commands simply execute python scripts. If you installed nnU-Net in a virtual environment, this
 environment must be activated when executing the commands. You can see what scripts/functions are executed by 
-checking the project.scripts in the [pyproject.toml](../pyproject.toml) file.
+checking the project.scripts in the [pyproject.toml](pyproject.toml) file.
 
 All nnU-Net commands have a `-h` option which gives information on how to use them.
 
-#Training 
 
 
 # Information
@@ -64,7 +64,7 @@ For more information on what these environmental variables are for, please refer
 ## Dataset conversion 
 Please refer to the original page on [nnU-Net dataset format](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md). 
 
-nnU-Net requires the dataset to be in a certain format. Use `nnUNetv2_convert_MSD_dataset` to convert the dataset. Read `nnUNetv2_convert_MSD_dataset -h` for usage instructions. Alternatively, just open the folder [dataset_conversion](nnunetv2/dataset_conversion) and use the curated python files for conversion.
+nnU-Net requires the dataset to be in a certain format. Open the folder [dataset_conversion](nnunetv2/dataset_conversion) and run the curated python files for conversion. Please edit `if __name__ == "__main__":` and change the file paths accordingly. Alternatively if you are using the MSD dataset, you can use `nnUNetv2_convert_MSD_dataset` to convert the dataset. Read `nnUNetv2_convert_MSD_dataset -h` for usage instructions.
 
 
 
@@ -77,7 +77,7 @@ For the training command `nnUNetv2_train DATASET_NAME_OR_ID UNET_CONFIGURATION F
 
 
 ## Example 
-Here is an example using Windows.
+Here is an example using Windows. This does not include the data conversion step that should be done before these commands. Also, `nnUNetv2_plan_and_preprocess` can be removed for subsequent trainings if it is not required.
 
 ```bash
 @echo off
