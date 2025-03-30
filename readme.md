@@ -24,6 +24,13 @@ Under the folder [experiment_planners](nnunetv2/experiment_planning/experiment_p
 
 Under the folder [nnUNetTrainer](nnunetv2/training/nnUNetTrainer), the file [nnUnetTrainer.py](nnunetv2/training/nnUNetTrainer/nnUNetTrainer.py) can be found. This file is the default file used for training. Since data augmentation is done on the fly during training, we simply need to edit this file. The edited versions of these files can be found under the folder [variants](nnunetv2/training/nnUNetTrainer/variants). The respective trainer files are used for different groups of data augmentations for the FYP report. 
 
+## Datasets
+1. [MSD dataset](http://medicaldecathlon.com/dataaws/)
+2. [ACDC](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb)
+3. [Brats2021](https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1)
+4. [Amos2022](https://zenodo.org/records/7262581)
+5. [KiTs2023](https://github.com/neheller/kits23)
+
 # Code Usage
 
 ## Starting 
@@ -44,7 +51,11 @@ nnU-Net requires the dataset to be in a certain format. Open the folder [dataset
 ## Planning and Preprocessing/Training 
 Please refer to [here](documentation/how_to_use_nnunet.md). 
 
-For the training command `nnUNetv2_train DATASET_NAME_OR_ID UNET_CONFIGURATION FOLD [additional options, see -h]`, please use -tr and -p to refer the the trainer and planner files respectively. 
+For the training command 
+```bash
+nnUNetv2_train DATASET_NAME_OR_ID UNET_CONFIGURATION FOLD [additional options, see -h]
+```
+, please use -tr and -p to refer the the trainer and planner files respectively. 
 
 
 ## Example 
