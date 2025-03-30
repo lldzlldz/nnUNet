@@ -39,7 +39,7 @@ Under the folder [nnUNetTrainer](nnunetv2/training/nnUNetTrainer), the file [nnU
 
 Install the requirements.txt
 ```bash
-pip install -r /path/to/requirements.txt
+pip install -r requirements.txt
 ```
 
 Before using any of the codes in here, environment variables for nnUNet_raw, nnUNet_preprocessed and nnUNet_results need to be set up. Please refer to [here](documentation/set_environment_variables.md) on how to set up the environmental variables.
