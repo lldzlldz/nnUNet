@@ -56,6 +56,10 @@ nnU-Net requires the dataset to be in a certain format. Open the folder [dataset
 
 
 ## Planning and Preprocessing/Training 
+```bash
+nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
+```
+
 Please refer to [here](documentation/how_to_use_nnunet.md). 
 
 For the training command 
