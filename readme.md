@@ -1,36 +1,7 @@
 # FYP Report: CCDS24-0455
 The instructions provided here are concise as this is merely a forked repository.For a better understanding of the how the code works, please visit the main [Github page](https://github.com/MIC-DKFZ/nnUNet) of nnUNet. Also, please check out the paper [here](https://arxiv.org/abs/1904.08128). This paper contains information on how nnU-net works, and more information on the datasets. 
 
-# Installation Instructions
-It is recommend that you install nnU-Net in a virtual environment! Pip or anaconda are both fine. If you choose to 
-compile PyTorch from source (see below), you will need to use conda instead of pip. 
 
-Use a recent version of Python! 3.9 or newer is guaranteed to work!
-
-**nnU-Net v2 can coexist with nnU-Net v1! Both can be installed at the same time.**
-
-1) Install [PyTorch](https://pytorch.org/get-started/locally/) as described on their website (conda/pip). Please 
-install the latest version with support for your hardware (cuda, mps, cpu).
-**DO NOT JUST `pip install nnunetv2` WITHOUT PROPERLY INSTALLING PYTORCH FIRST**. For maximum speed, consider 
-[compiling pytorch yourself](https://github.com/pytorch/pytorch#from-source) (experienced users only!). 
-2) Install nnU-Net depending on your use case:
-For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you can modify it as needed):
-
-  ```bash
-git clone https://github.com/MIC-DKFZ/nnUNet.git
-cd nnUNet
-pip install -e .
-   ```
-4) nnU-Net needs to know where you intend to save raw data, preprocessed data and trained models. For this you need to
-   set a few environment variables. Please follow the instructions [here](setting_up_paths.md).
-5) (OPTIONAL) Install [hiddenlayer](https://github.com/waleedka/hiddenlayer). hiddenlayer enables nnU-net to generate
-   plots of the network topologies it generates (see [Model training](how_to_use_nnunet.md#model-training)). 
-To install hiddenlayer,
-   run the following command:
-
-  ```bash
-  pip install --upgrade git+https://github.com/FabianIsensee/hiddenlayer.git
-  ```
 
 Installing nnU-Net will add several new commands to your terminal. These commands are used to run the entire nnU-Net
 pipeline. You can execute them from any location on your system. All nnU-Net commands have the prefix `nnUNetv2_` for
