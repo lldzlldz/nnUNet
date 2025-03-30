@@ -35,7 +35,8 @@ Under the folder [nnUNetTrainer](nnunetv2/training/nnUNetTrainer), the file [nnU
 
 
 ## Environment Setup 
-Install the requirements.txt
+
+Use a virual environment to install the requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
