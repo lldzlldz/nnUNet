@@ -16,11 +16,11 @@ install the latest version with support for your hardware (cuda, mps, cpu).
 2) Install nnU-Net depending on your use case:
 For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you can modify it as needed):
 
-
-          git clone https://github.com/MIC-DKFZ/nnUNet.git
-          cd nnUNet
-          pip install -e .
-
+  ```bash
+git clone https://github.com/MIC-DKFZ/nnUNet.git
+cd nnUNet
+pip install -e .
+   ```
 4) nnU-Net needs to know where you intend to save raw data, preprocessed data and trained models. For this you need to
    set a few environment variables. Please follow the instructions [here](setting_up_paths.md).
 5) (OPTIONAL) Install [hiddenlayer](https://github.com/waleedka/hiddenlayer). hiddenlayer enables nnU-net to generate
