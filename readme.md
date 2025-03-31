@@ -1,5 +1,5 @@
 # FYP Report: CCDS24-0455
-The instructions provided here are concise as this is merely a forked repository.For a better understanding of the how the code works, please visit the main [Github page](https://github.com/MIC-DKFZ/nnUNet) of nnUNet. Also, please check out the paper [here](https://arxiv.org/abs/1904.08128). This paper contains information on how nnU-net works, and more information on the datasets. 
+The instructions provided here are concise as this is merely a forked repository. For a better understanding of the how the code works, please visit the main [Github page](https://github.com/MIC-DKFZ/nnUNet) of nnUNet. Also, please check out the paper [here](https://arxiv.org/abs/1904.08128). This paper contains information on how nnU-net works, and more information on the datasets. 
 
 
 
