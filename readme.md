@@ -17,7 +17,7 @@ All nnU-Net commands have a `-h` option which gives information on how to use th
 
 # Information
 ## Files Structure
-The results of the trainings can be found in [nnUNet_results](nnUNet_results). Please refer to the folder names for the specific trainigs conducted for them. You can also check out [nnUNet_preprocessed](nnUNet_preprocessed) and [nnUNet_raw](nnUNet_raw) but the .json files generated there should be copied over to [nnUNet_results]nnUNet_results().
+The results of the trainings can be found in [nnUNet_results](nnUNet_results). Please refer to the folder names for the specific trainigs conducted for them. You can also check out [nnUNet_preprocessed](nnUNet_preprocessed) and [nnUNet_raw](nnUNet_raw) but the .json files generated there should have been copied over to [nnUNet_results](nnUNet_results).
 
 ## Edited Files
 
