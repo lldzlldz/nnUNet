@@ -59,6 +59,10 @@ nnU-Net requires the dataset to be in a certain format. Open the folder [dataset
 ```bash
 nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
 ```
+Use `-overwrite_plans_name` if the default plan is not being used(different target spacing/batch size)
+Use `--verify_dataset_integrity` to check datset validity. This is not strictly required.
+
+This can be removed for subsequent trainings if it is not required(for eg, training the next fold) 
 
 Please refer to [here](documentation/how_to_use_nnunet.md). 
 
@@ -66,8 +70,8 @@ For the training command
 ```bash
 nnUNetv2_train DATASET_NAME_OR_ID UNET_CONFIGURATION FOLD [additional options, see -h]
 ```
-, please use -tr and -p to refer the the trainer and planner files respectively. 
-
+Use `-tr` to refer the the trainer files. 
+Use `-p` to refer to the planner files
 
 ## Example 
 Here is an example using Windows. This does not include the data conversion step that should be done before these commands. Also, `nnUNetv2_plan_and_preprocess` can be removed for subsequent trainings if it is not required.
