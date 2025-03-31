@@ -74,8 +74,7 @@ Use `-tr` to refer the the trainer files.
 Use `-p` to refer to the planner files
 
 ## Example 
-Here is an example using Windows. This does not include the data conversion step that should be done before these commands. Also, `nnUNetv2_plan_and_preprocess` can be removed for subsequent trainings if it is not required.
-
+Here is an example using Windows. This does not include the data conversion step that should be done before these commands.
 ```bash
 @echo off
 
